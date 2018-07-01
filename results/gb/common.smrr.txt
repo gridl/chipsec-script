@@ -1,0 +1,59 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.smrr --log common.smrr.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-104-generic #127~14.04.1-Ubuntu SMP Mon Dec 11 12:44:15 UTC 2017 x86_64
+[CHIPSEC] Platform: Mobile 7th Generation Core Processor (Kabylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 5904
+ 
+[+] loaded chipsec.modules.common.smrr
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.smrr
+[x][ =======================================================================
+[x][ Module: CPU SMM Cache Poisoning / System Management Range Registers
+[x][ =======================================================================
+[+] OK. SMRR range protection is supported
+
+[*] Checking SMRR range base programming..
+[*] IA32_SMRR_PHYSBASE = 0x8B400006 << SMRR Base Address MSR (MSR 0x1F2)
+    [00] Type             = 6 << SMRR memory type 
+    [12] PhysBase         = 8B400 << SMRR physical base address 
+[*] SMRR range base: 0x000000008B400000
+[*] SMRR range memory type is Writeback (WB)
+[+] OK so far. SMRR range base is programmed
+
+[*] Checking SMRR range mask programming..
+[*] IA32_SMRR_PHYSMASK = 0xFFC00800 << SMRR Range Mask MSR (MSR 0x1F3)
+    [11] Valid            = 1 << SMRR valid 
+    [12] PhysMask         = FFC00 << SMRR address range mask 
+[*] SMRR range mask: 0x00000000FFC00000
+[+] OK so far. SMRR range is enabled
+
+[*] Verifying that SMRR range base & mask are the same on all logical CPUs..
+[CPU0] SMRR_PHYSBASE = 000000008B400006, SMRR_PHYSMASK = 00000000FFC00800
+[CPU1] SMRR_PHYSBASE = 000000008B400006, SMRR_PHYSMASK = 00000000FFC00800
+[CPU2] SMRR_PHYSBASE = 000000008B400006, SMRR_PHYSMASK = 00000000FFC00800
+[CPU3] SMRR_PHYSBASE = 000000008B400006, SMRR_PHYSMASK = 00000000FFC00800
+[+] OK so far. SMRR range base/mask match on all logical CPUs
+[*] Trying to read memory at SMRR base 0x8B400000..
+[+] PASSED: SMRR reads are blocked in non-SMM mode
+
+[+] PASSED: SMRR protection against cache attack is properly configured
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.005
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.smrr
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

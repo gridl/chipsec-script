@@ -1,0 +1,35 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.uefi.s3bootscript --log common.uefi.s3bootscript.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-104-generic #127~14.04.1-Ubuntu SMP Mon Dec 11 12:44:15 UTC 2017 x86_64
+[CHIPSEC] Platform: Mobile 7th Generation Core Processor (Kabylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 5904
+ 
+[+] loaded chipsec.modules.common.uefi.s3bootscript
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.uefi.s3bootscript
+[x][ =======================================================================
+[x][ Module: S3 Resume Boot-Script Protections
+[x][ =======================================================================
+[*] SMRAM: Base = 0x000000008B400000, Limit = 0x000000008B7FFFFF, Size = 0x00400000
+[+] Didn't find any S3 boot-scripts in EFI variables
+[!] WARNING: S3 Boot-Script was not found. Firmware may be using other ways to store/locate it
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.024
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 1:
+[!] WARNING: chipsec.modules.common.uefi.s3bootscript
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

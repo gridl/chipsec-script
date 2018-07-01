@@ -1,0 +1,44 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module tools.uefi.whitelist --log tools.uefi.whitelist.txt --ignore_platform
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Linux 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[+] loaded chipsec.modules.tools.uefi.whitelist
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.tools.uefi.whitelist
+[x][ =======================================================================
+[x][ Module: simple white-list generation/checking for (U)EFI firmware
+[x][ =======================================================================
+[*] dumping firmware image from ROM to 'fw.bin': 0x-01B8000 bytes at [0x00BC1000:0x00A08FFF]
+[spi] reading 0x-1b8000 bytes from SPI at FLA = 0xBC1000 (in -450560 0x4-byte chunks + 0x0-byte remainder)
+ERROR: SPI cycle not ready
+ERROR: Unable to open file 'fw.bin' for read access
+[*] generating a list of EFI executables from firmware image...
+ERROR: Exception occurred during chipsec.modules.tools.uefi.whitelist.run(): 'object of type 'int' has no len()'
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.132
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 1:
+ERROR: chipsec.modules.tools.uefi.whitelist
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] Modules with Exceptions 1:
+ERROR: chipsec.modules.tools.uefi.whitelist
+[CHIPSEC] *****************************************************************

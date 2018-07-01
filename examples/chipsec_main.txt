@@ -1,0 +1,366 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: -i
+
+WARNING: *******************************************************************
+WARNING: Chipsec should only be used on test systems!
+WARNING: It should not be installed/deployed on production end-user systems.
+WARNING: See WARNING.txt
+WARNING: *******************************************************************
+
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Windows 10 10.0.17134 AMD64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[*] loading common modules from ".python27-x64\lib\site-packages\chipsec\modules\common" ..
+[+] loaded chipsec.modules.common.bios_kbrd_buffer
+[+] loaded chipsec.modules.common.bios_smi
+[+] loaded chipsec.modules.common.bios_ts
+[+] loaded chipsec.modules.common.bios_wp
+[+] loaded chipsec.modules.common.ia32cfg
+[+] loaded chipsec.modules.common.rtclock
+[+] loaded chipsec.modules.common.smm
+[+] loaded chipsec.modules.common.smrr
+[+] loaded chipsec.modules.common.spi_desc
+[+] loaded chipsec.modules.common.spi_fdopss
+[+] loaded chipsec.modules.common.spi_lock
+[+] loaded chipsec.modules.common.secureboot.variables
+[+] loaded chipsec.modules.common.uefi.access_uefispec
+[+] loaded chipsec.modules.common.uefi.s3bootscript
+[*] No platform specific modules to load
+[*] loading modules from ".python27-x64\lib\site-packages\chipsec\modules" ..
+[+] loaded chipsec.modules.memconfig
+[+] loaded chipsec.modules.remap
+[+] loaded chipsec.modules.smm_dma
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_kbrd_buffer
+[x][ =======================================================================
+[x][ Module: Pre-boot Passwords in the BIOS Keyboard Buffer
+[x][ =======================================================================
+[*] Keyboard buffer head pointer = 0x1E (at 0x41A), tail pointer = 0x1E (at 0x41C)
+[*] Keyboard buffer contents (at 0x41E):
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+[*] Checking contents of the keyboard buffer..
+
+[+] PASSED: Keyboard buffer looks empty. Pre-boot passwords don't seem to be exposed
+
+[*] running module: chipsec.modules.common.bios_smi
+[x][ =======================================================================
+[x][ Module: SMI Events Configuration
+[x][ =======================================================================
+[+] SMM BIOS region write protection is enabled (SMM_BWP is used)
+
+[*] Checking SMI enables..
+    Global SMI enable: 1
+    TCO SMI enable   : 1
+[+] All required SMI events are enabled
+
+[*] Checking SMI configuration locks..
+[+] TCO SMI configuration is locked (TCO SMI Lock)
+[+] SMI events global configuration is locked (SMI Lock)
+
+[+] PASSED: All required SMI sources seem to be enabled and locked
+
+[*] running module: chipsec.modules.common.bios_ts
+[x][ =======================================================================
+[x][ Module: BIOS Interface Lock (including Top Swap Mode)
+[x][ =======================================================================
+[*] BiosInterfaceLockDown (BILD) control = 1
+[*] BIOS Top Swap mode is enabled (TSS = 1)
+[*] RTC TopSwap control (TS) = 1
+[+] PASSED: BIOS Interface is locked (including Top Swap Mode)
+
+[*] running module: chipsec.modules.common.bios_wp
+[x][ =======================================================================
+[x][ Module: BIOS Region Write Protection
+[x][ =======================================================================
+[*] BC = 0xFF << BIOS Control (b:d.f 00:31.0 + 0xDC)
+    [00] BIOSWE           = 1 << BIOS Write Enable 
+    [01] BLE              = 1 << BIOS Lock Enable 
+    [02] SRC              = 3 << SPI Read Configuration 
+    [04] TSS              = 1 << Top Swap Status 
+    [05] SMM_BWP          = 1 << SMM BIOS Write Protection 
+[-] BIOS region write protection is disabled!
+
+[*] BIOS Region: Base = 0x00BC1000, Limit = 0x00A08FFF
+SPI Protected Ranges
+------------------------------------------------------------
+PRx (offset) | Value    | Base     | Limit    | WP? | RP?
+------------------------------------------------------------
+PR0 (74)     | 0203E7C0 | 007C0000 | 00203FFF | 0   | 1 
+PR1 (78)     | F8BA66E7 | 006E7000 | 018BAFFF | 1   | 0 
+PR2 (7C)     | 8366EF0C | 00F0C000 | 00366FFF | 1   | 1 
+PR3 (80)     | 66ED04C2 | 004C2000 | 006ED000 | 0   | 0 
+PR4 (84)     | EB0004B9 | 004B9000 | 00B00FFF | 1   | 0 
+
+[+] PASSED: SPI Protected Ranges are configured to write protect BIOS
+
+[*] running module: chipsec.modules.common.ia32cfg
+[x][ =======================================================================
+[x][ Module: IA32 Feature Control Lock
+[x][ =======================================================================
+[*] Verifying IA32_Feature_Control MSR is locked on all logical CPUs..
+[*] cpu0: IA32_Feature_Control Lock = 0
+[*] cpu1: IA32_Feature_Control Lock = 0
+[*] cpu2: IA32_Feature_Control Lock = 0
+[*] cpu3: IA32_Feature_Control Lock = 0
+[-] FAILED: IA32_FEATURE_CONTROL MSR is not locked on all logical CPUs
+
+[*] running module: chipsec.modules.common.rtclock
+Skipping module chipsec.modules.common.rtclock since it is not supported in this platform
+
+[*] running module: chipsec.modules.common.smm
+[x][ =======================================================================
+[x][ Module: Compatible SMM memory (SMRAM) Protection
+[x][ =======================================================================
+[*] PCI0.0.0_SMRAMC = 0x00 << System Management RAM Control (b:d.f 00:00.0 + 0x88)
+    [00] C_BASE_SEG       = 0 << SMRAM Base Segment = 010b 
+    [03] G_SMRAME         = 0 << SMRAM Enabled 
+    [04] D_LCK            = 0 << SMRAM Locked 
+    [05] D_CLS            = 0 << SMRAM Closed 
+    [06] D_OPEN           = 0 << SMRAM Open 
+[*] Compatible SMRAM is not enabled. Skipping..
+
+[*] running module: chipsec.modules.common.smrr
+[x][ =======================================================================
+[x][ Module: CPU SMM Cache Poisoning / System Management Range Registers
+[x][ =======================================================================
+[!] CPU does not support SMRR range protection of SMRAM
+[*] SKIPPED: CPU does not support SMRR range protection of SMRAM
+
+[*] running module: chipsec.modules.common.spi_desc
+[x][ =======================================================================
+[x][ Module: SPI Flash Region Access Control
+[x][ =======================================================================
+[*] FRAP = 0xEBEF00F0 << SPI Flash Regions Access Permissions Register (SPIBAR + 0x50)
+    [00] BRRA             = F0 << BIOS Region Read Access 
+    [08] BRWA             = 0 << BIOS Region Write Access 
+    [16] BMRAG            = EF << BIOS Master Read Access Grant 
+    [24] BMWAG            = EB << BIOS Master Write Access Grant 
+[*] Software access to SPI flash regions: read = 0xF0, write = 0x00
+
+[+] PASSED: SPI flash permissions prevent SW from writing to flash descriptor
+
+[*] running module: chipsec.modules.common.spi_fdopss
+[x][ =======================================================================
+[x][ Module: SPI Flash Descriptor Security Override Pin-Strap
+[x][ =======================================================================
+[*] HSFS = 0xFFFE << Hardware Sequencing Flash Status Register (SPIBAR + 0x4)
+    [00] FDONE            = 0 << Flash Cycle Done 
+    [01] FCERR            = 1 << Flash Cycle Error 
+    [02] AEL              = 1 << Access Error Log 
+    [03] BERASE           = 3 << Block/Sector Erase Size 
+    [05] SCIP             = 1 << SPI cycle in progress 
+    [13] FDOPSS           = 1 << Flash Descriptor Override Pin-Strap Status 
+    [14] FDV              = 1 << Flash Descriptor Valid 
+    [15] FLOCKDN          = 1 << Flash Configuration Lock-Down 
+[+] PASSED: SPI Flash Descriptor Security Override is disabled
+
+[*] running module: chipsec.modules.common.spi_lock
+[x][ =======================================================================
+[x][ Module: SPI Flash Controller Configuration Lock
+[x][ =======================================================================
+[*] HSFS = 0xFFFE << Hardware Sequencing Flash Status Register (SPIBAR + 0x4)
+    [00] FDONE            = 0 << Flash Cycle Done 
+    [01] FCERR            = 1 << Flash Cycle Error 
+    [02] AEL              = 1 << Access Error Log 
+    [03] BERASE           = 3 << Block/Sector Erase Size 
+    [05] SCIP             = 1 << SPI cycle in progress 
+    [13] FDOPSS           = 1 << Flash Descriptor Override Pin-Strap Status 
+    [14] FDV              = 1 << Flash Descriptor Valid 
+    [15] FLOCKDN          = 1 << Flash Configuration Lock-Down 
+[+] PASSED: SPI Flash Controller configuration is locked
+
+[*] running module: chipsec.modules.common.secureboot.variables
+[x][ =======================================================================
+[x][ Module: Attributes of Secure Boot EFI Variables
+[x][ =======================================================================
+[*] Checking protections of UEFI variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:SecureBoot
+[*] Checking protections of UEFI variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:SetupMode
+[*] Checking protections of UEFI variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PK
+[+] Variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PK is authenticated (TIME_BASED_AUTHENTICATED_WRITE_ACCESS)
+[*] Checking protections of UEFI variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:KEK
+[+] Variable 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:KEK is authenticated (TIME_BASED_AUTHENTICATED_WRITE_ACCESS)
+[*] Checking protections of UEFI variable D719B2CB-3D3A-4596-A3BC-DAD00E67656F:db
+[+] Variable D719B2CB-3D3A-4596-A3BC-DAD00E67656F:db is authenticated (TIME_BASED_AUTHENTICATED_WRITE_ACCESS)
+[*] Checking protections of UEFI variable D719B2CB-3D3A-4596-A3BC-DAD00E67656F:dbx
+[+] Variable D719B2CB-3D3A-4596-A3BC-DAD00E67656F:dbx is authenticated (TIME_BASED_AUTHENTICATED_WRITE_ACCESS)
+
+[*] Secure Boot appears to be disabled
+[+] PASSED: All Secure Boot UEFI variables are protected
+
+[*] running module: chipsec.modules.common.uefi.access_uefispec
+[x][ =======================================================================
+[x][ Module: Access Control of EFI Variables
+[x][ =======================================================================
+[*] Testing UEFI variables ..
+[*] Variable HBL (BS+RT)
+[*] Variable Kernel_SiStatus (NV+BS+RT)
+[*] Variable PlatformLangCodes (BS+RT)
+[*] Variable BootOrder (NV+BS+RT)
+[*] Variable Kernel_WinSiStatus (NV+BS+RT)
+[*] Variable dbx (NV+BS+RT+TBAWS)
+[*] Variable ConOut (NV+BS+RT)
+[*] Variable SkipLoadDxeCore (NV+BS+RT)
+[*] Variable RestoreFactoryDefault (NV+BS+RT+AWS)
+[*] Variable ActiveVgaDev (BS+RT)
+[*] Variable PhysicalBootOrder (NV+BS+RT)
+[!] Found two instances of the variable SysDiagsBiosData2010.
+[*] Variable SysDiagsBiosData2010 (NV+BS+RT)
+[*] Variable SysDiagsBiosData2010 (NV+BS+RT)
+[*] Variable VBiosInfo (NV+BS+RT)
+[*] Variable Setup (NV+BS+RT)
+[*] Variable TargetHddDevPath (NV+BS+RT)
+[*] Variable db (NV+BS+RT+TBAWS)
+[*] Variable Kernel_RvkSiStatus (NV+BS+RT)
+[*] Variable VendorKeys (BS+RT)
+[*] Variable CustomPlatformLang (NV+BS+RT)
+[*] Variable KHWSIG (NV+BS+RT)
+[*] Variable LegacyDevOrder (NV+BS+RT)
+[*] Variable ConOutDev (BS+RT)
+[*] Variable BugCheckParameter1 (NV+BS+RT)
+[*] Variable ConInCandidateDev (BS+RT)
+[*] Variable ConOutCandidateDev (BS+RT)
+[*] Variable AuthVarKeyDatabase (NV+BS+RT+AWS)
+[*] Variable UnlockIDCopy (NV+BS+RT)
+[*] Variable HPS (NV+BS+RT)
+[*] Variable AmdAcpiVar (BS+RT)
+[*] Variable HBS (BS+RT)
+[*] Variable PK (NV+BS+RT+TBAWS)
+[*] Variable HMUTD (NV+BS+RT)
+[*] Variable HCA (NV+BS+RT)
+[*] Variable Kernel_EntRevokeSiStatus (NV+BS+RT)
+[*] Variable HMMCRDP (NV+BS+RT)
+[*] Variable PKDefault (BS+RT)
+[*] Variable OfflineUniqueIDRandomSeed (NV+BS+RT)
+[*] Variable BugCheckCode (NV+BS+RT)
+[*] Variable OsIndications (NV+BS+RT)
+[*] Variable BugCheckProgress (NV+BS+RT)
+[*] Variable ConInDev (BS+RT)
+[*] Variable Boot0001 (NV+BS+RT)
+[*] Variable S3SmmVariable (NV+BS+RT)
+[*] Variable MTC (NV+BS+RT)
+[*] Variable HRTB (BS+RT)
+[*] Variable Boot0004 (NV+BS+RT)
+[*] Variable OdmNameID (NV+BS+RT)
+[*] Variable Boot2002 (NV+BS+RT)
+[*] Variable Boot2001 (NV+BS+RT)
+[*] Variable KEKDefault (BS+RT)
+[*] Variable OsIndicationsSupported (BS+RT)
+[*] Variable dbxDefault (BS+RT)
+[*] Variable BootCurrent (BS+RT)
+[*] Variable Timeout (NV+BS+RT)
+[*] Variable AgesaMemorySaveData (BS+RT)
+[*] Variable HWSIG (NV+BS+RT)
+[*] Variable OfflineUniqueIDRandomSeedCRC (NV+BS+RT)
+[*] Variable HSBDAD (BS+RT)
+[*] Variable SignatureSupport (BS+RT)
+[*] Variable KEK (NV+BS+RT+TBAWS)
+[*] Variable Boot3000 (NV+BS+RT)
+[*] Variable PlugInVgaHandles (BS+RT)
+[*] Variable HEBT (NV+BS+RT)
+[*] Variable SetupMode (BS+RT)
+[*] Variable Boot0000 (NV+BS+RT)
+[*] Variable AdministerSecureBoot (NV+BS+RT)
+[*] Variable Boot0002 (NV+BS+RT)
+[*] Variable MsdmAddress (NV+BS+RT)
+[*] Variable Boot0005 (NV+BS+RT)
+[*] Variable Boot0006 (NV+BS+RT)
+[*] Variable Custom (NV+BS+RT)
+[*] Variable Boot3001 (NV+BS+RT)
+[*] Variable SecureBoot (BS+RT)
+[*] Variable Boot3002 (NV+BS+RT)
+[*] Variable Boot3005 (NV+BS+RT)
+[*] Variable Boot3004 (NV+BS+RT)
+[*] Variable Boot3006 (NV+BS+RT)
+[*] Variable PBRDevicePath (NV+BS+RT)
+[*] Variable CustomSecurity (NV+BS+RT+AWS)
+[*] Variable AzaliaPolicyVariable (NV+BS+RT)
+[*] Variable ErrOutDev (BS+RT)
+[*] Variable IrsiInfo (BS+RT)
+[*] Variable SmbiosPolicy (NV+BS+RT)
+[*] Variable ConIn (NV+BS+RT)
+[*] Variable SecureBootEnforce (NV+BS+RT+AWS)
+[*] Variable dbDefault (BS+RT)
+[*] Variable CurrentPolicy (NV+BS+RT+TBAWS)
+[*] Variable Kernel_ATPSiStatus (NV+BS+RT)
+[*] Variable SysDiagsBiosData (NV+BS+RT)
+[*] Variable AmdMemContextExist (NV+BS+RT)
+[*] Variable MemCeil. (NV+BS+RT)
+[*] Variable Kernel_SkuSiStatus (NV+BS+RT)
+[*] Variable AcpiGlobalVariable (NV+BS+RT)
+[*] Variable certdb (NV+BS+RT+TBAWS)
+[*] Variable NewNSH (BS+RT)
+[*] Variable SmartBoot (NV+BS+RT)
+[*] Variable PlatformLang (NV+BS+RT)
+
+[-] Variables with attributes that differ from UEFI spec:
+
+[+] PASSED: All checked EFI variables are protected according to spec.
+
+[*] running module: chipsec.modules.common.uefi.s3bootscript
+[x][ =======================================================================
+[x][ Module: S3 Resume Boot-Script Protections
+[x][ =======================================================================
+[*] SMRAM: Base = 0x00000000C2100000, Limit = 0x-000000000000001, Size = 0x-C2100000
+[!] Found 1 S3 boot-script(s) in EFI variables
+[*] Checking S3 boot-script at 0x000000008FB0D000
+[-] S3 boot-script is not in SMRAM
+[*] Reading S3 boot-script from memory..
+[*] Decoding S3 boot-script opcodes..
+ERROR: The module was not able to recognize the S3 resume boot script on this platform.
+
+[*] running module: chipsec.modules.memconfig
+Skipping module chipsec.modules.memconfig since it is not supported in this platform
+
+[*] running module: chipsec.modules.remap
+Skipping module chipsec.modules.remap since it is not supported in this platform
+
+[*] running module: chipsec.modules.smm_dma
+[x][ =======================================================================
+[x][ Module: SMM TSEG Range Configuration Check
+[x][ =======================================================================
+[*] TSEG      : 0x00000000C2100000 - 0x-000000000000001 (size = 0x-C2100000)
+[*] SMRR is not supported
+
+[*] checking TSEG range configuration..
+[!] WARNING: TSEG is properly configured but can't determine if it covers entire SMRAM
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.109
+[CHIPSEC] Modules total         17
+[CHIPSEC] Modules failed to run 1:
+ERROR: chipsec.modules.common.uefi.s3bootscript
+[CHIPSEC] Modules passed        9:
+[+] PASSED: chipsec.modules.common.bios_kbrd_buffer
+[+] PASSED: chipsec.modules.common.bios_smi
+[+] PASSED: chipsec.modules.common.bios_ts
+[+] PASSED: chipsec.modules.common.bios_wp
+[+] PASSED: chipsec.modules.common.spi_desc
+[+] PASSED: chipsec.modules.common.spi_fdopss
+[+] PASSED: chipsec.modules.common.spi_lock
+[+] PASSED: chipsec.modules.common.secureboot.variables
+[+] PASSED: chipsec.modules.common.uefi.access_uefispec
+[CHIPSEC] Modules failed        1:
+[-] FAILED: chipsec.modules.common.ia32cfg
+[CHIPSEC] Modules with warnings 1:
+[!] WARNING: chipsec.modules.smm_dma
+[CHIPSEC] Modules skipped 5:
+[*] SKIPPED: chipsec.modules.common.rtclock
+[*] SKIPPED: chipsec.modules.common.smm
+[*] SKIPPED: chipsec.modules.common.smrr
+[*] SKIPPED: chipsec.modules.memconfig
+[*] SKIPPED: chipsec.modules.remap
+[CHIPSEC] *****************************************************************

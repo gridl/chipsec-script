@@ -1,0 +1,140 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.uefi.access_uefispec --log common.uefi.access_uefispec.txt --ignore_platform
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Linux 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[+] loaded chipsec.modules.common.uefi.access_uefispec
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.uefi.access_uefispec
+[x][ =======================================================================
+[x][ Module: Access Control of EFI Variables
+[x][ =======================================================================
+[*] Testing UEFI variables ..
+[*] Variable HBL (BS+RT)
+[*] Variable Kernel_SiStatus (NV+BS+RT)
+[*] Variable PlatformLangCodes (BS+RT)
+[*] Variable BootOrder (NV+BS+RT)
+[*] Variable Kernel_WinSiStatus (NV+BS+RT)
+[*] Variable dbx (NV+BS+RT+TBAWS)
+[*] Variable HBS (BS+RT)
+[*] Variable SkipLoadDxeCore (NV+BS+RT)
+[*] Variable RestoreFactoryDefault (NV+BS+RT+AWS)
+[*] Variable ActiveVgaDev (BS+RT)
+[*] Variable PhysicalBootOrder (NV+BS+RT)
+[*] Variable SysDiagsBiosData2010 (NV+BS+RT)
+[*] Variable VBiosInfo (NV+BS+RT)
+[*] Variable Setup (NV+BS+RT)
+[*] Variable TargetHddDevPath (NV+BS+RT)
+[*] Variable db (NV+BS+RT+TBAWS)
+[*] Variable Kernel_RvkSiStatus (NV+BS+RT)
+[*] Variable KEK (NV+BS+RT+TBAWS)
+[*] Variable CustomPlatformLang (NV+BS+RT)
+[*] Variable KHWSIG (NV+BS+RT)
+[*] Variable LegacyDevOrder (NV+BS+RT)
+[*] Variable OfflineUniqueIDRandomSeed (NV+BS+RT)
+[*] Variable BugCheckParameter1 (NV+BS+RT)
+[*] Variable HSBDAD (BS+RT)
+[*] Variable ConOutCandidateDev (BS+RT)
+[*] Variable AuthVarKeyDatabase (NV+BS+RT+AWS)
+[*] Variable UnlockIDCopy (NV+BS+RT)
+[*] Variable HPS (NV+BS+RT)
+[*] Variable AmdAcpiVar (BS+RT)
+[*] Variable ConOut (NV+BS+RT)
+[*] Variable PK (NV+BS+RT+TBAWS)
+[*] Variable HMUTD (NV+BS+RT)
+[*] Variable HCA (NV+BS+RT)
+[*] Variable Kernel_EntRevokeSiStatus (NV+BS+RT)
+[*] Variable HMMCRDP (NV+BS+RT)
+[*] Variable PKDefault (BS+RT)
+[*] Variable ConOutDev (BS+RT)
+[*] Variable CustomSecurity (NV+BS+RT+AWS)
+[*] Variable OsIndications (NV+BS+RT)
+[*] Variable BugCheckProgress (NV+BS+RT)
+[*] Variable ConInDev (BS+RT)
+[*] Variable Boot0001 (NV+BS+RT)
+[*] Variable AdministerSecureBoot (NV+BS+RT)
+[*] Variable S3SmmVariable (NV+BS+RT)
+[*] Variable MTC (NV+BS+RT)
+[*] Variable HRTB (BS+RT)
+[*] Variable OdmNameID (NV+BS+RT)
+[*] Variable Boot2002 (NV+BS+RT)
+[*] Variable Boot2001 (NV+BS+RT)
+[*] Variable KEKDefault (BS+RT)
+[*] Variable OsIndicationsSupported (BS+RT)
+[*] Variable dbxDefault (BS+RT)
+[*] Variable BootCurrent (BS+RT)
+[*] Variable Timeout (NV+BS+RT)
+[*] Variable AgesaMemorySaveData (BS+RT)
+[*] Variable HWSIG (NV+BS+RT)
+[*] Variable OfflineUniqueIDRandomSeedCRC (NV+BS+RT)
+[*] Variable ConInCandidateDev (BS+RT)
+[*] Variable SignatureSupport (BS+RT)
+[*] Variable VendorKeys (BS+RT)
+[*] Variable Boot3000 (NV+BS+RT)
+[*] Variable PlugInVgaHandles (BS+RT)
+[*] Variable HEBT (NV+BS+RT)
+[*] Variable SetupMode (BS+RT)
+[*] Variable Boot0000 (NV+BS+RT)
+[*] Variable ErrOutDev (BS+RT)
+[*] Variable Boot0002 (NV+BS+RT)
+[*] Variable Boot0003 (NV+BS+RT)
+[*] Variable MsdmAddress (NV+BS+RT)
+[*] Variable Boot0005 (NV+BS+RT)
+[*] Variable Boot0006 (NV+BS+RT)
+[*] Variable Custom (NV+BS+RT)
+[*] Variable Boot3001 (NV+BS+RT)
+[*] Variable SecureBoot (BS+RT)
+[*] Variable Boot3002 (NV+BS+RT)
+[*] Variable Boot3005 (NV+BS+RT)
+[*] Variable Boot3004 (NV+BS+RT)
+[*] Variable Boot3006 (NV+BS+RT)
+[*] Variable PBRDevicePath (NV+BS+RT)
+[*] Variable BugCheckCode (NV+BS+RT)
+[*] Variable MokListRT (BS+RT)
+[*] Variable AzaliaPolicyVariable (NV+BS+RT)
+[*] Variable IrsiInfo (BS+RT)
+[*] Variable MokSBStateRT (BS+RT)
+[*] Variable SmbiosPolicy (NV+BS+RT)
+[*] Variable ConIn (NV+BS+RT)
+[*] Variable SecureBootEnforce (NV+BS+RT+AWS)
+[*] Variable dbDefault (BS+RT)
+[*] Variable CurrentPolicy (NV+BS+RT+TBAWS)
+[*] Variable Kernel_ATPSiStatus (NV+BS+RT)
+[*] Variable SysDiagsBiosData (NV+BS+RT)
+[*] Variable AmdMemContextExist (NV+BS+RT)
+[*] Variable MemCeil. (NV+BS+RT)
+[*] Variable Kernel_SkuSiStatus (NV+BS+RT)
+[*] Variable AcpiGlobalVariable (NV+BS+RT)
+[*] Variable certdb (NV+BS+RT+TBAWS)
+[*] Variable NewNSH (BS+RT)
+[*] Variable SmartBoot (NV+BS+RT)
+[*] Variable PlatformLang (NV+BS+RT)
+
+[-] Variables with attributes that differ from UEFI spec:
+
+[+] PASSED: All checked EFI variables are protected according to spec.
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.052
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.uefi.access_uefispec
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

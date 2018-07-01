@@ -1,0 +1,104 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.uefi.access_uefispec --log common.uefi.access_uefispec.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-104-generic #127~14.04.1-Ubuntu SMP Mon Dec 11 12:44:15 UTC 2017 x86_64
+[CHIPSEC] Platform: Mobile 7th Generation Core Processor (Kabylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 5904
+ 
+[+] loaded chipsec.modules.common.uefi.access_uefispec
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.uefi.access_uefispec
+[x][ =======================================================================
+[x][ Module: Access Control of EFI Variables
+[x][ =======================================================================
+[*] Testing UEFI variables ..
+[*] Variable Boot0000 (NV+BS+RT)
+[*] Variable ErrOutDev (BS+RT)
+[*] Variable Ep (NV+BS+RT)
+[*] Variable DefaultBootOrder (NV+BS+RT)
+[*] Variable ConInDev (BS+RT)
+[*] Variable Boot0001 (NV+BS+RT)
+[*] Variable PlatformLangCodes (BS+RT)
+[*] Variable CpuSetupVolatileData (BS+RT)
+[*] Variable MemoryOverwriteRequestControl (NV+BS+RT)
+[*] Variable MemoryOverwriteRequestControlLock (NV+BS+RT)
+[*] Variable KEKDefault (BS+RT)
+[*] Variable SecureBoot (BS+RT)
+[*] Variable SetUpdateCountVar (NV+BS+RT)
+[*] Variable WriteOnceStatus (NV+BS+RT)
+[*] Variable SmbiosEntryPointTable (NV+BS+RT)
+[*] Variable MeSetupStorage (NV+BS+RT)
+[*] Variable SdioDevConfiguration (NV+BS+RT)
+[*] Variable SecureBootSetup (NV+BS+RT)
+[*] Variable AMITSESetup (NV+BS+RT)
+[*] Variable DeploymentModeNv (NV+BS+RT)
+[*] Variable KEK (NV+BS+RT+TBAWS)
+[*] Variable ConOut (NV+BS+RT)
+[*] Variable AmiEntryS3Addr (NV+BS+RT)
+[*] Variable EfiTime (NV+BS+RT)
+[*] Variable UsbSupport (NV+BS+RT)
+[*] Variable MokListRT (BS+RT)
+[*] Variable ErrOut (NV+BS+RT)
+[*] Variable PCI_COMMON (NV+BS+RT)
+[*] Variable DeployedMode (BS+RT)
+[*] Variable AuditMode (BS+RT)
+[*] Variable CpuSmm (NV+BS+RT)
+[*] Variable OA3MSDMvariable (BS+RT)
+[*] Variable BootOrder (NV+BS+RT)
+[*] Variable ConIn (NV+BS+RT)
+[*] Variable RstOptaneConfig (NV+BS+RT)
+[*] Variable SOFTWAREGUARDSTATUS (BS+RT)
+[*] Variable dbDefault (BS+RT)
+[*] Variable MaximumTableSize (NV+BS+RT)
+[*] Variable Setup (NV+BS+RT)
+[*] Variable db (NV+BS+RT+TBAWS)
+[*] Variable OsIndicationsSupported (BS+RT)
+[*] Variable NetworkStackVar (NV+BS+RT)
+[*] Variable dbxDefault (BS+RT)
+[*] Variable BootCurrent (BS+RT)
+[*] Variable Timeout (NV+BS+RT)
+[*] Variable PK (NV+BS+RT+TBAWS)
+[*] Variable PcieSataModVar (NV+BS+RT)
+[*] Variable OfflineUniqueIDRandomSeedCRC (NV+BS+RT)
+[*] Variable PKDefault (BS+RT)
+[*] Variable SmbiosV3EntryPointTable (NV+BS+RT)
+[*] Variable NBGopPlatformData (BS+RT)
+[*] Variable SignatureSupport (BS+RT)
+[*] Variable VendorKeys (BS+RT)
+[*] Variable MonotonicCounter (NV+BS+RT)
+[*] Variable dbx (NV+BS+RT+TBAWS)
+[*] Variable NewOptionPolicy (NV+BS+RT)
+[*] Variable OfflineUniqueIDRandomSeed (NV+BS+RT)
+[*] Variable FPDT_Volatile (BS+RT)
+[*] Variable PlatformLang (NV+BS+RT)
+[*] Variable EPCBIOS (NV+BS+RT)
+[*] Variable SmbiosScratchBuffer (NV+BS+RT)
+[*] Variable SetupMode (BS+RT)
+[*] Variable HiiDB (BS+RT)
+[*] Variable IntUcode (NV+BS+RT)
+[*] Variable ConOutDev (BS+RT)
+[*] Variable BootOptionSupport (BS+RT)
+[*] Variable StdDefaults (NV+BS+RT)
+
+[-] Variables with attributes that differ from UEFI spec:
+
+[+] PASSED: All checked EFI variables are protected according to spec.
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.023
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.uefi.access_uefispec
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

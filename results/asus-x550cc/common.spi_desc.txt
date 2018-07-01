@@ -1,0 +1,40 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.spi_desc --log common.spi_desc.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 3.16.0-77-generic #99~14.04.1-Ubuntu SMP Tue Jun 28 19:17:10 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0154
+ 
+[+] loaded chipsec.modules.common.spi_desc
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.spi_desc
+[x][ =======================================================================
+[x][ Module: SPI Flash Region Access Control
+[x][ =======================================================================
+[*] FRAP = 0x00000A0B << SPI Flash Regions Access Permissions Register (SPIBAR + 0x50)
+    [00] BRRA             = B << BIOS Region Read Access 
+    [08] BRWA             = A << BIOS Region Write Access 
+    [16] BMRAG            = 0 << BIOS Master Read Access Grant 
+    [24] BMWAG            = 0 << BIOS Master Write Access Grant 
+[*] Software access to SPI flash regions: read = 0x0B, write = 0x0A
+
+[+] PASSED: SPI flash permissions prevent SW from writing to flash descriptor
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.spi_desc
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

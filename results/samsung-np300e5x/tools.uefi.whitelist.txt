@@ -1,0 +1,37 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module tools.uefi.whitelist --log tools.uefi.whitelist.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-31-generic #50~14.04.1-Ubuntu SMP Wed Jul 13 01:07:32 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 2nd Generation Core Processor (Sandy Bridge CPU / Cougar Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0104
+ 
+[+] loaded chipsec.modules.tools.uefi.whitelist
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.tools.uefi.whitelist
+[x][ =======================================================================
+[x][ Module: simple white-list generation/checking for (U)EFI firmware
+[x][ =======================================================================
+[*] dumping firmware image from ROM to 'fw.bin': 0x00300000 bytes at [0x00500000:0x007FFFFF]
+[spi] reading 0x300000 bytes from SPI at FLA = 0x500000 (in 49152 0x40-byte chunks + 0x0-byte remainder)
+[*] generating a list of EFI executables from firmware image...
+[*] found 318 EFI executables in UEFI firmware image 'fw.bin'
+[*] creating JSON file '/home/user/samsung/efilist.json'...
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          24.437
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.tools.uefi.whitelist
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

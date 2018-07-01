@@ -1,0 +1,46 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.spi_lock --log common.spi_lock.txt --ignore_platform
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Linux 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[+] loaded chipsec.modules.common.spi_lock
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.spi_lock
+[x][ =======================================================================
+[x][ Module: SPI Flash Controller Configuration Lock
+[x][ =======================================================================
+[*] HSFS = 0xFFFE << Hardware Sequencing Flash Status Register (SPIBAR + 0x4)
+    [00] FDONE            = 0 << Flash Cycle Done 
+    [01] FCERR            = 1 << Flash Cycle Error 
+    [02] AEL              = 1 << Access Error Log 
+    [03] BERASE           = 3 << Block/Sector Erase Size 
+    [05] SCIP             = 1 << SPI cycle in progress 
+    [13] FDOPSS           = 1 << Flash Descriptor Override Pin-Strap Status 
+    [14] FDV              = 1 << Flash Descriptor Valid 
+    [15] FLOCKDN          = 1 << Flash Configuration Lock-Down 
+[+] PASSED: SPI Flash Controller configuration is locked
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.spi_lock
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

@@ -1,0 +1,68 @@
+
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] Executing command 'platform' with args []
+
+
+Supported platforms:
+
+DID     | Name           | Code   | Long Name
+-------------------------------------------------------------------------------------
+ 0x1f03 | Avoton         | avn    | Intel Avoton                            
+ 0x1f05 | Avoton         | avn    | Intel Avoton                            
+ 0x1f06 | Avoton         | avn    | Intel Avoton                            
+ 0x1f01 | Avoton         | avn    | Intel Avoton                            
+ 0x1f0a | Avoton         | avn    | Intel Avoton                            
+ 0x1f0b | Avoton         | avn    | Intel Avoton                            
+ 0x1f02 | Avoton         | avn    | Intel Avoton                            
+ 0x1f0e | Avoton         | avn    | Intel Avoton                            
+ 0x1f07 | Avoton         | avn    | Intel Avoton                            
+ 0x1f09 | Avoton         | avn    | Intel Avoton                            
+ 0x1f0d | Avoton         | avn    | Intel Avoton                            
+ 0x1f0f | Avoton         | avn    | Intel Avoton                            
+ 0x1f0c | Avoton         | avn    | Intel Avoton                            
+ 0x1f04 | Avoton         | avn    | Intel Avoton                            
+ 0x1f08 | Avoton         | avn    | Intel Avoton                            
+ 0x1f00 | Avoton         | avn    | Intel Avoton                            
+ 0x1604 | Broadwell      | bdw    | Mobile 5th Generation Core Processor (Broadwell M/H / Wildcat Point PCH)
+ 0x1600 | Broadwell      | bdw    | Desktop 5th Generation Core Processor (Broadwell CPU / Wildcat Point PCH)
+ 0xf00  | Baytrail       | byt    | Bay Trail SoC                           
+ 0x2280 | Braswell/Cherry Trail | cht    | Braswell/Cherry Trail SoC               
+ 0xc00  | Haswell        | hsw    | Desktop 4th Generation Core Processor (Haswell CPU / Lynx Point PCH)
+ 0xd04  | Haswell        | hsw    | Mobile 4th Generation Core Processor (Haswell)
+ 0xa08  | Haswell        | hsw    | 4th Generation Core Processor (Haswell U/Y)
+ 0xa04  | Haswell        | hsw    | 4th Generation Core Processor (Haswell U/Y)
+ 0xa00  | Haswell        | hsw    | 4th Generation Core Processor (Haswell U/Y)
+ 0xd08  | Haswell        | hsw    | 4th Generation Core Processor (Haswell) 
+ 0xd00  | Haswell        | hsw    | Desktop 4th Generation Core Processor (Haswell)
+ 0xc08  | Haswell        | hsw    | Intel Xeon Processor E3-1200 v3 (Haswell CPU, C220 Series PCH)
+ 0xc04  | Haswell        | hsw    | Mobile 4th Generation Core Processor (Haswell M/H / Lynx Point PCH)
+ 0x2f00 | Haswell Server | hsx    | Server 4th Generation Core Processor (Haswell Server CPU / Wellsburg PCH)
+ 0x150  | Ivy Bridge     | ivb    | Desktop 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+ 0x154  | Ivy Bridge     | ivb    | Mobile 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+ 0x158  | Ivy Bridge     | ivb    | Intel Xeon Processor E3-1200 v2 (Ivy Bridge CPU, C200/C216 Series PCH)
+ 0xe00  | Ivytown        | ivt    | Server 3rd Generation Core Procesor (Ivytown CPU / Patsburg PCH)
+ 0x3c00 | Jaketown       | jkt    | Server 2nd Generation Core Processor (Jaketown CPU / Patsburg PCH)
+ 0x590c | Kabylake       | kbl    | Mobile 7th Generation Core Processor (Kabylake Y)
+ 0x5904 | Kabylake       | kbl    | Mobile 7th Generation Core Processor (Kabylake U)
+ 0x958  | Galileo        | qrk    | Intel Quark SoC X1000                   
+ 0x190f | Skylake        | skl    | Desktop 6th Generation Core Processor Dual Core (Skylake CPU / Sunrise Point PCH)
+ 0x1910 | Skylake        | skl    | Mobile 6th Generation Core Processor Quad Core (Skylake H)
+ 0x1918 | Skylake Server | skl    | Intel Xeon Processor E3 v5 (Skylake CPU / Sunrise Point PCH)
+ 0x191f | Skylake        | skl    | Desktop 6th Generation Core Processor Quad Core (Skylake CPU / Sunrise Point PCH)
+ 0x190c | Skylake        | skl    | Mobile 6th Generation Core Processor (Skylake Y)
+ 0x1904 | Skylake        | skl    | Mobile 6th Generation Core Processor (Skylake U)
+ 0x1900 | Skylake        | skl    | Mobile 6th Generation Core Processor Dual Core (Skylake H)
+ 0x100  | Sandy Bridge   | snb    | Desktop 2nd Generation Core Processor (Sandy Bridge CPU / Cougar Point PCH)
+ 0x104  | Sandy Bridge   | snb    | Mobile 2nd Generation Core Processor (Sandy Bridge CPU / Cougar Point PCH)
+ 0x108  | Sandy Bridge   | snb    | Intel Xeon Processor E3-1200 (Sandy Bridge CPU, C200 Series PCH)
+
+[*] Platform: Mobile 7th Generation Core Processor (Kabylake U)
+          VID: 8086
+          DID: 5904

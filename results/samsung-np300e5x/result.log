@@ -1,0 +1,101 @@
+
+PLATFORM SUPPORTING
+[*] Platform is supported
+
+UEFI SECURITY TESTS
+
+GENERAL ASSESSMENT OF FIRMWARE SECURITY
+
+--- common.secureboot.variables:
+[+] Report in file common.secureboot.variables.txt
+
+--- common.uefi.access_uefispec:
+[+] Report in file common.uefi.access_uefispec.txt
+
+--- tools.uefi.blacklist:
+[+] Report in file tools.uefi.blacklist.txt
+
+--- tools.uefi.whitelist:
+[+] Report in file tools.uefi.whitelist.txt
+
+--- common.bios_kbrd_buffer:
+[+] Report in file common.bios_kbrd_buffer.txt
+
+--- common.uefi.s3bootscript module:
+[+] Report in file common.uefi.s3bootscript.txt
+
+--- common.ia32cfg module:
+[+] Report in file common.ia32cfg.txt
+
+EVALUATION OF SPI FLASH MEMORY SECURITY
+
+--- common.bios_wp:
+[+] Report in file common.bios_wp.txt
+
+--- common.bios_smi:
+[+] Report in file common.bios_smi.txt
+
+--- common.spi_desc:
+[+] Report in file common.spi_desc.txt
+
+--- common.spi_fdopss:
+[+] Report in file common.spi_fdopss.txt
+
+common.spi_lock:
+[+] Report in file common.spi_lock.txt
+
+--- common.bios_ts:
+[+] Report in file common.bios_ts.txt
+
+EVALUATION OF SMM
+
+--- common.smm:
+[+] Report in file common.smm.txt
+
+--- remap:
+[+] Report in file remap.txt
+
+--- common.smrr:
+[+] Report in file common.smrr.txt
+
+--- tools.smm.smm_ptr:
+[+] Report in file tools.smm.smm_ptr.txt
+
+--- smm_dma:
+[+] Report in file smm_dma.txt
+
+SECURITY EVALUATION
+
+Modules that was skipped:
+[*] common.secureboot.variables
+[*] common.uefi.access_uefispec
+[*] common.uefi.s3bootscript
+[*] tools.uefi.blacklist
+[*] tools.smm.rogue_mmio_barcommon.bios_wp
+
+Modules that uses deprecated API:
+[+] the list is empty
+
+Modules that wasn't able to run:
+[*] tools.smm.smm_ptr
+
+Modules that thrown an unexpected exception:
+[*] tools.smm.smm_ptr
+
+Your UEFI firmware is protected from the following vulnerabilities:
+[+] tools.uefi.whitelist
+[+] common.ia32cfg
+[+] common.spi_desc
+[+] common.spi_fdopss
+[+] common.spi_lock
+[+] common.bios_ts
+[+] common.smm
+[+] remap
+[+] common.smrr
+[+] smm_dma
+
+Your UEFI firmware is vulnerable to the following exploits:
+[-] common.bios_smi
+
+Your UEFI firmware can be vulnerable to the following exploits:
+[!] common.bios_kbrd_buffer

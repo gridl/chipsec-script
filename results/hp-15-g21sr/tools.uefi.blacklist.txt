@@ -1,0 +1,72 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module tools.uefi.blacklist --log tools.uefi.blacklist.txt --ignore_platform
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Linux 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[+] loaded chipsec.modules.tools.uefi.blacklist
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.tools.uefi.blacklist
+[x][ =======================================================================
+[x][ Module: Check for black-listed EFI binaries in UEFI firmware
+[x][ =======================================================================
+
+Usage:
+
+    chipsec_main.py -i -m tools.uefi.blacklist [-a <fw_image>,<blacklist>]
+
+      fw_image  : Full file path to UEFI firmware image
+                  If not specified, the module will dump firmware image directly from ROM
+      blacklist : JSON file with configuration of black-listed EFI binaries (default = blacklist.json)
+                  Config file should be located in the same directory as this module
+    
+Examples:
+
+    chipsec_main.py -m tools.uefi.blacklist 
+
+      Dumps UEFI firmware image from flash memory device, decodes it and
+      checks for black-listed EFI modules defined in the default config 'blacklist.json'
+
+    chipsec_main.py -i --no_driver -m tools.uefi.blacklist -a uefi.rom,blacklist.json
+
+      Decodes 'uefi.rom' binary with UEFI firmware image and
+      checks for black-listed EFI modules defined in 'blacklist.json' config
+
+Important! This module can only detect what it knows about from its config file.
+If a bad or vulnerable binary is not detected then its 'signature' needs to be added to the config.
+
+[*] dumping FW image from ROM to fw.bin: 0x00BC1000 bytes at [0x00A08FFF:0x-01B8000]
+[*] this may take a few minutes (instead, use 'chipsec_util spi dump')...
+[spi] reading 0x-1b8000 bytes from SPI at FLA = 0xBC1000 (in -450560 0x4-byte chunks + 0x0-byte remainder)
+ERROR: SPI cycle not ready
+ERROR: Unable to open file 'fw.bin' for read access
+[*] searching for EFI binaries that match criteria from 'blacklist.json':
+    HT_UEFI_Rootkit  - HackingTeam UEFI Rootkit (http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html)
+    ThinkPwn         - ThinkPwn: SystemSmmRuntimeRt SMM vulnerability (http://blog.cr4.sh/2016/06/exploring-and-exploiting-lenovo.html)
+ERROR: Exception occurred during chipsec.modules.tools.uefi.blacklist.run(): 'object of type 'int' has no len()'
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.134
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 1:
+ERROR: chipsec.modules.tools.uefi.blacklist
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] Modules with Exceptions 1:
+ERROR: chipsec.modules.tools.uefi.blacklist
+[CHIPSEC] *****************************************************************

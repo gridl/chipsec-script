@@ -1,0 +1,41 @@
+[*] Ignoring unsupported platform warning and continue execution
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module smm_dma --log smm_dma.txt --ignore_platform
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+ERROR: Unsupported Platform: VID = 0x1022, DID = 0x1566
+ERROR: Platform is not supported (Unsupported Platform: VID = 0x1022, DID = 0x1566).
+WARNING: Platform dependent functionality is likely to be incorrect
+[CHIPSEC] OS      : Linux 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64
+[CHIPSEC] Platform: UnknownPlatform
+[CHIPSEC]      VID: 1022
+[CHIPSEC]      DID: 1566
+ 
+[+] loaded chipsec.modules.smm_dma
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.smm_dma
+[x][ =======================================================================
+[x][ Module: SMM TSEG Range Configuration Check
+[x][ =======================================================================
+[*] TSEG      : 0x00000000C0000000 - 0x-000000000000001 (size = 0x-C0000000)
+[*] SMRR is not supported
+
+[*] checking TSEG range configuration..
+[!] WARNING: TSEG is properly configured but can't determine if it covers entire SMRAM
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 1:
+[!] WARNING: chipsec.modules.smm_dma
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

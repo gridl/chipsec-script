@@ -1,0 +1,51 @@
+
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+
+Usage:
+
+chipsec_util.py [options] <command>
+
+Options:
+-v --verbose          verbose mode
+-d --debug            show debug output
+-l --log              output to log file
+-p --platform         platform code. Should be among the supported platforms:
+                      ['SNB', 'IVB', 'KBL', 'JKT', 'BYT', 'QRK', 'BDW', 'IVT', 'AVN', 'CHT', 'HSW', 'SKL', 'HSX']
+-n --no_driver        don't load chipsec kernel module
+-i --ignore_platform  run chipsec even if the platform is not recognized
+
+All numeric values are in hex. <width> can be one of {1, byte, 2, word, 4, dword}
+
+<command> can be one of the following:
+    acpi
+    cmos
+    cpu
+    decode
+    ec
+    gdt
+    help
+    idt
+    igd
+    io
+    iommu
+    mem
+    mmcfg
+    mmio
+    msgbus
+    msr
+    nmi
+    pci
+    platform
+    smbus
+    smi
+    spd
+    spi
+    spidesc
+    ucode
+    uefi
+    vmm

@@ -1,0 +1,44 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_smi --log common.bios_smi.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-31-generic #50~14.04.1-Ubuntu SMP Wed Jul 13 01:07:32 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 2nd Generation Core Processor (Sandy Bridge CPU / Cougar Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0104
+ 
+[+] loaded chipsec.modules.common.bios_smi
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_smi
+[x][ =======================================================================
+[x][ Module: SMI Events Configuration
+[x][ =======================================================================
+[-] SMM BIOS region write protection has not been enabled (SMM_BWP is not used)
+
+[*] Checking SMI enables..
+    Global SMI enable: 1
+    TCO SMI enable   : 0
+WARNING: TCO SMI is not enabled. BIOS may not be using it
+
+[*] Checking SMI configuration locks..
+[-] TCO SMI event configuration is not locked. TCO SMI events can be disabled
+[+] SMI events global configuration is locked (SMI Lock)
+
+[-] FAILED: Not all required SMI sources are enabled and locked
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        1:
+[-] FAILED: chipsec.modules.common.bios_smi
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

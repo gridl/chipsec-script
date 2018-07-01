@@ -1,0 +1,42 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.spi_lock --log common.spi_lock.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 3.16.0-77-generic #99~14.04.1-Ubuntu SMP Tue Jun 28 19:17:10 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0154
+ 
+[+] loaded chipsec.modules.common.spi_lock
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.spi_lock
+[x][ =======================================================================
+[x][ Module: SPI Flash Controller Configuration Lock
+[x][ =======================================================================
+[*] HSFS = 0xE008 << Hardware Sequencing Flash Status Register (SPIBAR + 0x4)
+    [00] FDONE            = 0 << Flash Cycle Done 
+    [01] FCERR            = 0 << Flash Cycle Error 
+    [02] AEL              = 0 << Access Error Log 
+    [03] BERASE           = 1 << Block/Sector Erase Size 
+    [05] SCIP             = 0 << SPI cycle in progress 
+    [13] FDOPSS           = 1 << Flash Descriptor Override Pin-Strap Status 
+    [14] FDV              = 1 << Flash Descriptor Valid 
+    [15] FLOCKDN          = 1 << Flash Configuration Lock-Down 
+[+] PASSED: SPI Flash Controller configuration is locked
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.spi_lock
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

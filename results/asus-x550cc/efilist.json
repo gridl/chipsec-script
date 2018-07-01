@@ -1,0 +1,866 @@
+{
+  "f745c3cfe325eb663d556ca9f54305ffd99e4c691136dd5f8b280a57d68c5527": {
+    "guid": "8DD91798-EE87-4F0E-8A84-3F998311F930",
+    "sha1": "a18a1fdfbc259b053bbba6db87104880e758b4ff",
+    "name": "ArpDxe"
+  },
+  "cdd88bc4c875034eb3849bdde49b380f5eea64dfdc7e4f7143dbeff4bd76b98d": {
+    "guid": "0639408B-19A6-4B5D-BAFB-12A2F5114032",
+    "sha1": "f6424bd3b5865751bca13ec324bb1acf0af8763b",
+    "name": "Acoustic"
+  },
+  "83296de707379e2b97cf55ba2ef5222d71de361b797fb10790da57fcb8b5a577": {
+    "guid": "753630C9-FAE5-47A9-BBBF-88D621CD7282",
+    "sha1": "b3e36633ebaa875ab8c6463805ef8a8c832b2b28",
+    "name": "SmmChildDispatcher"
+  },
+  "ff28ec5054caf2c032f68ea45767bacaf56c046d2b79ddbcd8578e512332110d": {
+    "guid": "FD236AE7-0791-48C4-B29E-29BDEEE1A811",
+    "sha1": "c239b6566ef6d59c200334703e03c2ece0f197d8",
+    "name": "SaInitPeim"
+  },
+  "0da3d7ae28d2972ea1b19a4d624085283832a16bbcc26c6aee31e6a88332cebf": {
+    "guid": "BB1FBD4F-2E30-4793-9BED-74F672BC8FFE",
+    "sha1": "e5e5ab725a6d96304dacd0fd8fb891dc4e4e6fcd",
+    "name": "PchReset"
+  },
+  "2af5674b8decb7b21bd9da368c0dcd8280449b26d805d554411d72299ee2c9b1": {
+    "guid": "01359D99-9446-456D-ADA4-50A711C03ADA",
+    "sha1": "eb32a09e35700ae8dd82f0305fc10e1d22c1a4d4",
+    "name": "CpuInitPei"
+  },
+  "0eb386343f2a489e40de27930a58bedf0754e9873692ecdcddab851d0831335f": {
+    "guid": "DDB412A6-E3F3-4E9E-90A3-2A991270219C",
+    "sha1": "0fd48b89060c3175f37fe784f48c574b7ddac623",
+    "name": "iFfsDxePolicyInit"
+  },
+  "b25c759df323ec2df48352883604f6908e6d4905fc4d5f0f8c09f70b19033270": {
+    "guid": "DC2AA475-F939-48BB-9D74-7F2D629C1111",
+    "sha1": "a9a36a6e3c5987a531c10ada3cca56cf644e0c8f",
+    "name": "computrace"
+  },
+  "0e51956092d62073618cd9df89242cbaa0701f99b5f426b81df02dc5d067e479": {
+    "guid": "921CD783-3E22-4579-A71F-00D74197FCC8",
+    "sha1": "1fab0ea1612d1e92b20a8822a55ffbb5e67dc485",
+    "name": "HeciSmm"
+  },
+  "94a990f80a8bc18f5068d4cd602ec14d04a2a71794e0b69090a60e1aa4e0a022": {
+    "guid": "BFE205C9-5B17-4F8F-9375-89614AF8E199",
+    "sha1": "418f4fa29351ce444cf57884f23865891e8c6ba3",
+    "name": "OEMDXE"
+  },
+  "2439a8774550f72671b600b054e009bfda36ea27c2350e66af9a5050500f0f29": {
+    "guid": "A3BC19A6-3572-4AF4-BCE4-CD43A8D1F6AF",
+    "sha1": "45aa620ffe8e60659717c4523fe6f422d0287c3f",
+    "name": "ASUSITEBS"
+  },
+  "14c92e8301d25f4f9a658bbf4ac2cc9d6a86d389490a7891ab3709ce89a4dd56": {
+    "guid": "A3EAAB3C-BA3A-4524-9DC7-7E339996F496",
+    "sha1": "836a27721d9701e570e06f97e2963498b9284780",
+    "name": "ASUSRT"
+  },
+  "390e0ff73df4b167cccfe44c1cb3127e102cc5ba15899b4d315c481e14b04d7c": {
+    "guid": "2BB5AFA9-FF33-417B-8497-CB773C2B93BF",
+    "sha1": "9ff2a3d3146f23169fa01e4234392dfc9be0853c",
+    "name": "CpuPei"
+  },
+  "765aaf1fe73530328427f087d98864fefb9f0411784817f7764d43f1d0b55445": {
+    "guid": "FC1B7640-3466-4C06-B1CC-1C935394B5C2",
+    "sha1": "321ec3c2e415715e8e7a21644f81804a07039cfb",
+    "name": "PchSerialGpio"
+  },
+  "fc32c0394f3b481a9045238adf0e4ffd861336757e9cd6c623feecb6c2b9a33d": {
+    "guid": "83FA5AED-5171-4949-BDC9-0CBC9E123663",
+    "sha1": "f04a17631a7f8c75456d11354d2eb55ab6687417",
+    "name": "FwCapsuleRecoveryPPI"
+  },
+  "c1baf5757ee090e471505c26b11dad2760a24ded458d361a690e70ab2764b5f8": {
+    "guid": "DF5CD25A-8E55-46BA-8CDA-BC7DB7BF9C64",
+    "sha1": "0c6e3126c72e5c83d56403a68bc24bfc7a12f0b1",
+    "name": "MdesStatusCodeDrv"
+  },
+  "ec31e697b97b75da78efdbab321aad438fdef1e2d36ddfcfb22d660c75650b3a": {
+    "guid": "9F3A0016-AE55-4288-829D-D22FD344C347",
+    "sha1": "ffdbe121a83562043087299528af01efd32c5af0",
+    "name": "AmiBoardInfo"
+  },
+  "63b3288cd177b265c59554ee92dc7a45f58cdd62793c2e37073ba782afcc07f6": {
+    "guid": "08EFD15D-EC55-4023-B648-7BA40DF7D05D",
+    "sha1": "11041a34d704162f0d01ebf0bea71ca932221f4e",
+    "name": "PeiRamBoot"
+  },
+  "1da28949fe918218be60aa9eeb578f487e57eb28493366c57ca496d51a2519ea": {
+    "guid": "BC327DBD-B982-4F55-9F79-056AD7E987C5",
+    "sha1": "10b00234915f25389e00d5e47fa5fcc9131b4e4c",
+    "name": "SMIFlash"
+  },
+  "49b4f340ee2651acbedb41d109c4bd929a6da5044df699e1d03605970354cc7d": {
+    "guid": "DFD8D5CC-5AED-4820-A2B6-5C55E4E640EF",
+    "sha1": "62295b341246cbbf9c4ae8b2ab45074d73cb3834",
+    "name": "AcpiPlatformSmi"
+  },
+  "00b59a8ac2fca842ecc1587d63176b58701db7ebb7b2e2db24ecee18a09007b7": {
+    "guid": "E53734A3-E594-4C25-B1A2-081445650F7F",
+    "sha1": "35b04ed5e7b286ad833acc6fc0c7dbe7542e4741",
+    "name": "SmmChildDispatcher2"
+  },
+  "ac7dd5aa473df003f8fce6960dc5d83a6ff68ef150c8de787aca011385fd6a14": {
+    "guid": "59287178-59B2-49CA-BC63-532B12EA2C53",
+    "sha1": "786f6e68041522b8577f3a237f4f0fefa2ca2dec",
+    "name": "PchSmbusSmm"
+  },
+  "e475f97742c41490b21596ed32f91014b9fb2fe69ffd41cae42c6182fad6f626": {
+    "guid": "29CF55F8-B675-4F5D-8F2F-B87A3ECFD063",
+    "sha1": "b8b65d82366348f55f7c43cfe2cc395d50fa185a",
+    "name": "CsmVideo"
+  },
+  "353c54e3ef9c8b240aefd53d47c832f90465da58ae341794e8eadfb357b0b69a": {
+    "guid": "580DD900-385D-11D7-883A-00500473D4EB",
+    "sha1": "e394fd0559a8db59200a769eb888503337613038",
+    "name": "UHCD"
+  },
+  "3b1d56df2b31f0d631dc93014ecccf1adbab4180f1229d64186a5f1ca8e64041": {
+    "guid": "FD236AE7-0791-48C4-B29E-29BDEEE1A838",
+    "sha1": "e3bc0ac35cd9ea0142d07504355c3aa48c81bfd1",
+    "name": "PchInitPeim"
+  },
+  "8b56064ea1212819f655cc0b62a16e98f43b5afd00ed4c106fc7c2143b99e6e0": {
+    "guid": "A0BAD9F7-AB78-491B-B583-C52B7F84B9E0",
+    "sha1": "3319f8c1b2ee0c2e03083c93ffe01ba6716e5312",
+    "name": "SmmControl"
+  },
+  "6a85b95a438f68acdf24220e095f3b5e9ab0aff473d35cdc54a17a168d415cb0": {
+    "guid": "326E7ACE-2133-1BA2-800A-B9C00ACCB17D",
+    "sha1": "f1ac574f55c0dfc2109e1cea1d2388535442e4aa",
+    "name": "CpuSmmSaveRes"
+  },
+  "70d87f8cd8602d86531a86d4ea343ecec928179177d1c036c3bdab54f87faa29": {
+    "guid": "D398E61C-2A9C-4A6D-B265-47696CF9E442",
+    "sha1": "623d5f1240eefaa272c8d9a37ccf88c9f15a945d",
+    "name": "ASUSFS2"
+  },
+  "9093ba22f1773873c8762179e7793997f077e1e0364d55acdc465d4aa3b93146": {
+    "guid": "E4ECD0B2-E277-4F2B-BECB-E4D75C9A812E",
+    "sha1": "81b02b9ee72e09b5a378b97214044974bc55178d",
+    "name": "NBDXE"
+  },
+  "de6ec123b10a1141b2e4d5d1df26a932e4bd798bf490709fbb487876adaa30b0": {
+    "guid": "116E1ACF-2533-4CC2-820A-BBC10A2AB07C",
+    "sha1": "d1bfe3eb70f19c7c473a0b97618abf85a4170f00",
+    "name": "CpuSpSMI"
+  },
+  "239f3ed45babc1e8eadbbd2d4e438c2972bf9b4def6dcd15c63b798112ef588d": {
+    "guid": "B1625D3C-9D2D-4E0D-B864-8A763EE4EC50",
+    "sha1": "44309f660feff2603e33b2fa6800d12217d43e7c",
+    "name": "TcpDxe"
+  },
+  "1f65cac96a6cba46751d5566dbd6b5f5dbf5bb61133412af2d496357f52f6c9a": {
+    "guid": "B1DA0ADF-4F77-4070-A88E-BFFE1C60529A",
+    "sha1": "61275ccffbc10150a05fb0625d214f937ebc7094",
+    "name": "AMITSE"
+  },
+  "b93b0d47d26cf791e020d7ccc24f987e7b244c140d94b4a31e952b13028b73bc": {
+    "guid": "C41E9862-D078-4E7D-9062-00E3FAC34C19",
+    "sha1": "d700d2a44fbfb9c88771bf8740ada88d3d189ec9",
+    "name": "ASUSITEPei"
+  },
+  "8586fd5693af6738e24c869fb3bb1028f05d511e8829ff5842c8887eaa36552b": {
+    "guid": "221F1D4F-034C-4BEA-B2BB-B7A9672B06D7",
+    "sha1": "1ea6c4861ac377f2e56084254223c116d4387c56",
+    "name": "CRBSMI"
+  },
+  "2509057acff390eaa045be3f4d02734e19a7fa49d4e6b14f2921a35d0116a950": {
+    "guid": "8D3BE215-D6F6-4264-BEA6-28073FB13AEA",
+    "sha1": "c36bf7743898b10441c4ea2bd1713eb1a4f7ebd3",
+    "name": "SmmThunk"
+  },
+  "206ad2e5e9d66f3f7641f63d376508bc43b2fb3c2fcbe19518c70c291012fd6f": {
+    "guid": "FCF94301-9763-4A64-AA84-7892C4712367",
+    "sha1": "10d66c70f63b4c721a4f9bc1893664962abac760",
+    "name": "IpSecDxe2"
+  },
+  "d50861d737bf9216a16363fd768db8d48d29cb63ff85509311a76697e7014c77": {
+    "guid": "A9B700CF-019E-4D8B-A3A7-88E1EA01699E",
+    "sha1": "245db8c826b2ab200f059b9f4df282ee67c0f381",
+    "name": "IdeSecurity"
+  },
+  "c89f3de8ccd9fab6349857c4a9f5406682bcde2a1881ac2254fadbfb4ba1c912": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE823",
+    "sha1": "52b4522f2ff4df05f447f99e71930ed6f8ee185e",
+    "name": "PchInitDxe"
+  },
+  "c4ff169336d95ff039856ec7d4776c7f1f48dc206073d38405ed862a9c37ac82": {
+    "guid": "C866BD71-7C79-4BF1-A93B-066B830D8F9A",
+    "sha1": "f5df453e3a087265cae5a2739536196e607b7fa6",
+    "name": "CpuS3Peim"
+  },
+  "f46e439b39183a4f5d62e8d586d8eeba022bc72c900d9263fbdf2ec811735455": {
+    "guid": "5C266089-E103-4D43-9AB5-12D7095BE2AF",
+    "sha1": "4f083fd5fad96b141a45f247490fb7a933c95483",
+    "name": "IntelSaGopDriver"
+  },
+  "ce562f2a3814cebfe928b699b2fe5e2e05aade712942b9e9b095d6042eb6145b": {
+    "guid": "31E5CAF3-A471-4E73-9F93-6F59DD4424F1",
+    "sha1": "9ba96ec0669dee5640a8582b2017f13d92cbf304",
+    "name": "Dmienbg"
+  },
+  "4eba214370455e227d4485ea36a8d294fbe982e7f179d89128895aeecca8ee2c": {
+    "guid": "5BBA83E6-F027-4CA7-BFD0-16358CC9E123",
+    "sha1": "32603808e945eac70fe9dbd69d17a0c546a7704a",
+    "name": "IntelIvbGopDriver"
+  },
+  "d35b67b1485cb21c9488ed8b29aaee2c03278251f2cebc332fdc8fb6fc3c2508": {
+    "guid": "A89EC8E0-0BA1-40AA-A03E-ABDDA5295CDE",
+    "sha1": "59794b8bde5d07ff4e74687a79ce46c96538ebad",
+    "name": "PciExpressDxe"
+  },
+  "d2e6446f5412400e88715447d266ad125128ba7b2649eaf25f444fcc9d57dc97": {
+    "guid": "08A2CA63-3B65-472C-874E-5E138E947324",
+    "sha1": "f335b926e5ada5c5a1457edfac19d52768fe5f48",
+    "name": "ASUSITERT"
+  },
+  "7cd3240f1bff768b6c7c3a6aab9b8e3edab5b719fb65e206b93315f3fe8b2090": {
+    "guid": "459C70C3-9344-4484-9F93-7822530D0D11",
+    "sha1": "8edf5dda473f7f6fd4239ca180eb7efda9778c59",
+    "name": "MePciPlatform"
+  },
+  "b78977f3db918d6ffb5cb67cef8fd1bfc260d925013fa0d501170200b3c66ddc": {
+    "guid": "ACAEAA7A-C039-4424-88DA-F42212EA0E55",
+    "sha1": "a5a43822560ff6b2ff5a427ff8365c9f712ef993",
+    "name": "PchPcieSmm"
+  },
+  "7f98f765dfee4a535bfd2dea38e2f22163aefa21a46198d2d3a698cfaf0b5e69": {
+    "guid": "53F019E9-BB0C-424B-870A-1FAF10B1CB4C",
+    "sha1": "a5889bb171bed7965821e5eefe52788bc099b2e2",
+    "name": "iFfsPei"
+  },
+  "1d6468dfb476e3bedb31be3d91ced64c139fd499c6199de68514b8946c409fa2": {
+    "guid": "FAC2EFAD-8511-4E34-9CAE-16A257BA9488",
+    "sha1": "fefbe9bf83f2bd8d6e2ddbb40bcd77ef80f7cfdf",
+    "name": "Capsule"
+  },
+  "833a0ab45b2bdb9adc0cc6733dc980e61956a6bf6c4809241025d748e1b73b75": {
+    "guid": "6B4FDBD2-47E1-4A09-BA8E-8E041F208B95",
+    "sha1": "c70e5fd656630c4ef5b7926ba9212c896f175c0f",
+    "name": "PchUsb"
+  },
+  "a2e32e84f13331f855109863ee9a53d979609224c7ce4b09c7a7f1f7a094e324": {
+    "guid": "5820EEB4-C135-4854-9D2A-AA9EFC4475E9",
+    "sha1": "60b025ce22a18be5c4737f4155de24506e320438",
+    "name": "MeFwDowngrade"
+  },
+  "d66ff9bdbe0dfb2bcdd25f621999a865c36810476d6522306fa3c314696d6cf2": {
+    "guid": "8B8214F9-4ADB-47DD-AC62-8313C537E9FA",
+    "sha1": "afd1e66479c45f7b2dcc4b3fc3f0400a97c198d9",
+    "name": "SmmBasePeim"
+  },
+  "cae3e1ff68643caa877589d8fef27dd186e776dbda788841a09b967f5e958e38": {
+    "guid": "271DD6F2-54CB-45E6-8585-8C923C1AC706",
+    "sha1": "8b676795259bcecd6e869b4004518ea3627973fe",
+    "name": "PchS3Peim"
+  },
+  "391ee27f548bb9515e2d1610959d323258897c9d16a606addce7213f5fe1fb46": {
+    "guid": "6DB9486F-6AF6-4090-984D-238482CE3EA4",
+    "sha1": "9eb9b244462b945066ef03fde6131a3e4b4bfdef",
+    "name": "BdatAccessHandler"
+  },
+  "c1896a05f6a37df9377e836e2e25065041dc3e77e83d4c1d72e27932089f2ae0": {
+    "guid": "16271FCA-55D9-4A33-93FC-5A3EB128DEB6",
+    "sha1": "6fbdebe4e4f51317b7001360d94e79cf8ebd39ee",
+    "name": "CRBDXE"
+  },
+  "5e139b63e26347e0ba496476363481c8baf1771c1268901e3bf61ba92c811d64": {
+    "guid": "2DEAE482-5796-40F2-8DF5-D87419D6F362",
+    "sha1": "da005be31afc4254f2c23e0299560182b1117b39",
+    "name": "ASUSHDDPW"
+  },
+  "e9a8fc10af677e025955049b59587f669f6041b09120a55018a752f5ece179af": {
+    "guid": "2F72309E-D5B0-4A9D-84A9-1AB38C698F78",
+    "sha1": "78513cf0a239fb705c7f438d85b8d35ded55e400",
+    "name": "EcPs2Kbd"
+  },
+  "e20e19bfda47985401dc4c0be2b4e7ea800bcc6faf8e00e2b5d6dcf55ed9904d": {
+    "guid": "316B1230-0500-4592-8C09-EABA0FB6B07F",
+    "sha1": "05f4227ab57a219b4558ce382fa40bcb3336737c",
+    "name": "IDESMM"
+  },
+  "c7cac40466e23c070cdaf0babbc7b08916a721affc709665e37dd73febc45f54": {
+    "guid": "5552575A-7E00-4D61-A3A4-F7547351B49E",
+    "sha1": "934197a939e77fb31ced2725f74b232864d244bf",
+    "name": "SmmBaseRuntime"
+  },
+  "cf25a669ecd9d2e05e243b437323de2758edcb19c4835ea4ce4b42314316d264": {
+    "guid": "5AE3F37E-4EAE-41AE-8240-35465B5E81EB",
+    "sha1": "4d9c75f548838f199298587fb3d8d499dd85cc8b",
+    "name": "CORE_DXE"
+  },
+  "ba3730d4e01e212d97082895b5f71cdb76659ab89db91d6d2ee5eb1b1c0c448d": {
+    "guid": "0D1ED2F7-E92B-4562-92DD-5C82EC917EAE",
+    "sha1": "c2e9a9523857a8208a5aaf716d1a5534593c91f3",
+    "name": "CRBPEI"
+  },
+  "2482cd48156cb4918f710927bc5d081c5c27d8ceedda30349397a36c3ffc718f": {
+    "guid": "A31B1AF7-3A9B-424A-8636-9885E9DE06F6",
+    "sha1": "0c858cd81bf1314d7e4d2a072b6ca0595144bd6e",
+    "name": "ASUSPei"
+  },
+  "c754d2c1c3fe88720012deacca490d4063fe0b370d0a596e9651d0062b38e6dd": {
+    "guid": "2B341C7B-0B32-4A65-9D46-E1B3ABD4C25C",
+    "sha1": "6b2612be140947df17ffa3b017c0aab794cc644c",
+    "name": "Smbios131"
+  },
+  "b934c3ac4c7d0c34864a47542accbe506a45bae1963286a36cd94d439f143247": {
+    "guid": "A062CF1F-8473-4AA3-8793-600BC4FFE9A8",
+    "sha1": "15730933b0c04356b849024350b5a3baee5bf679",
+    "name": "CSMCORE"
+  },
+  "4576144b36c8f7af6e5897792c38f6496eb0d92c7146af945655299e618ebd81": {
+    "guid": "6869C5B3-AC8D-4973-8B37-E354DBF34ADD",
+    "sha1": "09874a654dd31ad3761d58ec8f4e6d5e3dce3121",
+    "name": "CmosManagerSmm"
+  },
+  "7faaee41311de19989f8731ff93df0de3aafcce7b9b32d3c000acdc3cdf7545e": {
+    "guid": "ABB74F50-FD2D-4072-A321-CAFC72977EFA",
+    "sha1": "3b3fa9494f0b00528dbf4bbbc90496f30a7bcdad",
+    "name": "SmmRelocPeim"
+  },
+  "d49ab74dfa2722c82620a5f0d41436f94745276a8e91df808308ab88f3aa05eb": {
+    "guid": "FE6F8ACD-55A6-4C6B-B448-64E659DE94B3",
+    "sha1": "c56c2bb943a986c4e7bdc9a830727fa730bcee65",
+    "name": "LegacyRegion2"
+  },
+  "713b68ea0b3f66974f9e785298e3c7b446b944a3d715d13313b828cafba16628": {
+    "guid": "7FED72EE-0170-4814-9878-A8FB1864DFAF",
+    "sha1": "1eaad16b4d78378f36bef3101d787518a200ba55",
+    "name": "SmmRelocDxe"
+  },
+  "0175baa56c3deebcc0a0e8cf37a25c88f99f56e0d517b4936455ac4c8e433320": {
+    "guid": "BB65942B-521F-4EC3-BAF9-A92540CF60D2",
+    "sha1": "a87447be76dbc750c1ace29f644dc120eba33a6b",
+    "name": "SataController"
+  },
+  "896cacd673e8a4a7248570bef3abd4ad1d37471575b81ce8dd90a6fa9adf8e1e": {
+    "guid": "399CF3A7-82C7-4D9B-9123-DB11842986D3",
+    "sha1": "b471c60c4456dca4973ab926e21e7c88e7163e25",
+    "name": "DpcDxe"
+  },
+  "d835c07851408331f71236aafa61aa0e49b0f154c67a70d120bb9ba68ef3e718": {
+    "guid": "CE366D33-B057-4C03-8561-CAF17738B66F",
+    "sha1": "2cd2f6b0865fb40db27ce840c7852a2a803bc845",
+    "name": "WdtAppDxe"
+  },
+  "8aa7e1422b6bffc25c278af8eeca05b860326f1ab69128838eb2ae7fcd81fea2": {
+    "guid": "8C376010-2400-4D7D-B47B-9D851DF3C9D1",
+    "sha1": "82450eca276600fd47ee4c33abaffde9fff29afd",
+    "name": "PchMeUma"
+  },
+  "c6d326234b013f4b03769ffea8edfb3cb5dd779f0b3bd21e4134da24473d5fc0": {
+    "guid": "15B9B6DA-00A9-4DE7-B8E8-ED7AFB88F16E",
+    "sha1": "d2a3f14be9adf7d11ee1d18d84db952cfd96dbd7",
+    "name": "CpuPolicyDxe"
+  },
+  "db01251a4d17c324bdcffa6f6e7dca62b43b4891617f3eda467bfca3ed79e988": {
+    "guid": "8DD9176E-EE87-4F0E-8A84-3F998311F930",
+    "sha1": "51f9809624bda27feb966f0d3500a7cd3fdc56ee",
+    "name": "Dhcp4Dxe"
+  },
+  "d5c2dece3e860db7902cc178636c832281498cbfde5f9d0946cc62f2929cb2e8": {
+    "guid": "B6B9295F-CABF-4CEC-BB14-FE4246F2173A",
+    "sha1": "7b8158e14988d2049dfc5d59a72d649501e76f2e",
+    "name": "iFfsDxe"
+  },
+  "a7b0224fdf8a0e26913d831ec4dcac6472a5caadd8523fd84df6a63fdc7dc322": {
+    "guid": "2D1E361C-7B3F-4D15-8B1F-66E551FABDC7",
+    "sha1": "8f9f6b6c26cba12c981a489e48af519941095efd",
+    "name": "SaLateInitSmm"
+  },
+  "b661553568f47384c33215c79473e427e9a2fdc63f5aa063f8ce03b31700af41": {
+    "guid": "B0D6ED53-B844-43F5-BD2F-61095264E77E",
+    "sha1": "af54297146b684ed8715224bf2b73afafc8a2f4f",
+    "name": "PchSmiDispatcher"
+  },
+  "008c28d17fc2ba77605d25d04421a0d0cf73b18a10992db60b0b5df6ace5c295": {
+    "guid": "B716A6F8-F3A1-4B8E-8582-5A303F1CDD64",
+    "sha1": "cd985d0fb5f801ee7f5af645777bdde6cde0169f",
+    "name": "PchSpiWrap"
+  },
+  "1707edd794c17629a925ec8843b4227ac6f609b5cbc4359e7146dd8dc46407f7": {
+    "guid": "8F9296EF-2880-4659-B857-915A8901BDC8",
+    "sha1": "b9e7203d137c7dd4edbecd32bcace004538ab77e",
+    "name": "Ip4ConfigDxe"
+  },
+  "510246b1f5e67b6f2f8b467ed7c3390262314bcc511af895f4d2e47c7f3de0ff": {
+    "guid": "04EAAAA1-29A1-11D7-8838-00500473D4EB",
+    "sha1": "a700cc2f0f0021575793041d9b9530ec5d9b4816",
+    "name": "USBRT"
+  },
+  "5b89adf67ecfb9a154c80c3ef60921addb40fb744b0f779ee1959b7a55adb37c": {
+    "guid": "8D6756B9-E55E-4D6A-A3A5-5E4D72DDF772",
+    "sha1": "b575990c324688ba508f312f6bde0c20ef00fec0",
+    "name": "PciHostBridge"
+  },
+  "94445b0ed7982a1feddaa6b46a13cf2b601366a6f49d5e64797ba283c6ef5abc": {
+    "guid": "6298FE18-D5EF-42B7-BB0C-2953283F5704",
+    "sha1": "fe0e4b5e7cd2c8bb4ade449c8cb3cf2a7960571c",
+    "name": "SleepSmi"
+  },
+  "25be761cd8a5146c8c0abca48065e0a20b5507a88d187aaffd846612bb0bc6fc": {
+    "guid": "899407D7-99FE-43D8-9A21-79EC328CAC21",
+    "sha1": "eba2fa244427d17ad2e231060b9f9e6e56fa31f8",
+    "name": "Setup"
+  },
+  "eaa1f5421a77c8d364723a0f69c19f015c91d84122a335133807ab5744462385": {
+    "guid": "3BF4AF16-AB7C-4B43-898D-AB26AC5DDC6C",
+    "sha1": "a4edee014a28160306f598b19aa0e5d29493e22a",
+    "name": "SecSMIFlash"
+  },
+  "91af53e9345076a07388d1448919f0d7ac9ee9ffebc2077111c16a1afc15e024": {
+    "guid": "08F2C63B-08DE-4CCD-8670-ACFE644A1C48",
+    "sha1": "9581a8a1a5bc6dcc90575c3a35dd38bb6aab995f",
+    "name": "PchS3Support"
+  },
+  "7f69d7d287944edd1fa482a3bfa806a4d1e9688425388425272056f7f1ad645c": {
+    "guid": "67820532-7613-4DD3-9ED7-3D9BE3A7DA63",
+    "sha1": "1016426edb204f247fcdf5496740195778c52652",
+    "name": "AINT13"
+  },
+  "1ecb8213f7d43f9d0b56e13b8104b9a4a242c60d9607df30ab899e7d7c2a9fcc": {
+    "guid": "9CF30325-DC5C-4556-A8B0-74215C5F7FC4",
+    "sha1": "718c8962f6cb615cedb85408f9a20666ce6fbc3a",
+    "name": "HeciPei"
+  },
+  "b905590c39d06fcb5b86c1b51fa0cea50640136c04c535c84bcc3984146580de": {
+    "guid": "8B5FBABD-F51F-4942-BF16-16AAA38AE52B",
+    "sha1": "59c3ac22763c9dc2826441dc522fecb6cbf2c0fe",
+    "name": "AcpiPlatform"
+  },
+  "92781669a59bd9bbf32c29db632534765b9584b7eb333c5a6be664562f7b6659": {
+    "guid": "333BB2A3-4F20-4C8B-AC38-0672D74315F8",
+    "sha1": "32b0a15e008b2c33ab7a65eb425acb7f467904f4",
+    "name": "AcpiPlatformPei"
+  },
+  "48802ba3bf12c9276ffccd7caa6c1c18d213ac49b68bc1d20a0b9d5b9fc1d58f": {
+    "guid": "20D8FFFE-15C3-4EA9-9D28-CFE2745D78F3",
+    "sha1": "6610d0ee06f57b9624639fd6336c5562d5794833",
+    "name": "CryptoDxe"
+  },
+  "6a7b7d8dcf92ec3502e04f353aefa8a89ce443a51ca1e1663b3ad4298cec85cf": {
+    "guid": "75189FA6-7BCF-4F4F-81BD-A4F1C3BEA95A",
+    "sha1": "e1e053e53ab66376e0d7fd40a8dd5bf7b401f457",
+    "name": "smmcomputrace"
+  },
+  "8b25a87be732b057adbb30ce10fea1f01561189dedf1f3e3f0665cba955408cf": {
+    "guid": "1CE12314-AFBC-11F0-8A3E-AB44B8EE3120",
+    "sha1": "07f8f6a1ba1af53e3c8266a3b4bafc9f369db194",
+    "name": "AmiPpmPolicy"
+  },
+  "1a40ada7d0bcf0775ceddb5c0f9fe8ffcf0c53a6449cca4212c37e88c5a228b6": {
+    "guid": "27F4917B-A707-4AAD-9676-26DF168CBF0D",
+    "sha1": "ee002fc462704ec8e24cc072e65b3b1db2fedddb",
+    "name": "PchSpiSmm"
+  },
+  "f241544680a4c50cd7da23d94b0db3be6aa4cbd94f0e780ae01c792513a99aa7": {
+    "guid": "1555ACF3-BD07-4685-B668-A86945A4124D",
+    "sha1": "8f1977c38268b42340313831ad8941d6e22d8592",
+    "name": "CpuPeiBeforeMem"
+  },
+  "40ee231e0238d4f3b040eea0cdc4d529c1c3b64792ff5c240bd508ac632fee1e": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE811",
+    "sha1": "bb78378d5a9011617b6cf0d54be5d6f4a1d75a66",
+    "name": "SaInitDxe"
+  },
+  "dac7cf241442d463acb6afc415b0e377caf841ab4fb19d640c381c684512dc6d": {
+    "guid": "1323C7F8-DAD5-4126-A54B-7A05FBF41515",
+    "sha1": "6b53f32c3b52b41eddc1ccd920803c763d224483",
+    "name": "SmmAccess"
+  },
+  "60ebaf680b65c0148c799f70d87c4015eeb7617aa33cd0c094f5db6cdd140043": {
+    "guid": "1314216C-CB8D-421C-B854-06231386E642",
+    "sha1": "bb146a11640ddda734cb19ea9a470b5d79a946fa",
+    "name": "PlatformInfo"
+  },
+  "afa7f95f7c984b0a9e8aa4771aef1a3bc2222adc8f7581a0a7d0fdb892e5ad48": {
+    "guid": "61AFA223-8AC8-4440-9AB5-762B1BF05156",
+    "sha1": "cf093bf12974ea6880a1b95e2a5f79847e9b2c48",
+    "name": "Mtftp4Dxe"
+  },
+  "bb42c82e5fab3d4dee96c142973a23575fb6aa13879dbb5f94840b4e96df7aaa": {
+    "guid": "5AAB83E5-F027-4CA7-BFD0-16358CC9E453",
+    "sha1": "c5f0c166b75b4253629c7ff6d751f4cc52ecdd82",
+    "name": "WdtDxe"
+  },
+  "957a9adcbe64fc956496f6a6990b0f2e1b8af53b219dba424b6a42214416cab3": {
+    "guid": "93022F8C-1F09-47EF-BBB2-5814FF609DF5",
+    "sha1": "a9246c36892357a90c13f306300dda44b770362d",
+    "name": "FileSystem"
+  },
+  "3093667f01ac4331a49a42dd6dfc0447f8165834a875fb55b0403231168be6d1": {
+    "guid": "0EF8A3B1-388A-4B62-8BE6-C7877D50AEDF",
+    "sha1": "af42eba5d6a18c591ef55e113d9de8f947995e71",
+    "name": "UefiPxeBcDxe"
+  },
+  "b1970be83de6129c584a5731ba9097018dc9fa02090ac464ece1c3c209ddb938": {
+    "guid": "26A2481E-4424-46A2-9943-CC4039EAD8F8",
+    "sha1": "ea2bf4265fb06ce60d4e3b2ec0bdddd305dcb643",
+    "name": "S3Save"
+  },
+  "c32fa636212187812250106c4a02702ddc23bcdcdcdeaf04acb7eb8f5aa44261": {
+    "guid": "F3331DE6-4A55-44E4-B767-7453F7A1A021",
+    "sha1": "d77cda1745fef3bd68e3173177e0eda1acebc7c2",
+    "name": "MicrocodeUpdate"
+  },
+  "5b07795ed4143faa144819a2f39584623524ea8e01cb016984b664fdace9bb78": {
+    "guid": "AA652CB9-2D52-4624-9FAE-D4E58B67CA46",
+    "sha1": "5b86c706a463dd949e092a44d67f3f4f9f4ce66c",
+    "name": "PchSpiPeim"
+  },
+  "3c8d887bf4df861dc5cb5f57e1840a98befb7194b7d3e8a5f94791e7473e3944": {
+    "guid": "A7C619FF-9A64-4A89-947B-E7953E2427CB",
+    "sha1": "d364824554b7aa3722704bcbee065289c8dc138f",
+    "name": "ASUSBS"
+  },
+  "da7d5d183d510e1963bf0ffb7e585456de36da46149bfd707c49ff5ca6a91b3d": {
+    "guid": "C1C418F9-591D-461C-82A2-B9CD96DFEA86",
+    "sha1": "71da2e9937589f094bd6b314545fe694930b14bb",
+    "name": "IntelLegacyInterrupt"
+  },
+  "6b65191fcd4b2abdc3f846d8c63ff7c103616c891bda20d803993f39c806a30a": {
+    "guid": "8DD9176D-EE87-4F0E-8A84-3F998311F930",
+    "sha1": "89d0db5ad52a6592a26ff8cea0f5dac1cb4c9873",
+    "name": "Dhcp6Dxe"
+  },
+  "54736241840054a366a2a7e0973185a069767acd832465544ddc9bf4631ccd69": {
+    "guid": "FF259F16-18D1-4298-8DD2-BD87FF2894A9",
+    "sha1": "ad20178ea2f97280d3cdcdeeffee36533cc44b88",
+    "name": "PchResetPeim"
+  },
+  "e9a273552bda433186b37dfd4dc1de67f063536015c560df4672097c34df6063": {
+    "guid": "AC3DA503-65E7-4153-96FC-8707FB7594FB",
+    "sha1": "78332943feaad31f8766d8b3ec844832fecf164d",
+    "name": "ASUSBIOSInfo"
+  },
+  "d8b3f035d37267f1210813ac05cf447ba2a2baba7bd183ffbb8d30d89895697f": {
+    "guid": "14257B56-BDA2-4FAF-8E4F-C885DF75583C",
+    "sha1": "77a7baf650945304ca0a1d63871e55f416fa3a96",
+    "name": "IccPlatform"
+  },
+  "2d5b4311c62645ce92fdd8ad9e284ce038cc1883b556751da291ad7c9558ec91": {
+    "guid": "CBC59C4A-383A-41EB-A8EE-4498AEA567E4",
+    "sha1": "13b29c3f400d13ea34302719d5e408f7dbdcfe28",
+    "name": "Runtime"
+  },
+  "463969b796a5f89d3a652d932c02dfd7688a631dff0bfa89f374018ff706074c": {
+    "guid": "16271FCA-55D9-4A33-93FC-5A3EB128DE21",
+    "sha1": "917dc524d8585ab68cedfe0be8c973ffa8da7b47",
+    "name": "MiscSubclassDxe"
+  },
+  "f1831e2efcbd1f38ee19201240ddf46d1815fcde1b1ec9799a2980b2a412f08f": {
+    "guid": "7B8DB049-C7C7-4D3B-809F-926DEE47CCA2",
+    "sha1": "ce0fa82825363081baa75350c74bce14bfb69700",
+    "name": "SBSMI"
+  },
+  "c1c9b01497008bdc44ef2a7bc742303a684b085cc6c6dc6abfb038e4de2b1325": {
+    "guid": "E03ABADF-E536-4E88-B3A0-B77F78EB34FE",
+    "sha1": "2d3ce5cec937b2f9ea0f58fa3e0a23cd66ff996a",
+    "name": "CpuDxe"
+  },
+  "01bcc948d4d8c1425d7c766c1fe16f5ce6d81b676ee53620ec1c74dd219d362e": {
+    "guid": "12C67BE1-AD2E-4F13-A95F-6EDC2C4392DE",
+    "sha1": "012ab7c100e0aaa749a210750bfe73b79594ff87",
+    "name": "MePeiPolicyInit"
+  },
+  "45d5fd8d123ba959b73b50039c1a9577e332739b26b273752e1fab1833c372db": {
+    "guid": "3DD7A87B-D5BD-44AF-986F-2E13DB5D274C",
+    "sha1": "a271523e49059195b5d4fceb340d523781da05ce",
+    "name": "SnpDxe"
+  },
+  "5e4e18b14abbc351c1a8782cca9d591b5d90fa02dc21b250a6878124bb427efc": {
+    "guid": "EFD652CC-0E99-40F0-96C0-E08C089070FC",
+    "sha1": "592eee9e14bff333f7a303a0301152d129d2e643",
+    "name": "S3Restore"
+  },
+  "57dc441960fbf63cf572461c6884722368f72baf7b12b7f341d2d7008dace8b0": {
+    "guid": "79AA6086-035A-4AD9-A89A-A6D5AA27F0E2",
+    "sha1": "262ab18bbcbd09fc5402459cac96b70f3b6b4653",
+    "name": "NBPEI"
+  },
+  "d85411a2339f4674ac1c3173f82e4880b45435c41732cc4128ed232b23aa7406": {
+    "guid": "3B42EF57-16D3-44CB-8632-9FDB06B41451",
+    "sha1": "afe2afb06b0ecc92a933efdbe03f31dbdd04ddae",
+    "name": "MemoryInit"
+  },
+  "24739dc13de0d47d70e6a691b88fb22ba89549a18a856bc0fd9828dd89df8cf0": {
+    "guid": "750890A6-7ACF-4F4F-81BD-B400C2BEA95A",
+    "sha1": "9f5fab9e4e3d781968a57869298ee0917a593f24",
+    "name": "AcpiModeEnable"
+  },
+  "dbc0328642abe9ff9028856b4071c2639501a0aaf1bd5c2794689f88a7d27a8a": {
+    "guid": "C1FBD624-27EA-40D1-AA48-94C3DC5C7E0D",
+    "sha1": "00e0e9a8a67ea6eb5a6e779784f1e1b0bb0041d9",
+    "name": "SBPEI"
+  },
+  "f0f95f83c81f850981a1f1c37c4b7656b773c35454e55b6ddf6b271d9b572057": {
+    "guid": "E052D8A6-224A-4C32-8D37-2E0AE162364D",
+    "sha1": "dc83f95d9e07a86275fc139b7f888997f78a90ad",
+    "name": "PchSmbusDxe"
+  },
+  "904258b78efe3d343bd7da2ee29ce3320ee45eff8a0808ee1d1264b2261c5762": {
+    "guid": "55E76644-78A5-4A82-A900-7126A5798892",
+    "sha1": "1cbac624b53fd849bc38490f7327be7e527464fb",
+    "name": "HeciDxe"
+  },
+  "eb002d6b090d691d4bbefae879835923d0ff34f498866ebf515a309b303e1048": {
+    "guid": "9CC55D7D-FBFF-431C-BC14-334EAEA6052B",
+    "sha1": "3be20c04d067d881cf3a866c0faa42fb617ccbc7",
+    "name": "SmmDisp"
+  },
+  "d20fdcef78c9ac33404037ae8e3cd7e5d2b719897c211f5407d3bd52748a0228": {
+    "guid": "25ACF158-DD61-4E64-9A49-55851E9A26C7",
+    "sha1": "0a562663920c30a8905177115fe443962be40e05",
+    "name": "BIOSBLKIO"
+  },
+  "840f287aa13bd423cb81de20c904e67ccb5227679a4ea921b5ecea90ae31f4e9": {
+    "guid": "0AC2D35D-1C77-1033-A6F8-7CA55DF7D0AA",
+    "sha1": "0c68954210d48762357183d147b146bc5b14a593",
+    "name": "CpuPolicyPei"
+  },
+  "a257efebcd818fd6246d078063eff144069352311edfdb4ade1520a91f0bd0a1": {
+    "guid": "26841BDE-920A-4E7A-9FBE-637F477143A6",
+    "sha1": "ae6c9cc9abd13eac26121aa090d30fb2d2b11f11",
+    "name": "LANDriver"
+  },
+  "6f01c111701104faa35ac5432ebae21765bb455cb0b200c38bc7b3d8847de9c9": {
+    "guid": "24CCD374-3DF6-4181-86F6-E3C66920A145",
+    "sha1": "d753f25364c541f5ba138d0852173ee6bace45d1",
+    "name": "UpdateMemoryRecord"
+  },
+  "52f416760175ee0717ba32af0f2f4dae57af401026bbd5d153c8479ba9fc28ce": {
+    "guid": "CEF68C66-06AB-4FB3-A3ED-5FFA885B5725",
+    "sha1": "ff3cbdcaa2dfc69605a20cf5e1bd4f41b7c4621d",
+    "name": "SMBiosBoard"
+  },
+  "0f66cc04c12ffabe5d4e56ff35f6a1bc2c71923372d47a73e81b441a805a4df6": {
+    "guid": "C194C6EA-B68C-4981-B64B-9BD271474B20",
+    "sha1": "62f7ccbf758257ae7e17a0fccdcd927b23640671",
+    "name": "PchSpiRuntime"
+  },
+  "b3e22a01a2abb3c4e9934654199d932004d448e52a8b5c31ec2eb0bef1e9cb98": {
+    "guid": "8C783970-F02A-4A4D-AF09-8797A51EEC8D",
+    "sha1": "2e62b1696f3b6b18741c306c2166ce28c044e262",
+    "name": "PowerManagement"
+  },
+  "86a85b63da30036c3da442743125dc3ea47b371940c6f6730305f5a8a64a48fd": {
+    "guid": "E2A74738-8934-48F5-8412-99E948C8DC1B",
+    "sha1": "47abcfa925c6a072d878416cd7cc2855be80f3ec",
+    "name": "SmbiosDMIEdit"
+  },
+  "3f791acfe4d453cbe84ce9d6d2f35f73d223a404db02e5fb9537c8d7e72940fc": {
+    "guid": "10EE54AE-B207-4A4F-ABD8-CB522ECAA3A4",
+    "sha1": "5509cb0a1159faaf4fddbfe82c6855456588a714",
+    "name": "Udp6Dxe"
+  },
+  "d1b1774eb8756c23dff2ea8b84c8ec9e03425fa1066a5bbf8d7ff20031b55566": {
+    "guid": "9A9A912B-5F53-4586-8820-704485A29D21",
+    "sha1": "a70c0a7e28d90cb3b9311cb70720e33df971e26e",
+    "name": "PlatformReset"
+  },
+  "f871c0d3372a3bcf72ee4d3c264855f26e70ef62f08295ce2505ddcf01731a0e": {
+    "guid": "0F69F6D7-0E4B-43A6-BFC2-6871694369B0",
+    "sha1": "a07869755b4ebdc0edcf9f290c977824f7d028e9",
+    "name": "WdtAppPei"
+  },
+  "3fbaaf4714815c0cb45907275955b5e420b95970c820978f8622ee14c391908b": {
+    "guid": "D933DEDE-0260-4E76-A7D9-2F9F2440E5A5",
+    "sha1": "78cee1eebcfa04f4391e8435eb2527d79c412c64",
+    "name": "NBSMI"
+  },
+  "a17530dc7320bf5c7f74e3cc9d401e623c21799af856a1d31384aee8922a7784": {
+    "guid": "61AFA251-8AC8-4440-9AB5-762B1BF05156",
+    "sha1": "13c74528161d4fdf59fb846f418808babce3868b",
+    "name": "Mtftp6Dxe"
+  },
+  "f4c62a8911293e6df5b37fcf9492ab656c00a2ba2af69514b7de9c0042933ffa": {
+    "guid": "92685943-D810-47FF-A112-CC8490776A1F",
+    "sha1": "b5f717d3a8cfd2f92a4c237c638ecf2ea844946f",
+    "name": "CORE_PEI"
+  },
+  "d9b51b973102aaad5c349d975b6a8eed199165e3b2ec6c9263b380b96ff38a2e": {
+    "guid": "8F5A2E02-538C-4D59-B920-C4786ACBC552",
+    "sha1": "d75eb63d5ad808b096b42a9ba5101759e8e335de",
+    "name": "AHCI"
+  },
+  "cd9260170f853ebe24d6c15e479a7b271192da579e420f15ca8062b38e857f7a": {
+    "guid": "BA67550C-3628-4137-A53E-42660E081604",
+    "sha1": "fbc0059df47ee863fd2da7906deca9089ad1d013",
+    "name": "MePlatformPolicy"
+  },
+  "500c501146033e4441232a563beac558c472d2c4d1caf3aabb7688aed81df1d6": {
+    "guid": "90CB75DB-71FC-489D-AACF-943477EC7212",
+    "sha1": "b3846dc74097c455635df72d4065ce1030903d4f",
+    "name": "SmartTimer"
+  },
+  "23c0cdc8948c6ae4b666f450812def7bb5220475ecc0cb99ad6fb24eea2c6320": {
+    "guid": "1D88C542-9DF7-424A-AA90-02B61F286938",
+    "sha1": "af583d27ce556c10b95f5cb83bf49ccb7e450ae3",
+    "name": "WdtPei"
+  },
+  "82b8daf2e63c18c9363535dfae9d18514d244baacfeb6ce07f2c508a33606b8c": {
+    "guid": "2374EDDF-F203-4FC0-A20E-61BAD73089D6",
+    "sha1": "78ade5ac1f0ed3586fae7f90e890f2fb60bbb8ad",
+    "name": "IoTrap"
+  },
+  "96495c607fbb9954fca761cad3e23c5841df91ea1d12d3ca0d158a54751e47eb": {
+    "guid": "10EE5462-B207-4A4F-ABD8-CB522ECAA3A4",
+    "sha1": "62f899ff65fd9c2231bfd2734205e6f5746d01ba",
+    "name": "Udp4Dxe"
+  },
+  "021d2591b7ed4085f4ff61aa18beba70767c092034b28d82090122726db6d2f1": {
+    "guid": "8F92960E-2880-4659-B857-915A8901BDC8",
+    "sha1": "d1c1b375cb4cba4d7e85e1532ceb9836545835dc",
+    "name": "Ip6Dxe"
+  },
+  "dcda70d9a0ada58cb19b6867de6b6ea3f4e07e7aed44fb5e80f0fd96831ab66c": {
+    "guid": "FC740D58-59BA-429B-99EF-627051737B76",
+    "sha1": "8579687ca9f2d3853aa169e5eae11ac2589b1e97",
+    "name": "ImageDecoder"
+  },
+  "37eb88798c24c74c4f468b26640eb6d67a65f788810a38199af1df5e6ff50916": {
+    "guid": "8F92960F-2880-4659-B857-915A8901BDC8",
+    "sha1": "35a6c09bd9c5a9c47cc5977bf3458579c13b6e0f",
+    "name": "Ip4Dxe"
+  },
+  "52433aa66e001b9a82b88d0f36de6279a142fcf3b920ec43c968b346edadcfd0": {
+    "guid": "4C006CD9-19BA-4617-8483-609194A1ACFC",
+    "sha1": "024bd86e8e3697cfaa9b6f74ebff7d238dde480f",
+    "name": "USBINT13"
+  },
+  "12f4d02cb6eadda755d1dcc2aeec5818a28201f3327b24116cd7450d97e28d8d": {
+    "guid": "8D59EBC8-B85E-400E-970A-1F995D1DB91E",
+    "sha1": "809f8fee5095f2aeb1f71ab6299e40745ae681df",
+    "name": "IntelSnbGopDriver"
+  },
+  "0c1ab705795be0fe312550702f3d41f61c2824198c71681835db81225d3626be": {
+    "guid": "5BBA83E5-F027-4CA7-BFD0-16358CC9E123",
+    "sha1": "3c093a68d4554349bfc7879c6069621149d623f8",
+    "name": "IccOverClocking"
+  },
+  "35036b37a4314683eb7d497e30faeecc4a5643c322bab54cb970410802648c22": {
+    "guid": "D57C852E-809F-45CF-A377-D77BC0CB78EE",
+    "sha1": "c37b915b2a3932328e9012d610fa681e8c8b8618",
+    "name": "IdeSMART"
+  },
+  "f1c9340d6c010c4356c6e85b3d5997015b57e9965efdcb49296020b60e5b7f31": {
+    "guid": "643DF777-F312-42ED-81CC-1B1F57E18AD6",
+    "sha1": "3ca2336a4cad30a6ff0a9912f3910cc8be76c81e",
+    "name": "PchSmbusArpDisabled"
+  },
+  "aba9e8235a1455e18a25544c1a46b5db7a244aa3b22730071ffb9f285801dbd2": {
+    "guid": "B13EDD38-684C-41ED-A305-D7B7E32497DF",
+    "sha1": "63e5ccba0bed9333a37f9b74b9a367e8f362df80",
+    "name": "SMBios64"
+  },
+  "55ae93792b8a977cefa0d187c89592acd14776b53f9646b8f26189482a33786d": {
+    "guid": "76D5CF91-0C55-434E-97C2-D2825C82E610",
+    "sha1": "25722ec74373ee5fcbd6e3f918b8384b6bd5cd4e",
+    "name": "OemActivation"
+  },
+  "6bcc8ecef8d9fe024793fc53367a6e516519d2796e1fb34e52cbae7088e47992": {
+    "guid": "3C1DE39F-D207-408A-AACC-731CFB7F1DD7",
+    "sha1": "878ecc0560cc610d4184980a351bf92fcf736d9b",
+    "name": "PciBus"
+  },
+  "2c5f6dc3d88cc88c8e9c05af064676746d7c6c02afdcfaf4ce4777d5dcd34803": {
+    "guid": "6ECFCE51-5724-450C-A38A-58553E954422",
+    "sha1": "7817dcf1075fbb6aed2d744993c161528a620bc2",
+    "name": "SmmAccessPeim"
+  },
+  "f6eea3d3f4ac1df0ac8f08620772b2edc37e4f052213f4d2a8dc86629e0c4afe": {
+    "guid": "EDA39402-F375-4496-92D3-83B43CB8A76A",
+    "sha1": "9b4b5f136ea6fd7dfcfbb9ba8b13f3e3a0f1a4f7",
+    "name": "SmBiosMemory"
+  },
+  "ea35820c0e8a555724a2d20cfe4a5e819161ff1802aceeacafce76d2d03233c1": {
+    "guid": "B7D19491-E55A-470D-8508-85A5DFA41974",
+    "sha1": "4a2a4f428880731c20bd329bf384999723b9eaf8",
+    "name": "SBDXE"
+  },
+  "18ca3d36bca1a3ca6802b6fb1862e961edc00918fcd1a325a7e6b39d5f7d8091": {
+    "guid": "D6D2FBA6-EF60-4C38-A83E-6769814D23B0",
+    "sha1": "f243cea7bf28ad63a92cc9ff19a08b03ec5c883e",
+    "name": "CryptoPei"
+  },
+  "1d5a72ef908af284fb8ce694a3773470ac201235fee1d4826cc17dd39aa02405": {
+    "guid": "43172851-CF7E-4345-9FE0-D7012BB17B88",
+    "sha1": "7d204aac651c2415b4c07d0eae32efda8d5cbdcc",
+    "name": "iFfsSmm"
+  },
+  "9cfff92e21201f2f33f420a1e1706d7adc2caa7edcbe973e6867f0f76c6cafbf": {
+    "guid": "A95C1D60-CB9F-4BD8-A030-3F1C4A185156",
+    "sha1": "5256f902e62db4d94bb282af5bf82283762844de",
+    "name": "SecureBootMod"
+  },
+  "85f04ecb7a060756257e5de74e1ef8c7e174774eb732bc74695feeb7d106f2e0": {
+    "guid": "E23F86E1-056E-4888-B685-CFCD67C179D4",
+    "sha1": "336e9de1e4dd759536cf3399264d5c5e246a6b19",
+    "name": "SBRun"
+  },
+  "adf236638599fa2068cd56b907bbfc4aa1e17c23512cfd029fc276dd7a68400f": {
+    "guid": "A2DE77BB-797D-4BB5-80C4-19AEB8B5CD29",
+    "sha1": "12cfb7dc15677aee1b2fdcaf85fccb710b0a4a36",
+    "name": "ASUSFAKESMI"
+  },
+  "6347f14a0d6592b0fd21e832003752bdc1b83cbe3e606d64eb714432b3bdacd3": {
+    "guid": "BC3245BD-B982-4F55-9F79-056AD7E987C5",
+    "sha1": "8fc5c8fbc594b2d22f3fff664f65957db485ddb3",
+    "name": "AhciSmm"
+  },
+  "9ba69c9cc8ea5f345c9fca77b8e526e5cdcb99731c86d9cc4b4bb4b0614ceb09": {
+    "guid": "E008B434-0E73-440C-8612-A143F6A07BCB",
+    "sha1": "ee793f364df5f81b6a4f1f199729c4708d34d67c",
+    "name": "Recovery"
+  },
+  "080252d04aef3429b622a6aef8d34540bac991c9d355e0d961ef9720c065ff55": {
+    "guid": "C30B94E3-C8F2-4AB0-91AB-FA8DF621B1C9",
+    "sha1": "9712af87d4c21c64b881e9da3017b8619afadcd7",
+    "name": "MnpDxe"
+  },
+  "91285923ae6d046161925e82b4570bed6e7eb78d2dd33d6ed96a4104fd815ba5": {
+    "guid": "BFD59D42-FE0F-4251-B772-4B098A1AEC85",
+    "sha1": "b591459f898b79d2d6b22c6644f280f272a0c754",
+    "name": "ActiveBios"
+  },
+  "a5d662ef01e6f1ed3f084bee89ffb992069e3d69157489038c836c411ff91097": {
+    "guid": "CD84562C-6864-40A3-A081-C8D35E82B920",
+    "sha1": "cfb37339c583319ecbf222f5a01019542654d151",
+    "name": "CspLibDxe"
+  },
+  "e58314c18ef0138d549f38f72eb0cde3e2f8e67073c440e590c92744317e49d8": {
+    "guid": "62D171CB-78CD-4480-8678-C6A2A797A8DE",
+    "sha1": "acae7346a79787dacd7f53bace608ab2fa36a745",
+    "name": "CpuInitDxe"
+  },
+  "b589b3d5baa97344fbc92ee81165bce9f896b5a7e4dcd40cc8dc3d9318c6551d": {
+    "guid": "EAD039A6-7390-411D-A9DE-E5294B25B897",
+    "sha1": "df8a630715a81de0810f5b99133f847259014aa6",
+    "name": "ASUSEZFlash"
+  },
+  "6a9d16841a5d27a745e9b14f7906357e7494173ca50346f5e8a5f2df79ca4138": {
+    "guid": "9EA28D33-0175-4788-BEA8-6950516030A5",
+    "sha1": "a981dd0473c33460599a014116a951aa7382e10a",
+    "name": "SmBusPei"
+  },
+  "5c6280d82f24136f0f07e6a2123b8d9171be2ce95c5a1152630681d4e65b1bb8": {
+    "guid": "0029DE6A-E024-4EB8-A91D-9F23AA1F4E92",
+    "sha1": "7afbda1bfc61744d83ae57f1a0fac961ed3c2e4c",
+    "name": "NetworkStackSetupScreen"
+  },
+  "5231842076f7a5d73861a2a396c41cc482879e9a8792b1d77ed0f5ece3880184": {
+    "guid": "16D0A23E-C09C-407D-A14A-AD058FDD0CA1",
+    "sha1": "5bfb7b656b7b3f7d58da42eb055c4493b1d49924",
+    "name": "ACPI"
+  },
+  "0401da93fd414cff5237aa1cbf7cfbe8445257f7a0a25c30f0da0fdfa56f7769": {
+    "guid": "1BA0062E-C779-4582-8566-336AE8F78F09",
+    "sha1": "664ffa77f0166779905573bbbc8a9d5dfce72abd"
+  }
+}

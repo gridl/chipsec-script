@@ -1,0 +1,55 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_wp --log common.bios_wp.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 3.16.0-77-generic #99~14.04.1-Ubuntu SMP Tue Jun 28 19:17:10 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0154
+ 
+[+] loaded chipsec.modules.common.bios_wp
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_wp
+[x][ =======================================================================
+[x][ Module: BIOS Region Write Protection
+[x][ =======================================================================
+[*] BC = 0x08 << BIOS Control (b:d.f 00:31.0 + 0xDC)
+    [00] BIOSWE           = 0 << BIOS Write Enable 
+    [01] BLE              = 0 << BIOS Lock Enable 
+    [02] SRC              = 2 << SPI Read Configuration 
+    [04] TSS              = 0 << Top Swap Status 
+    [05] SMM_BWP          = 0 << SMM BIOS Write Protection 
+[-] BIOS region write protection is disabled!
+
+[*] BIOS Region: Base = 0x00200000, Limit = 0x007FFFFF
+SPI Protected Ranges
+------------------------------------------------------------
+PRx (offset) | Value    | Base     | Limit    | WP? | RP?
+------------------------------------------------------------
+PR0 (74)     | 00000000 | 00000000 | 00000000 | 0   | 0 
+PR1 (78)     | 00000000 | 00000000 | 00000000 | 0   | 0 
+PR2 (7C)     | 00000000 | 00000000 | 00000000 | 0   | 0 
+PR3 (80)     | 00000000 | 00000000 | 00000000 | 0   | 0 
+PR4 (84)     | 00000000 | 00000000 | 00000000 | 0   | 0 
+
+[!] None of the SPI protected ranges write-protect BIOS region
+
+[!] BIOS should enable all available SMM based write protection mechanisms or configure SPI protected ranges to protect the entire BIOS region
+[-] FAILED: BIOS is NOT protected completely
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.002
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        1:
+[-] FAILED: chipsec.modules.common.bios_wp
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

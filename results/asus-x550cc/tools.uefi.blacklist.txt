@@ -1,0 +1,238 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module tools.uefi.blacklist --log tools.uefi.blacklist.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 3.16.0-77-generic #99~14.04.1-Ubuntu SMP Tue Jun 28 19:17:10 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 3rd Generation Core Processor (Ivy Bridge CPU / Panther Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0154
+ 
+[+] loaded chipsec.modules.tools.uefi.blacklist
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.tools.uefi.blacklist
+[x][ =======================================================================
+[x][ Module: Check for black-listed EFI binaries in UEFI firmware
+[x][ =======================================================================
+
+Usage:
+
+    chipsec_main.py -i -m tools.uefi.blacklist [-a <fw_image>,<blacklist>]
+
+      fw_image  : Full file path to UEFI firmware image
+                  If not specified, the module will dump firmware image directly from ROM
+      blacklist : JSON file with configuration of black-listed EFI binaries (default = blacklist.json)
+                  Config file should be located in the same directory as this module
+    
+Examples:
+
+    chipsec_main.py -m tools.uefi.blacklist 
+
+      Dumps UEFI firmware image from flash memory device, decodes it and
+      checks for black-listed EFI modules defined in the default config 'blacklist.json'
+
+    chipsec_main.py -i --no_driver -m tools.uefi.blacklist -a uefi.rom,blacklist.json
+
+      Decodes 'uefi.rom' binary with UEFI firmware image and
+      checks for black-listed EFI modules defined in 'blacklist.json' config
+
+Important! This module can only detect what it knows about from its config file.
+If a bad or vulnerable binary is not detected then its 'signature' needs to be added to the config.
+
+[*] dumping FW image from ROM to fw.bin: 0x00200000 bytes at [0x007FFFFF:0x00600000]
+[*] this may take a few minutes (instead, use 'chipsec_util spi dump')...
+[spi] reading 0x600000 bytes from SPI at FLA = 0x200000 (in 98304 0x40-byte chunks + 0x0-byte remainder)
+[*] searching for EFI binaries that match criteria from 'blacklist.json':
+    HT_UEFI_Rootkit  - HackingTeam UEFI Rootkit (http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html)
+    ThinkPwn         - ThinkPwn: SystemSmmRuntimeRt SMM vulnerability (http://blog.cr4.sh/2016/06/exploring-and-exploiting-lenovo.html)
+[uefi] checking S_PE32 section of binary {5C266089-E103-4D43-9AB5-12D7095BE2AF} IntelSaGopDriver
+[uefi] checking S_PE32 section of binary {5BBA83E6-F027-4CA7-BFD0-16358CC9E123} IntelIvbGopDriver
+[uefi] checking S_PE32 section of binary {8D59EBC8-B85E-400E-970A-1F995D1DB91E} IntelSnbGopDriver
+[uefi] checking S_PE32 section of binary {E03ABADF-E536-4E88-B3A0-B77F78EB34FE} CpuDxe
+[uefi] checking S_PE32 section of binary {08A2CA63-3B65-472C-874E-5E138E947324} ASUSITERT
+[uefi] checking S_PE32 section of binary {A3EAAB3C-BA3A-4524-9DC7-7E339996F496} ASUSRT
+[uefi] checking S_PE32 section of binary {A3BC19A6-3572-4AF4-BCE4-CD43A8D1F6AF} ASUSITEBS
+[uefi] checking S_PE32 section of binary {93022F8C-1F09-47EF-BBB2-5814FF609DF5} FileSystem
+[uefi] checking S_PE32 section of binary {5AE3F37E-4EAE-41AE-8240-35465B5E81EB} CORE_DXE
+[uefi] checking S_PE32 section of binary {CBC59C4A-383A-41EB-A8EE-4498AEA567E4} Runtime
+[uefi] checking S_PE32 section of binary {3C1DE39F-D207-408A-AACC-731CFB7F1DD7} PciBus
+[uefi] checking S_PE32 section of binary {9F3A0016-AE55-4288-829D-D22FD344C347} AmiBoardInfo
+[uefi] checking S_PE32 section of binary {62D171CB-78CD-4480-8678-C6A2A797A8DE} CpuInitDxe
+[uefi] checking S_PE32 section of binary {7FED72EE-0170-4814-9878-A8FB1864DFAF} SmmRelocDxe
+[uefi] checking S_PE32 section of binary {ABB74F50-FD2D-4072-A321-CAFC72977EFA} SmmRelocPeim
+[uefi] checking S_PE32 section of binary {5552575A-7E00-4D61-A3A4-F7547351B49E} SmmBaseRuntime
+[uefi] checking S_PE32 section of binary {9CC55D7D-FBFF-431C-BC14-334EAEA6052B} SmmDisp
+[uefi] checking S_PE32 section of binary {8D3BE215-D6F6-4264-BEA6-28073FB13AEA} SmmThunk
+[uefi] checking S_PE32 section of binary {15B9B6DA-00A9-4DE7-B8E8-ED7AFB88F16E} CpuPolicyDxe
+[uefi] checking S_PE32 section of binary {F3331DE6-4A55-44E4-B767-7453F7A1A021} MicrocodeUpdate
+[uefi] checking S_PE32 section of binary {326E7ACE-2133-1BA2-800A-B9C00ACCB17D} CpuSmmSaveRes
+[uefi] checking S_PE32 section of binary {116E1ACF-2533-4CC2-820A-BBC10A2AB07C} CpuSpSMI
+[uefi] checking S_PE32 section of binary {B7D19491-E55A-470D-8508-85A5DFA41974} SBDXE
+[uefi] checking S_PE32 section of binary {E23F86E1-056E-4888-B685-CFCD67C179D4} SBRun
+[uefi] checking S_PE32 section of binary {753630C9-FAE5-47A9-BBBF-88D621CD7282} SmmChildDispatcher
+[uefi] checking S_PE32 section of binary {E53734A3-E594-4C25-B1A2-081445650F7F} SmmChildDispatcher2
+[uefi] checking S_PE32 section of binary {750890A6-7ACF-4F4F-81BD-B400C2BEA95A} AcpiModeEnable
+[uefi] checking S_PE32 section of binary {6298FE18-D5EF-42B7-BB0C-2953283F5704} SleepSmi
+[uefi] checking S_PE32 section of binary {7B8DB049-C7C7-4D3B-809F-926DEE47CCA2} SBSMI
+[uefi] checking S_PE32 section of binary {B716A6F8-F3A1-4B8E-8582-5A303F1CDD64} PchSpiWrap
+[uefi] checking S_PE32 section of binary {CE366D33-B057-4C03-8561-CAF17738B66F} WdtAppDxe
+[uefi] checking S_PE32 section of binary {BFD59D42-FE0F-4251-B772-4B098A1AEC85} ActiveBios
+[uefi] checking S_PE32 section of binary {2374EDDF-F203-4FC0-A20E-61BAD73089D6} IoTrap
+[uefi] checking S_PE32 section of binary {C1C418F9-591D-461C-82A2-B9CD96DFEA86} IntelLegacyInterrupt
+[uefi] checking S_PE32 section of binary {DE23ACEE-CF55-4FB6-AA77-984AB53DE823} PchInitDxe
+[uefi] checking S_PE32 section of binary {B0D6ED53-B844-43F5-BD2F-61095264E77E} PchSmiDispatcher
+[uefi] checking S_PE32 section of binary {ACAEAA7A-C039-4424-88DA-F42212EA0E55} PchPcieSmm
+[uefi] checking S_PE32 section of binary {BB1FBD4F-2E30-4793-9BED-74F672BC8FFE} PchReset
+[uefi] checking S_PE32 section of binary {271DD6F2-54CB-45E6-8585-8C923C1AC706} PchS3Peim
+[uefi] checking S_PE32 section of binary {08F2C63B-08DE-4CCD-8670-ACFE644A1C48} PchS3Support
+[uefi] checking S_PE32 section of binary {BB65942B-521F-4EC3-BAF9-A92540CF60D2} SataController
+[uefi] checking S_PE32 section of binary {FC1B7640-3466-4C06-B1CC-1C935394B5C2} PchSerialGpio
+[uefi] checking S_PE32 section of binary {90CB75DB-71FC-489D-AACF-943477EC7212} SmartTimer
+[uefi] checking S_PE32 section of binary {E052D8A6-224A-4C32-8D37-2E0AE162364D} PchSmbusDxe
+[uefi] checking S_PE32 section of binary {A0BAD9F7-AB78-491B-B583-C52B7F84B9E0} SmmControl
+[uefi] checking S_PE32 section of binary {27F4917B-A707-4AAD-9676-26DF168CBF0D} PchSpiSmm
+[uefi] checking S_PE32 section of binary {C194C6EA-B68C-4981-B64B-9BD271474B20} PchSpiRuntime
+[uefi] checking S_PE32 section of binary {59287178-59B2-49CA-BC63-532B12EA2C53} PchSmbusSmm
+[uefi] checking S_PE32 section of binary {5AAB83E5-F027-4CA7-BFD0-16358CC9E453} WdtDxe
+[uefi] checking S_PE32 section of binary {E4ECD0B2-E277-4F2B-BECB-E4D75C9A812E} NBDXE
+[uefi] checking S_PE32 section of binary {D933DEDE-0260-4E76-A7D9-2F9F2440E5A5} NBSMI
+[uefi] checking S_PE32 section of binary {16271FCA-55D9-4A33-93FC-5A3EB128DE21} MiscSubclassDxe
+[uefi] checking S_PE32 section of binary {24CCD374-3DF6-4181-86F6-E3C66920A145} UpdateMemoryRecord
+[uefi] checking S_PE32 section of binary {FE6F8ACD-55A6-4C6B-B448-64E659DE94B3} LegacyRegion2
+[uefi] checking S_PE32 section of binary {A89EC8E0-0BA1-40AA-A03E-ABDDA5295CDE} PciExpressDxe
+[uefi] checking S_PE32 section of binary {8D6756B9-E55E-4D6A-A3A5-5E4D72DDF772} PciHostBridge
+[uefi] checking S_PE32 section of binary {EDA39402-F375-4496-92D3-83B43CB8A76A} SmBiosMemory
+[uefi] checking S_PE32 section of binary {1323C7F8-DAD5-4126-A54B-7A05FBF41515} SmmAccess
+[uefi] checking S_PE32 section of binary {DE23ACEE-CF55-4FB6-AA77-984AB53DE811} SaInitDxe
+[uefi] checking S_PE32 section of binary {6DB9486F-6AF6-4090-984D-238482CE3EA4} BdatAccessHandler
+[uefi] checking S_PE32 section of binary {2D1E361C-7B3F-4D15-8B1F-66E551FABDC7} SaLateInitSmm
+[uefi] checking S_PE32 section of binary {16D0A23E-C09C-407D-A14A-AD058FDD0CA1} ACPI
+[uefi] checking S_PE32 section of binary {26A2481E-4424-46A2-9943-CC4039EAD8F8} S3Save
+[uefi] checking S_PE32 section of binary {EFD652CC-0E99-40F0-96C0-E08C089070FC} S3Restore
+[uefi] checking S_PE32 section of binary {8F5A2E02-538C-4D59-B920-C4786ACBC552} AHCI
+[uefi] checking S_PE32 section of binary {67820532-7613-4DD3-9ED7-3D9BE3A7DA63} AINT13
+[uefi] checking S_PE32 section of binary {BC3245BD-B982-4F55-9F79-056AD7E987C5} AhciSmm
+[uefi] checking S_PE32 section of binary {20D8FFFE-15C3-4EA9-9D28-CFE2745D78F3} CryptoDxe
+[uefi] checking S_PE32 section of binary {3BF4AF16-AB7C-4B43-898D-AB26AC5DDC6C} SecSMIFlash
+[uefi] checking S_PE32 section of binary {A062CF1F-8473-4AA3-8793-600BC4FFE9A8} CSMCORE
+[uefi] checking S_PE32 section of binary {25ACF158-DD61-4E64-9A49-55851E9A26C7} BIOSBLKIO
+[uefi] checking S_PE32 section of binary {29CF55F8-B675-4F5D-8F2F-B87A3ECFD063} CsmVideo
+[uefi] checking S_PE32 section of binary {B6B9295F-CABF-4CEC-BB14-FE4246F2173A} iFfsDxe
+[uefi] checking S_PE32 section of binary {DFD8D5CC-5AED-4820-A2B6-5C55E4E640EF} AcpiPlatformSmi
+[uefi] checking S_PE32 section of binary {43172851-CF7E-4345-9FE0-D7012BB17B88} iFfsSmm
+[uefi] checking S_PE32 section of binary {DDB412A6-E3F3-4E9E-90A3-2A991270219C} iFfsDxePolicyInit
+[uefi] checking S_PE32 section of binary {55E76644-78A5-4A82-A900-7126A5798892} HeciDxe
+[uefi] checking S_PE32 section of binary {921CD783-3E22-4579-A71F-00D74197FCC8} HeciSmm
+[uefi] checking S_PE32 section of binary {9A9A912B-5F53-4586-8820-704485A29D21} PlatformReset
+[uefi] checking S_PE32 section of binary {DF5CD25A-8E55-46BA-8CDA-BC7DB7BF9C64} MdesStatusCodeDrv
+[uefi] checking S_PE32 section of binary {5820EEB4-C135-4854-9D2A-AA9EFC4475E9} MeFwDowngrade
+[uefi] checking S_PE32 section of binary {BA67550C-3628-4137-A53E-42660E081604} MePlatformPolicy
+[uefi] checking S_PE32 section of binary {459C70C3-9344-4484-9F93-7822530D0D11} MePciPlatform
+[uefi] checking S_PE32 section of binary {14257B56-BDA2-4FAF-8E4F-C885DF75583C} IccPlatform
+[uefi] checking S_PE32 section of binary {5BBA83E5-F027-4CA7-BFD0-16358CC9E123} IccOverClocking
+[uefi] checking S_PE32 section of binary {2B341C7B-0B32-4A65-9D46-E1B3ABD4C25C} Smbios131
+[uefi] checking S_PE32 section of binary {76D5CF91-0C55-434E-97C2-D2825C82E610} OemActivation
+[uefi] checking S_PE32 section of binary {8B5FBABD-F51F-4942-BF16-16AAA38AE52B} AcpiPlatform
+[uefi] checking S_PE32 section of binary {1314216C-CB8D-421C-B854-06231386E642} PlatformInfo
+[uefi] checking S_PE32 section of binary {8C783970-F02A-4A4D-AF09-8797A51EEC8D} PowerManagement
+[uefi] checking S_PE32 section of binary {1CE12314-AFBC-11F0-8A3E-AB44B8EE3120} AmiPpmPolicy
+[uefi] checking S_PE32 section of binary {A95C1D60-CB9F-4BD8-A030-3F1C4A185156} SecureBootMod
+[uefi] checking S_PE32 section of binary {B1DA0ADF-4F77-4070-A88E-BFFE1C60529A} AMITSE
+[uefi] checking S_PE32 section of binary {6869C5B3-AC8D-4973-8B37-E354DBF34ADD} CmosManagerSmm
+[uefi] checking S_PE32 section of binary {2F72309E-D5B0-4A9D-84A9-1AB38C698F78} EcPs2Kbd
+[uefi] checking S_PE32 section of binary {D57C852E-809F-45CF-A377-D77BC0CB78EE} IdeSMART
+[uefi] checking S_PE32 section of binary {A9B700CF-019E-4D8B-A3A7-88E1EA01699E} IdeSecurity
+[uefi] checking S_PE32 section of binary {316B1230-0500-4592-8C09-EABA0FB6B07F} IDESMM
+[uefi] checking S_PE32 section of binary {0639408B-19A6-4B5D-BAFB-12A2F5114032} Acoustic
+[uefi] checking S_PE32 section of binary {CEF68C66-06AB-4FB3-A3ED-5FFA885B5725} SMBiosBoard
+[uefi] checking S_PE32 section of binary {B13EDD38-684C-41ED-A305-D7B7E32497DF} SMBios64
+[uefi] checking S_PE32 section of binary {E2A74738-8934-48F5-8412-99E948C8DC1B} SmbiosDMIEdit
+[uefi] checking S_PE32 section of binary {BC327DBD-B982-4F55-9F79-056AD7E987C5} SMIFlash
+[uefi] checking S_PE32 section of binary {399CF3A7-82C7-4D9B-9123-DB11842986D3} DpcDxe
+[uefi] checking S_PE32 section of binary {8DD91798-EE87-4F0E-8A84-3F998311F930} ArpDxe
+[uefi] checking S_PE32 section of binary {3DD7A87B-D5BD-44AF-986F-2E13DB5D274C} SnpDxe
+[uefi] checking S_PE32 section of binary {C30B94E3-C8F2-4AB0-91AB-FA8DF621B1C9} MnpDxe
+[uefi] checking S_PE32 section of binary {0EF8A3B1-388A-4B62-8BE6-C7877D50AEDF} UefiPxeBcDxe
+[uefi] checking S_PE32 section of binary {FCF94301-9763-4A64-AA84-7892C4712367} IpSecDxe2
+[uefi] checking S_PE32 section of binary {0029DE6A-E024-4EB8-A91D-9F23AA1F4E92} NetworkStackSetupScreen
+[uefi] checking S_PE32 section of binary {B1625D3C-9D2D-4E0D-B864-8A763EE4EC50} TcpDxe
+[uefi] checking S_PE32 section of binary {8DD9176E-EE87-4F0E-8A84-3F998311F930} Dhcp4Dxe
+[uefi] checking S_PE32 section of binary {8F9296EF-2880-4659-B857-915A8901BDC8} Ip4ConfigDxe
+[uefi] checking S_PE32 section of binary {8F92960F-2880-4659-B857-915A8901BDC8} Ip4Dxe
+[uefi] checking S_PE32 section of binary {61AFA223-8AC8-4440-9AB5-762B1BF05156} Mtftp4Dxe
+[uefi] checking S_PE32 section of binary {10EE5462-B207-4A4F-ABD8-CB522ECAA3A4} Udp4Dxe
+[uefi] checking S_PE32 section of binary {8DD9176D-EE87-4F0E-8A84-3F998311F930} Dhcp6Dxe
+[uefi] checking S_PE32 section of binary {8F92960E-2880-4659-B857-915A8901BDC8} Ip6Dxe
+[uefi] checking S_PE32 section of binary {61AFA251-8AC8-4440-9AB5-762B1BF05156} Mtftp6Dxe
+[uefi] checking S_PE32 section of binary {10EE54AE-B207-4A4F-ABD8-CB522ECAA3A4} Udp6Dxe
+[uefi] checking S_PE32 section of binary {04EAAAA1-29A1-11D7-8838-00500473D4EB} USBRT
+[uefi] checking S_PE32 section of binary {580DD900-385D-11D7-883A-00500473D4EB} UHCD
+[uefi] checking S_PE32 section of binary {4C006CD9-19BA-4617-8483-609194A1ACFC} USBINT13
+[uefi] checking S_PE32 section of binary {BFE205C9-5B17-4F8F-9375-89614AF8E199} OEMDXE
+[uefi] checking S_PE32 section of binary {899407D7-99FE-43D8-9A21-79EC328CAC21} Setup
+[uefi] checking S_PE32 section of binary {16271FCA-55D9-4A33-93FC-5A3EB128DEB6} CRBDXE
+[uefi] checking S_PE32 section of binary {221F1D4F-034C-4BEA-B2BB-B7A9672B06D7} CRBSMI
+[uefi] checking S_PE32 section of binary {CD84562C-6864-40A3-A081-C8D35E82B920} CspLibDxe
+[uefi] checking S_PE32 section of binary {DC2AA475-F939-48BB-9D74-7F2D629C1111} computrace
+[uefi] checking S_PE32 section of binary {31E5CAF3-A471-4E73-9F93-6F59DD4424F1} Dmienbg
+[uefi] checking S_PE32 section of binary {75189FA6-7BCF-4F4F-81BD-A4F1C3BEA95A} smmcomputrace
+[uefi] checking S_PE32 section of binary {FC740D58-59BA-429B-99EF-627051737B76} ImageDecoder
+[uefi] checking S_PE32 section of binary {EAD039A6-7390-411D-A9DE-E5294B25B897} ASUSEZFlash
+[uefi] checking S_PE32 section of binary {2DEAE482-5796-40F2-8DF5-D87419D6F362} ASUSHDDPW
+[uefi] checking S_PE32 section of binary {D398E61C-2A9C-4A6D-B265-47696CF9E442} ASUSFS2
+[uefi] checking S_PE32 section of binary {A7C619FF-9A64-4A89-947B-E7953E2427CB} ASUSBS
+[uefi] checking S_PE32 section of binary {A2DE77BB-797D-4BB5-80C4-19AEB8B5CD29} ASUSFAKESMI
+[uefi] checking S_PE32 section of binary {26841BDE-920A-4E7A-9FBE-637F477143A6} LANDriver
+[uefi] checking S_PE32 section of binary {3B42EF57-16D3-44CB-8632-9FDB06B41451} MemoryInit
+[uefi] checking S_PE32 section of binary {E008B434-0E73-440C-8612-A143F6A07BCB} Recovery
+[uefi] checking S_PE32 section of binary {0D1ED2F7-E92B-4562-92DD-5C82EC917EAE} CRBPEI
+[uefi] checking S_PE32 section of binary {C41E9862-D078-4E7D-9062-00E3FAC34C19} ASUSITEPei
+[uefi] checking S_PE32 section of binary {1D88C542-9DF7-424A-AA90-02B61F286938} WdtPei
+[uefi] checking S_PE32 section of binary {92685943-D810-47FF-A112-CC8490776A1F} CORE_PEI
+[uefi] checking S_PE32 section of binary {01359D99-9446-456D-ADA4-50A711C03ADA} CpuInitPei
+[uefi] checking S_PE32 section of binary {C866BD71-7C79-4BF1-A93B-066B830D8F9A} CpuS3Peim
+[uefi] checking S_PE32 section of binary {8B8214F9-4ADB-47DD-AC62-8313C537E9FA} SmmBasePeim
+[uefi] checking S_PE32 section of binary {0AC2D35D-1C77-1033-A6F8-7CA55DF7D0AA} CpuPolicyPei
+[uefi] checking S_PE32 section of binary {1555ACF3-BD07-4685-B668-A86945A4124D} CpuPeiBeforeMem
+[uefi] checking S_PE32 section of binary {2BB5AFA9-FF33-417B-8497-CB773C2B93BF} CpuPei
+[uefi] checking S_PE32 section of binary {C1FBD624-27EA-40D1-AA48-94C3DC5C7E0D} SBPEI
+[uefi] checking S_PE32 section of binary {333BB2A3-4F20-4C8B-AC38-0672D74315F8} AcpiPlatformPei
+[uefi] checking S_PE32 section of binary {9EA28D33-0175-4788-BEA8-6950516030A5} SmBusPei
+[uefi] checking S_PE32 section of binary {0F69F6D7-0E4B-43A6-BFC2-6871694369B0} WdtAppPei
+[uefi] checking S_PE32 section of binary {FD236AE7-0791-48C4-B29E-29BDEEE1A838} PchInitPeim
+[uefi] checking S_PE32 section of binary {FF259F16-18D1-4298-8DD2-BD87FF2894A9} PchResetPeim
+[uefi] checking S_PE32 section of binary {643DF777-F312-42ED-81CC-1B1F57E18AD6} PchSmbusArpDisabled
+[uefi] checking S_PE32 section of binary {AA652CB9-2D52-4624-9FAE-D4E58B67CA46} PchSpiPeim
+[uefi] checking S_PE32 section of binary {6B4FDBD2-47E1-4A09-BA8E-8E041F208B95} PchUsb
+[uefi] checking S_PE32 section of binary {79AA6086-035A-4AD9-A89A-A6D5AA27F0E2} NBPEI
+[uefi] checking S_PE32 section of binary {6ECFCE51-5724-450C-A38A-58553E954422} SmmAccessPeim
+[uefi] checking S_PE32 section of binary {FD236AE7-0791-48C4-B29E-29BDEEE1A811} SaInitPeim
+[uefi] checking S_PE32 section of binary {FAC2EFAD-8511-4E34-9CAE-16A257BA9488} Capsule
+[uefi] checking S_PE32 section of binary {D6D2FBA6-EF60-4C38-A83E-6769814D23B0} CryptoPei
+[uefi] checking S_PE32 section of binary {83FA5AED-5171-4949-BDC9-0CBC9E123663} FwCapsuleRecoveryPPI
+[uefi] checking S_PE32 section of binary {53F019E9-BB0C-424B-870A-1FAF10B1CB4C} iFfsPei
+[uefi] checking S_PE32 section of binary {9CF30325-DC5C-4556-A8B0-74215C5F7FC4} HeciPei
+[uefi] checking S_PE32 section of binary {8C376010-2400-4D7D-B47B-9D851DF3C9D1} PchMeUma
+[uefi] checking S_PE32 section of binary {12C67BE1-AD2E-4F13-A95F-6EDC2C4392DE} MePeiPolicyInit
+[uefi] checking S_PE32 section of binary {08EFD15D-EC55-4023-B648-7BA40DF7D05D} PeiRamBoot
+[uefi] checking S_PE32 section of binary {AC3DA503-65E7-4153-96FC-8707FB7594FB} ASUSBIOSInfo
+[uefi] checking S_PE32 section of binary {A31B1AF7-3A9B-424A-8636-9885E9DE06F6} ASUSPei
+[uefi] checking S_PE32 section of binary {1BA0062E-C779-4582-8566-336AE8F78F09} 
+
+[+] PASSED: Didn't find any black-listed EFI binary
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          79.113
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.tools.uefi.blacklist
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

@@ -1,0 +1,43 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_kbrd_buffer --log common.bios_kbrd_buffer.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.4.0-31-generic #50~14.04.1-Ubuntu SMP Wed Jul 13 01:07:32 UTC 2016 x86_64
+[CHIPSEC] Platform: Mobile 2nd Generation Core Processor (Sandy Bridge CPU / Cougar Point PCH)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0104
+ 
+[+] loaded chipsec.modules.common.bios_kbrd_buffer
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_kbrd_buffer
+[x][ =======================================================================
+[x][ Module: Pre-boot Passwords in the BIOS Keyboard Buffer
+[x][ =======================================================================
+[*] Keyboard buffer head pointer = 0x28 (at 0x41A), tail pointer = 0x28 (at 0x41C)
+[*] Keyboard buffer contents (at 0x41E):
+e0 48 e0 48 e0 48 e0 48 0d 1c e0 48 e0 50 e0 50 |  H H H H   H P P
+e0 50 e0 50 e0 50 e0 50 e0 48 e0 48 e0 48 e0 48 |  P P P P H H H H
+[-] Keyboard buffer tail points inside the buffer (= 0x28)
+    It may potentially expose lengths of pre-boot passwords. Was your password 6 characters long?
+[*] Checking contents of the keyboard buffer..
+
+[!] WARNING: Keyboard buffer is not empty. The test cannot determine conclusively if it contains pre-boot passwords.
+    The contents might have not been cleared by pre-boot firmware or overwritten with garbage.
+    Visually inspect the contents of keyboard buffer for pre-boot passwords (BIOS, HDD, full-disk encryption).
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        0:
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 1:
+[!] WARNING: chipsec.modules.common.bios_kbrd_buffer
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

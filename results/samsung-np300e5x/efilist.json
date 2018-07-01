@@ -1,0 +1,1591 @@
+{
+  "6b50b4f5c8c2b0dc9ad26aebb17a374b542eb5680f523980e680240e347f8e98": {
+    "guid": "ACAEAA7A-C039-4424-88DA-F42212EA0E55",
+    "sha1": "0d3b5c5a6a5eeae76ea251a53596764c0b9e9f7c",
+    "name": "PchPcieSmm.efi"
+  },
+  "12239e9781ce96a217da26150cc13c25155cc1b3db6693cc1f1828d708dde9e1": {
+    "guid": "37DCBC92-179C-4786-A2C7-732E0F3F24DB",
+    "sha1": "9566dd501c93828047852a153b5f2c44f253f7a0",
+    "type": "S_TE"
+  },
+  "a736486ce913e4218bf3e388e26672b7d52f00d3514262b6f33f16f754da10b7": {
+    "guid": "124A2E7A-1949-483E-899F-6032904CA0A7",
+    "sha1": "8c6db223f2f8430b2b8165d7a08e95c0d4827df6",
+    "name": "SystemSmmAhciAspiLegacyRt.efi"
+  },
+  "6e8343f926eb9212348ceaa30505d062866d5122d3416be44cfba939cd27a61c": {
+    "guid": "1CF40D19-EEAD-4C73-93DB-BBB8B6ACF929",
+    "sha1": "af90b8c18aeb087bdef8d5a78ac7435788fd4f06",
+    "name": "SystemNUserUserManagerDxe.efi"
+  },
+  "df134483c7e8daefbff6a695497c35b09d591106ada4309c4e6066642eb7fe01": {
+    "guid": "D8771C98-33CA-4E7F-9793-B949394808C8",
+    "sha1": "555a668f4eb978e2f197b400159a321d924983d3",
+    "name": "SecAhciStandbyHddSmm.efi"
+  },
+  "ff2b0016ad849dd874c43f496be43af5f3ca718d13bf2fa525113c84c54221bd": {
+    "guid": "5BF9FDD2-51D5-4F08-9E81-F07A621B0F95",
+    "sha1": "fbc64b123c930e1dc8036c1bb338b2bc09fb600a",
+    "type": "S_TE"
+  },
+  "256c4b93f77613864828972fe7fae26055e65246fbd1b27faf9897f3f190b44d": {
+    "guid": "246F9F0A-11E3-459A-AE06-372BDC4DE806",
+    "sha1": "5e3353f57b8186c1d7b1d3cdbcf6d8f19258f398",
+    "name": "SystemStatusCodeGenericRt.efi"
+  },
+  "254113d51e7d2fef044e01992d0562568c0245cc32f63e5053b56c0d2e657581": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE811",
+    "sha1": "108ca281693c965e74c7a81e9699cefcd85c5c84",
+    "name": "SaInitDxe.efi"
+  },
+  "8a96b82a06806c8666423592d7c4d1368dee1443177b8eaa308a4947ef26918e": {
+    "guid": "B82CB52F-4522-4389-B5B6-1E1639D0D751",
+    "sha1": "c830effce933fa33077b905b34a17f0761288a9f",
+    "name": "SabiFunctionMain.efi"
+  },
+  "c91dbf8a372d75373c7c0ed6858fa255f24edb43db821645d465f8a9575a4fa0": {
+    "guid": "0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B",
+    "sha1": "9d753f85c6848e4bb76e5ba443ac7c55006b794c",
+    "name": "SystemScsiBusDxe.efi"
+  },
+  "6a816f7313233507aada667417e12bb90307c79b4da1ec4f7d4f264bdbc2b932": {
+    "guid": "F1CB3C81-411A-4860-A380-D31B599B610C",
+    "sha1": "df4bd1516e8c534947148b1a20cdb54ab749ca05",
+    "name": "SmmAcpiSupport.efi"
+  },
+  "573db09ea51ef2d568812cc56539fcd6e76152e1acaa805c4e6b55ca104e58d1": {
+    "guid": "37087B94-EF41-4977-93E2-3F6ADFDD06E1",
+    "sha1": "84cf7f72bf2d86333bdda91f3f4050a60ddc5404",
+    "name": "SystemSplashDxe.efi"
+  },
+  "450c53717e1c936217d9c911b024008b8411ce92349f5d1186c39fd480406640": {
+    "guid": "8FA0AA51-EC49-4A1B-8203-BCCABAF773BC",
+    "sha1": "d3bd46474ad2f040da0de812109d37fafbcaafd4",
+    "name": "SecIdeStandbyHddSmm.efi"
+  },
+  "448930b854d4c9bd399e81f5224d49c79d94c8f97da93224328db6910c19a08f": {
+    "guid": "546AD295-0C64-4CE6-A06F-FB9CD04B41CD",
+    "sha1": "e30099a0e6d890f004e4cc66787131d5c2396e1b",
+    "name": "SystemFlashCommunicationDxe.efi"
+  },
+  "f6aae4e3ff7cbb93110ef2db9c9374dae64b439376ad0faea77c0b19fa79d90e": {
+    "guid": "B601F8C4-43B7-4784-95B1-F4226CB40CEE",
+    "sha1": "f6f089fe5908f943a785c15d114bf4a178278cce",
+    "name": "SystemRuntimeDxe.efi"
+  },
+  "9a50b6bc58d5fe91ac5c3a4a2ecc0f5c746e2f4687e9211c21b70bc5c7851199": {
+    "guid": "CA7ACEF3-1181-4AE0-95A7-0F1FD8AFD2ED",
+    "sha1": "46417a55f1a88fc1b1af0656c96f6d6d3d60d1e1",
+    "name": "SystemKeyDescDxe.efi"
+  },
+  "4d25d0b3da131ce8cc1806aafe05e894b4f05bcdf29346200dbbb7d6eed1a305": {
+    "guid": "758AF8A7-2A04-4937-99E0-837D1F97C76F",
+    "sha1": "0ff37d4c7b1b5125943ed7e5b81a9b127264b344",
+    "name": "SystemAcpiNumaDxe.efi"
+  },
+  "fe0eaf9dd2fe8fadf967022c9c43f364701918f8c4b475b081c745c1ef6a69a9": {
+    "guid": "76016A54-9959-495D-BB3E-BA35E25A51CB",
+    "sha1": "8e094d9f96ae74edd5d86e2dfdef93cb930709b7",
+    "name": "SystemSetupMainDxe.efi"
+  },
+  "411daac30446572851165440451e78d6c6b827f8fe06c764c677f84edec0c0e1": {
+    "guid": "5DE2D8E6-2444-451D-91C7-BAE490791B49",
+    "sha1": "fba26d4202ccd482ce0f3b4c53f5e5e747613fb7",
+    "type": "S_TE"
+  },
+  "85cef9dda3c689d1c8dcdb0b94635443d8669d15af4aef9186fde283babd4416": {
+    "guid": "BDFE430E-8F2A-4DB0-9991-6F856594777E",
+    "sha1": "298d2f51e5b6bdb4559671264c44e3faae31b935",
+    "name": "SystemEhciDxe.efi"
+  },
+  "bc1b314dee8951dddd708d1eae8415d93067bdae5412d91c35ed558b49098b3c": {
+    "guid": "697CFA95-B1F2-4ED7-A0D2-7AC6E47B3C99",
+    "sha1": "58e77e912319d41a70c3e2b6fbc8b49da9130b81",
+    "name": "SwitchableGraphicsDxe.efi"
+  },
+  "ea1ccc8a0efc7d6573f854f5dd3e31c72eb3177a428d198be57ed5bbf6dcd39d": {
+    "guid": "949822BC-26D3-4BC6-954B-F2C581342DE1",
+    "sha1": "8f2596b20f929dd98c2b5589c4486a8915c67e7e",
+    "name": "SystemXhciDxe.efi"
+  },
+  "562373c5638fac78ec9d184c676b23b83b2776d509b3f7cfe3a05d47394a8241": {
+    "guid": "2C630309-F6D0-4DE1-B70C-130D08213345",
+    "sha1": "635a5d62fe86a1ba51de5d97a22f8a85c6c7182b",
+    "name": "SecPlatformEcPei.efi"
+  },
+  "4ecba014adde0daddbd64b54aba2178c29f9540b43cb933438c3ce8733415895": {
+    "guid": "DC38DF16-8280-49C1-B253-D7DBB301CF78",
+    "sha1": "7a341bb6cdb0b08b8851adec43b0a1019ee36e15",
+    "name": "SystemNUserPasswordCredentialDxe.efi"
+  },
+  "41a18bed4b50e2903119f3f90254ddcaf57f642a3353874bbcf2c89de589aa13": {
+    "guid": "B9A88D91-C8F6-4D57-9225-4C623F8E8F1C",
+    "sha1": "ce37b606f387dc8547ba37fbc445efe8fe2a7aff",
+    "name": "SecPlatformEcDxe.efi"
+  },
+  "ee1cfafd1b1ac44297cfb20de53c827b5afe6922746ae10a5e513153dd4c4589": {
+    "guid": "52F934EE-7F15-4723-90CF-4E37127718A5",
+    "sha1": "28530d27941ab5ffe1c8421d91a088c2f6725496",
+    "type": "S_TE"
+  },
+  "25a7697158ab6b7e34fc49f5092e78009a4235921927c4e4aebb48ab9b897979": {
+    "guid": "CFEF94C4-4167-466A-8893-8779459DFA86",
+    "sha1": "2398b9c07b0515b6dd1ab523d6be4676237192aa",
+    "name": "PlatformHiiAdvancedDxe.efi"
+  },
+  "5ceeee1f93e4683328fd144df0ab0a9c18edbb8738a36cf8ec88aa4410d0d082": {
+    "guid": "AF59F2F5-5E28-4E03-80E2-4727545AF811",
+    "sha1": "64137fb7cd0684ffe8c94786a9d35bef21cccfee",
+    "name": "PchReset.efi"
+  },
+  "4a28664370ebb2cd1b16941e1bc80fdf240459a7ae94515e39dd33b4c6a26936": {
+    "guid": "864B10FE-3D5E-4908-88CC-F08D4EDC0050",
+    "sha1": "35e57f4e86b1e4c7482bb31dee76e831e9ef0aed",
+    "name": "SystemPciIsaBusDxe.efi"
+  },
+  "8202ec0c89281910ef59843945908f2c7326500a2defb5ede839e8cdde19d151": {
+    "guid": "233DF097-3218-47B2-9E09-FE58C2B20D22",
+    "sha1": "325b950a19232e8cf3068c95de9696cd9df47723",
+    "name": "PlatformStage2Pei.efi"
+  },
+  "6dcdc08ee743101683882a11b6eba944abce71abe1d7d151df56a5a54966351e": {
+    "guid": "86E82AC3-D6AF-47A4-8C93-0C76C7B3CCD3",
+    "sha1": "284873adf8e06f81a10030da488f6ce1c45028ab",
+    "name": "LegacyBiosMiscSmm.efi"
+  },
+  "35b27ec1a6f7469ff872cd168e420a6642b000e4495db0f183a09b547d6983de": {
+    "guid": "886ACB20-78C0-4F88-9D3C-BADCE37EDA47",
+    "sha1": "efdb56fe8e7a6b4e3bf1efbaaf17b8a75c6d0daf",
+    "name": "N25Q064FlashPartDxe.efi"
+  },
+  "c6804f04169594bb715d292be1163ef8fea415c8cc791e3baa85284995bc0875": {
+    "guid": "A0BAD9F7-AB78-491B-B583-C52B7F84B9E0",
+    "sha1": "d923972a4e2eed885521f18011d15d51b3ff69ee",
+    "name": "SmmControl.efi"
+  },
+  "bd65a0ed74125b0b2d832615868b07bac9c26620f774126af7e2242a28b64750": {
+    "guid": "954FEAC0-BA68-11DC-95FF-0800200C9A66",
+    "sha1": "f54a349e40d023a6a2e473818cdbc4507c9dce2a",
+    "name": "SECXpSLP.efi"
+  },
+  "7e14e7dc38c867a4dc846fc68f6812f9db824efd5363398028b79301ac27bc15": {
+    "guid": "7BE725B2-F56C-41C7-9F03-1E7B56B65971",
+    "sha1": "c8a4a960d9b34571e2114a008fa3d7b5f7144967",
+    "name": "SystemUsbMemoryManagerDxe.efi"
+  },
+  "7b5617e3fd752c364d593be8b3e313ee30229a28ef8b298c9eef413c7a82cac9": {
+    "guid": "B6B9295F-CABF-4CEC-BB14-FE4246F2173A",
+    "sha1": "a6964585c3ff41d694393df4091d06b03d850858",
+    "name": "iFfsDxe.efi"
+  },
+  "60d5b2d148bbf6490ceb175dbdc5e12645073409d5d57819fda371b8c222d315": {
+    "guid": "6E6E4A75-EF14-47FB-B43A-67EC43B87D22",
+    "sha1": "cb419014e9927ee3bbba10799e003ca4c6918005",
+    "name": "W25Q64FlashPartSmm.efi"
+  },
+  "4ac9fcf60d1aebadb3694467d7c34a6347fb876e21e998d0421da516e603adea": {
+    "guid": "371FA4B8-8042-4ED6-ADA7-A987BD2CDF0A",
+    "sha1": "ff021fb4bb45f656b58a9d6d3df9560bbcdaac56",
+    "name": "SystemImageDisplayDxe.efi"
+  },
+  "3a3ae962e9df2bc5e57c2248601021b5a9a82fcea3dea5aa9bf706e20c0ad157": {
+    "guid": "95C051C5-F123-432E-9383-B9CF113F082E",
+    "sha1": "022fa6b18875f7fca41ba63afe19813d05955eae",
+    "name": "SystemTcgServicesSmm.efi"
+  },
+  "b65e660c61fa5b1be4f4243c6efb03b2ccbf428aba69be20331b99bb37357b23": {
+    "guid": "21DB0286-6E4B-4A7D-A805-E8C194E866EE",
+    "sha1": "4039e2e03e1ae9281ade32d95276803874279f68",
+    "name": "SecOemVgaNvidia.efi"
+  },
+  "596e02fe25e00f5b5a194a2f545c99c181facca893f668d138cdd49f1c5e4499": {
+    "guid": "9CC55D7D-FBFF-431C-BC14-334EAEA6052B",
+    "sha1": "086cd1f162ad1fa930981501d67a691a59a1a063",
+    "name": "SmmCoreDispatcher.efi"
+  },
+  "691f8b2f8b293e38783d5297933dd4007be835e413e10de8c02c520c7dfcb5fe": {
+    "guid": "51CCF399-4FDF-4E55-A45B-E123F84D456A",
+    "sha1": "9139def4b9a4fb8540b4c331f2ccdc0e193fab63",
+    "name": "SystemConPlatformDxe.efi"
+  },
+  "fa80852a2f66a6afa4c6163fc4c91502798709b6e00f1935824c22d2965b975e": {
+    "guid": "1740FC68-54DC-4DFF-BC65-B9A9E78DBCDB",
+    "sha1": "14d1ace91ddffba5e96ff9e311a1589fd04f1fcc",
+    "name": "SecSabiDispatch.efi"
+  },
+  "e885039c67cd50e254d84b369b977c314bbef66ca8eba6f409e893364f51d01e": {
+    "guid": "29CF55F8-B675-4F5D-8F2F-B87A3ECFD063",
+    "sha1": "bed68c4ec51f5e4a23b88837f140dd2c52e14881",
+    "name": "SystemVgaDxe.efi"
+  },
+  "11bde3233b65adff2af6b7f25348b32fe2037f2f626e352b1d37a88ff2e6f885": {
+    "guid": "5479E09C-2E74-481B-89F8-B0172E388D1F",
+    "sha1": "79530d1c9882ee46e247382d6b14ffcb9e1bfbff",
+    "type": "S_TE"
+  },
+  "bc3256c062739fd9c0d9dc33fe4744168a4b7bd038dc33b77ea7471d51e5b89b": {
+    "guid": "5F65D21A-8867-45D3-A41A-526F9FE2C598",
+    "sha1": "edb73b4da95b3f329a14ad981658f831446ae420",
+    "name": "SystemImageDecoderDxe.efi"
+  },
+  "cd1de32f647ac7d375f2f6e161869b3caad059424ece5de3360adf014595dfdf": {
+    "guid": "2BDED685-F733-455F-A840-43A22B791FB3",
+    "sha1": "e0618b0fb41e46502c470524d335742cbad7dafd",
+    "name": "SystemAcpiS3SaveDxe.efi"
+  },
+  "88fafb7a0385b7443c348ba90cf6b09b8728ccf4aa9c568817d2ef62eca03992": {
+    "guid": "2D2E62AA-9ECF-43B7-8219-94E7FC713DFE",
+    "sha1": "b50b8cb7f4b2e46384371a24615feabe5bf74f50",
+    "name": "SystemUsbMouseDxe.efi"
+  },
+  "b0f993dbc8ed22ef49d2a741bdb1b787181562d20ceca6d5c4e5f5e164a3ac7e": {
+    "guid": "6690C3B5-E21E-453D-8A0F-39ACBFEACA3E",
+    "sha1": "8ed0dc423cad0d0c0f4f91332405c078b66f65d8",
+    "name": "SecPcieAspmDxe.efi"
+  },
+  "ab2399a4df9be1ec8ce072c2e039f257bb9f255216da22498bc82a96fdb02261": {
+    "guid": "510550E0-BBCE-4EBF-BBA0-946E3D18E705",
+    "sha1": "7bebcf9ab1bf752854e62c14e97dad260a5a7fee",
+    "name": "PchEmulateKbc.efi"
+  },
+  "08f097181fee9388b9d3913db553d3a70cec7fe985f2f4e7acf234b456b1cbcb": {
+    "guid": "CD92B9B9-2D4C-466B-8458-95447D8E4AFE",
+    "sha1": "51d7cf0960f4319825a347aa4df0c25de2174bbc",
+    "name": "SystemSmBiosSmm.efi"
+  },
+  "e7d7b468dc391af453420a9aa7f919aa464aca21bee6fa1ad4e05ec79512461a": {
+    "guid": "96B5C032-DF4C-4B6E-8232-438DCF448D0E",
+    "sha1": "277ccc43eaab101f5103e49f1237460a9379c401",
+    "name": "SystemNullMemoryTestDxe.efi"
+  },
+  "c2d3ab5901142f500a05802689afea67f34a334b3ec6514db50f9d79093f39ea": {
+    "guid": "BD6736AC-B126-4FEA-9D1D-174D4A899F22",
+    "sha1": "454fdb6e8797e3f3c5cce078a7d3ed07ffa021ba",
+    "name": "SystemErrorMenuDxe.efi"
+  },
+  "8c20462419cee5a51436e67beb586ae110e9acc2c094e191d44e5ad5079806eb": {
+    "guid": "32442D09-1D11-4E27-8AAB-90FE6ACB0489",
+    "sha1": "4025f59057b2a21222de98e249854865fee09be2",
+    "name": "SystemFormBrowserCoreDxe.efi"
+  },
+  "154f921999caa41d865561ef549db013d9f53437c4a6dd91d2c44e0a622f87f1": {
+    "guid": "33CDC56C-B1EF-4B21-87E4-225F42C67F4A",
+    "sha1": "6bd2a257b7851e27ea5a72e79d07f929ec1ae237",
+    "name": "SystemProgressIndicator.efi"
+  },
+  "a2b3dc90b20a16d7e0e19a36ae715b11c9de9c50f7291fb01b965a8e406e872d": {
+    "guid": "07A9330A-F347-11D4-9A49-0090273FC14D",
+    "sha1": "847c4a85b9785f9c5219a94df221c0d7a524f787",
+    "name": "SystemMetronomeDxe.efi"
+  },
+  "aae74443af94e5e1129add9195f20ccc9b3ddc0c9891b102d85d3b3a684a6167": {
+    "guid": "CB73C3D9-2F01-4342-AE67-04DDE5264092",
+    "sha1": "2606c4de308e408718e770487b805ea041b5a05c",
+    "name": "PlatformSmm.efi"
+  },
+  "15b8ebc384f5664d8a3fbe048c24eb6061c1d798280b1304a4b0739cffecf69e": {
+    "guid": "B9CABA9B-E5C5-41DC-86E2-E7CEF87B81CB",
+    "sha1": "454ed31473524c05fddbefb720f3054d11c2494b",
+    "name": "SystemFlashCommunicationSmm.efi"
+  },
+  "a07651f6fc327c15b765a8e00edc66cd29c5df2e1b6ff7d4b30005052007e638": {
+    "guid": "650CB8FE-37BA-4152-80E2-7A30AC20BAEB",
+    "sha1": "6623aafbff6eb00e284e38d7e65391d260877f42",
+    "name": "SecOemVgaAMD.efi"
+  },
+  "0015d3550ffb1a57cb5632cae4297ccc42acf8cfe7c38a9754ab918dd4a67d7c": {
+    "guid": "42B21BD9-FA02-4081-B511-4891FAE00A0A",
+    "sha1": "02e3491a0d04ea405f81cc125c8b78415c71ac8c",
+    "name": "SamsungSetupExitDxe.efi"
+  },
+  "9c19258a77d6551c20251c6f494c21b9addbe427c0c6b3f955de7ca2f0fd9faa": {
+    "guid": "C0CFEB8B-6EE1-443B-BCC9-854E7C9B416D",
+    "sha1": "3109f46b6a363e5e2826151747d73a6637372716",
+    "name": "SystemStatusCodePort80Smm.efi"
+  },
+  "8609d0976ba4645c119d24e3f38d6da1b480f009900914b49c74bb9b50d7b44f": {
+    "guid": "C3491A75-7600-460F-810B-FC703944D1BE",
+    "sha1": "9c534b790622224d17b7076226707da247bc8544",
+    "name": "SamsungSetupAdvancedDxe.efi"
+  },
+  "eafa6175dcf7b0a714a2d79bd4b564cabbbe0375fecb208551a9547c0f81de9a": {
+    "guid": "485F573B-2A11-4F49-B7B5-C661DBAC257B",
+    "sha1": "2e2676612ee4a3ef2c6a5626ab533645bdd5243a",
+    "name": "SecFIDPei.efi"
+  },
+  "cab7c533a72e21ff04ae2abb4c0c7c2c07e4f45014e2073afd0b47928af3af43": {
+    "guid": "44F23590-DC88-11DD-AD8B-0800200C9A66",
+    "sha1": "798697be181010cc3902ceb77d10e62de3012739",
+    "name": "SystemAhciAtaAtapiPassThruDxe.efi"
+  },
+  "3ba089577bb2ce2f114765581f8983408683052c45bb57823afd3c9875c406d2": {
+    "guid": "6EEADFC9-BD90-462E-B962-7E5FDA4DC48E",
+    "sha1": "3e81c5641bf9a35f0fcda00b5a30f751ca209cc0",
+    "type": "S_TE"
+  },
+  "e4574cee76ca45abd5ef2e9ce2b95dae2252421fffe8c4b09b3b3445c4e60493": {
+    "guid": "3F7753EF-D36F-45CC-8A1A-2EAAFF1038B6",
+    "sha1": "364dcb542aaba38fa7d710b8d4688fb5decdc53f",
+    "name": "PlatformPciDxe.efi"
+  },
+  "39d5c4c1746a8951b49236888e572d236ef5314f36766759da8ca8a8463a86ab": {
+    "guid": "6E5228F3-933E-4961-9573-0F1E61B522AC",
+    "sha1": "c494262c05762788b1971231c9ef5e34ed6f2b20",
+    "name": "SmbiosVpro.efi"
+  },
+  "b9c174fbc29734779607e26141253c7c60a275e940b21b401c3415eab42cdbd4": {
+    "guid": "31E147A6-D39A-4147-9DA3-BEFD4D523243",
+    "sha1": "01c3340b719a55727c4ba99af57886e42e47f3f6",
+    "type": "S_TE"
+  },
+  "1dda31a22207753f95da557adf9d5799a4f79ac1063d0ebb654fd454a0c589df": {
+    "guid": "AD608272-D07F-4964-801E-7BD3B7888652",
+    "sha1": "7a7e3f08aed7253a3558dbdc6e7ab3c109da0e85",
+    "name": "SystemMonotonicCounterRt.efi"
+  },
+  "450eddd41219efa3ec536bf49ee5164ae70d28dcf3443f79fe5134005f9a3d03": {
+    "guid": "C194C6EA-B68C-4981-B64B-9BD271474B20",
+    "sha1": "8a759cdce3e829aba7a666c7e2f711627ded2c5c",
+    "name": "PchSpiRuntime.efi"
+  },
+  "7fcfb165766923ba42eb464cd8fc995895816a2f034298d7f3e9e261ab99a5e1": {
+    "guid": "8F26EF0A-4F7F-4E4B-9802-8C22B700FFAC",
+    "sha1": "75d84735512c6a01bb76c1140069c983e0af16a9",
+    "name": "SystemEnglishDxe.efi"
+  },
+  "926a83837ac7640e4c9ada3c69edcc9e94707291f1d3c930679581da00f0ea3f": {
+    "guid": "47E9A44E-379F-4C5E-B1A4-9166914CF61C",
+    "sha1": "ebef9ca0114e794d9d96af0804039793d6ea7dc2",
+    "type": "S_TE"
+  },
+  "84d633faeb0245386b6d01b960f0986a0d5f53dc95a316575e0feee96622636d": {
+    "guid": "10149626-5583-4364-822F-A459B8121302",
+    "sha1": "f4716f8ccf26f21968fb81fc9dea4cca467ab218",
+    "name": "SystemFirmwareDeviceDxe.efi"
+  },
+  "5f36c3ec1b2e91857dccd7e2101f08bf2d8dc979b457cf676a1586aab8fa4594": {
+    "guid": "2790584F-0D09-4EE5-8EBD-16FAFA2CEB22",
+    "sha1": "16122df7e55e62137ef2843ea626770666079a45",
+    "name": "SecSwSmi.efi"
+  },
+  "a1b9c2d1efa049cacd6e96814beb1c6d8699de285e586a111430d0d8a871dff0": {
+    "guid": "90CB75DB-71FC-489D-AACF-943477EC7212",
+    "sha1": "09b7d2622a496075c67ea666ffd254e7186ff2ad",
+    "name": "SmartTimer.efi"
+  },
+  "31049c2c673d53355b6baa65ac0dc0efa236316f464203f1acfd190f042ef342": {
+    "guid": "87E328F9-93A5-4375-BA69-93A7A77A5D9B",
+    "sha1": "483c91b086aab4cd0efcc9a60391a4bdb14a79f5",
+    "name": "InitMePolicy.efi"
+  },
+  "6b18deba00f9ebc92cd10466d470d0c397af7b1c0b659e1a2c34333e9c0aa6ff": {
+    "guid": "61E575DE-E762-4416-8AC8-140596735AF6",
+    "sha1": "8b3a75ba9e974ad2f51be86599b883f6614efb9e",
+    "name": "SamsungSetupSecurityDxe.efi"
+  },
+  "dfbc9874bb09213caa58e582de57661d005ed40443fc468152d4d6ffc3a49bb4": {
+    "guid": "A3D726AE-FA58-4AB8-9E28-D06944426B63",
+    "sha1": "0e9f1688f0cf5f5f5fcd24bf95ec0289fdd78523",
+    "name": "SamsungSetupBootDxe.efi"
+  },
+  "8ed51627ccdd6ad66395e6a44010352daaeea897df1c0e7a4ac2f0d1c834a2bd": {
+    "guid": "51D4BACC-E70A-4136-9426-546973ED938C",
+    "sha1": "1105da9c9fd218783e85236fd0f467ad495f2119",
+    "name": "PlatformS3SaveDxe.efi"
+  },
+  "dbaeb01523b2445d9900e647380d18e098ac21e5caf51ce42ba8f6c38e9edb2e": {
+    "guid": "C82919D6-33FD-43ED-800C-635A3369D0F3",
+    "sha1": "05c4b8970e202c6bbb0317a3acb511993a564886",
+    "name": "SystemDiagnosticSummaryScreenDxe.efi"
+  },
+  "a2a9b4d862e906407b2ab40b7ee806ef1ef175b1044543866214d25602106cba": {
+    "guid": "6451FDBC-2B74-4A7A-9E91-6EC82836BEC7",
+    "sha1": "02183c01689cda90efa2ca62f1dda169ed004dbc",
+    "name": "ExtendedIntelICC.efi"
+  },
+  "fb4fc9230a0fe26e1e5d273ad7c77d93f425039f5eec707766890578a90a5553": {
+    "guid": "721C8B66-426C-4E86-8E99-3457C46AB0B9",
+    "sha1": "425128e2454ce8a33c952f4b8d5957e58f5a39fa",
+    "name": "SystemSetup2Dxe.efi"
+  },
+  "8bf4b3f528efc826187b2f69d2662bec881fde04f266a1bf5597d224e7c8d6bc": {
+    "guid": "707B3C6E-99A6-4E17-84A0-40284C1B3F38",
+    "sha1": "cd0d68b364555cb9f48b6fd98059c4c7f75d0d77",
+    "name": "PiSaveStateAccess.efi"
+  },
+  "4f7cfa161bcf28fc8044abaf3c5ad7c7baa2b3844d9b831ff3518ab8ad65d4ea": {
+    "guid": "C6602CDF-E16A-4147-9B9A-0B399498722A",
+    "sha1": "6ba0a5231db8de0138714e4f035ae4a5d2e82645",
+    "type": "S_TE"
+  },
+  "38d6f68c599e5340ace57523e745978d788214718e41fdfff22c45b03a8f52c1": {
+    "guid": "CA261A26-7718-4B9B-8A07-5178B1AE3A02",
+    "sha1": "5bdcc2493f2e3d605d5908cf140448939b9969c6",
+    "name": "SystemDiskIoDxe.efi"
+  },
+  "bfe95cf562e6d765b41514a3cfd1233644c7b06b371cb24dfa568fd00839b0ab": {
+    "guid": "8D6756B9-E55E-4D6A-A3A5-5E4D72DDF772",
+    "sha1": "cd62e84cc7f25a534d9e1d578df8a4b87d8ccc13",
+    "name": "PciHostBridge.efi"
+  },
+  "ff0611f2ff0f884b4a31d4050a169d88072e545fbf99f6e14d6efc8f7a4d6b86": {
+    "guid": "E5D0BBDC-1BBC-49B7-A8B6-67AAF0A1CD9E",
+    "sha1": "a957f36ec191f2df5c270d900dd4536507019820",
+    "name": "SystemDiagnosticSplashScreenDxe.efi"
+  },
+  "21413c0eef8dc9970b3215029a61cbf9c7554eb775a3618f6dbe78fce35fda63": {
+    "guid": "B0D6ED53-B844-43F5-BD2F-61095264E77E",
+    "sha1": "50836593c5511c988ce8af724aa0549728901139",
+    "name": "PchSmiDispatcher.efi"
+  },
+  "ceb0a61982b768c3ab7e31e6b7c7cb84a6c392de5be37466d555c414bc57a109": {
+    "guid": "1CAE7577-D662-4727-BAEC-777631D3A958",
+    "sha1": "5d1944bb8a507f98e56d09e6b75d291fcbd04360",
+    "type": "S_TE"
+  },
+  "52367b3c135b398d155b23c017265d6fe672eb287be4d793965967f2e71d80cc": {
+    "guid": "BAE7599F-3C6B-43B7-BDF0-9CE07AA91AA6",
+    "sha1": "43c8d1d8023ea1fc2387b123625a9291c4b8e900",
+    "name": "CpuIo.efi"
+  },
+  "b70a45b54edcf18c00a89e1dae16bfe684716f6e175324e00aebd3cc0ab1bc0d": {
+    "guid": "27F4917B-A707-4AAD-9676-26DF168CBF0D",
+    "sha1": "9f627770b53db9862b1b9c5afb213c35dc345b38",
+    "name": "PchSpiSmm.efi"
+  },
+  "703ed5d6460f3b130b9fc4debb756fbac0ac48de781964177b687e0102611c3a": {
+    "guid": "FB142B99-DF57-46CB-BC69-0BF858A734F9",
+    "sha1": "df045de8feaed0575412d07df2179ec0b0e574b2",
+    "name": "PciSerial.efi"
+  },
+  "8d09eedac0dae17cfe4596543fd51aa1fbfa57abf2d3253149ad79db9b344cb9": {
+    "guid": "316190D1-5E48-4C15-AC72-37532F3A1EC1",
+    "sha1": "7918877f97ab1ab0c7c4d8dd98af5197b217ee1a",
+    "name": "SystemUsbDatabaseSmm.efi"
+  },
+  "de6b4d2a1c5aa989666d928928df60c883b1660e7423dd2a57cc28de42ddf71d": {
+    "guid": "01359D99-9446-456D-ADA4-50A711C03ADA",
+    "sha1": "3c3d95ec856c9d6c9a9e55ea84473d740343fdda",
+    "type": "S_TE"
+  },
+  "4552a9313734535375a054b000ccdaa6b52e694368e5d41f8562d87afe695363": {
+    "guid": "A6F0A898-E08B-45EC-A269-D32D21CD047B",
+    "sha1": "71d6725610f0311d05e4805fe792b9ece0e1b5c0",
+    "name": "SecOemVgaNvidiaSmm.efi"
+  },
+  "85209227837744e405f5a2950ebde019f33ae2c326f07141a0f2f5291cb911f2": {
+    "guid": "B6A2AFF3-767C-5658-C37A-D1C82EF76543",
+    "sha1": "d5b2acf4ae4e144a69ae5fbf4878512a6d21f861",
+    "type": "S_TE"
+  },
+  "58f3e59f4543863cb1e990d6e6f86eb64b3dc495b4fab0ae76e5564734287849": {
+    "guid": "391D3760-A38C-41C0-B946-B8A52E48590E",
+    "sha1": "dbacfa0660163ae797836a5ae6a2795f506a024c",
+    "name": "SystemStatusCodePort80Pei.efi"
+  },
+  "664bb84499a18c9660e52b334761728bc8114e68c4eacc24857d015063767550": {
+    "guid": "AC3435BB-B1D3-4EF8-957C-8048606FF671",
+    "sha1": "841abdb1d1a2d5e11ebd66e32f20cbdddb92c923",
+    "name": "SystemFrameworkHiiDatabaseDxe.efi"
+  },
+  "a9040dd1599d916536b05d97b468b132ddb16a1e18987a95a90a1d1192575a4f": {
+    "guid": "8E5C4BEA-34FF-4E32-8358-3363DA01E628",
+    "sha1": "2cd6eddb89d8a265d6df690c39e21ce11947c15d",
+    "name": "SystemXhciResetSystem.efi"
+  },
+  "cd3303c712130254ae55fbbb786df24d5eb44ba57ce3e2875e4f5d2f2719bf06": {
+    "guid": "54519AE4-C284-42A8-901C-AF2132999E32",
+    "sha1": "1b4aeb8082e398e1a67adc55e1c7d09f8af8f994",
+    "type": "S_TE"
+  },
+  "85720e2778320a3b56aa5437ec71902fa0014907032b2a4a45e0ed594a6fb685": {
+    "guid": "0A66E322-3740-4CCE-AD62-BD172CECCA35",
+    "sha1": "63604e8639dfba8f19bf6adedba07a0d223c376d",
+    "name": "SystemScsiDiskDxe.efi"
+  },
+  "cb0f0a35d1a978a2b6a6f0f766a0434a691cfe536435f04bca8762370aa8c863": {
+    "guid": "54C32CBF-A3B9-4CCE-9C43-E059E32255DF",
+    "sha1": "67bce0a1f72a5ae1b79a6f312fba006da5108ee6",
+    "name": "SystemFirmwareDeviceSmm.efi"
+  },
+  "06df0ce7a787d7acab0ad389c1b83f97e4fc77b221e962390591d83d88201f8b": {
+    "guid": "05346FE1-D60A-4406-8BE1-908A143D349F",
+    "sha1": "c6b7c94d7f2cb79c4b10a055e8ea85f467b5f94a",
+    "name": "SECRtcDxe.efi"
+  },
+  "d522a264de2ddf5e6fb88998287862bee73c4a2b170165772ab459082b533cca": {
+    "guid": "69FD8E47-A161-4550-B01A-5594CEB2B2B2",
+    "sha1": "72660199f638233651467711df48bdac124bb08c",
+    "name": "SystemIdeBusDxe.efi"
+  },
+  "f630cee52b613564b40255442302fcf850edda078bee74742887f07a41784d7d": {
+    "guid": "F9BC1010-76D2-4AD8-99F2-FB151C2D40E5",
+    "sha1": "6b8d91df190226143e3f6643771f22030ab4ab20",
+    "name": "SECVariableInit.efi"
+  },
+  "30270657771cb86d70cef65f016bedd7b10cb3e555d8ada4f8079cd9b26e996f": {
+    "guid": "DDB412A6-E3F3-4E9E-90A3-2A991270219C",
+    "sha1": "364f86a2095f6675f27966495c4ca236f1a43608",
+    "name": "iFfsDxePolicyInit.efi"
+  },
+  "de6c9e142e37129bdf14256a2dfc24e7505888f5258a8f20538f0467476051e6": {
+    "guid": "35B898CA-B6A9-49CE-8C72-904735CC49B7",
+    "sha1": "e00052d4a1dbc3afea436feac086d32153f6857d",
+    "name": "DxeMain.efi"
+  },
+  "dbcdc04ff634cd91ac38b5bb4b33e6a1ad1e3d5660cc07f2f03e416c8686e1a4": {
+    "guid": "ED52984E-6ED7-4445-9D5D-200C3201F51E",
+    "sha1": "341286788b763fd0b29f1a09c567bf613b7ef2b0",
+    "name": "PlatformStage0Pei.efi"
+  },
+  "95dac509d91fd1fe105e72a8cd63aed5efd54d8e7f160e346402aa4f9059cde0": {
+    "guid": "0013BE6B-2198-43F1-93BA-2A7ED7B1E1CC",
+    "sha1": "4cb62db3db3b3c76c7fd2185b617a40d146067e0",
+    "name": "SystemUsbSwitchDxe.efi"
+  },
+  "602f680fef724bb5083e337250eb95836be3a7a1870317e631bb8a7dc1618752": {
+    "guid": "7C79AC8C-5E6C-4E3D-BA6F-C260EE7C172E",
+    "sha1": "bedf32f2a8033436b8eaf401154314a1df36c4ed",
+    "name": "SystemSmmRuntimeRt.efi"
+  },
+  "0d7ab5c8843ec85fb518ff2b0bb9ccfa1db2de9943906ceb39d5b160e4d33c68": {
+    "guid": "5AAB83E5-F027-4CA7-BFD0-16358CC9E453",
+    "sha1": "791d665acf00d6dd8b531518997839b9bff0d761",
+    "name": "WdtDxe.efi"
+  },
+  "b57053540ac1211ef0d46c852afec0c95a95921620253472f218ef1273525aff": {
+    "guid": "65246A3B-33EF-4F7E-B657-A4A633F130B0",
+    "sha1": "ac75d3cead18048ba11064daddc9e2d9e440a516",
+    "name": "SystemVariableSmm.efi"
+  },
+  "9c3a6811340ac53eb4a5d34b285a97930f88d26008549238a0065a11922d3911": {
+    "guid": "C61C6982-B904-4CEF-BF1B-C63BF7CA0352",
+    "sha1": "ea6bb36294a56b3285d17294b8569be402f8a318",
+    "type": "S_TE"
+  },
+  "273976c7b7086cc5bca63033d08b22cc3704f790c1629dac4f24a94f61403fbb": {
+    "guid": "8BCEDDD7-E285-4168-9B3F-09AF66C93FFE",
+    "sha1": "1b7542ad27a4f35cc7ebcc724b570de875550d22",
+    "name": "SystemS3ResumePei.efi"
+  },
+  "d5840df5e34bc986ff8ed677a965923e78985b89fd27907ce00cdf47a1dd8745": {
+    "guid": "863095D8-3BF4-447C-AE10-15B3AE9936FD",
+    "sha1": "5c6b2c8d1379ff50f11b902c421647a39af5df18",
+    "name": "SystemBootModePei.efi"
+  },
+  "4e79d41d9c9e02c1ec5476ef2884dd0662da7abdf6a205564b0ed585b210196d": {
+    "guid": "55E76644-78A5-4A82-A900-7126A5798892",
+    "sha1": "78194699aab2e80e8908cfa3f51b5ca542dc3804",
+    "name": "HeciDrv.efi"
+  },
+  "f34e637e91d5620ff4efe34501fb2c6915f96fa8b3b7c474341eea2c8aa5ba53": {
+    "guid": "D2CB970C-8622-46E1-9083-DB2EA20CA6E3",
+    "sha1": "b71a13c44fc9456ec2cd679650e58ca5fbd3246d",
+    "type": "S_TE"
+  },
+  "79afc93964e0cdc2488629c58cdbc6a6b61066a66b34659b4182d2d9c4527e2d": {
+    "guid": "63438C6E-971C-4E40-8F0B-1109457BE333",
+    "sha1": "fa5f2eb4bf6cf98cbe0c919419b5eebf03e210f7",
+    "name": "CpuInitPhnxDxe.efi"
+  },
+  "d9939d53571a640ff690779dec7265ada03ee86d45ea3d2c22405ca768308988": {
+    "guid": "60B607A0-5F3C-4E19-92C8-CFE30B39855E",
+    "sha1": "8707d80b3a7771ea7a5a53c4a7385c5bf816bc64",
+    "name": "LPC47N207SioPei.efi"
+  },
+  "062bcef29e0738292fc5985cb8f58263264521c2e8199f955d9aa63770f25e29": {
+    "guid": "706C1E0C-44FC-4012-9B71-3DBFEC762F35",
+    "sha1": "7fffe38f125f47e63a44780c8d258814355f396d",
+    "name": "PlatformFlashSmm.efi"
+  },
+  "3c9bee106e23092887f436d768bd8eb4a3e2cbe5d2b215a3e1ba2272a2b64197": {
+    "guid": "C4F2D007-37FD-422D-B63D-7ED73886E6CA",
+    "sha1": "565e0703ab75d2663cec329ff778a113a00bf3ce",
+    "name": "IdeRController.efi"
+  },
+  "74d173977c7414efdf33c29fb8d552cbf48fc464f82cb1168f871659ca8a604a": {
+    "guid": "400B4476-3081-11D6-87ED-00062945C3B9",
+    "sha1": "34f6168f69c93f51d4552fdb8ea6040b129971db",
+    "name": "SystemSpeakerDxe.efi"
+  },
+  "78a2e9ce1af9fa826e0e071cf205a2ab1e19079642ba525db948ca6cd9334d49": {
+    "guid": "37A0D020-CCD1-11DD-AD8B-0800200C9A66",
+    "sha1": "9dd670bd9df093edd6650230970e80710327339d",
+    "name": "SystemIdeAtaAtapiPassThruDxe.efi"
+  },
+  "a4eff33e2e24204330b9c323bfd780d97dd22d56a262806581cea824f250ac2d": {
+    "guid": "9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E",
+    "sha1": "ce6d4ba49a50ada60c785079dbfb00511267c8fc",
+    "name": "SystemUsbMassStorageDxe.efi"
+  },
+  "e2e3abb42e39ae1afa85d95f55b5d37e95a14b6d95f44ccb84d7ad569b7fd25e": {
+    "guid": "CF9668F7-B0F0-4D7F-B41E-AEC794EEC7FC",
+    "sha1": "4c4969916c258c7626847e3f6819bf57c8695be1",
+    "name": "SystemAcpiSmiServicesDxe2.efi"
+  },
+  "5ece5b76be08f1042f0bba6aca21a40f2cf64d898b5ae1e5b4405fff56426254": {
+    "guid": "07DBA0F6-AF17-4E57-9EBC-CE3321C19D29",
+    "sha1": "9a2718f39fc6ed2855c5627d0a8122327af4ab0a",
+    "name": "SECHddInfo.efi"
+  },
+  "4ee19f80d5aa0870772f10405d77d592480448f049d8ede27e405a68320f63bd": {
+    "guid": "6B4FDBD2-47E1-4A09-BA8E-8E041F208B95",
+    "sha1": "268865d5c2863732a02ec6149709123279f7f906",
+    "name": "PchUsb.efi"
+  },
+  "68396e19951203d854b411c0ba4ac590509fceafa3a00316f9a565c488aa858c": {
+    "guid": "BFD59D42-FE0F-4251-B772-4B098A1AEC85",
+    "sha1": "6b48665241627bc8b805236326bff6d54dc63c75",
+    "name": "ActiveBios.efi"
+  },
+  "e470f65157aa48ff4c3a3fa10be67db7f92aa62459817e96fe9ca9af5df92c0c": {
+    "guid": "0DCF3594-318C-4596-B00F-BE61842DE3E2",
+    "sha1": "7d7c4777ec3684e6b77da1436418142b75790e0d",
+    "type": "S_TE"
+  },
+  "608c1634f5c127aa78a2d78645ab32b48ecaffe46582552008e6b15ae32b39d5": {
+    "guid": "F8D3DABF-6B44-4EE5-BB01-A55DD90EC14A",
+    "sha1": "ed23b78687e576e215ec40e57f1d4475de8c69a7",
+    "name": "SecOemVgaIntel.efi"
+  },
+  "5750b074e22726ffb9b89d6113712ecde8be6efeeb118da3051925c7d74b021b": {
+    "guid": "DA5D9983-033C-4823-9349-8B1B6A798030",
+    "sha1": "3f911644904a6600f9ecdf0a46425575ab5bcd5c",
+    "name": "SystemStatusCodeGenericSmm.efi"
+  },
+  "e2bfa442bfaa576b6b10eb530c30c13166f5e713d16f84d10160f97f5c6bfd68": {
+    "guid": "33C6406D-2F6B-41B5-8705-52BAFB633C09",
+    "sha1": "721ce28b23398b20524f6edcc9e02c65ae54f786",
+    "name": "AlertStandardFormatDxe.efi"
+  },
+  "9abdf54ad1b8fac82577b148566f4c2050b6bb8dedc00e76c1df2ff40f041765": {
+    "guid": "91C08812-2520-4A80-898E-86F1B13DDB0B",
+    "sha1": "c4b3dd58995f05efd014ffa6194ba9d62c86a498",
+    "type": "S_TE"
+  },
+  "d6c39fb5bc916772792f49ab009899d276ddbbb5700b31f9649cb1b980646e68": {
+    "guid": "C2BD6BE0-C7C9-11DC-95FF-0800200C9A66",
+    "sha1": "e092f5c3351a716460ad350b66432d370e0ad132",
+    "name": "SecEcSmi.efi"
+  },
+  "fe5afbd65d3bc4465cf3cfd9a07db2f2a65f531e511b16f6e7e716ad436ae7b0": {
+    "guid": "B222C93D-D81C-414B-82A5-D8845ABFDE34",
+    "sha1": "4a5ae12f39b23acf571b7ceaea40c1a5edf8bf33",
+    "name": "LPC47N207SioDxe.efi"
+  },
+  "66d97ef474f054ee4162b92d7a7dcf64ceedcf692519652fca4df720a004dd33": {
+    "guid": "7391A960-CCD1-11DD-AD8B-0800200C9A66",
+    "sha1": "4280d90dde3688a611e56bf07d789c3b305307c7",
+    "name": "SystemIdeAtaAtapiPassThruSmm.efi"
+  },
+  "580f85eef9fa0466cb8ace5d6df5c259bfd61409e94556533ddb95e027f55687": {
+    "guid": "2A4224A1-2609-40A7-88E2-A68DC0F1D180",
+    "sha1": "6b1e0ad246c5a8f4de4a58868d6b6998514b73af",
+    "name": "W25Q64FlashPartDxe.efi"
+  },
+  "4e35f4417110bd37b7a95fbbdb0a9a66bfe536cff1a3b0bc4bd8edd76f3eebc1": {
+    "guid": "A4F2909C-5E2A-438A-91BA-272B0923049A",
+    "sha1": "c2960dc5fbc1a7b7ddaf067b39d6d75b802da424",
+    "name": "PlatformSetupDxe.efi"
+  },
+  "b3a028e0bd2f56aa099ae639f8971f960cf3ef385f517589bdedf9d6bcd9777d": {
+    "guid": "AEE918AF-4ABC-4671-971D-AF4B7E19A00D",
+    "sha1": "e3385746a821d7da4ceb39a951a3a5b5cda51c55",
+    "name": "SamsungSetupSecDebugDxe.efi"
+  },
+  "d63985e1e004044033f3a791798d2eca64b8e26c239299a52d5d2f0492fac908": {
+    "guid": "0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8C",
+    "sha1": "1f921a7a7396a96eb4d4c6fe327b024808903245",
+    "name": "SystemAhciBusDxe.efi"
+  },
+  "53d653d8096f5b544db07a750397f91bc650f7d38a84f641d1c0a60a14b3fba2": {
+    "guid": "DCA41C06-FD2B-41E4-BBE7-946444DB0BD9",
+    "sha1": "35b12fa6fca84e67aa91e618c0c28502a8b504e3",
+    "type": "S_TE"
+  },
+  "609caaa76d05b6545d1d13440277aa0da7ae0fd53d930cec470959c1cdd69af1": {
+    "guid": "CDC0191E-1891-4119-817E-0B6A3685A511",
+    "sha1": "789f1fc9382ed6ba36172d393dd6a9075eb13639",
+    "name": "SystemBusIsaRtcSmm.efi"
+  },
+  "0dd9112e695ffa257b6f38b7ffef23d254f1188a56b5a3de1c325832ce881305": {
+    "guid": "93B80003-9FB3-11D4-9A3A-0090273FC14D",
+    "sha1": "eda824355882f4f4830d041f0a8ce16702e9142b",
+    "name": "SystemIsaSerialDxe.efi"
+  },
+  "4ac72b3b068552a52f74460dc545b35a87f24a2fb95011f101c822af350bda54": {
+    "guid": "B74BB37A-ECA2-4F79-A544-90569ABE6B99",
+    "sha1": "ea7da10758e93515500146a5d98b1c9c77b7049f",
+    "name": "SystemSmmCommunicationSmm.efi"
+  },
+  "358fd168365fb3ef6e2fed71351db4b07e4a9fc2e9d8096dd6d56270609f4612": {
+    "guid": "0723F88B-810F-4E44-92A0-A5C83B433698",
+    "sha1": "d9405704dc1d40cbd284285484df096b7d38f04d",
+    "name": "IbexPeakFlashControllerDxe.efi"
+  },
+  "0232256a8c56e9dd39836c37c98d0c7ce6cd3556ba27e07d9e105ec254ba3940": {
+    "guid": "285983FF-AAA9-497A-A6F0-7B3D017BDE96",
+    "sha1": "31fdcd03bd46fed55530f6a9b8d09f39079bb51b",
+    "name": "PchIdeDeviceDetect.efi"
+  },
+  "e77170c6e6246f0b11ae6472c27f8fb5b5eb033a7fb1cc129338237c6b0f0f41": {
+    "guid": "4862AFF3-667C-5458-B274-A1C62DF8BA80",
+    "sha1": "f148b11cd94b2dd8b5450e56be528476c815a544",
+    "type": "S_TE"
+  },
+  "de23d52e5c4c491ef4934a0d754503857f9c170ae2656196e91b1a2409eb4ecc": {
+    "guid": "5CC4B10D-529A-45DB-BC70-D3131D66F59F",
+    "sha1": "82c9d456cfe46c60f395b61a42e953746c757318",
+    "name": "SamsungGlobalNvs.efi"
+  },
+  "376bd86a3f64457f38f9c8986ddc0a9e6f5ee316fdb7f1fefae6a6ca074a5296": {
+    "guid": "A89EC8E0-0BA1-40AA-A03E-ABDDA5295CDE",
+    "sha1": "242f6d856ea1486f1e729611f8f0395bfe780f34",
+    "name": "PciExpress.efi"
+  },
+  "5850311aa645ad5767278c261c2a24f5cd052f3d72fc1e19bd8d4d0d81fce766": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14C",
+    "sha1": "950d2729a1bf300e09b4ab3c33a679a9a4084238",
+    "name": "SystemUsbSupportPolicySmm.efi"
+  },
+  "5cb9745a615f99da56b08421c2ecf075d9ddb1f007c5b43d4cb7263fba9ffdbe": {
+    "guid": "86D70125-BAA3-4296-A62F-602BEBBB9081",
+    "sha1": "21fbaa82150e03a34e912f65dff6d0539823a3f6"
+  },
+  "fbcbde9b1d570f5f7546127da28668f0b7959f3c3e932a53d9d4f44105e408b0": {
+    "guid": "AADFA1AC-E923-4673-B1B8-714AD849F790",
+    "sha1": "ac124a6d1e16293341abfb264ab6b6441d7fbd58",
+    "name": "SystemFormBrowserSimpleTextViewLayoutDxe.efi"
+  },
+  "13c046b03bddcdcf5b194a90183a766a7317f1a14a440f649e14120a8583a743": {
+    "guid": "13F943D6-0859-472D-9115-6929F9B6C7C6",
+    "sha1": "ef340c4f5e316449a1c22e8bf86901ceddf863c5",
+    "name": "SecMiscSmm.efi"
+  },
+  "ba7d43880642fe5b3279b4d4edd0a1917bca15cdc5752f2dd007049c9cd35ee5": {
+    "guid": "2A163243-21E8-4CC0-ADCA-5EEA5CB7CAC2",
+    "sha1": "4a29598735181292e7df0c68570355327475e68c",
+    "name": "WirelessControlDxe.efi"
+  },
+  "7860b3161a2a330e000ea4883a0be16a6516682c1b0ca567f3e7345d107462c8": {
+    "guid": "A196BA47-8ED3-4188-A765-FA964DD7ED7A",
+    "sha1": "034f6893c69709d9d5bcd5d3865de528e2322fa8",
+    "name": "SystemErrorLogDxe.efi"
+  },
+  "81aa6b13f98b0e6f716e43b93b3cdb0c3dd7dfa343bb0f1b34ca92e26abb75d3": {
+    "guid": "FC1B7640-3466-4C06-B1CC-1C935394B5C2",
+    "sha1": "d59219dde6d50190bd1570dd8c3eac29dbf50619",
+    "name": "PchSerialGpio.efi"
+  },
+  "35e823dc60bbedc7f7979ea8b5a4b6abd1e9a6240fc81fd0e4af4c140686f90b": {
+    "guid": "73DAB30F-3F9C-4160-B064-439CE16C3EDE",
+    "sha1": "ca65d29d8046d62ca6f81fdae7a93ef56075ea60",
+    "name": "SystemBootManagerDxe.efi"
+  },
+  "d03e38e857e296143babd29b41bbfd48ab1f3e2c6d7cf254a51f92ede364f817": {
+    "guid": "3E44AD09-D88B-4C52-B41B-B8C00536474A",
+    "sha1": "6f77d5d992b1e52923ca841401fba1986e1d7eaa",
+    "name": "SystemCryptSvcRt.efi"
+  },
+  "2fd41371dfb9f66a938e151363722090435b5404c7df77991f6cca8518182517": {
+    "guid": "62D171CB-78CD-4480-8678-C6A2A797A8DE",
+    "sha1": "2dabfd7209320da25f73969fee89ed3de0ca06b6",
+    "name": "CpuInitDxe.efi"
+  },
+  "200e18b2b059691099c6793791b39d9e66c5e2a2d830cdf4f7b995624666f799": {
+    "guid": "4D37DA42-3A0C-4EDA-B9EB-BC0E1DB4713B",
+    "sha1": "bb29d70748dc99643a61131c4d78310d9d52c8ef",
+    "name": "SystemPpisNeededByDxeCore.efi"
+  },
+  "80631f916a02b51128e9dd578572b5fdd5e5986835f6509369f835fcc0029192": {
+    "guid": "52C05B14-0B98-496C-BC3B-04B50211D680",
+    "sha1": "5aab352366b3b1322f0097492c5fa90189029307",
+    "name": "PeiMain.efi"
+  },
+  "aa4bb459080fbe62b939ca98e7855c271124405fc6dd811ee4204117ef013f77": {
+    "guid": "8A78B107-0FDD-4CC8-B7BA-DC3E13CB8524",
+    "sha1": "638f8c68aa825858e66765bfa7848c9595a16046",
+    "name": "PeiCpuIo.efi"
+  },
+  "6204c5b04c9f5bd76bdbfb2f99b57c62df3fac93e5c62cdc8a1952e72b0feb6a": {
+    "guid": "53984C6A-1B4A-4174-9512-A65E5BC8B278",
+    "sha1": "2154950a99c3ef271c1df30fa8abb10dedd4e387",
+    "name": "PlatformStage1Pei.efi"
+  },
+  "07a755ddbeb89464695f0c3f7898d4d54fdd64bc6bfc9c7110bae028d9615638": {
+    "guid": "717A0EAA-9B18-461A-B6EC-AC09794CA631",
+    "sha1": "3505888c86657223bc97b7695fefe46e947d4abc",
+    "name": "SystemAcpiSupportDxe.efi"
+  },
+  "4fd19f8e09966584e3fcd0a479ba717946101b1532930f1bbd7190a59bdbfd16": {
+    "guid": "F5AC7057-5650-466E-B692-76A47223EFB0",
+    "sha1": "25dd6200d4de17cb03408e1d7398056aa8bd6cdd",
+    "name": "PlatformS3SaveSmm.efi"
+  },
+  "872ab4be6d72aff91ae8ca44ad262934ab776ba808724dd1145f03444e605f68": {
+    "guid": "AC5919D9-F137-4F87-869F-D863EDA88ED2",
+    "sha1": "697dc98cfcb7486c8a734903224a6a31c6d629ab",
+    "name": "InitVproPolicy.efi"
+  },
+  "56837ecac9cdbf3edf4a6f1a605cde3fb80a825c75951f97f77239e635924d30": {
+    "guid": "40B62FB5-3909-4505-B775-6CCF48D90516",
+    "sha1": "cf55574fc78bcbb99316acd569eb3a2d0554e516",
+    "name": "SystemStatusCodeGenericPei.efi"
+  },
+  "ad30091e6e66f57a80c25bbe0fde41dc271e925b2b97aecb1f30a093034246f9": {
+    "guid": "2EE81ACB-64B2-41AE-8635-7030D16C4AA8",
+    "sha1": "f0fc38a56fcd71c06ac7541b162be4d06690fa3d",
+    "name": "PchBiosWriteProtect.efi"
+  },
+  "c488ddfaa8fe0c2d807d048de579096bf96f65fddc85f416a2b527b736e2fd5b": {
+    "guid": "EA2EC402-2FD5-475F-922C-98EAE0376312",
+    "sha1": "2b325135a85b317fc5ef20b2fdb186849d57ccc2",
+    "name": "SystemLegacyBiosDxe.efi"
+  },
+  "dcc2f78e6dd9dcb1033e7946d8a1d7d69e05a295bb362635a79f4ce072b32438": {
+    "guid": "851A6355-CE10-4F67-9D13-91B3281A95D3",
+    "sha1": "dd6a0ce839e5c178e58532139a722229714ac894",
+    "name": "SystemOemActivationDxe.efi"
+  },
+  "afa5404985fa9b2ff5b227d3502293e2c0b3206bc2fe9d207abb0fd7f690bc7d": {
+    "guid": "9EA5DF0F-A35C-48C1-BAC9-F63452B47C3E",
+    "sha1": "71cb752b61ede35a758db7e1bcb55c23f7b30aa8",
+    "name": "SystemCapsuleRt.efi"
+  },
+  "3a0eb31cd393f0058ad155cbdae1e6ac150388f185f8692b705e5e87248f331e": {
+    "guid": "643DF777-F312-42ED-81CC-1B1F57E18AD6",
+    "sha1": "39c27c136015f51f06b0ee21d0bb0f014a757c0a",
+    "type": "S_TE"
+  },
+  "f519020f3e3b5a3ea56694718340bf666aac544273b9f1fce364d83a609125f3": {
+    "guid": "2338337A-47B0-4C41-9CA7-0160FB94DFF4",
+    "sha1": "c31aa2426fc237df713ed418a911680c3b6b1387",
+    "name": "PlatformFlashDxe.efi"
+  },
+  "80c6320522da74bf4d2341bfcc937cb2d7c587c176d07ac91f331745bb7a94de": {
+    "guid": "6E32EAF6-32D1-43E0-B6E1-DCF6DA81DF76",
+    "sha1": "1f293869ba868ffab49fded0e47102b4f58132a6",
+    "name": "N25Q064FlashPartSmm.efi"
+  },
+  "35ecf34f9dcfdded5ceacb506aae8048cfa2b5ded2242275a6dd7483c240608e": {
+    "guid": "F94700A3-F49F-4CD2-BF25-19E280B72E3B",
+    "sha1": "5e131db0385fd7ded148318ff6d870bda6d0b2ac",
+    "name": "SystemUsbDatabaseDxe.efi"
+  },
+  "aab5d41fdc9019e6f98a273f6e757d02d111568d6f3de167af366039034747e2": {
+    "guid": "3B42EF57-16D3-44CB-8632-9FDB06B41451",
+    "sha1": "199eb455712ee8f3671cf96d3365927db8a9a397",
+    "type": "S_TE"
+  },
+  "70be8fed5c285aac1a2492bc85c4bf5ac843e7467c80afb68833eef2a5429e85": {
+    "guid": "7E715650-10E6-4B7B-896A-4DC5FC742BC5",
+    "sha1": "bd5f94ac676f0e66c05e13b4ebfaff4442a28854",
+    "name": "ModulesSmmThunkSmm.efi"
+  },
+  "9f713a54e5d685d0e75dbbdc037eae19818777c07847207ad543247394a39ee4": {
+    "guid": "CA515306-00CE-4032-874E-11B755FF6866",
+    "sha1": "b85115fe6f65469fd5094c475e8faa621b51ee14",
+    "name": "SystemDataHubStdErrDxe.efi"
+  },
+  "a3320d51136d2a4e79683fb0f9b752d9d74d806ccb39e3fcd2b96aa087861dfb": {
+    "guid": "EDA39402-F375-4496-92D3-83B43CB8A76A",
+    "sha1": "5069fd9b070795a2c510170423c06db8eced78f5",
+    "name": "SmbiosMemory.efi"
+  },
+  "b17986cd2a10c9b70249ed6027c5859572627838f54f4c82402782150caee973": {
+    "guid": "9292F7AC-89FC-404B-997E-91C9C690ABB7",
+    "sha1": "baa30a6af33f74de1a72970fec0c0206fe679f7c",
+    "name": "SamsungConfigVarDxe.efi"
+  },
+  "2adb90b499ed305eb3981fd3ab91aa6425cc9382229c3c7ef1470a311e5b4be5": {
+    "guid": "D739F969-FB2D-4BC2-AFE7-081327D3FEDE",
+    "sha1": "d59d5d10b22a1159fd139fcd78502d834c9bb7f5",
+    "name": "ActiveManagement.efi"
+  },
+  "a3b5685cc2e2ca2284d9bc9858c6eb4199f2575ba8b5cec2512a74e3759e9d1f": {
+    "guid": "27A5159D-5E61-4809-919A-422E887101EF",
+    "sha1": "17efece16ebe7c7fc6e2f8a081ceb4623d6bd435",
+    "type": "S_TE"
+  },
+  "ba7b4de3265c8c6f691f5e610c32f5297d1d13bb371a594a0cd73799f262bd19": {
+    "guid": "2D1E361C-7B3F-4D15-8B1F-66E551FABDC7",
+    "sha1": "aabd83e621006bd2516279b7b541e985b97d3f7d",
+    "name": "SaLateInitSmm.efi"
+  },
+  "729f60068dcd76e5a515fac8e39d3b0f03817d43fb8be30d434de8b116181bc6": {
+    "guid": "EAF59C0E-BD46-413A-9AE9-DD9F6D1A927D",
+    "sha1": "fc58dedda171deaf2a78ae339edb738c5c31305e",
+    "name": "SystemSmbiosDxe.efi"
+  },
+  "d3553ee3296b71bec54d4fff152fd01842016fa8a755ade64bb81e45e4d622ab": {
+    "guid": "53F019E9-BB0C-424B-870A-1FAF10B1CB4C",
+    "sha1": "3992a1961c6cd9e5838299ba30f36c778a5750bd",
+    "type": "S_TE"
+  },
+  "3d6e14956126a20a63f3a55efaadf7957f93475c6b76ca4ad5fdfc412b9e329a": {
+    "guid": "C89851DD-5EA0-42CE-8934-EB8EA608FBA9",
+    "sha1": "cba80cf14bbbe48b993387f61b321267d78a75c8",
+    "name": "SystemAcceleratorKeyDxe.efi"
+  },
+  "f6282f4085e8cccf47afb59c9bf24998660b04bb2d0feb2cc3be1739bc001339": {
+    "guid": "F642A9D7-26B7-47CB-ACC8-135951AC93F8",
+    "sha1": "e8f510d8c25b85e9bd09b2378eb94c5b007a0f3a",
+    "name": "SystemCmosDxe.efi"
+  },
+  "d908acd46ae61a8ddc6ff847f7e149240bde8118ff840096b2047e174c90dca4": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14E",
+    "sha1": "3751b57881ae01856e00039227d649fecc6c50c0",
+    "name": "SystemUsbSupportPolicyDxe.efi"
+  },
+  "31624d0260a625ca86e6cdd8dfa81742ab6243f75a72b705f415fc6813bf850e": {
+    "guid": "5BDDE605-B107-419E-9510-AA3C434EBBE4",
+    "sha1": "6d3bdd4b74ae56d7e1704ff8efc303261769ff50",
+    "name": "PlatformCsmDxe.efi"
+  },
+  "e4c6fdd7212bf69f96c69f6bc0e016e49de3523f41ac64580d160ed7b32fafca": {
+    "guid": "1BA0062E-C779-4582-8566-336AE8F78F09",
+    "sha1": "7f7dc1fc142104dc91d27480a6ed90881d2c8efe",
+    "type": "S_TE"
+  },
+  "ccc61fb7e92acc8008b8f2a97222e3661b87f36c216aecdef761ae76ec974b3a": {
+    "guid": "1504BA7B-58F8-4D12-9638-B494A7044376",
+    "sha1": "3b8c8fe366175c86bdfa6574933225e47e433f9c",
+    "name": "SystemSmmServicesSmm.efi"
+  },
+  "64a724578ae30f6dcedc67cc67c835ae5dc9a4e5b452257cd16247e5e08c08d7": {
+    "guid": "CC84D725-DA1E-46A7-9E75-4BACF1FD3902",
+    "sha1": "64bffee7aa75fad359725fd4b64bc778061fe4ee",
+    "name": "SystemFontDxe.efi"
+  },
+  "98d5fcdc9b6847e3bf517010689a924610ebda948ef6b94f909a9d263c575560": {
+    "guid": "9E863906-A40F-4875-977F-5B93FF237FC6",
+    "sha1": "8b73a7b55d54137b8bd6c557b79eba850111c1cb",
+    "name": "SystemTerminalDxe.efi"
+  },
+  "cc3354fc983ae558a116e1c97ae51fa51fd26178de2cc3786ee987b947d9670e": {
+    "guid": "9A9A912B-5F53-4586-8820-704485A29D21",
+    "sha1": "12de6f3fcc34b96b15f9bfd2c9cb4d76e3a1bead",
+    "name": "PlatformResetRuntimeDxe.efi"
+  },
+  "939680f62275a1e9161677565765a9ba06044ec3fb4f1ded030d4e093cb7741b": {
+    "guid": "6ECFCE51-5724-450C-A38A-58553E954422",
+    "sha1": "721303865dbb9cccf4745f6778471bed97492bbd",
+    "type": "S_TE"
+  },
+  "5ae859e9b8df58b7a8905ce53a650dd90ad79e1fc6a0f3ace3d6e5950d7b8c05": {
+    "guid": "BCB59C90-DC86-11DD-AD8B-0800200C9A66",
+    "sha1": "94ab8c114d3e5b83f2033716c79ef39942fc72ec",
+    "name": "SystemAhciAtaAtapiPassThruSmm.efi"
+  },
+  "cd615897e3fd67f17e2b7e5a7ddd21c4e57517f3349469d15e718fb4f3fbf5df": {
+    "guid": "FD236AE7-0791-48C4-B29E-29BDEEE1A838",
+    "sha1": "1a32bed08aecdaf8f85c66dc96c2f4ec4d181caa",
+    "type": "S_TE"
+  },
+  "a46b5fc992b411e406b817eef4962af9cb0b27e24c326a05617bedec9c0ff93f": {
+    "guid": "77A6009E-116E-464D-8EF8-B35201A022DD",
+    "sha1": "79206b7bf1bdd22e8d6af909be9a9f7136ab94f8",
+    "name": "DigitalThermalSensorSmm.efi"
+  },
+  "373db963c96e1cc4fd3548d57ca71b106b2c70ad74cf4242e9bf5742c2dee2b6": {
+    "guid": "ABE49097-A3E6-42F5-89D5-C7107C04B480",
+    "sha1": "f906e36bc0994cd032dbf62db4233122d4605483",
+    "name": "SecBootFailDetectDxe.efi"
+  },
+  "7f252e2513cbdff4c4f62fbf65b2b6ab8471d3332c184391cd1e9c3429b7d9f1": {
+    "guid": "389244DB-3D6E-4E50-835D-5A775A325D89",
+    "sha1": "463ec7d876de9456eec4536259ac940a7edca34d",
+    "name": "MX25L64XFlashPartDxe.efi"
+  },
+  "2c343763d23d664fa9c5107944e9635788048224b81a54d4f5baf0fa6f05d563": {
+    "guid": "835DDAA8-D000-4821-9FE7-F9697A311799",
+    "sha1": "60fb4410668b94bf1dc127dc47b181ae2f3e509a",
+    "name": "SecOemVgaIntelSmm.efi"
+  },
+  "1066daf57a264a6251dc969a1c02cbd0d02fbd080dee1e9419398a94a5438e5b": {
+    "guid": "55A2532E-297A-4AFD-90BF-139BFF5BB4D7",
+    "sha1": "31b3ba8f249003e04d94745c76b819f9148faeb0",
+    "name": "SystemAcpiTablesPei.efi"
+  },
+  "745a3efe0833992dd9116fd5d8c7718ca742f1b4f1ef55f523972ac81d55f2a2": {
+    "guid": "CF1CB9C4-C759-4B34-9225-67323AAAF844",
+    "sha1": "ec170cf3fe3cbb871c05da055ed16603e66a4d4d",
+    "name": "SecMfgUsbBootDxe.efi"
+  },
+  "9ac3d610fd0d6061a58fa5a656309531f7c16a272627fde571b32724a7514385": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14D",
+    "sha1": "f2590038c1523243da575d4b9ec6d8add7318cc0",
+    "name": "SystemUsbBusDxe.efi"
+  },
+  "9d1c2aad30fbbdffdfb7298a575bd98112d3376702c51d88291e1bb808b4130d": {
+    "guid": "D204D1A8-3775-4414-AE4E-8DB8A08168BF",
+    "sha1": "c04c8071674ccc41c18f7e25803ccd7bf419ee03",
+    "name": "SecPlatformEcSmm.efi"
+  },
+  "71c233de9830bd6fc55295d460049c23b7a0a2b79538078f1c578bc99c810fd3": {
+    "guid": "348C4D62-BFBD-4882-9ECE-C80BB1C4783B",
+    "sha1": "ffccfa4925a78714cade602e9de21d97e3f49e35",
+    "name": "SystemHiiDatabaseDxe.efi"
+  },
+  "685f3c353c8c3b7c6df4bc29469489001e5451e5612d2a57ae9b6d7b982e2e1e": {
+    "guid": "0B6A8DE0-6281-40A2-8E9A-09F1A18A6D40",
+    "sha1": "2865e2d552f91876b6adfc42ed4e38eaf18e0ff2",
+    "name": "SystemUsbSwitchSmm.efi"
+  },
+  "03b4a3783037e3033518f19688aab79b2de6b411f3431a1fec3fcfe8858f2645": {
+    "guid": "A7D8D9A6-6AB0-4AEB-AD9D-163E59A7A380",
+    "sha1": "4f34dbd296740bca3d6625575d394e941c3136c0",
+    "name": "SystemDiagnosticSplashScreenApp.efi"
+  },
+  "8f0b02c4939928b9465bc74a82c56bfef66e33771d72f11ce9c9b699c1baaea6": {
+    "guid": "9B3EF2E9-5B6E-465A-9453-ECB039101037",
+    "sha1": "b6dab025ed74ea1f7f1fdba48f81f59678f57921",
+    "name": "WirelessControlSmm.efi"
+  },
+  "c7ecf1ec0125997281328aa3bc0149b388502c53f37ca66dce38bdcf026ec411": {
+    "guid": "BF73D2BF-AC8C-4D83-A3B9-4A0F420074B3",
+    "sha1": "25657aef043e5de8987c3989c817464af4a2ff4e",
+    "name": "StatusCodeMeDebugDxe.efi"
+  },
+  "1cfc71211d111c43cbc19b85762f10f57ffef01bce1f287b344d7c3d8d606e16": {
+    "guid": "AD70855E-0CC5-4ABF-8979-BE762A949EA3",
+    "sha1": "f5ffe1bde5be78ab01339d7eb2ae80739fca92bd",
+    "name": "IncompatiblePciDevice.efi"
+  },
+  "6ed6cf0adb79fffdb13ee9fe9f2b4af9cd0acd382b53e77ab50a44b3fcb83694": {
+    "guid": "9FA2F805-3D86-42BC-A9C3-2B26A5DF09F9",
+    "sha1": "306ce7054b06782a44ea74898763f68fd733e939",
+    "name": "PchConfig.efi"
+  },
+  "3ade20758598a59decca67de9394ecba84728f48c4e220348a6272a32a1c3ece": {
+    "guid": "C779F6D8-7113-4AA1-9648-EB1633C7D53B",
+    "sha1": "697a320efe75c8dc839745a3d67354c1ea9c5154",
+    "type": "S_TE"
+  },
+  "6e2da6e8830462733c63b66934e1a175a88c7a0d120073e27bd946ca5c7ed047": {
+    "guid": "8401A046-6F70-4505-8471-7015B40355E3",
+    "sha1": "88114ed93f41d573ad9b8d0729d1732c388796ab",
+    "name": "SystemUsbBotPei.efi"
+  },
+  "cc86162affe1d6b0477c96f0a3161587d133a2e393dd5860d72775bcbacd3ecc": {
+    "guid": "00DC1A11-EB46-4738-A53D-0F60011F7AC3",
+    "sha1": "79239b07000e891249cee7fdcbab21b0ac41858e",
+    "name": "SecOemSwitchableVgaSmm.efi"
+  },
+  "b949e2c508bf93fb2ee23e74ebb353f4f557b2b9543e678c9076970a2eaf3c09": {
+    "guid": "961578FE-B6B7-44C3-AF35-6BC705CD2B1F",
+    "sha1": "6d05b9065fa00d0652302403340d6baf1e406bf8",
+    "name": "SystemEnhancedFatDxe.efi"
+  },
+  "f063037d78d3a7c17129f31e0d147aca11df416ff1c5079b44223a65cdeeac57": {
+    "guid": "F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8",
+    "sha1": "2770c1db2993151f5a964d40e7e585a6ba76f56e",
+    "name": "SystemWatchdogTimerDxe.efi"
+  },
+  "d7f0b81ccf3ff03f435b7c98596280f6e9c0077e036d020ab2d6c568b3807381": {
+    "guid": "2ACB1E45-DFA4-4FF3-8F81-91F7D787D22D",
+    "sha1": "8529b1d7de2d7e788252f7f88e8c164a4975325f",
+    "name": "SystemUsbMemoryManagerSmm.efi"
+  },
+  "a079a598519788d75e95571c3e62c46fbddaf17197b556f5a8934dfa92523091": {
+    "guid": "3AE53353-D092-4B60-A3E2-C4B34CA0F9BA",
+    "sha1": "8fa314dae98ae4fde9842c3105e76836dbde9154",
+    "name": "SystemSlp2Dxe.efi"
+  },
+  "f538caaf5526e1a8c5bbca925781af94644803ced2a8352e1586d8d0328e673a": {
+    "guid": "2D6F37BF-9AFC-4AA5-A026-32B2FCF30FB9",
+    "sha1": "659ca10f348c016f36162222574c1d17625291e5",
+    "name": "PlatformDxe.efi"
+  },
+  "1a7b3eabb5c8108dbb4446783e04440f73303cb489abb8421a31fa3ffa6397a0": {
+    "guid": "4AD6BAC7-C843-4AA6-9467-F37C8761F124",
+    "sha1": "f4068dd173dacb76d08fc1b14272241462f6ff63",
+    "name": "GD25Q64BFlashPartSmm.efi"
+  },
+  "6d46cf6aed0951a488e5c82f4cdaeb1280da59e63d88bcbb2d31ea106c5d03e3": {
+    "guid": "9B680FCE-AD6B-4F3A-B60B-F59899003443",
+    "sha1": "9d1d1231d08aa2eb276c12311b2b649039d13793",
+    "name": "SystemDevicePathDxe.efi"
+  },
+  "608183a78e46b95c13cda9c540ec70d8c15cd15f61e1ecfc8a507a73fac0383c": {
+    "guid": "AB6013F0-8E65-4D84-A943-B479D27445DC",
+    "sha1": "25bd55f2c28d308ab9096fda531d59bf4cfeb2ae",
+    "name": "SECBootControlFunctions.efi"
+  },
+  "5aeaedac15121c1456eaa1c5bb75efdafaecec631044953315fe3030bad7f2dc": {
+    "guid": "2D2E62CF-9ECF-43B7-8219-94E7FC713DFE",
+    "sha1": "cc438a65e7c4eae6fa9a86c7e3ebcde56f6f8456",
+    "name": "SystemUsbKbDxe.efi"
+  },
+  "26a65ffb92098480081af1cdfe6c470021a13e7d44e916a6e621c994b73191ad": {
+    "guid": "918ABA30-3D8D-4BB5-B849-45CC4FC7DE7C",
+    "sha1": "524c15f48f1dd1659104c885ef49956466b630fd",
+    "name": "Dptf.efi"
+  },
+  "e44de5b9c7b584b2c35e13e6352d20109f457cee7a78dd1ca932bf576d802aa6": {
+    "guid": "66B898C2-B6A9-49CE-8C72-904735CC49B7",
+    "sha1": "0d41747b1538b06d5037a8ae528c7fd0e15c2bc8",
+    "name": "Battery.efi"
+  },
+  "bb4f52d331a57937aa0f31eda52a3ee3f1bf45b911b95312787f157106da5733": {
+    "guid": "5820EEB4-C135-4854-9D2A-AA9EFC4475E9",
+    "sha1": "bd38e184a4a7fbba4c3ad3e59659b6c5abaa818b",
+    "name": "MeFwDowngrade.efi"
+  },
+  "a9cf8d709384021c5385654e2e38216b2f28cdd4752c02a8f3ef5e3d46c9338b": {
+    "guid": "0B0D26C8-8091-4D03-BA4E-37DE6768DB12",
+    "sha1": "11ca3e2fcaaa40da93ba09adcf5233d76d4441dd",
+    "name": "GD25Q64BFlashPartDxe.efi"
+  },
+  "d0b61e7229b07bb0672ca93892ddaeea69eae17123ca124d6bcab8862a2a8c1f": {
+    "guid": "64D721F1-3100-4BA6-B0AA-8FFFE49368C8",
+    "sha1": "c3d202922f074ad2664619ec8ebec718aefd43ed",
+    "name": "SECVariableFunctionsDxe.efi"
+  },
+  "feb194f5b1227b0c0de2ac2b6a3e45551617963ec7bd4833d039263f56912258": {
+    "guid": "C2223A0B-80D3-4C35-891F-BD0CC4E990F0",
+    "sha1": "5f489327a770e170abe0f63dcd0af813e668abc8",
+    "name": "SystemFvFileLoader.efi"
+  },
+  "e51332ed9de7d52b079fcb174fc56f94d0d585b51e33186e9d863b278263e9e5": {
+    "guid": "3C14C099-3143-46EF-AF18-DE4AD2C3A799",
+    "sha1": "04c67f720a10c8f926ad523fe3d3358bd64ec895",
+    "name": "SystemHiiImageDisplayDxe.efi"
+  },
+  "93fd84d3184455d663587c87966d82dfdd82844a94fa2c8b21e82c1e5883a9c5": {
+    "guid": "C7EA9787-CA0A-43B4-B1E5-25EF87391F8D",
+    "sha1": "d48129fd6917b3c6d24573cff5d80064c1d7e9a1",
+    "name": "PchS3Support.efi"
+  },
+  "ab41d36cac14189fe2ef1fac94337a1475df8625eb1271b80c9fc00e1fb26a93": {
+    "guid": "29A1A717-36E9-49E0-B381-EA3B5FF70942",
+    "sha1": "ad046f4f578233a3f23176f7301e32f5dafbfe18",
+    "name": "SystemStatusCodePort80Rt.efi"
+  },
+  "d682950515af3ef86e5a430d07d71810f4c941848534d51ef6039323b8a25cb6": {
+    "guid": "4D62B5E9-71C8-412A-8604-878C921D9AD1",
+    "sha1": "769cbb7e4277d4ce7cfaff1926f3f5ca2454af3f",
+    "name": "SystemErrorLogSmm.efi"
+  },
+  "6527c7474e25532be696e7675111be6dd3536d9d3c5b043ae443a7f1d12ae6a4": {
+    "guid": "1213FD4A-9CB8-11DC-8314-0800200C9A66",
+    "sha1": "eb606278bf2c833d0e6ec2bbfe57154c8b88d5c4",
+    "name": "SECLegacyRegion.efi"
+  },
+  "71c714b029c12ccd863c948e46b2685beb591646c32a6288fc3593a3edbc57d1": {
+    "guid": "ABB74F50-FD2D-4072-A321-CAFC72977EFA",
+    "sha1": "81ef36aa253bee9a304404c93a210b25ddec7ebd",
+    "name": "SmmRelocPeim.efi"
+  },
+  "c3889019a9112058d39e1284064b220536ec7b173214e979614f4290079c36c2": {
+    "guid": "F106452C-89B6-4DC8-B4B6-02B50149DCD0",
+    "sha1": "fd0007b7e01786239d578c78b39079c495bd118e",
+    "name": "SecMiscDxe.efi"
+  },
+  "354136a529cdcebd674997a3676abee0b75a67c08bf9bfd815abe8d4bb2acea5": {
+    "guid": "D591373E-B36E-45FA-A93B-0478810B8C71",
+    "sha1": "d3dfe9be35fc664e0d0e30be6d1f3d87ec54ad1c",
+    "name": "OemInt15SmmHandler.efi"
+  },
+  "325f36195a8d46319ac964f956bffd27dc53f99769f2d9a7c6ba83b235a25694": {
+    "guid": "4C6D032A-51D8-473F-965F-7CADC9142A0A",
+    "sha1": "2df77a43f7d456caaf61b6792d736f78e7b414d3",
+    "type": "S_TE"
+  },
+  "028d74123b1187633c76cdc9ee94630e7ea3bcccdd330dcf257f72df96681bf9": {
+    "guid": "3E4817FD-2742-4351-B59F-91493280329C",
+    "sha1": "cfdb59ed28519b9fcd044b9160a0151ed4dffec2",
+    "type": "S_TE"
+  },
+  "dc33d9840a6a48ca3851c260d729d3fc37f95c3554dc22cdf88cdeccec18b932": {
+    "guid": "AB4579C4-3BC5-4489-A88E-0F21E6CEBF85",
+    "sha1": "6a7c6ae384675c5f4ef3ff25a76becfd1029189f",
+    "name": "SECRecovery.efi"
+  },
+  "13f044cdb54b150d471e9440bc67d5e22c3e56c27d1ac95d93c30748340555c0": {
+    "guid": "C866BD71-7C79-4BF1-A93B-066B830D8F9A",
+    "sha1": "d83a0bb844fa4d1f4f62ed3f9e436c3fb6e440f8",
+    "name": "CpuS3Peim.efi"
+  },
+  "16fede5c03e9c90da861b8427532d0870cd6aeb501db7fe9d081e26979718fb2": {
+    "guid": "BA54CEB2-36E2-4B1B-8BD3-555D1229D27F",
+    "sha1": "1116439452611f44e692a3b38a2956f67517de27",
+    "name": "SamsungSetupDateTimeDxe.efi"
+  },
+  "17055f0a0a985fe4d7b6f501e373849abd5dcb37ef30c53fc7d07dfabb716146": {
+    "guid": "891BF95C-A903-42E7-8D5F-B7F9B6C8831C",
+    "sha1": "65ae2a683ac8e99543b1b4972900d6ba2b317cea",
+    "type": "S_TE"
+  },
+  "90628c6c233262250a08f465e377f9e45138d8c8bbea2aa8603d7246decc631b": {
+    "guid": "77617ECB-E229-4E20-B8F9-DF8245624D7A",
+    "sha1": "3e8ea384e505b7a305f728cf314480ea9e85e299",
+    "name": "SystemAcpiTableLoaderDxe.efi"
+  },
+  "e133546898c74089d7ff0df2150512da09f15b67bfa3fd2c935f512b1c67c56b": {
+    "guid": "3072652B-257C-4311-8794-91856F938BCA",
+    "sha1": "48e5fa2b402eb150dd1c3be4271a5bb5a59f93a2",
+    "name": "SecIoTrapFunctionMain.efi"
+  },
+  "54701b210544499c12bad6887e3899b6a08f61ff1e8a371c51fc3164762c947b": {
+    "guid": "AA4DA26D-A9F1-460B-A438-D413B5EC5F84",
+    "sha1": "6d1c83eec7233810f3a9b82afed6218762fe52d9",
+    "type": "S_TE"
+  },
+  "7af3ba85f3f7b26fc2dc6556d2e3a43ced88b3d68c8a831a84a842caaac03aee": {
+    "guid": "AA652CB9-2D52-4624-9FAE-D4E58B67CA46",
+    "sha1": "2dbf631c2461a894f5024532d06e89e7345fe64a",
+    "type": "S_TE"
+  },
+  "5914b3860d04b3268061743aaf572eec5fbe001483c7de7d8fcc86c2223cf4d8": {
+    "guid": "51C9F40C-5243-4473-B265-B3C8FFAFF9FA",
+    "sha1": "f8ab6dad9342fc9a9d2da3013f032dc87da9fa1f",
+    "name": "SystemCrc32SectionExtractDxe.efi"
+  },
+  "98af33e063c4413a1837f57281951f1ffdfe34ba1d5e1201ab947d6efcb87300": {
+    "guid": "271DD6F2-54CB-45E6-8585-8C923C1AC706",
+    "sha1": "6c12427cc8cd9fb8f791d3821412487a0187a772",
+    "name": "PchS3Peim.efi"
+  },
+  "ed93e4784acca19fa20294a182c5251ef1606f7c8e4a13064af8c1c7c0fe1ed3": {
+    "guid": "E052D8A6-224A-4C32-8D37-2E0AE162364D",
+    "sha1": "a2ab9cbb732d5fb4d84c28058a959aed0ad6b936",
+    "name": "PchSmbusDxe.efi"
+  },
+  "f991c85349ae38b5689278ddf0a1deee6337160336c02fd1a3d23b8cd3063460": {
+    "guid": "EBAA46B7-74A3-4E64-872F-6367F6E3C978",
+    "sha1": "aa08276629247fbc72e1d2b5c3d17cd626d8d5f6",
+    "name": "SystemHddPwdOem.efi"
+  },
+  "a1f898262214ac97ca7cbec415e15f53285c1fdbba1d9fd8d6afd08eca538718": {
+    "guid": "E1AD4352-2610-4DD6-BB8F-8BB2B03383A3",
+    "sha1": "08219610d914be32b8897cac79082a67074080fa",
+    "name": "SystemScsiOpromPassThruDxe.efi"
+  },
+  "1cef7775e11ae7a6b1b3822eb8b60859a216068aa01a4ed145b27cb1515f7850": {
+    "guid": "6DA79E06-ABC1-4F41-BDA6-899956DE39A1",
+    "sha1": "f3d347d5e667a934b36cba70049fda3cd73bc22b",
+    "name": "SecIoTrapDispatch.efi"
+  },
+  "cc378d13ae8240ae4a56bfc851e12751e2ebb58998e22a139b2092f8961aba22": {
+    "guid": "ECDE1CFD-6F96-455E-BF3F-0D1C503068AF",
+    "sha1": "800a734e8fad9df23e7117a61afaa5855288628f",
+    "name": "PurchaseDateDxe.efi"
+  },
+  "7d2a19229ffae5a304250fa56e684d69f34796e9bbb3801d5556927ebc0b4e86": {
+    "guid": "D687E479-DB37-4BCE-864A-02EEF6819DF1",
+    "sha1": "bfb21ff2032bfd012ea541464e8512a0b43d28b8",
+    "name": "SystemFormBrowserSimpleTextViewDxe.efi"
+  },
+  "e2c2e065b979bfd37889ec8f4fef0019a0dc51347d5063918dfd379892e9619a": {
+    "guid": "EF33C296-F64C-4146-AD04-347899702C84",
+    "sha1": "c7646b8c01a04c3342b22acd86390a2194ef6b4d",
+    "name": "SystemSmmUsbLegacySmm.efi"
+  },
+  "b16417bdac43966514dffd06d8af941f9293d76754af7162b0b92e0d6113aaf9": {
+    "guid": "6E6F05AC-234B-465B-9450-C36E6D7566C5",
+    "sha1": "9107b51492276d8a727c085320815876766c3021",
+    "name": "SystemIsaKbcDxe.efi"
+  },
+  "5767a9129dc1bc4b7728cbe1df0db019b039993b45900dd1ec521749a9b88196": {
+    "guid": "BB65942B-521F-4EC3-BAF9-A92540CF60D2",
+    "sha1": "ab91e32fb871b619f261ab573152f67c1a6a9686",
+    "name": "SataController.efi"
+  },
+  "acd1c8508798743229dd09cf6404a430c8a5fad46ae0e52c25b291ec76bb90fb": {
+    "guid": "46D8ACDD-29C3-4013-81E8-37A425AB4F99",
+    "sha1": "c9af019460bd699367cdbb561807ed80cb77ce9c",
+    "name": "SystemCmosSmm.efi"
+  },
+  "5dad9ea03c856767be400c1a7a5baf4d39ddf3089262d170a9a48b76156acd87": {
+    "guid": "794610DA-D0EE-466B-81B3-8197213A6978",
+    "sha1": "c5a3b4aaa12bdb78463231e96e133d623b51312b",
+    "name": "SystemSwSmiAllocatorRt.efi"
+  },
+  "f9486a27759b7552cd169bcc048f3db5aa03cb88c2c4957964a25c1d4cabf953": {
+    "guid": "408EDCEC-CF6D-477C-A5A8-B4844E3DE281",
+    "sha1": "9c088b1761d5a5ebbc6c6b752dabfac4b5070db0",
+    "name": "SystemConSplitterDxe.efi"
+  },
+  "a0a3646c78fea7ce81c64b7f0436ab1240da271d2712f56c4e554a0a9de7ce17": {
+    "guid": "53BCC14F-C24F-434C-B294-8ED2D4CC1860",
+    "sha1": "9b6b9500d2201a1356c0ac61af1779cb164a2975",
+    "name": "SystemDataHubDxe.efi"
+  },
+  "9b7f5e6bbef65f88f02c386a0adda02a937d9c09ee53739e5d228737a92ce525": {
+    "guid": "43172851-CF7E-4345-9FE0-D7012BB17B88",
+    "sha1": "de255060df1f38274fd90460af56ed8150a0d0e6",
+    "name": "iFfsSmm.efi"
+  },
+  "b0ed53b981b3feb1ea36d81232d0c67f52d27c48104b082e9b06ab3fc8fe55af": {
+    "guid": "DB4DB11A-0E5C-40B5-8E46-17D04486A21B",
+    "sha1": "6f195327079a11c7aff0f369484a51e7e28d92ee",
+    "name": "MX25L64XFlashPartSmm.efi"
+  },
+  "d3f57a23463824e4b970cdc89a05de554273ae9977c9b7782ccb6f85c28c7767": {
+    "guid": "8AB6D4C0-4007-4BF8-A35B-2A000C0482DF",
+    "sha1": "0865c9178147f1ada0313c0f8afc2a0c5d335ff3",
+    "name": "MePciUpdate.efi"
+  },
+  "9929f204abfe49be9fed5743471e108adbcd63614f9f97f23b969c3b1af6c034": {
+    "guid": "F7731B4C-58A2-4DF4-8980-5645D39ECE58",
+    "sha1": "fbab49c92789ff9d1af3cefa5274ae9931cdb359",
+    "name": "PowerManagement2.efi"
+  },
+  "8e1be36e0f497fcb550e8dd4330a537b564e879ac17d60c4cb5be01075b3ab5e": {
+    "guid": "ED94225B-1EF8-48A3-8398-95C42F6177E4",
+    "sha1": "9482b0907ee2a2cbd0d445bfe4262c3b216aa098",
+    "name": "SecOemVgaAMDSmm.efi"
+  },
+  "1693a3712ed2002634e3ae69ebcb53ec6d6334804982d02fd2bb687ec37790bc": {
+    "guid": "93B80004-9FB3-11D4-9A3A-0090273FC14D",
+    "sha1": "a3571e66d1c3804ba888ed072e556c374914deb3",
+    "name": "SystemPciBusDxe.efi"
+  },
+  "bcf80c948748f462d3dadf0dc4610475a6f310aa8bced1065d6c5d5b7e7a3e4f": {
+    "guid": "43B93232-AFBE-11D4-BD0F-0080C73C8881",
+    "sha1": "2b26e85b461df8f046047d7eca77cda3bbe57474",
+    "name": "SystemPartitionDxe.efi"
+  },
+  "07854eaeb8b20bb6b18162f5311f4f235c78bac712e91a5c10fae19f022d0ab6": {
+    "guid": "B2A23305-9455-489C-AA81-21DB48C41EAB",
+    "sha1": "7cbef7c5c85ad9069b8021267a7f950479394020",
+    "name": "AoacDxe.efi"
+  },
+  "d6d23bbdae3787ddae30a324a21686aa3dc1ed7a24e9c9b0d56da4f959d521e9": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE823",
+    "sha1": "2a10613843a9f5ad7a839c53ebc983c153b3f5b1",
+    "name": "PchInitDxe.efi"
+  },
+  "53c55d769582a65a334d0dff06b3daba938648dcc9c96361d9214155af5fc4a5": {
+    "guid": "BF89F10D-B205-474F-96E3-7A7BB1B4A407",
+    "sha1": "c3b8b825b006614f572dad2e4bf8e05a56445e8f",
+    "name": "SystemTextConsoleVgaDxe.efi"
+  },
+  "3f3fc3649763c255b86106ffbf040e44bca987a95012788099b7222fe42966fd": {
+    "guid": "CCABD229-51C4-4DE7-AE2F-3AAF71F9ECE5",
+    "sha1": "8046de8c5143e165375945edb6b158b8d52220f4",
+    "name": "SystemSetupAdvancedDxe.efi"
+  },
+  "9a586b865bbed5b78e23cee1f30dc5127199652be2a83b03019c4766a7c2f7ff": {
+    "guid": "4E432BF9-7309-4D49-AA42-1DEE8A81F7CA",
+    "sha1": "9653da7596bfab73d28931cabc1576d6318910c6",
+    "name": "SecChipsetIntelCRSmm.efi"
+  },
+  "42b5eb3d37bd58ef33c6c5bfa738d22ca984b8b541fbba72ba7f1b289d3fbe51": {
+    "guid": "25F49067-A65B-48F5-BBBE-35418C488836",
+    "sha1": "f9db7445aeab61a4b9530baddd6f7c7345573e7f",
+    "name": "SystemTcgServicesDxe.efi"
+  },
+  "7715ddc074b2eb680e3c120af621a9873f83415404e9ecd15a1b45be1a5353e5": {
+    "guid": "4ECEC19C-6E5F-4815-8342-B55F2CC5DFC1",
+    "sha1": "932a1ec098c9d8f2573cd4b4dcf1053f17467a6e",
+    "name": "VproHiiDxe.efi"
+  },
+  "a969804c769c45e468f4606e500458ca9f08b043dc985d1f6c67c6985ae2faf9": {
+    "guid": "A6688890-BFF0-4F03-9B1E-76AE86EEC5AB",
+    "sha1": "a4c5bc378d93e660946745be3d6ba2de7abcb64a",
+    "name": "SystemAcpiTablesDxe.efi"
+  },
+  "4908bdbd95c9cb082e5cab039846ab89acae0829c903339c15763128aa54f801": {
+    "guid": "3476AB71-6563-4BEA-80EB-92E7203BB776",
+    "sha1": "2f17994405657afdcef6f336147d75af57750d66",
+    "name": "SecChipsetIntelCRDxe.efi"
+  },
+  "74e4141cfc19e12cac9fc965c62781a6471c51dfea67aadce4c40ea74a4ba728": {
+    "guid": "1D88C542-9DF7-424A-AA90-02B61F286938",
+    "sha1": "85884c71d1139382b6e5e8504b18d5a98a921950",
+    "type": "S_TE"
+  },
+  "14578aa4f1c58ac512a78700c52e23a649227773547d6496cd5837d6a147081b": {
+    "guid": "147B4839-5DBE-413F-917F-DFEB687C6312",
+    "sha1": "fa31c79d42bb5cbb6a1d7f5d84f076eaca8d4ce2",
+    "type": "S_TE"
+  },
+  "b44b93c8153f608688cf413f39182fe2e20e256c1768eacf7ee12c469ee26fe8": {
+    "guid": "CCCB0C28-4B24-11D5-9A5A-0090273FC14D",
+    "sha1": "df8bef7df88b3e20c61fe33666ca0a31d3e32997",
+    "name": "SystemGraphicsConsoleDxe.efi"
+  },
+  "1ff2544eb511efa9009d294e5cf5ee0b12d2d113a7af407144cb8555d00cae67": {
+    "guid": "FCE47C4E-5ECC-4A41-B90E-0BAB09968D02",
+    "sha1": "fecb43a6c0553bd3ede053711f6a98f8de12b4ac",
+    "name": "SystemSecureFlashSleepTrapSmm.efi"
+  },
+  "fb5e5b2f49f185fa6ba36053199490e9bb8541ebab378672542882beb50469ec": {
+    "guid": "61141CA0-1444-4C4E-A16D-B601E0A09466",
+    "sha1": "1f66b32d0fd05236a191ef12d75d70031d8a7606",
+    "name": "SystemKbcInitDxe.efi"
+  },
+  "d78f06fcfed0ec375d790030975af4882b0ce1ada6a62fda7afe5c5466e9bc95": {
+    "guid": "79CA4208-BBA1-4A9A-8456-E1E66A81484E",
+    "sha1": "7ad55a95fa4e1ac7d7667331aa49d15692cfef16",
+    "name": "System8259InterruptControllerDxe.efi"
+  },
+  "df42e3341ff69d0f157a05bd0998e84ec1862b4309514bc260e5fdca529f963a": {
+    "guid": "1C6B2FAF-D8BD-44D1-A91E-7321B4C2F3D1",
+    "sha1": "ebed162d17a413ec278a86d2ba8d15a00681d63d",
+    "name": "SystemBootScriptSaveDxe.efi"
+  },
+  "7589213dcf69eab6c26d23c653bffe19216359d68619633d515d01f22b36ac7f": {
+    "guid": "1323C7F8-DAD5-4126-A54B-7A05FBF41515",
+    "sha1": "ebf17f064bfbf8a82e3dc4983b316f03e1fcabaf",
+    "name": "SmmAccess.efi"
+  },
+  "599516827f84b47bc3ea8b8e28b06284d8b8c3fc801d3b6b189165254e80b868": {
+    "guid": "7FED72EE-0170-4814-9878-A8FB1864DFAF",
+    "sha1": "7c7f0524ed2eb2ab588358a26fae6f24db8f4f81",
+    "name": "SmmRelocDxe.efi"
+  },
+  "df87e288b8d8b6954bb755da27817de635e2222ae194e0ea369ff17c99cc5f71": {
+    "guid": "FBCE08F0-CD3C-4D08-BA49-22C37EB641AA",
+    "sha1": "0c38dc9d2f20f854b6e91f51ecb8d7fde90d91b7",
+    "name": "SamsungSetupSysInfoDxe.efi"
+  },
+  "0a90952dd2ba156b8d414f335fdd9c48fb40f745f01ce56a21755ca092d4076f": {
+    "guid": "FD236AE7-0791-48C4-B29E-29BDEEE1A811",
+    "sha1": "574b2d3b6cc42bcca0715f5ad47065dc0b116cb9",
+    "type": "S_TE"
+  },
+  "7c084c0482f16877af2e6f8fb086e9e9c06ecad9bd4161e388669f34102ff71d": {
+    "guid": "E3E8BA35-541F-4EF1-BFB8-75F02A26CC75",
+    "sha1": "c9bd0123e8a17ac67c89e0b35418efa56ae609af",
+    "type": "S_TE"
+  },
+  "a040b67581966b1e230b0b77263f0dd9a71ad72b0e12a67a34d19ee6b0dd1cef": {
+    "guid": "378D7B65-8DA9-4773-B6E4-A47826A833E1",
+    "sha1": "c9bc50f3e0002bcad6348ff8926be48ff22c11a2",
+    "name": "SystemRtcRt.efi"
+  },
+  "d55d31626ecdcd7b6a1272f997e666254b126532b4587bb697646b846ff2ffbd": {
+    "guid": "5D669C7E-3BB6-4A86-B33D-EB08D3D009DC",
+    "sha1": "27f8dc9b0b0c47851c539aa7a76b6057e9dff7e2",
+    "type": "S_TE"
+  },
+  "dced34177a8f8894354074569fcf479e4ff96db7d3932989316c2301d3de7d36": {
+    "guid": "E84AEF95-7CA6-4B2F-A398-B14D1C67A0B1",
+    "sha1": "c779f890e7b5b34e2a8c68cd3d249754e205f9f6",
+    "name": "IbexPeakFlashControllerSmm.efi"
+  },
+  "23bdfd62223d7e5fd9fec36b5fe9eea3b068755e0eedc659d3e7f4ed7f6c1769": {
+    "guid": "86488440-41BB-42C7-93AC-450FBF7766BF",
+    "sha1": "0e08c0e806378d7d1729fdce84ec5bcb66d7d8ac",
+    "name": "SystemBootMenuDxe.efi"
+  },
+  "011c864713e345d8262d6485a136914cd7f6f78a2071f8271651225612a422f3": {
+    "guid": "6CDF9BAA-0934-43C2-A85F-286386097604",
+    "sha1": "6f0923c82d18c5bdd97ab054aba1f29ca3b044a7",
+    "name": "SystemUserOnlyHddPwdSmm.efi"
+  },
+  "e36c80e669c735349112d159c910883f15574d95d2403ad7b98194208417db61": {
+    "guid": "CA9D8617-D652-403B-B6C5-BA47570116AD",
+    "sha1": "cbe9c4bd53fbbc4ec4e5ddd3cf864902cc46cb23",
+    "type": "S_TE"
+  },
+  "ecd54cd0fb5803a1dfbbdb166afb897bfe5b016c3c315eeb378f3aa7fd25b4e4": {
+    "guid": "A8CF6278-8758-458D-ADFB-3471F5AD50B1",
+    "sha1": "8844378673e892db74c9ea86d2e6b82e0a9e29ec",
+    "type": "S_TE"
+  },
+  "1cf9b2f99e31f022e6526b1d14a49f17ea51aee69d12fb9fce6a1d97d9a068ea": {
+    "guid": "5552575A-7E00-4D61-A3A4-F7547351B49E",
+    "sha1": "76df04ed361a450e2805f1734d645835211c33b9",
+    "name": "SmmBaseRuntime.efi"
+  },
+  "c03cccb61ac71c6e1f49e0c86936a805e7c69b9943c0508419e14f47d51ec50c": {
+    "guid": "C1C418F9-591D-461C-82A2-B9CD96DFEA86",
+    "sha1": "f2f222fdda8b55fe717e4ed93c1a12d5724576c4",
+    "name": "IntelPchLegacyInterrupt.efi"
+  },
+  "3fd9c013041a4b183503a722f71b13a03b3bdecb81a73c007a71229b197adf50": {
+    "guid": "2D4E151A-C8F8-49D4-9A33-EDAB56F8C780",
+    "sha1": "7ff73da312c1773fee09829d6216f42781ef58da",
+    "type": "S_TE"
+  },
+  "f3731bd21c124005a704e0f53b679298c971b7d2dd2f9762296b862b2a0c3a4b": {
+    "guid": "59287178-59B2-49CA-BC63-532B12EA2C53",
+    "sha1": "07cf64c5d4ee9440c7506bb96a7166eae0684e20",
+    "name": "PchSmbusSmm.efi"
+  },
+  "30f06b1d6a2b4e88892f4a66d94811e9253e0c891657c8c7c7574fad6f37a8fe": {
+    "guid": "F1EFB523-3D59-4888-BB71-EAA5A96628FA",
+    "sha1": "3cc65eb72eca11b113a17c2a12b178aa21744068",
+    "name": "SystemSecurityStubDxe.efi"
+  },
+  "6ea908e27570b7317c8afb7fd0ac18c0d62aa92d7795d533068f10541f0c0984": {
+    "guid": "202A2B0E-9A31-4812-B291-8747DF152439",
+    "sha1": "8b9ad76693a2b93b8675be4f595a21d3f1493bf5",
+    "name": "SystemPs2MouseDxe.efi"
+  },
+  "cfa33340c4f76f0d99214da4a2cef86dcf20f092a9bd34b39b013281a2d4bbf5": {
+    "guid": "3DC82376-637B-40A6-A8FC-A565417F2C38",
+    "sha1": "e18027fc14e92f82f5d7fcf1f5c3202085939b64",
+    "name": "SystemPs2KeyboardDxe.efi"
+  },
+  "90fda23da5ddc61369560c350c7d61e94aeb2246cdcc14756085ef98e1133124": {
+    "guid": "6D3D1021-E7FC-42C2-B301-ECE9DB198287",
+    "sha1": "2283f0c38ead0c0524b03b9afea001f2917984f6",
+    "type": "S_TE"
+  },
+  "681d8fa53281599ab12b12c5feb09d088976cec08829650629aa2c55099b2112": {
+    "guid": "793CBEA0-DA56-47F2-8264-24310CB75196",
+    "sha1": "ea57f80458b36c1f99b0eed2afcc8a8639dfbfc6",
+    "name": "SystemVariableDxe.efi"
+  },
+  "21186dcd672e523c7716c105db374bddeb461932b2096e951c371a077d271ba2": {
+    "guid": "5112A2AA-E175-477E-A4E4-D0B7E689BA9F",
+    "sha1": "7cbe4c524cc963074910f2fd7fc18e0490301412",
+    "name": "SystemSmbiosEventLogDxe.efi"
+  },
+  "9ac3a3c4460fa3e902967ef863af3e6000b0c39f8b38ad5c786a7d8f0384f993": {
+    "guid": "ABAA46B8-84A3-4E74-882F-6368F6EDC9B8",
+    "sha1": "18cdaa61bde55a3ca766e72ec80299c840d0c673",
+    "name": "SystemUserOnlyHddPwdDxe.efi"
+  },
+  "2190e0ddd056e121320a6f0b3778671be6cd71c33676673a104ecece84cd9100": {
+    "guid": "681D2368-4540-4FA9-8C1D-8B79DBF6B9AE",
+    "sha1": "1291e7f3c75b4b6998ef3aae58444376a810863b",
+    "name": "HybridGraphicDxe.efi"
+  },
+  "1361195ae8be29338cbaf043e8fb7c68496921256b20c49deb6b87ebbe9d0176": {
+    "guid": "8B8214F9-4ADB-47DD-AC62-8313C537E9FA",
+    "sha1": "f8b986f968162ab090f5ff0fb08afda5c8dd709a",
+    "type": "S_TE"
+  },
+  "f047a2ad6156a8bb3206e120cb7e496cc02ac8747bfe1eee1dfd90cfecfb4cdb": {
+    "guid": "3A2AEC67-77B8-40AE-9281-03519C9E7F08",
+    "sha1": "a4cb004f597981e07a200923fbbaca1fe2b11a36",
+    "name": "AoacSmm.efi"
+  },
+  "149598a9139ef3ce85b4e038da9dafc9b5b5c2ae8644f846d66f6ad0c1a6af32": {
+    "guid": "3FB856A5-C8B0-4760-B49A-2EDD4FA35BFA",
+    "sha1": "ae86279ec09233250bc15d96a655f117c2e4ee7f",
+    "name": "IbexPeakGlobalSmiControl.efi"
+  },
+  "8f6ffe57c5ec6cc505210c62da5e202c1717f93195bc3f228ae5b47469c4da07": {
+    "guid": "5B60CCFD-1011-4BCF-B7D1-BB99CA96A603",
+    "sha1": "ff738cc5f409994a9feb45ddb4f018a0d630422d",
+    "type": "S_TE"
+  },
+  "72eba6ddce46779a49900519f2243da95bebb8498a73de3bc0c3a10022633607": {
+    "guid": "B31FF060-8363-11DF-8395-0800200C9A66",
+    "sha1": "8b17bd13caacad332c32841cd91c3dc5f4e9f501",
+    "name": "SystemAhciBusSmm.efi"
+  },
+  "f129cf6f1d440b69abd69fad47b44f94532b1541bbc11e6ef85369395794f408": {
+    "guid": "2374EDDF-F203-4FC0-A20E-61BAD73089D6",
+    "sha1": "b4065bfa489927ea6bc279b2a2033238b118be0a",
+    "name": "IoTrap.efi"
+  },
+  "77c4a9d8ba9b36a196418db330c550a92d125b14b5fae62159081de2af28836e": {
+    "guid": "7AA7B16D-0E14-4951-8B85-3F6572FCE258",
+    "sha1": "5dd8b6710b362ccd55864502a9c882a4978da0f2",
+    "type": "S_TE"
+  },
+  "fefba9e16708c0559d0216b1c9bfbef732cd83ddc032425b83664e60df0ba860": {
+    "guid": "3022E512-B94A-4F12-806D-7EF1177899D8",
+    "sha1": "96966c5d23b8e61605e8f1d8a7ce80e9ab7799d8",
+    "name": "PciHotPlug.efi"
+  }
+}
