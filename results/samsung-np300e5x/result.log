@@ -95,6 +95,7 @@ Your UEFI firmware is protected from the following vulnerabilities:
 [+] smm_dma
 
 Your UEFI firmware is vulnerable to the following exploits:
+[-] common.bios_wp
 [-] common.bios_smi
 
 Your UEFI firmware can be vulnerable to the following exploits:
