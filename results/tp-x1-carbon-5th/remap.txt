@@ -1,0 +1,56 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module remap --log remap.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.remap
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.remap
+[x][ =======================================================================
+[x][ Module: Memory Remapping Configuration
+[x][ =======================================================================
+[*] Registers:
+[*]   TOUUD     : 0x000000029F800001
+[*]   REMAPLIMIT: 0x000000029F700001
+[*]   REMAPBASE : 0x00000001FF000001
+[*]   TOLUD     : 0x5F800001
+[*]   TSEGMB    : 0x5C000001
+
+[*] Memory Map:
+[*]   Top Of Upper Memory: 0x000000029F800000
+[*]   Remap Limit Address: 0x000000029F7FFFFF
+[*]   Remap Base Address : 0x00000001FF000000
+[*]   4GB                : 0x0000000100000000
+[*]   Top Of Low Memory  : 0x000000005F800000
+[*]   TSEG (SMRAM) Base  : 0x000000005C000000
+
+[*] checking memory remap configuration..
+[*]   Memory Remap is enabled
+[+]   Remap window configuration is correct: REMAPBASE <= REMAPLIMIT < TOUUD
+[+]   All addresses are 1MB aligned
+[*] checking if memory remap configuration is locked..
+[+]   TOUUD is locked
+[+]   TOLUD is locked
+[+]   REMAPBASE and REMAPLIMIT are locked
+[+] PASSED: Memory Remap is configured correctly and locked
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.000
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.remap
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

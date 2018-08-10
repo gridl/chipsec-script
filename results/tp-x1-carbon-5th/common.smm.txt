@@ -1,0 +1,40 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.smm --log common.smm.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.common.smm
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.smm
+[x][ =======================================================================
+[x][ Module: Compatible SMM memory (SMRAM) Protection
+[x][ =======================================================================
+[*] PCI0.0.0_SMRAMC = 0x1A << System Management RAM Control (b:d.f 00:00.0 + 0x88)
+    [00] C_BASE_SEG       = 2 << SMRAM Base Segment = 010b 
+    [03] G_SMRAME         = 1 << SMRAM Enabled 
+    [04] D_LCK            = 1 << SMRAM Locked 
+    [05] D_CLS            = 0 << SMRAM Closed 
+    [06] D_OPEN           = 0 << SMRAM Open 
+[*] Compatible SMRAM is enabled
+[+] PASSED: Compatible SMRAM is locked down
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.000
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.smm
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

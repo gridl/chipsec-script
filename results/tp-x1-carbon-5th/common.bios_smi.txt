@@ -1,0 +1,44 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_smi --log common.bios_smi.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.common.bios_smi
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_smi
+[x][ =======================================================================
+[x][ Module: SMI Events Configuration
+[x][ =======================================================================
+[+] SMM BIOS region write protection is enabled (SMM_BWP is used)
+
+[*] Checking SMI enables..
+    Global SMI enable: 1
+    TCO SMI enable   : 1
+[+] All required SMI events are enabled
+
+[*] Checking SMI configuration locks..
+[+] TCO SMI configuration is locked (TCO SMI Lock)
+[+] SMI events global configuration is locked (SMI Lock)
+
+[+] PASSED: All required SMI sources seem to be enabled and locked
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.000
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.bios_smi
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

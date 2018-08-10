@@ -1,0 +1,36 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_ts --log common.bios_ts.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.common.bios_ts
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_ts
+[x][ =======================================================================
+[x][ Module: BIOS Interface Lock (including Top Swap Mode)
+[x][ =======================================================================
+[*] BiosInterfaceLockDown (BILD) control = 1
+[*] BIOS Top Swap mode is disabled (TSS = 0)
+[*] RTC TopSwap control (TS) = 0
+[+] PASSED: BIOS Interface is locked (including Top Swap Mode)
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.000
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.bios_ts
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

@@ -1,0 +1,2546 @@
+{
+  "733a2b54296437f27798789744c81a3476f00570d5a24a9a0a468f3f6592cb44": {
+    "guid": "BB1FBD4F-2E30-4793-9BED-74F672BC8FFE",
+    "sha1": "67365838d5aa4249e86d17101485148ba22099e3",
+    "name": "PchResetRuntime"
+  },
+  "126a498cf9e9ef8eaa73b30294c8a8f1bafc54a5dba784d6dbecc78551d25bee": {
+    "guid": "A622E42C-8E38-4A08-9E8F-54F784652F6B",
+    "sha1": "bc12c21839eaf56190f86284ec2889069dd80857",
+    "name": "SystemAcpiOA30Dxe"
+  },
+  "379b4cbe265a48b7459d9a8b18f7f2b1c7dc7c74d687a585bf34da1950ad9600": {
+    "guid": "D753C57C-87D0-4636-876A-5EE0E73A6689",
+    "sha1": "471b22b1c0f3c9773370516f1eff250c8e88f338",
+    "name": "PlatformMilestoneHookDxe"
+  },
+  "a66dbd54b2b09796bd6a2cf4397af5e2c1b925890ec1327a5f69d680186cd7ca": {
+    "guid": "3F7753EF-D36F-45CC-8A1A-2EAAFF1038B6",
+    "sha1": "3a645efabd6e73aaa7947ee652e4f2092a46a96d",
+    "name": "PciPlatform"
+  },
+  "f65d595a8fd658b4929856cf8f92899b99f71a5ac0e183006cee159e09ab6ebd": {
+    "guid": "65A72030-B02E-4BF3-8424-BA5F2FC56DE7",
+    "sha1": "186485461c0b0c39833604116e112ad7558e6df7",
+    "name": "LenovoSetupUnderOsSmm"
+  },
+  "2623d45d4bdc7198b6fa8fa7c0c6053004db97f85d3545381fa8d594be39ce8a": {
+    "guid": "DD223EF8-6D1B-490A-A53E-BA86FAAEB778",
+    "sha1": "b8306277882a8ea06921c9af68363e7b201b77c1",
+    "name": "MmcMediaDevice"
+  },
+  "cbbd31d531e0f997f7a50d271fbbf971bbf5a8862202b5c1b4d2d7a03e38ba6b": {
+    "guid": "F9D88642-0737-49BC-81B5-6889CD57D9EA",
+    "sha1": "a4740526e3b042bd96b162ecf4162d49b29cdcde",
+    "name": "SmbiosDxe"
+  },
+  "17d9380f71eaaffe790a9736b73f2a329a745542f5c81c6b3a350c237e574670": {
+    "guid": "2D2E62CF-9ECF-43B7-8219-94E7FC713DFE",
+    "sha1": "70f3116dd6960ff2179ce893577c54f252e97d10",
+    "name": "SystemUsbKbDxe"
+  },
+  "83907f8f6e731ba3a47db71cc877dbd6dfab2ef788e9f9f7cfdb8dc0de2e0730": {
+    "guid": "3DC5DC4A-824A-44C5-89D0-D4547191E3F4",
+    "sha1": "71565aff38ebcaaff28c53dabd73bdc6da28d6a6",
+    "name": "RstOneClickEnable"
+  },
+  "82b0573990d539f5bed36cfa343690f943cb17a29d4219b81f6ffb0000f204ea": {
+    "guid": "93B80003-9FB3-11D4-9A3A-0090273FC14D",
+    "sha1": "f49b97b66c70be2beedc54e4093816388a4e224b",
+    "name": "IsaSerialDxe"
+  },
+  "db66148bdf878365bbaace1f7fbb288c7e3c37653b09b3a5757d202bf5c3fa79": {
+    "guid": "400B4476-3081-11D6-87ED-00062945C3B9",
+    "sha1": "077e8a74fcf11373afa7a9978a8e554517c028e3",
+    "name": "SystemSpeakerDxe"
+  },
+  "7fd3159f2476b91e5efded3dceef4ab2d91ed3f0923b48885a05273bc2760f82": {
+    "guid": "BFEE74C2-60BD-467B-9261-B72A881E49EE",
+    "sha1": "d20a2a1704a350458f540aa051c092fa5109436e",
+    "name": "LenovoMailBoxSmm"
+  },
+  "30409f008e60f122c5494ff86eea55e8445ddba34d87afea33a92c8d11ad5850": {
+    "guid": "591F64F9-1CB8-4029-8868-F5A2C0CF3600",
+    "sha1": "01ae78176145e287f6390646acb648acb1a1892a",
+    "name": "I2cPlatformDxe"
+  },
+  "4d56595193699cfadbc2dc43935ea4d46050569bf8e8c65e43c6ae9d202c4b77": {
+    "guid": "FF917E22-A228-448D-BDAA-68EFCCDDA5D3",
+    "sha1": "122aeb17bab492cc7a6da7e16715a59e87e60686",
+    "name": "TxtDxe"
+  },
+  "af6af14879f9d0d60e33fec664c0453e725cf86cd44492eb016d9360b94776e4": {
+    "guid": "44CF7D20-DFF6-4209-9A1F-F6CD5F5CE88B",
+    "sha1": "bd4de9d3c4fbf4a752c41f94bff865e524f1224b",
+    "name": "LenovoVariableInitSmm"
+  },
+  "e36ca5784a219ab447f9239232d693f606b68e13bade2bd695239028cff7b703": {
+    "guid": "43DECD73-77CB-474D-BD6F-1A98E7E2B6C6",
+    "sha1": "337c9ead9e756275e39621c90c19cdb06c9d36ac",
+    "name": "LenovoErrorManagerDxe"
+  },
+  "823ef16f8d2bcd9e6985b72498edfdf2f1e0ba4b308479cb3c4b916dbc458734": {
+    "guid": "37AFCF55-2E8C-4722-B950-B48B9165C56B",
+    "sha1": "9682bed7372cbeff38567b9090bda978647e4568",
+    "name": "LenovoSetupMainDxe"
+  },
+  "a2d64dee3825b73697836deba8859b46e289be852d5cdd678f36f68f7b744fea": {
+    "guid": "F4C5FDD3-B99A-4229-9E0B-DB7A09E67393",
+    "sha1": "63d229e2f353aaed58a71358bddf25afd0ebe431",
+    "name": "LegacyUsbLan"
+  },
+  "709638a99826f422f50cb6499e2a3cfd166b0ba0511f7e6c04f3a4ca05284409": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE811",
+    "sha1": "acf490a18fea8584c81a9fe68ed6e3551d4c09ab",
+    "name": "SaInitDxe"
+  },
+  "6982b86161caca498dfeab7804c01df7c2e2731be073329fedcc349c0dc1180f": {
+    "guid": "93E1BD6D-6CC6-4EFA-A047-3C1ED9E95F89",
+    "sha1": "f4cc9f07a10befc6d6c69a6e0db40e1f6ab81279",
+    "name": "LenovoTpmConfigDxe"
+  },
+  "c2545b2a0d0d90247091dce652526a1bb628fec2ded8884be37d166b459447e9": {
+    "guid": "37DCBC92-179C-4786-A2C7-732E0F3F24DB",
+    "sha1": "79c6880b2b56effec01ee46a41506741c6d02806",
+    "name": "SystemSecureFlashFvHobPei"
+  },
+  "9eb2f0dcb108eb0882f9f4558550038a19c8942f64943d9db37462056cd87eed": {
+    "guid": "5BEDB5CC-D830-4EB2-8742-2D4CC9B54F2C",
+    "sha1": "0df2efb6d265754fd0fd976ef4465802284304e8",
+    "name": "Ip6Dxe"
+  },
+  "61afe982b6b8e4fefe42c43c671493609dbc1b43da7f4425dd82f9d541fe70be": {
+    "guid": "91BAC015-3A26-40FF-9F3E-C3F4FE9D24F9",
+    "sha1": "fb0fcd0addff6d737e02039ade3bde8e03b8ed72",
+    "name": "SystemSmbiosAddedValueDxe"
+  },
+  "a3bc38a04651324f0f7b4e5395ff062659c4224641e69ed15cdb7abbe9225bad": {
+    "guid": "4FE772E8-FE3E-4086-B638-8C493C490488",
+    "sha1": "ed6e11f86a99c0ffa379964ff687b5df0ed35ab0",
+    "name": "PhysicalPresencePei"
+  },
+  "1232ee20dd7193a9f4f325e9e787611f211a3c3c208a3ee43470956c9a61ad07": {
+    "guid": "AD416CE3-A483-45B1-94C2-4B4E4D575562",
+    "sha1": "e3ad17ff398d2fce656fe6248c6c5e2b27c2be21",
+    "name": "TcgMor"
+  },
+  "c0a492e2599cebdb9691652f56717006295a999b183b5bceca245db3741bac08": {
+    "guid": "71F7CA83-96C5-4742-BAA2-76B807A06B95",
+    "sha1": "60b0b718c2c08e4895118d16a5dde8fc56967412",
+    "name": "SctGopVbeBltBin"
+  },
+  "e0c2c8e917ad014e2212f179ef1439ca217bbf3aa484097fbbd864a3d0a8cf45": {
+    "guid": "316190C1-5E48-4C15-AC72-37532F3A1EC1",
+    "sha1": "dae72c162f7a53ba59773ec0fc906e6296f5c102",
+    "name": "SystemUsbDatabaseSmm"
+  },
+  "d2794e8aa50bf6a255442e3049b977c183259d2897f32805ed44efc254dfe346": {
+    "guid": "F80697E9-7FD6-4665-8646-88E33EF71DFC",
+    "sha1": "79482df9632174d692c004e694cdc8c56be8ded1",
+    "name": "SecurityStubDxe"
+  },
+  "a7df7f00cd577619d1e5fec5e522389eb729e04ee4856f7a58f2b27f4d023df8": {
+    "guid": "F60B6782-3247-4CDC-BDB7-5CEB184686AD",
+    "sha1": "3ce873362a6197a54aea9919babc679eebf0a6b3",
+    "name": "SystemUsbHidParserSmm"
+  },
+  "6a2bd871c32077e9426dd382e8ecde2c1ba7193c77f3de05740419c71a798543": {
+    "guid": "3022E512-B94A-4F12-806D-7EF1177899D8",
+    "sha1": "49b1adfbb2f4dccc8e49695ffc4843de541204ae",
+    "name": "PciHotPlug"
+  },
+  "e898be0c52884ae70737b3f9d3e014f9a5f2c91218380fde40fe2b386998ac66": {
+    "guid": "546AD295-0C64-4CE6-A06F-FB9CD04B41CD",
+    "sha1": "1e73a0d64da975c69a0188059b980b9c6bc94ed4",
+    "name": "SystemFlashCommunicationDxe"
+  },
+  "e6ba77d0224bc8848ceda2c568d9b852c89f12c89cdbdb02b925e9ea6cafcdca": {
+    "guid": "C82919D6-33FD-43ED-800C-635A3369D0F3",
+    "sha1": "db847b751d222e567660b334393ee3e57ee18a17",
+    "name": "SystemDiagnosticSummaryScreenDxe"
+  },
+  "2feb1e7d0a243b5809f23219df6d59006f4c272b2329ffcaf74803883130989a": {
+    "guid": "A2F436EA-A127-4EF8-957C-8048606FF670",
+    "sha1": "91ac92269cd81d51684e83d3e76f661421ec4995",
+    "name": "SnpDxe"
+  },
+  "374eb309bdeddc9712caac5920f7ed10a450d43b0bd828c503885efd640388eb": {
+    "guid": "ADF01BF6-47D6-495D-B95B-687777807214",
+    "sha1": "27d6a6d73ec85f641d73a8f3c305c872257e6add",
+    "name": "FirmwarePerformancePei"
+  },
+  "cadbd2c758dd451cf10ba5128d9c3506c6caec1fa09d3773055ace1356cc3084": {
+    "guid": "605CED2C-583B-4171-9311-AA6E146B1A4B",
+    "sha1": "418408f95561c624216dc53b5b9da39514aa116e",
+    "name": "I2cMasterDxe"
+  },
+  "4d67ed3dc426106c500afbbd4b43623e95e95d98a66bd40be7a4333bad25894c": {
+    "guid": "0062F7D1-F7DB-44FA-ABEE-F7A3CC636E0B",
+    "sha1": "7d43462090223b99785e807024ae979a88b8c39f",
+    "name": "PhStallPpi"
+  },
+  "cd78b230cdc9c43cfc52c7e52809854b052fcbbec8b23c16f9dd29922de636c2": {
+    "guid": "B65971BE-BABF-49ED-9DD2-48EC8DB4ABD3",
+    "sha1": "2a3e21f08fcf650fb12525db363aa1c06d2bc743",
+    "name": "LenovoSoundService"
+  },
+  "f1d279b958af9662bacf707fcb84f4b257695c50fc9a06647f63909f1beb43c3": {
+    "guid": "60740CF3-D428-4500-80E6-04A5798241ED",
+    "sha1": "e6de56d0aa36325a8cd59aabe3f45a3b9e4fe9c5",
+    "name": "HstiSiliconDxe"
+  },
+  "85b4649376efa60cafe7e3348be8b79def095b2fd5e1c67141fbec839729917d": {
+    "guid": "B8A6E7C5-B8FD-425C-A67E-1009DF1F10B5",
+    "sha1": "19a6b60d383e0563bf4ae9cc6fd8a462f2e92db2",
+    "name": "LenovoUserManagerDxe"
+  },
+  "3b8fd902ba7fdc40d1039997c0899ebeec3860ef2318a9631c2b0a73351b2f6e": {
+    "guid": "AAC9B0AF-A46A-49D8-8016-9B9DAD2C7F5E",
+    "sha1": "8892ad9f70447a0b82cd27bdae9192376cd577c1",
+    "name": "DxeBoardConfigInit"
+  },
+  "d2d5082f8cd06f1baf9ecc9b7a0560be36e728a4c84ff67dcb638dbfe9f3b92a": {
+    "guid": "C61C6982-B904-4CEF-BF1B-C63BF7CA0399",
+    "sha1": "91c4626e3651259c73300518602f3633dc5a93e2",
+    "name": "UsbPeim"
+  },
+  "e7ad815145883aee70c1b7885bea25cab7a12b04bc0767c8987837c1867357fd": {
+    "guid": "290EA249-6E88-423C-B0DA-75CDDE7920CC",
+    "sha1": "909652739893f40093d313df9f6cf0f4159b3141",
+    "name": "AmtPetAlertDxe"
+  },
+  "fa687eedb70de03f764da287ba3f3a08fa04e8d9acd8fac54fd37defb06ec96e": {
+    "guid": "8CE8BC38-805D-442D-8DB0-479275CB1BF2",
+    "sha1": "aa613736339086e265b71f56d140382561dbd03e",
+    "name": "SystemErrorLogDxe"
+  },
+  "baf90bc9476b71965f8adbb72e744d3f5afcd61d25f6b36ec8a4f0478a12dc9c": {
+    "guid": "BD87C547-93FF-4F4A-A890-02B1AF986F34",
+    "sha1": "84902972e534c3be47768ee9e146ca69809ffd0b",
+    "name": "OverclockInterface"
+  },
+  "d7959e103f6afe51097cdf464f5f623d7e4f7f1203562ddf7b69929514ee7b2d": {
+    "guid": "EE30FD26-1524-4CA2-B56D-345830DC9CDB",
+    "sha1": "c48d7c158bf7da70447e6a149b1006d8937496ac",
+    "name": "LenovoFingerprintCp"
+  },
+  "01e005d3a44bb41348b6907faf01328ddbe5af5e3c1d875569f68b57d2742d51": {
+    "guid": "EE8367C0-A1D6-4565-8F89-EF628547B722",
+    "sha1": "8e545813759517546627deb3da2ba5ba15c591d5",
+    "name": "IpSecDxe"
+  },
+  "7b306f5ba72a39f43e4f639de6c94eabe00e96bfb568abd49f3aa24180d60d8b": {
+    "guid": "359E12F6-0941-40BF-8AD9-BB537FB10539",
+    "sha1": "d9a81b6c846b8172d9701372cc5b006c29dcd2dd",
+    "name": "VariableSmiExportHii"
+  },
+  "3cba95cb2691c862370d6120c6a1ec31cd9453f21e05be5f84d5490d4b448488": {
+    "guid": "B95E9FDA-26DE-48D2-8807-1F9107AC5E3A",
+    "sha1": "b161363d52a36fed5c289332d94d3e9fd09199f7",
+    "name": "UefiPxeBcDxe"
+  },
+  "f478e005e77fef9d8f34e594b3c9690665a4d5f15e9731fd25a5dcbb32c08345": {
+    "guid": "11668FCA-73BA-4B58-85A2-98AC4DF59A2C",
+    "sha1": "ee465646d40f127bcc0d510a697db49a87108235",
+    "name": "SystemSmmCommunicationBufferManagerDxe"
+  },
+  "54af639612b7ce03cdf2f0b5372bcc0a87c09f9eef4b168689a07a2424646525": {
+    "guid": "2BDED685-F733-455F-A840-43A22B791FB3",
+    "sha1": "1c3a08c3d47b852788608f08657f0d21c6f143e6",
+    "name": "AcpiS3SaveDxe"
+  },
+  "f5b50918c2f24b965d993d7c956d2f319d6f99edadecb35cf49260d39549df05": {
+    "guid": "BDFE430E-8F2A-4DB0-9991-6F856594777E",
+    "sha1": "d23d1456d9507ba2cdd267955340305b738c6f5e",
+    "name": "SystemEhciDxe"
+  },
+  "2eac3884e3183704b8f65341fab39639f62c498ab6df6de653b73fd71cc28944": {
+    "guid": "20DED343-E5FA-49C2-B20F-C18798743D41",
+    "sha1": "c1e595453f68275551e27f54c149157b133139f2",
+    "name": "OemPowerMgmtSmm"
+  },
+  "a8b4fbbfbf2e957a3ac92edb51106f39da69f1ff3277f9581706c03a90378dbe": {
+    "guid": "F7196B8E-472B-4C1D-9AB9-A69A8992F46C",
+    "sha1": "1afb0aaf4688d37d1225efe78d7f7baa7e078f1c",
+    "name": "LenovoVariableStoreSmmRuntimeDxe"
+  },
+  "8f55dd4ef14ea8688ac54c6a3d218c657a1de1960b57ef8e875b5c595f2a3208": {
+    "guid": "0A66E322-3740-4CCE-AD62-BD172CECCA35",
+    "sha1": "6732b43220a27f384593e9055b6dcb9d3d92d2ae",
+    "name": "ScsiDisk"
+  },
+  "d0fb98b027e3fe19a4e08505197f8ee2f9bbacfd939c866096e9659cbd2cb63b": {
+    "guid": "A671FACE-B99F-48AB-B3B0-F25E5EE4B115",
+    "sha1": "861c5e804e2c344491faf5ea6bb54638de23a16e",
+    "name": "TcgSetupDxe"
+  },
+  "6ed9de249e55ce8c744ed81878f26729c5cd348e2f878136bda7cc7a9e5a0d9a": {
+    "guid": "42CF2D4A-78B4-4B80-80F9-96A83A630D70",
+    "sha1": "1bcf8023ac8b19e4fca35e35f0d4265379e5357f",
+    "name": "UsbDeviceDxe"
+  },
+  "3c9062bfbc6c35abcf57ff1f97cec486d0674d62c8e6fab542cc8df6645e9df0": {
+    "guid": "EBF8ED7C-0DD1-4787-84F1-F48D537DCACF",
+    "sha1": "d29fb58afde319282d17b0ad70952fc34c608128",
+    "name": "DriverHealthManagerDxe"
+  },
+  "18acedfb3350a44e1361ec15501e953e863615472c9620c3ef3b984d7932c8ea": {
+    "guid": "E21F35A8-42FF-4050-82D6-93F7CDFA7073",
+    "sha1": "8e5181142785dd9a79d90012cd991b11ff89d7cb",
+    "name": "PiSmmCommunicationSmm"
+  },
+  "186021a53cb3ed3a37c7943f1b239749579d5f8f76d3b339445d0d0497c27734": {
+    "guid": "9622E42C-8E38-4A08-9E8F-54F784652F6B",
+    "sha1": "e3de4737bbf08c2905d9395be541f08650d5be7f",
+    "name": "SystemAcpiTableDxe"
+  },
+  "dbbfba498be48c661c90135de22f0fc8f1c5694b36e2f894680bb88c182100c9": {
+    "guid": "49F8C35C-B9EF-402A-AB44-871C139EB00D",
+    "sha1": "3d440df382ac41f638282c00b36172301d2e3f0d",
+    "name": "FastBootSetupDxe"
+  },
+  "4f17b972cfbc718126aa0fbe5200b2bc2de4b24a04db1f22535c81162ae5a6c2": {
+    "guid": "8D22D303-69D5-40C9-A71E-5C38C951FC18",
+    "sha1": "0bcd68b3d2b72d78091bda8115587d005cfb5430",
+    "name": "LegacyUsbIrqSolutionWADxe"
+  },
+  "dcf56fcbbaa4ad67496a335bc5d45f7d2a8a2ee897db80170f63c1521b931b43": {
+    "guid": "10149626-5583-4364-822F-A459B8121302",
+    "sha1": "84476847a548dd556c7735cbb4cebf16841a7b68",
+    "name": "SystemFirmwareDeviceDxe"
+  },
+  "fc331d26aa2b7e033f648d530c53bb7f0ee6d26e0e75a2c4f9a83e3fe44d21f7": {
+    "guid": "243C8C8A-BBD0-4AA9-BE17-CF9B583130EC",
+    "sha1": "88283904afffc12dfd44cbb0eefbda07912d5a6c",
+    "name": "SmmOEMInt15"
+  },
+  "6bde61d71a5be38322ecea4ebda468d91b8efee697085f9ed5adc855b32b6536": {
+    "guid": "1905FCF3-DDB6-49BB-A785-1E50C807160D",
+    "sha1": "20b06e765d1ea622a30a5c92161a34054cb2710a",
+    "name": "SystemSlotInfoDxe"
+  },
+  "d8e849021cb51892b1b8ede0b0acb57bbe37a8b973128a5b66bf742e58477e63": {
+    "guid": "25EC8AD0-0006-4F3E-908A-0CB82609938E",
+    "sha1": "a7bf03b473dd3cbfa3cf1cabed54ab971a68e7ac",
+    "name": "NvmExpressSmm"
+  },
+  "6ec15c6c8dfa376f93bb83c64a1e000146d80c4cd1aae83e053175553c4e726d": {
+    "guid": "7B07D184-02D0-4BFD-AD6E-554C39353A13",
+    "sha1": "31a625bbda12a5140955b6d58e0f6980a718a5cb",
+    "name": "LenovoSysConfigReqDxe"
+  },
+  "71c324cdbbffb39401f2bfce0f2efc1494f8e114972487885517ed4f8dfe7841": {
+    "guid": "5E90FA7C-9F13-4C4A-96A7-C115FF568798",
+    "sha1": "83c1bc1c87e1376cdfa8a3a7bc6151dba0cc919a",
+    "name": "LenovoVariableStorePei"
+  },
+  "d0a2fc2294f30986c821e68447819afcd82e8306173ae6606c136353b9e851ab": {
+    "guid": "C952402C-F2A8-410F-96F7-2C789BE0E0A1",
+    "sha1": "ba5b234323495d923d41f269e45b94bcf68a7cae",
+    "name": "LenovoTamperDxe"
+  },
+  "8c6190024c80932073f16fc6dcdca64a2161e4305333b33100838ac639a1ab94": {
+    "guid": "27BA7E67-D54D-4983-BE18-9DF07D2389DC",
+    "sha1": "60e2725688c220f6c158ed838e3c3a37eaf93c4c",
+    "name": "SystemNvmeServiceOwnerDxe"
+  },
+  "32a42da080e06f019f0a346bd840c8ac4a1a19ae2a1c4b8b0b891a0e627ed022": {
+    "guid": "54C32CBF-A3B9-4CCE-9C43-E059E32255DF",
+    "sha1": "b3f52dc23f8a5a0f917543230e7c2e95d53b33e8",
+    "name": "SystemFirmwareDeviceSmm"
+  },
+  "ffe6509d7d185a6a08fa5c6216077e4b8a7b45ab757976991a2e8016e1de21e0": {
+    "guid": "A7D8D9A6-6AB0-4AEB-AD9D-163E59A7A380",
+    "sha1": "b23022c5fa123a991cf379ee1456081722b6a919",
+    "name": "SystemDiagnosticSplashScreenApp"
+  },
+  "e72a736cf0b47668ae6598d651b7add838a3ceb36200d7294702e4eff6918e25": {
+    "guid": "3E26A614-09F7-486A-A88F-A99BF15E1FA1",
+    "sha1": "515ad59fae0c8d52532f45b2532a85558cda557d",
+    "name": "LenovoPcdInit"
+  },
+  "27de25e141d0a6cc5f19d0e9925d8f3022e487fe3d7101880acfef2d128f999d": {
+    "guid": "FA4F6740-B95A-43F9-90B5-78D8147C0219",
+    "sha1": "79e5275b6f7bcaeee36ad92550fb719313052bda",
+    "name": "LenovoSlp2Smm"
+  },
+  "8977ac3218b2444655ebc604880d2e9f83b7564c44dbaa0e4d8b83f2f92894fe": {
+    "guid": "C7AD44B9-A775-4801-B772-A964262BB92E",
+    "sha1": "96336149b8eb6b592f39946f043485661c97b543",
+    "name": "ModuleS3ResumePeim"
+  },
+  "9d877c002d43b1058e259a64ebb7d08919d1e64c74d42e2cef0719024a1963ef": {
+    "guid": "73DAB30F-3F9C-4160-B064-439CE16C3EDE",
+    "sha1": "39778126b00a5d2af59c5a661afc5a78c15cd7f8",
+    "name": "SystemBootManagerDxe"
+  },
+  "3742fa0f9e623cb0918e3ba38827b0281de30876d0ce5f6f4c81eaee6157d6cb": {
+    "guid": "8401A045-6F70-4505-8471-7015B40355E3",
+    "sha1": "820a114e5e9232ab714db4ef5b558381e70766b6",
+    "name": "UsbBusPei"
+  },
+  "78df0839e9261bcf7b835ad81bbecd5de7e2a4902be1e9bc5f749c9773215f92": {
+    "guid": "B03D4E0D-5156-44AB-BEDB-9675A3D57D41",
+    "sha1": "a35878c904be74895e0e19542cb64a40b4b89cd1",
+    "name": "PhPlatformSiSmmCodeCheckDxe"
+  },
+  "259b29562b90835d4287801bd150610ceaaf54d8a8eeb3dbb0618824ec2fdadc": {
+    "guid": "20DE009A-B0B3-43DA-8047-B5E2B19D6CC0",
+    "sha1": "f071f022f5406d992d3c77a578765c3d112c333e",
+    "name": "FlashOemHooKDxe"
+  },
+  "542cd171418e5ca6b94010538b59352ba976bcd2a73e4ea44fb9361670bb9eb4": {
+    "guid": "CCABD229-51C4-4DE7-AE2F-3AAF71F9ECE5",
+    "sha1": "ebf260036724a6a3bd77554e56f30a3778e9e215",
+    "name": "SystemSetupAdvancedDxe"
+  },
+  "2dbca2c970a7f69634af0ddf9d629b689d8cffc9653535a609b9a01262f1fb76": {
+    "guid": "95E3669D-34BE-4775-A651-7EA41B69D89E",
+    "sha1": "56282036e2c8465fe4ed6bcd5f57ba3eaa49819d",
+    "name": "Dhcp6Dxe"
+  },
+  "aa0c834107a6fb29fa89f98547332b4399a9c2b2fb780026514f3151b1afd093": {
+    "guid": "665D3F60-AD3E-4CAD-8E26-DB46EEE9F1B5",
+    "sha1": "96f44855e9f754c8f1526a95179cdd0ef4d2bd8b",
+    "name": "RnRConfig"
+  },
+  "dc9de971e9150d43f738c5c7cbc8c1903781b48af90c1d7b43f9f6d4fef2eae8": {
+    "guid": "581F20FE-3C59-46EB-8D9F-47E6D38A1C3B",
+    "sha1": "1c21f0dcb83c61c459de2aea071666466695da95",
+    "name": "IsvtCheckpointDxe"
+  },
+  "486ce9e0ccde332e3d8427611cb203e2c8d95b7728cc4bfeec7ee0b5f93b0d8d": {
+    "guid": "E15C9DF9-FC62-47B0-869B-FFB41BC6EA90",
+    "sha1": "1f4c98f8f9da3da543998a9156ae3ac3883e1182",
+    "name": "DisplayLinkPxe"
+  },
+  "2a6e77a2a48aa25507763c8fdc303cd6e51517e13656e1a8178ebeca40369ed4": {
+    "guid": "897508C5-FCDA-4DB9-8A7E-6214CF6C246C",
+    "sha1": "cf0e077d3964c70998d203c70f5e89728a6cde12",
+    "name": "LenovoNvmeInit"
+  },
+  "f3b09b1b03568efc6e160d5839c8db32c6902ec2c78f8fed75d4f2072100678d": {
+    "guid": "EA2EC402-2FD5-475F-922C-98EAE0376312",
+    "sha1": "bbeb85119206128281e87de057f3c531c4248e75",
+    "name": "SystemLegacyBiosDxe"
+  },
+  "2667b43ba3d48206952d1c28df0888105ff25c9812ed2353d8d5af685703a49a": {
+    "guid": "47727552-A54B-4A84-8CC1-BFF23E239636",
+    "sha1": "124d883dafda5a4bd227b86d4d6f6e1f33654c02",
+    "name": "Tcg2PlatformPei"
+  },
+  "4583e65ac9959153df4f7947de9aad9aa8d4323b6423a81838543353d42ad637": {
+    "guid": "F80E66A2-1A2C-415B-9B9C-066C1F04B626",
+    "sha1": "4ade29f7929b52ba2b30e12f6755204e50f5e980",
+    "name": "TbtDxe"
+  },
+  "1ccd3d3cf429b7c6b7aa99c52f29c6f8ce391d5708a430929aed93d97c5aaf6c": {
+    "guid": "605E41B8-E923-47CC-87B1-A6E38526E78D",
+    "sha1": "5df36161797264459da0bd3aa13297a335e71ba2",
+    "name": "SmbiosCompatiInfo"
+  },
+  "8b1aaae6b7035012653f7c81f80674f31531bb365d5a777bac76a35cfa3fc413": {
+    "guid": "961578FE-B6B7-44C3-AF35-6BC705CD2B1F",
+    "sha1": "0dd2fa9fbcab5abc124959c771a8ccffbe52d13c",
+    "name": "Fat"
+  },
+  "d7c170ca1c6e8c2154eee8e189d1c5c330e5bdb87d47d0a68920457e2af3c315": {
+    "guid": "BD87C542-9CFF-4D4A-A890-02B6AF986F34",
+    "sha1": "5e729f297416a444bec67f410a9b8c19ea2bed59",
+    "name": "PeiOverClock"
+  },
+  "a00a7d668ca1ef32feb31189353bc270705690f93aa2a241fafeeed835725f98": {
+    "guid": "DFB36C78-E534-4E05-9D5D-1803F36E88F2",
+    "sha1": "0e2a0eb912099ffe3f0d6d589f42e240a2e6d65f",
+    "name": "ReportFvRecoveryPei"
+  },
+  "1044254cd94c06742f6a4179f7a6198e48fff89cb694f0249af85a04ce69364a": {
+    "guid": "C07CCCFC-B4BF-4A30-A25F-1F57C0522629",
+    "sha1": "69d81157ce775aa1dd9d8683eb33990e94c5b548",
+    "name": "FdiskOemSmm"
+  },
+  "49703981ac5051402ca0a71580fc67a84f9abd656bf8725183886fd792f5040b": {
+    "guid": "5BBA83E5-F027-4CA7-BFD0-16358CC9E123",
+    "sha1": "2f9d45904a32344d9c4495baf0bb769e88c3ba2b",
+    "name": "IccOverClocking"
+  },
+  "50b2e59d8a3c148063fb90a6f8a5d4bd99eb97270c12678007f90a1d4190c3f2": {
+    "guid": "7D06E47C-B32C-496F-940E-F30CDE0B7CE5",
+    "sha1": "d0b3112bc926d89c9386b1a882694f2a51e05968",
+    "name": "SystemFirmwareDeviceBlockSmm"
+  },
+  "7a4cc8851d0f61039831f379ed2417455b06b4dd99d23c6485e3bc31797102cc": {
+    "guid": "5C3FF3EA-5E95-44AB-A042-F1CB952D0CE9",
+    "sha1": "6f62b80c90785527991cfbcbdeeef25821544755",
+    "name": "IntelRaidBiosThunk"
+  },
+  "64d898edbac771b0090baee7f9275239539230abee5944116cec51761b871dfc": {
+    "guid": "18578E75-D073-4203-90D2-8788A871E44D",
+    "sha1": "b2d48c40528499bd0737c9e6e66d696b1f630ec0",
+    "name": "LenovoComputraceSmiServices"
+  },
+  "ca850ee7c565760b058225600e2636539dc5501dfb6c536713a0774127c7a007": {
+    "guid": "07709C98-414A-4039-B7D0-29C21F105E92",
+    "sha1": "b73149b760ef37c8366d8b0606ca0c599ece3d26",
+    "name": "AcpiPlatformFeatures"
+  },
+  "b1f9e3350689954c2957c6a447b0b218b31965d91a837c55bdf0a6f2317455a5": {
+    "guid": "03BF5679-5749-4BC5-A53F-47471DA767C8",
+    "sha1": "1bde99ff100cc558a7d333a0f27ef7dc1b3ee70f",
+    "name": "IsscSmm"
+  },
+  "b9b356499c5dbca1dec234c3d916d810a723165eed022ed4b22da7d5e48732cd": {
+    "guid": "00B46EC9-2712-486B-A6A4-E2933581C28B",
+    "sha1": "a50efd704819e6126acd8e67f64c98a2834e2692",
+    "name": "HstiPlatformDxe"
+  },
+  "c0214dc92e22e9b06f3bb43edd12721e90bc3610ca198f4dfade41e092699cba": {
+    "guid": "90E01103-F784-4020-91AC-C51E8BF553B2",
+    "sha1": "7ba84aa1cba2aab5eba0a25577f4f58416e9c4e5",
+    "name": "LenovoWmaPciDxe"
+  },
+  "17b4d1d186917605903b4b9566204fd35d00f06b01828c5e03603886814725a6": {
+    "guid": "CF10F9FA-45BE-088A-0DCF-37B75CFE917C",
+    "sha1": "e56ad2395b0abf2d212e725e9bd0e2eca970d8e4",
+    "name": "SystemSmbiosLoaderDxe"
+  },
+  "f7d797de23986df566b2cebda4e658996928905e31bba686b4cf0362cf08986c": {
+    "guid": "00160F8D-2B35-4DF2-BBE0-B272A8D631F0",
+    "sha1": "8521a6664ef8c3a006a64da01ce2416423738c5c",
+    "name": "FirmwarePerformanceDxe"
+  },
+  "3cf05b108aff49c660e84b8a99c576520560c72aa0e08672c390f9b6f383da0e": {
+    "guid": "9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50",
+    "sha1": "a3364bc331354a359fe6d7b194c5d1cdc24f9d64",
+    "name": "PcdPeim"
+  },
+  "d5b1a75c21f5bc8c9a15c90c0976ff5e7803b31f12ee996ac74a075e3a8e9506": {
+    "guid": "550303D2-F033-4468-857A-442C10E199E9",
+    "sha1": "f578c6b27b6df59307fcbd889f7d46bf66381f03",
+    "name": "LenovoDriveEraseDxe"
+  },
+  "fc71f38046a74ac1e5b2399215b9057952206d810e0715e92084d52de50e5db9": {
+    "guid": "B8FE3D49-DCF3-4CBB-8070-47B4F5A34559",
+    "sha1": "ded47d388124452a4bc359050baef89377656f2a",
+    "name": "GopDebugDxe"
+  },
+  "6019da6d3f2d75b1bfb93f3ec22c6bb024e7558257d37db00af51baaa99ce8cc": {
+    "guid": "FA20568B-548B-4B2B-81EF-1BA08D4A3CEC",
+    "sha1": "ac09f6b16e4fa09d3098f0cba8d17c2d65e0136a",
+    "name": "BootScriptExecutorDxe"
+  },
+  "afc1f939ae017632dec2fa7f35493d8c4ae6b3915d457642f8cc626996b2efde": {
+    "guid": "3F7E615B-0D45-4F80-88DC-26B234958560",
+    "sha1": "c15a2b02f5c15676388aadd30c5562d9e25da29f",
+    "name": "FitDiagnosticsLoader"
+  },
+  "bb897b76d96dacb7b911d632a061e20989cdf8b8d1f00c84e4d028d05b3b33b4": {
+    "guid": "52C05B14-0B98-496C-BC3B-04B50211D680",
+    "sha1": "e66062825170c6db85dc20bcfd79bad5f5b77764",
+    "name": "PeiCore"
+  },
+  "5cf58102aa00fa478790330b822fabf850da8f170fbbcbff70c994315acd040e": {
+    "guid": "14257B56-BDA2-4FAF-8E4F-C885DF75583C",
+    "sha1": "e79935814eba4f1be417c773ada92dd610932bac",
+    "name": "IccPlatformDxe"
+  },
+  "40c8328f09fb1e3c53ab383018e607e9c642f4317025b7a1981204bc701c7a4c": {
+    "guid": "5785E965-8357-48A1-AC12-CAF77A35FC72",
+    "sha1": "d1cbb6c05e23c1450a4091cb2ae8193eaa9955dd",
+    "name": "PlatformStatusCodeHandlerSmm"
+  },
+  "6c337c838e9a514d3c900e0283b1f34c2ad14941481b817ba1b15793c7296922": {
+    "guid": "897508C5-FCDA-4DB9-8A7E-6214CF6CFFFF",
+    "sha1": "23983237171be9656b733727ba6303e199ce8bb3",
+    "name": "LenovoHstiUpdate"
+  },
+  "fd73966a6041fe5424d44e0282de33d7e145eba0c5f365b9c2f13320fc588626": {
+    "guid": "876E11E2-5B23-4EA4-AF2A-4065EFBAD841",
+    "sha1": "132985dfffd909e667a581be8ef1bac3792836a7",
+    "name": "LenovoVariableStoreSmm"
+  },
+  "a352ca3117f9252955581306fbfa103bf1704003817d039e4d8fc42bfe53e5ec": {
+    "guid": "7A564231-240D-4BDB-8B87-8F589A988E13",
+    "sha1": "2300dd66dd925531a4db070c9e1dd7ea58f73e36",
+    "name": "SystemVspBcpRuntimeDxe"
+  },
+  "7d317c12576a875c87f5c47bc20bad62ae9db7cbbc867107f7e150bbe19c61ce": {
+    "guid": "2493F533-A25C-4E65-B26C-CF4DD6B7903B",
+    "sha1": "b7d31163e4cce79745ea2c7bd1b2bf2d68a23ad9",
+    "name": "SctMilestoneTaskSmm"
+  },
+  "b38df29bd77e40d7eefe8b4f49d0b3a6ce0a57f5639e7f6b0f4d016032c00025": {
+    "guid": "03EBDB4B-96BA-4F40-8329-7F3AA8865707",
+    "sha1": "0743ce3c02593c2ac5ce7f63d6cf5fef3017fb8a",
+    "name": "EcIoSmm"
+  },
+  "ecd367d402bc16181218d1981f0d89f30b1b76cc5260a66273628f63994bc958": {
+    "guid": "2E2D1233-435E-F56F-7CC3-348CE660D1CF",
+    "sha1": "9e009fb48fd5a84f7296f01da7ae9dd738f7cf5d",
+    "name": "SystemErrorEventsDxe"
+  },
+  "dc2b10dea344d63f959688f75c6733054380671c6da8b5b0f7d19b2844fd60ff": {
+    "guid": "FC90EB7A-3E0A-483C-A26C-484D36593FF4",
+    "sha1": "820be020b997a6046c35630e771983a618c552c7",
+    "name": "AcpiPlatform"
+  },
+  "7c1dabe3225c9aa1455db47b9ff3479661cc826fbc2cde6216750e751235f914": {
+    "guid": "1D201235-2F40-4FBC-8650-8502092D62AB",
+    "sha1": "439936980eaea3d3a434b997492719b8fd36aaab",
+    "name": "LenovoEaiaDxe"
+  },
+  "e7e8dc96a4bd0f3a6e620c00dc40f7e757fddc87421af7fc3f22d9093a49b554": {
+    "guid": "06384570-1680-4620-9D00-6AD9E3CCB19F",
+    "sha1": "4fb7e345c5e51032879a92b6763eaf1596ff4e8d",
+    "name": "LenovoMtmFormatSmm"
+  },
+  "062c241867871fab62b5aa93384f127764333cab3a88d3aaf2e87c1fb331d291": {
+    "guid": "578C3195-D8C1-44F1-8A06-2B592FBE6AF3",
+    "sha1": "9fff4c3f6834a9001f25feb76ad8d0edc1b51255",
+    "name": "TouchInputFilterDriver"
+  },
+  "9bc9fbd564bcec448812e74794eacecb3cd9bd0ecb15a89e8e57bb14b6cb10f9": {
+    "guid": "E052D8A6-224A-4C32-8D37-2E0AE162364D",
+    "sha1": "b7aa8a407dd801347153f2b47634e9ca95707996",
+    "name": "PchSmbusDxe"
+  },
+  "4cbe5913677937cf98e254234701904edc0cc0f93486d142402bf5426b0c7eb9": {
+    "guid": "4698C2BD-A903-410E-AD1F-5EEF3A1AE422",
+    "sha1": "3be449cca239e7b53fffa4d706693c6fd01585d3",
+    "name": "OverClockSmiHandler"
+  },
+  "c32e4c0813e068211b95033083fd680cd1b661e9d9b00d9c994006e753694126": {
+    "guid": "11ADE65F-956B-4D0E-B368-86DBC92F01AA",
+    "sha1": "082afc4bd7f68a2bf5599703d4f182bc79bdcb40",
+    "name": "VariableSmiInt15Dxe"
+  },
+  "ecc663258c858b771e3a64eb47574832e6516ad15fbfbde4f56c1217bee70eb9": {
+    "guid": "DB1ACEF4-46A0-4A81-8E1E-4B793CEAAD68",
+    "sha1": "b5f4018f69606f5614b416d812c57adc4e393937",
+    "name": "LenovoTpmFwSwitchDxe"
+  },
+  "6b1c0c31f33d2a36d18e600cc179051653c66054360fc9af96c35c9d26853e4b": {
+    "guid": "F59A5549-B879-440C-A1F6-38AF40F2773E",
+    "sha1": "e88fb54e8435357f2d485664591839e39d2ae93e",
+    "name": "PcieSataController"
+  },
+  "beaf445aee7c37367c9c3cd99b3b6a0feca8eaeab4b998d298e5695657c6d574": {
+    "guid": "C2922FC7-D114-47F1-8AF9-A4C0966683D1",
+    "sha1": "c9d27110fe18c81b36e4603491c6eb9011d2da9c",
+    "name": "PriorBootSmm"
+  },
+  "5e1bc47984d045109d2fc1dee2c7a8637b34d2bf4f621706877facda4e75a14f": {
+    "guid": "E0746C42-D3F9-4F8B-B211-1410957B9FF5",
+    "sha1": "9bf1402de6d3f9ba2116043df12b0000125374a5",
+    "name": "BootOption"
+  },
+  "537ce92ebbfa9fc104cac10b92c52adc77377ec609b1ba53ed9ece59ccada3b0": {
+    "guid": "952EEE95-A6AF-43DA-A559-F349A46D710A",
+    "sha1": "a15d18799ee2c8377b856397d86693b9bb957c02",
+    "name": "SimpleBootFlag"
+  },
+  "850535842ae6376d069ffdfa1d5c3e6fd960f9e59a786015c52f28c078fa0459": {
+    "guid": "99F03B99-98D8-49DD-A8D3-3219D0FFE41E",
+    "sha1": "42f1e09879fbdc3876c7a4d8ba856a3df33d7421",
+    "name": "Mtftp6Dxe"
+  },
+  "ca4d26615d1d3d730ddfb8bd79cb5b10a40308302391a02a29f98483930047bb": {
+    "guid": "34F60DB9-D3E4-428B-B770-3541C8E05112",
+    "sha1": "b29aef09af78aea8f0f60f31d54d7310a82ba141",
+    "name": "SgxConfig"
+  },
+  "b44114c32009164f0fa8d944fa5205cc8b430a26fbae0545797e5ee223214b79": {
+    "guid": "AC60ED9F-523E-4F5B-94CA-3961346A00BA",
+    "sha1": "d29179d506b6851fc7c2c4dff704340898c8254e",
+    "name": "LenovoVariableInitDxe"
+  },
+  "f4d83b71ba0ba801a0f9cc01a13de77d9fb8295c70622b0bfe8a9878e664429b": {
+    "guid": "348C4D62-BFBD-4882-9ECE-C80BB1C4783B",
+    "sha1": "4a422bfef939e06e99c9f2b7f32aff2c54f8a4ef",
+    "name": "HiiDatabaseDxe"
+  },
+  "8e3e3319bd73d3b62e90357a0a0a44da38a37ae55eb4eaf88ba1ed67719a1f69": {
+    "guid": "C0D5EC34-13E4-403B-9643-54AA7F72259D",
+    "sha1": "25c92a2be53709c928055d3e16f95ec394b5f38b",
+    "name": "SystemSecureFlashAuthenticationSmm"
+  },
+  "e63e1863c0d5978415f2e06b432ba354742d9a40500defeebb5e9f4237df53f5": {
+    "guid": "B0D6ED53-B844-43F5-BD2F-61095264E77E",
+    "sha1": "40008b2cbb9dff5470fdddd4b94bec2259f50dc6",
+    "name": "PchSmiDispatcher"
+  },
+  "104de87fc4abdd56fe84f2f9c6b201e7fc31600420a47fc5b98e66a47b32409d": {
+    "guid": "D995C16A-DF06-4B26-9C5B-246FC7464649",
+    "sha1": "d2877ccddebb9bc98848c58a9d1865c84495c805",
+    "name": "SystemAcpiSlp2Dxe"
+  },
+  "362066f6fbcc21e5d7a8f39a05b173cac673e06f1841d70b670a274eef6eb7f4": {
+    "guid": "CC84D725-DA1E-46A7-9E75-4BACF1FD3902",
+    "sha1": "4559368b302b2603db8315501c99c8c7fcaa5d5e",
+    "name": "SystemFontDxe"
+  },
+  "7b40eac9e8b2c1fbdd9d76de966bba66ad05250f2231d89b1dfe72592b14d935": {
+    "guid": "8A50765D-1582-41EB-8289-1409419C24DD",
+    "sha1": "b42c9f56eb048ac365b99dc684f92309c6f7bd33",
+    "name": "LenovoMfgDoneSmm"
+  },
+  "bcfdd0a4c3cdedb7db291fa92d8c88324ea7571ad90625deac2e0123dfb3078e": {
+    "guid": "E8DC00BA-411F-4D52-B925-50785436AC81",
+    "sha1": "3ec410cf8bda1c94867939a1d6924bad34fb2855",
+    "name": "SmmSleepEvent"
+  },
+  "4e89aaa35585b741018e3c17da8031b86f293f320fb99244c029f7eb8f2dc03f": {
+    "guid": "78FFCA55-4869-4393-BEE9-72E58BD3BE38",
+    "sha1": "9c9fc4bb192586e52bd128634ef53e03022e3b0a",
+    "name": "SystemFixedBusNumbersDxe"
+  },
+  "89478661208e68cb4a086929b2c7e029a59e2e618f63e37ad34f7dd6da756591": {
+    "guid": "DD1BB969-BE0D-4B70-9E13-2ED2E1854240",
+    "sha1": "91a63590d0700ace06804783558db2d214899977",
+    "name": "LenovoWufuEsrtDxe"
+  },
+  "49eb44a2d1e59e99631156e272a9394cca701c466cf3a800c5d6dc291489821b": {
+    "guid": "2338337A-47B0-4C41-9CA7-0160FB94DFF4",
+    "sha1": "796954f4b69667d6535475219c93d6b94fa0c82d",
+    "name": "PlatformFlashDxe"
+  },
+  "77f8b0bc68987498ccad085b0a67c8f0ccb05542875f764d1572fb28ccaafade": {
+    "guid": "4495E47E-42A9-4007-8C17-B6664F909D04",
+    "sha1": "d1707c015bc139132b6fae25bc8d4177a4e366aa",
+    "name": "BlockIoDxe"
+  },
+  "14a30f470873b96a589f72d150662f985e906d1d23e76275dda598a3d86bc798": {
+    "guid": "79E0EDD7-9D1D-4F41-AE1A-F896169E5216",
+    "sha1": "46cab42315eaef9a24517e035a1147640e642d04",
+    "name": "LenovoWmaPolicyDxe"
+  },
+  "0727d6f59654e22189ee2016c7bb37fb7d1d59a860ba30d39c7bd2d6e04e2c31": {
+    "guid": "3CEC37DF-90AD-4D88-AFF4-093056A6807D",
+    "sha1": "7926e1bbe0f9d2a8e363abdd75ebe49f4345e8eb",
+    "name": "SystemSecureFlashSleepTrapSmmDxe"
+  },
+  "623bb7d778b2bcfce0b6e73dadf2a210f75c983cb38830d4d017d8f6b0230101": {
+    "guid": "5112A2AA-E175-477E-A4E4-D0B7E689BA9F",
+    "sha1": "cf9141fcae4fad9259bf076b4a344d27eacecec4",
+    "name": "SystemEventLogDxe"
+  },
+  "8b30cfdf1002260179642b46104d28aec761461d00109e59c19b7229169fc1d5": {
+    "guid": "8D6756B9-E55E-4D6A-A3A5-5E4D72DDF772",
+    "sha1": "4e49f2d8e2e7f86f9cdc0910b397fcadfd575e6f",
+    "name": "PciHostBridge"
+  },
+  "c9e8e30e2f8ffb56864eb00b8c790b3c4935f1e7ba211fa629e60a54765d07e9": {
+    "guid": "83410FC1-2C86-470A-AF66-3966A1ED42BD",
+    "sha1": "792ebe3a11d05db3a020fd32b60d514b1d6138db",
+    "name": "PhAmtSupport"
+  },
+  "96c11f6a81485aab4174c2ac1daaeb5957ca57bea484c932ea8dc4dba4b32c1b": {
+    "guid": "1323C7F8-DAD5-4126-A54B-7A05FBF41515",
+    "sha1": "7127b930c5d05010216167ef8552c53edab4caba",
+    "name": "SmmAccess"
+  },
+  "b7aa7deb209cd1595817d6694377800f82e1f43fa5c5df4ee33b0f63ec553c62": {
+    "guid": "2FA2A6DA-11D5-4DC3-999A-749648B03C56",
+    "sha1": "ca3972e939daa63c267dc62ad2282821eef57318",
+    "name": "PiSmmIpl"
+  },
+  "b5dbbe66451caad32358de5164a17c55612c050662bbc99bd15f37911633a5ad": {
+    "guid": "6FBA9427-B3F4-4AAE-BAF3-C97288512994",
+    "sha1": "028cf8bafa80d025f01881e87f9e76efdf227c89",
+    "name": "LegacyUsbIrqSolutionWASmm"
+  },
+  "0649229aaea9158df5cdebd916dde26921c68d08a1c7dd19094800a6b64c1f17": {
+    "guid": "A5DEFDFF-944C-4B4D-9A76-8CF3ACAD2F7B",
+    "sha1": "ba657372c55eeb798a8ed3b94ca1b58d2e0f3cb3",
+    "name": "IntelRaidAtaAtapiPassThru"
+  },
+  "d36be56d5cf03728d8ab51ed38c35a1ba3ce80b17dbb2335eadfc1a40db7f904": {
+    "guid": "AE265864-CF5D-41A8-913D-71C155E76442",
+    "sha1": "9d45e848191935cff50b538b4b3fb7c94fa83e3b",
+    "name": "CpuIoPei"
+  },
+  "d89cf27ef4ec6e02250bf9369ed0990c43dafe3a5536070410f27654d5d78d77": {
+    "guid": "0723F88B-810F-4E44-92A0-A5C83B433698",
+    "sha1": "b088fe13781d5d4bb6f995a68da82c44d2f8e452",
+    "name": "PchFlashControllerDxe"
+  },
+  "7b987036cb301e2d8ad928a69bb2db961849ccea220a394344945414f17d1723": {
+    "guid": "BCB59C90-DC86-11DD-AD8B-0800200C9A66",
+    "sha1": "dcf1873aebd5163ad462ae4d4d46753900f823f5",
+    "name": "SystemAhciAtaAtapiPassThruSmm"
+  },
+  "042318a176749d384e87f9ffe90125f9c066c854371362c59fb658461a8ed07b": {
+    "guid": "044310AB-77FD-402A-AF1A-87D4120E7329",
+    "sha1": "af78f412dc55e48fd2c1d39236a28adf0914ffac",
+    "name": "FirmwarePerformanceSmm"
+  },
+  "8b02716cc6b35736ff4cc5b08dec3847b91823c55520290af321e08d6e6acdcc": {
+    "guid": "9CCFE1AC-784C-463D-B145-396D7014D559",
+    "sha1": "498e3fd41913bc752176e76c303e0ea4d6aa6a49",
+    "name": "VideoInitPeim"
+  },
+  "10c2628856cbbd625144f44478ee5e0a1f6b9f6fd42b338c3dce6897b54ac8ed": {
+    "guid": "E5D0BBDC-1BBC-49B7-A8B6-67AAF0A1CD9E",
+    "sha1": "8c9f2880580b533a3df390530f5d8f4430d5ff9b",
+    "name": "SystemDiagnosticSplashScreenDxe"
+  },
+  "c559d293deedbf8c29b8e56e2985e93160f7b974269429384a7d73ae648bd74d": {
+    "guid": "3DFC255F-9C86-48BC-972D-E522533768DB",
+    "sha1": "321cac1d035b3fb53c53faf1d6e9e0adad724875",
+    "name": "LenovoRebootCp"
+  },
+  "153f0fe479f72e3826a6bb8b49e14a7fe0594cd750f348fe9c7b81ba4dfa412b": {
+    "guid": "7807E404-8281-4FF1-8457-0B54BABE263F",
+    "sha1": "a288d41399a6630170f603aed4a5a6af2f99b400",
+    "name": "HitachiH8s2113Dxe"
+  },
+  "37353159342efacfd324fa7ee3721f515dfb691c30984317f9a2ba819b3ef9e2": {
+    "guid": "B265299C-654E-4DD7-8616-358561C008A3",
+    "sha1": "aadfe7fb6ac94e36050ce9fc07ccf7ec94ca3693",
+    "name": "SystemVariableStoreManagerSmm"
+  },
+  "4a5ab85e1f47eaa521f792ea7c134f3f2817cc4bfeb181142ad77d243af618b0": {
+    "guid": "42857F0A-13F2-4B21-8A23-53D3F714B840",
+    "sha1": "882e3e6e5f43b236c9b849598ce55f4c645c43a5",
+    "name": "SystemCapsuleRt"
+  },
+  "dc220d713151b2878ea61ae3f24f969f6029d1cdff6ab4841cee57fcdfdf2703": {
+    "guid": "AC6FD56A-3D41-4EFD-A1B9-870293811A28",
+    "sha1": "f928ade96dd0b8dbd56179155c20879adba2dfd2",
+    "name": "PhMebxHotkey"
+  },
+  "44c6dbd58dfa57a222304d4aa1e1c94c3ac5e426f68d2336b8934734000fb088": {
+    "guid": "31740724-5F96-48CA-AA0F-332ACA6B9A75",
+    "sha1": "91298bac8daecb67fe551408a6b2b38cfaa12bab",
+    "name": "SpcrAcpiDxe"
+  },
+  "4fcf7ba03755eb496169dfb008614df098518703997894ddf6ce537457e8bd75": {
+    "guid": "B8E63775-BB0A-43F0-A843-5BE8B14F8CCD",
+    "sha1": "02589d296e65560333d07069a660fe3ac26c8509",
+    "name": "SystemAcpiBgrtDxe"
+  },
+  "799618d4d60202bf3f91576cf88eabf5acb4309ccc97c40a550c31650728b6a4": {
+    "guid": "E0ADB57E-E1B6-44EC-BF2E-842874A26C83",
+    "sha1": "4ff85bd37a555ed45146e4b691fb285e2e3b1c2e",
+    "name": "LenovoWmaUsbDxe"
+  },
+  "bd08b5e7a33aee78f3fb08f1a5952d39b32c7e704fd0dfc8070c2e18d6fbf278": {
+    "guid": "C8339973-A563-4561-B858-D8476F9DEFC4",
+    "sha1": "08c630af95301714fa9da2fd9b13fc6b35b2a74c",
+    "name": "Metronome"
+  },
+  "33f9e0f8001a4dedfcd1c263507373e74a26a5853dde5db64846e7d5a9803662": {
+    "guid": "5F65D21A-8867-45D3-A41A-526F9FE2C598",
+    "sha1": "9b92f12ebd57aa466d7220d145d95c08b0fe2307",
+    "name": "SystemImageDecoderDxe"
+  },
+  "7b7f602db0dc65ad4b0b35acdd79bd0cb6bb439ef6c33557b5f3287fc738d766": {
+    "guid": "CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600",
+    "sha1": "79ce186c80c619bb8058947b075ac390d054b98f",
+    "name": "EnglishDxe"
+  },
+  "9761e40bce348bbe3024db6e58b0cee024700491a85ad3f4fa1938583885457f": {
+    "guid": "2A304EE1-F3C3-4F35-95CD-93DD0DA00F2E",
+    "sha1": "fda90c5a5689092b5750969ed42194956f8a69e5",
+    "name": "SystemSmbiosBcpDxe"
+  },
+  "125c11584cc29d55df2bd3fa787ae994fae451bc05f9702e6761bc08f3e39263": {
+    "guid": "EEEE611D-F78F-4FB9-B868-55907F169280",
+    "sha1": "5cf185fc3583b80f257663a55584caede1034685",
+    "name": "PlatformInitPreMem"
+  },
+  "2a89a8ebb01d1a249df1798fce30c1b3fb80641d9f64c271376c1903f0ecb436": {
+    "guid": "6A628EFE-3682-4FDC-A31E-C635BDF18CC8",
+    "sha1": "3e2921e3922dad1ded226511f6a269a812ab4016",
+    "name": "BdsMilestone"
+  },
+  "0869fafdae6c475696d6275c93c22907ca527e7b16380718bc9aee190ece120a": {
+    "guid": "D77C900D-A1C7-41C5-B989-0C3D37FCA432",
+    "sha1": "47bcd33c3a17d6b4ddf5d9f364c3e0d40b520541",
+    "name": "AmtWrapperDxe"
+  },
+  "1d5c142a8768b35cc661acb294b5c820794085b6dd025dce4a60e5a783dd0a5d": {
+    "guid": "11399A01-0423-49CC-8368-85291533C35D",
+    "sha1": "c0f0d9c5b35432a462d2d9c9257d9d9043e40729",
+    "name": "FprSynapticsMetallicaDriver"
+  },
+  "14e060c3ff77dfb06968cd495de79ce3563b9a08ecc4c0516d733101a7237c00": {
+    "guid": "124A2E7A-1949-483E-899F-6032904CA0A7",
+    "sha1": "bac34f0372aca0ec972d092a0514ae5bb6d224a1",
+    "name": "SystemSmmAhciAspiLegacyRt"
+  },
+  "b831493d17866b81bdaf515efae39c4401655c6957ca9196bb42e071c2419dfd": {
+    "guid": "86D70125-BAA3-4296-A62F-602BEBBB9081",
+    "sha1": "7b2cc7b071dc3adfc6998b299034f3fed3f1890f",
+    "name": "DxeIpl"
+  },
+  "ab4b58c1253c20649396ca1e56d45f807ab39d09272f3d68fcd48bd80be8b871": {
+    "guid": "773CB08B-511A-4BD5-85AD-41D4F4B64A52",
+    "sha1": "e77bd089e1e1129c51f89034080900c4d9b5e200",
+    "name": "AmtSetupDxe"
+  },
+  "1791f4335706df083abd3da54ef3d0ab5652a510837189da5de0ee26450f13f6": {
+    "guid": "0B04B2ED-861C-42CD-A22F-C3AAFACCB896",
+    "sha1": "316a9931a72fba9ee1670f1f71dd792642c70a42",
+    "name": "BiosVideoDxe"
+  },
+  "ace9dffd34df24d07eaf049ea41f07351e737936079cb43832798568fd14dba9": {
+    "guid": "6D85CF0A-4A5F-49B0-BAFD-A90992677FF7",
+    "sha1": "6dc7f73d6c3b16d36e78d4e2cffc335632f02e43",
+    "name": "WinbondWpcn381u"
+  },
+  "5a3bf7486d569b32136613d7c6133df1e94477a6f3497f99e458d2f8cf1fa4c5": {
+    "guid": "CB73C3D9-2F01-4342-AE67-04DDE5264092",
+    "sha1": "7f108df97ca76951194b6f248603348337b9f771",
+    "name": "SmmPlatform"
+  },
+  "a4782ad88b9aa789f2c6421fb0c9087affdf70a5a5996440a2fd4dec122af1f8": {
+    "guid": "1BE14579-D805-4C3B-8874-410B818674E9",
+    "sha1": "e3c466b4c7b5c82e332fda069f92ea9034c9783d",
+    "name": "RealtekPxe"
+  },
+  "190208b226986ce3c8e456605a76d8a3cc37b4c2374f039c33c48c37710b4497": {
+    "guid": "A19B1FE7-C1BC-49F8-875F-54A5D542443F",
+    "sha1": "919e7ca85dccb184e69a1388ead49b4a9728b7cd",
+    "name": "CpuIo2Dxe"
+  },
+  "0c73ac29ecfb84aa7788909e12924617d400d41983c5f0275cae156989c005cb": {
+    "guid": "9E863906-A40F-4875-977F-5B93FF237FC6",
+    "sha1": "04cfead2f47c66538e2e847e8623fb6e256ce38b",
+    "name": "TerminalDxe"
+  },
+  "b9b08bd280a4d353e5e4bd3d3fd032565b736fdfd0237c06b41efc662b9b7268": {
+    "guid": "B62EFBBB-3923-4CB9-A6E8-DB818E828A80",
+    "sha1": "a5aa5af02df9c418d04a46f0a361c984a5a644ba",
+    "name": "MebxSetupBrowser"
+  },
+  "03b759d6eeed1e20b97be531fa48823abad472c1afc43e6abc56c94dfe83d3f2": {
+    "guid": "DE23ACEE-CF55-4FB6-AA77-984AB53DE823",
+    "sha1": "874e83d2e840da4bbcf39deb284f3b2981cd2d22",
+    "name": "PchInitDxe"
+  },
+  "43a91498c033ed17f2f7c54674df76aba8cb58c3a660f6633c577eabb7c28c28": {
+    "guid": "A0BAD9F7-AB78-491B-B583-C52B7F84B9E0",
+    "sha1": "711f5e24032f0515db4fe7f617e44387767cf037",
+    "name": "SmmControl"
+  },
+  "f11fc80cd1a3ec3c1944dfc5e5faa823afe945690757181a25ae0c207511a894": {
+    "guid": "93E18521-9E52-4EEB-A230-7C24B2EC03E8",
+    "sha1": "66d679217a52f2d402d721da3da8a752393ccf7f",
+    "name": "LenovoMfgDoneDxe"
+  },
+  "87ec6b30726445ee7017dd7e33f88bd9ed5340955488e5e1d76d097a5362afae": {
+    "guid": "F7FDE4A6-294C-493C-B50F-9734553BB757",
+    "sha1": "a7beb75553fc3685a71c04ca503747375bc15cbe",
+    "name": "CapsuleX64"
+  },
+  "1d582d6edd4fd75866d3a8c1df74ddb33aaacf8da6638bec1a3f3a40cba8a536": {
+    "guid": "D83977DF-34C3-4A21-A104-369B8D4FA7B7",
+    "sha1": "b6d4a4f65c10412befd4456a8666f935b631ec00",
+    "name": "LenovoMfgBenchEventDxe"
+  },
+  "ae279f2e65647ba4b4285f3d88cc0685ae85f598912055c55d2b9db2eede0b4f": {
+    "guid": "6A3AEA11-2CC2-4B66-B4D3-A8779D6087C1",
+    "sha1": "a29b3bb58eaa69324999d49dbbac5023dd15e921",
+    "name": "SystemSecureBiosPei"
+  },
+  "d654e4c831a988b914baaed30af3ce3ba7085d16309e935a7c05da830f35f037": {
+    "guid": "B835353D-4049-410B-8F18-4C749C4C7A78",
+    "sha1": "df686e7687b9307388491a73cfd40f18b2d946e3",
+    "name": "DxeSleepEvent"
+  },
+  "c0ecb2b2e7b13e0f208cf5f1d8f2a9efedd1c5b6f5f975b92cd52f39e12cee1d": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14E",
+    "sha1": "ed65031e6c8fbf5b64e3039128827ff6a4511a64",
+    "name": "SystemUsbSupportPolicyDxe"
+  },
+  "330a22e7f8b03bb68aeae296b9bc20303e7f368105cbdf8db1238a39ce428af7": {
+    "guid": "67AFDE5F-EF16-47B8-BA19-C21B3907DBF1",
+    "sha1": "07cef2ba7a5005877a36338b4d478b576a2ecee9",
+    "name": "MiscGaIoSmm"
+  },
+  "35e4c999a7d6d4428ff3f006a8fc81f232e2af08a09f81ba5566f9016f208c0b": {
+    "guid": "F7731B4C-58A2-4DF4-8980-5645D39ECE58",
+    "sha1": "a402263a11f281c10445bdfc32b3acf7328e10c4",
+    "name": "PowerMgmtDxe"
+  },
+  "1134419197847cbe1e286deca4cc1ea03325830003a738fcb19dd6c4dc20f0e2": {
+    "guid": "FA68BD3F-8AD7-4D41-8CD9-2E72FB387AD7",
+    "sha1": "7b82e5ee0b0b1c298c966c70ba74064183781320",
+    "name": "SctMilestoneTaskDxe"
+  },
+  "9fcc69bc520f2cdcc3c22819c276974ba9041ddf894cb3d91482e2c0d7821c99": {
+    "guid": "44F23590-DC88-11DD-AD8B-0800200C9A66",
+    "sha1": "901edc152a2d1071201987ceef6c5fd3fd109f1f",
+    "name": "SystemAhciAtaAtapiPassThruDxe"
+  },
+  "3e03d42c17544600a7780ba327dc4b91871114f8e4cccb4eb715cbb11832a317": {
+    "guid": "6D4BAA0B-F431-4370-AF19-99D6209239F6",
+    "sha1": "f471c5b767e25debb39f524896d13bc9631b6c76",
+    "name": "BiosGuardServices"
+  },
+  "cfdf27a4fe23a7dfeb45ff23f5e491bde0b56e44bc26cb63007098676af0070a": {
+    "guid": "1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609",
+    "sha1": "d05a467d689ae1ff4265a1381e353a26bf781162",
+    "name": "PartitionDxe"
+  },
+  "2b366aa2c18ca9afbf8e03cd5089304c6af6e85d0d2ba2b89729dd6d4da985c5": {
+    "guid": "7A422A24-0CF1-407D-AAF1-6A74C0103B98",
+    "sha1": "26618f82edcdc143a8b4a12cd901806304e321ab",
+    "name": "SystemUsbHidPointerDxe"
+  },
+  "26b84deb76c2113b22c5c057f005ff0447d858cea15bbb4e1ec71cfa98ccf907": {
+    "guid": "4D62B5E9-71C8-412A-8604-878C921D9AD1",
+    "sha1": "8a7c823fae3d2e32cfed721a9f0f059d99dcc979",
+    "name": "SystemErrorLogSmm"
+  },
+  "fd10d5d1f3e7d8e58bac09fb486d546a3722bfd277a20521d5c6c5795dcd16de": {
+    "guid": "5E5CF20F-B63F-11E1-835E-386077F11E9D",
+    "sha1": "9cefbc5177fc6dda9b567418f23139d064108c9b",
+    "name": "I2cTouchPanelDxe"
+  },
+  "d86452d60ffcc0ced537e9744e8993987df16a90cf80f22d06dabb39c6762d0a": {
+    "guid": "AADFA1AC-E923-4673-B1B8-714AD849F790",
+    "sha1": "076f1b296b974c9faff17617704b4aa0bd35f3c0",
+    "name": "SystemFormBrowserSimpleTextViewLayoutDxe"
+  },
+  "11ff5ed64ea98f9caeb132d92c6a25f8a78102ebac8dd99a6209c542535e6684": {
+    "guid": "114CA60C-D965-4C13-BEF7-C4062248E1FA",
+    "sha1": "cf8ee8a6245297eb446d326046e8e2ede16ad155",
+    "name": "EcIoDxe"
+  },
+  "e17aa3a727fa0cd5267746b80f353f35789a2e82cd7152d1994ea3248815d247": {
+    "guid": "B13AFF9D-C66D-46AD-8C23-723482EFC841",
+    "sha1": "5ea0fa042dd83a677e1997f7f28f6fd4fa655658",
+    "name": "PlatformEmmcDxe"
+  },
+  "3c62ba0c7f8426ebaef35d26cc1c5fbc273e8f9a7fe10052d928fefdf94c3a64": {
+    "guid": "2D1E361C-7B3F-4D15-8B1F-66E551FABDC7",
+    "sha1": "70b69057a64118727b349ea54da7fc91cddc42fc",
+    "name": "SaLateInitSmm"
+  },
+  "a723a9194b3e17c2bde90d18c0a31167a2b0cd9cbbebae070dd67a22d93f6ee9": {
+    "guid": "00DC20A3-66A2-4D14-BBD7-5BA938E556DE",
+    "sha1": "1762cc5646e19dd73ccf33bfb988a904882c6223",
+    "name": "LenovoSmbios"
+  },
+  "e4265add834a56a9b61669159ca81224bab67d852b3bab70f1f26e99169c160e": {
+    "guid": "FBB3F083-5787-45AF-BADC-664854100F20",
+    "sha1": "3ec6e55fe4ccfbd439c63ad4ef4958ffb4803b76",
+    "name": "FitDiagnostics"
+  },
+  "5bfd27f1065120f95331c01d0d3e8f63da2753c6424237dbc6c8b4f9eb7b62bd": {
+    "guid": "0770E7A0-9C3A-499C-A311-2F8385080556",
+    "sha1": "cd5aa8d1ffca7de7bee41e9a4e582d4676cf9296",
+    "name": "BoardInfoSmm"
+  },
+  "339701ac1284f79895256cf6e1e2accbef8dd753251e991d15449258cf461715": {
+    "guid": "1051EC65-F6FC-41EA-BA51-344C37F60CDF",
+    "sha1": "914d22889e36cb59faa0159f5eda0da2430c3117",
+    "name": "BoardConfigInitPreMem"
+  },
+  "042d787bbadce08a3f4fb39074f3e78a120e9f6e12bc7ba10f971d40054f52a7": {
+    "guid": "2D59F041-53A4-40D0-A6CD-844DC0DFEF17",
+    "sha1": "5794e64644ccfea8ad818a648c855f4515d44005",
+    "name": "SmmS3SaveState"
+  },
+  "802b10240f5c69637f4dd66b089736ec9a6f855a50a62dbae777481887569143": {
+    "guid": "1E8DCCE9-341C-4219-A790-F14C28B51CEE",
+    "sha1": "54aacf95843d1bc892e925cefa2129aab52604b1",
+    "name": "LenovoEaiaPei"
+  },
+  "4e1154dc63314b3b213d1f9226d88c76d44b641efc45a519fab44adf0875f437": {
+    "guid": "51CCF399-4FDF-4E55-A45B-E123F84D456A",
+    "sha1": "5a4e6cba26b044bdfb0051b46e2d6790c3cc146c",
+    "name": "ConPlatformDxe"
+  },
+  "c2a82e707c5dea4533432f2a740a1193b6c4aa85a464965dde6ad2c532861dc0": {
+    "guid": "5BDCD685-D80A-42E6-9867-A84CCE7F828E",
+    "sha1": "50fa139652cea96bc5904c055995e52b0872d0b1",
+    "name": "TbtSmm"
+  },
+  "80d22e5e089a9973fbee0bc87569e1195a9d735de3113939d483af6ee075e00a": {
+    "guid": "4F1F379F-2A62-48BB-AC34-D3F135C6E2B7",
+    "sha1": "b0d406c76943a0fffba03b478310ac4fdc657c6e",
+    "name": "PcatSingleSegmentPciCfg2Pei"
+  },
+  "8037c90dc7acea63869b79b77b0f9fe5c1c3599b0fb18accb0bbd36dc27243ec": {
+    "guid": "E6ED9B13-31AF-4C92-A561-D47B2FA994F7",
+    "sha1": "6ed1f7bec2cb3c19c3f0bf0c2588b46bd7579eaf",
+    "name": "FastBootHandlerDxe"
+  },
+  "8f78a1148d2493a999fc70c3b6bb4543bb8a5fed3c0aa0ddb7af30feb3484942": {
+    "guid": "A15EE4CD-C21C-44D2-9547-2F49869FB9D3",
+    "sha1": "989aec78774c866e93a005c1ec49cd90c08364cc",
+    "name": "LenovoTpm2ConfigPei"
+  },
+  "4b433cd9a54bd7f20e758876276c7f8a1fdcdd3a2695a3511215b431e182ee1f": {
+    "guid": "E05B0241-2F68-4DB4-8ADF-5760DE2E1570",
+    "sha1": "44eafe7ac6412acd2fb8c94c5c8c7947ed06f5be",
+    "name": "TpmFwUpdateDxe"
+  },
+  "5795d340de85c87a7025a0ef807b7dd058c9a6ddf924910b20aacf3cbd9e6287": {
+    "guid": "ABB50A68-0CA7-4C9F-8DB4-56C34E01CB95",
+    "sha1": "b6f4aaf9ea093844c153d639b56a9750ed433fe5",
+    "name": "SystemFirmwareDeviceBlockDxe"
+  },
+  "f1d06dba4a771f531312cfdffadf778c8e20ce2abd19c12374f3ee3e92e735f3": {
+    "guid": "18C040D4-15E4-4148-B7B3-582764710BBC",
+    "sha1": "5c4571bcdd0f557936566d7c626500b8bd40ca79",
+    "name": "FprValidityRaptorDriver"
+  },
+  "f843a43b80b0948ce4caeb0b308dc2bba0c05bc087ec3f6b644c41e3f5d14441": {
+    "guid": "970F9BDA-88FC-494C-9EA1-26419663CE11",
+    "sha1": "02edbd7b44d7401b335086a92543d4b134754426",
+    "name": "SmmCf9Trap"
+  },
+  "f0328a1cb6383c9c4548de52705c723892c6ff926831d5fcc7529d48eba400ed": {
+    "guid": "D27FED59-ABB4-4FED-BEAD-2A878C7E4A7E",
+    "sha1": "519216cc13c85aa4c681775053c76d4b4ab306f8",
+    "name": "SmbiosMeasurementDxe"
+  },
+  "2aaff1a5d390fa1cd372c33e6dd2b2c2ee131b6b4708cd45562ae72902dfb56b": {
+    "guid": "126A762D-5758-4FCA-8531-201A7F57F850",
+    "sha1": "3b25e0fed93b7afd8afae8b4a0515a13c583db66",
+    "name": "LenovoSetupStartupDxe"
+  },
+  "fe018342f9fd5614c75b2a3dc52f87d4a4d6673b378185e37d421de2872ebbba": {
+    "guid": "4A5227D3-0BEF-4CAA-ACBD-EC84446C5C6C",
+    "sha1": "02cfe5350c966cde33f3b4063c0c470718c8bf17",
+    "name": "MiscGaIoDxe"
+  },
+  "101764801e5925c5b56df26729f1bf9f7b65643a0dd156a687dc571fa9b48e96": {
+    "guid": "301A0BC3-BA16-49F9-858B-DEE05F91E7B8",
+    "sha1": "b99b4b5b423c261a4cac9438d0616768d4fa66d4",
+    "name": "TpAcpiNvsInitDxe"
+  },
+  "ce383755fb2b13984c6750791495a94381bb7118c33474d11a59d74da95c942c": {
+    "guid": "8900E28F-DE99-4FC4-894B-6F41CD139A48",
+    "sha1": "123d3e1a9da19d3fdc9e30d4286a1fcc663d0c6f",
+    "name": "InfineonTpmUpdateDxe"
+  },
+  "de59bab9e6b6aef56ec465d6803f797b6e8a532ddc98d5b262d85b14d0688c4e": {
+    "guid": "889004EE-8388-43BE-8975-C593FC50BB4A",
+    "sha1": "e354dbb9d3d0a216f8d4e725ae7bc0070164241b",
+    "name": "EmulatedEepromDxe"
+  },
+  "072a76d7e070ec4196ddecb7e0beb1d762b314a7f734b76ff66c6f8c4708ac75": {
+    "guid": "DC3641B8-2FA8-4ED3-BC1F-F9962A03454B",
+    "sha1": "4b9d65dfc42fbf6f5f76010743482c31a5ebbe90",
+    "name": "Mtftp4Dxe"
+  },
+  "6e62875de3b90b2036d2250d1d5137b7b006724fe0ff1e6b9a75a75ddd4c36fc": {
+    "guid": "918ABA30-3D8D-4BB5-B849-45CC4FC7DE7C",
+    "sha1": "0c77eac1fdd5cd1c37f8e33f7ad9db5684339aa9",
+    "name": "Dptf"
+  },
+  "f7a8736d9d1d93805559a604afe496768d540a906e674053d49a623ccf4d6c56": {
+    "guid": "B601F8C4-43B7-4784-95B1-F4226CB40CEE",
+    "sha1": "723092d895c6aeb0bd5f0f8b774429811ffe6a15",
+    "name": "RuntimeDxe"
+  },
+  "3ace946ad95232056bffc55360b664c9175df10f42e4ae0761e66049842071e1": {
+    "guid": "08FBD32F-867F-452B-B134-705161F73333",
+    "sha1": "a813af9ed3b045e5966e34c69f1bf6db07024118",
+    "name": "LenovoCryptServiceSmm"
+  },
+  "c4b7dad7cf855c2357c2841675b81a8e802531de1960e4e625da8bd14bb2700e": {
+    "guid": "4A4CA1C6-871C-45BB-8801-6910A7AA5807",
+    "sha1": "367bd63016be4ff7bd16cf5b47a4866c1b1541d0",
+    "name": "BiosInfo"
+  },
+  "1623b5d72e0da4faaf1b34ce0794b731628179d6f51d660278ed85554636deed": {
+    "guid": "E9B4B126-4E13-41F5-9E4C-9BF88B3C1B0C",
+    "sha1": "b2b80580c61907a6f6712cb78d0d215f9ea1fb10",
+    "name": "KbdConfig"
+  },
+  "050895364f62884a2a5ad14e41984e334a062d35cd5be1f66cce887c8829a5b3": {
+    "guid": "098515FC-9F73-4BE4-B542-D38BE9E91E96",
+    "sha1": "d631e55ce153ec7d4e865c13e8f8af6ceae9e496",
+    "name": "FlashUtilitySmm"
+  },
+  "e0f95d43505049dd8d5186cdbb2b75670005b3d1e2d2d5c369f97ad3232e2807": {
+    "guid": "C194C6EA-B68C-4981-B64B-9BD271474B20",
+    "sha1": "ef6b8ef3ecaec3d89c53e392bc8a5a9d0b31b787",
+    "name": "PchSpiRuntime"
+  },
+  "779930c96ea3abf37e01f6af7edb078d6f2097171ab8defcf16cf78596778221": {
+    "guid": "BFD59D42-FE0F-4251-B772-4B098A1AEC85",
+    "sha1": "9b819af8e8abd1050b53e48c2aa3d5f46bc6a229",
+    "name": "ActiveBios"
+  },
+  "3e3f124dc896205979b7b1adfd46a29a0422e22988f04baefb3955d90db1c025": {
+    "guid": "291A3B75-C685-475E-876B-2E40A6A7E18A",
+    "sha1": "675d6768ae3085227fb1931d57872b90cc01a2bb",
+    "name": "SetTimerPeriodDxe"
+  },
+  "1a2afb6ab1576bcdd480ef951b672cbf2c8bdbe8a9571c61e20747e34f291676": {
+    "guid": "5B74C741-4A5F-4A8E-B689-D804AB4368FD",
+    "sha1": "f0232b7617b057b044add4d4eb7326e90942ed1d",
+    "name": "DxeRealtekCrcInit"
+  },
+  "8190e251ec1d9f825507774a70fb206a821ba9916bcb20110d68035fb6a0e86a": {
+    "guid": "4EFC51DA-23A6-4790-A292-4985C7F5CDEF",
+    "sha1": "12a10a7229e33973997ff1d92a121d230c0e71b3",
+    "name": "LenovoComputraceEnablerDxe"
+  },
+  "232e0d4eb07884936cb9485c2d2f9f6f771f41b3a4b08595b3a29796df6bc31a": {
+    "guid": "9581983A-3663-46F0-83EC-8A0506EB63E7",
+    "sha1": "98acbd96d2287c97e09548ad99eb23bbe5195363",
+    "name": "BiosInfoChecker"
+  },
+  "932060ebbdca9f7956759f6c35442f0742203edf8c088b7a75549e9e3001a04c": {
+    "guid": "FDFF263D-5F68-4591-87BA-B768F445A9AF",
+    "sha1": "368a1a527c2887878b575752a6148a48a66058db",
+    "name": "Tcg2Dxe"
+  },
+  "b1cf29ddda3979c357351e0395b394a10e38a18276778e9d5fbe73ed1ce3b4c4": {
+    "guid": "7C0D8842-B2D7-4E06-863D-F84218013BC7",
+    "sha1": "469f52ae258a0415fbf6718578ca8b3912aa7b5d",
+    "name": "LenovoPttPolicyDxe"
+  },
+  "18afe19c84312ec9c6da9b4ae4a2f32475b85ac896d699c5bc26aa36f321a678": {
+    "guid": "59287178-59B2-49CA-BC63-532B12EA2C53",
+    "sha1": "9884a56fdbc989bd23d707ed89acc4c1ac80c75c",
+    "name": "PchSmbusSmm"
+  },
+  "67059ee629a43c7a5559a6a3f82726a4bda4bcb7a5c9e09c53454a2f75d029a4": {
+    "guid": "BB65942B-521F-4EC3-BAF9-A92540CF60D2",
+    "sha1": "e0ce280764f602497d8f55d00f2736c72f6583cf",
+    "name": "SataController"
+  },
+  "8439a4693db2df8b985a1871cb89a0186fc86b0af086667c8a1c30cdd26f9416": {
+    "guid": "6FD18837-36E6-46EC-8F61-6730E3E23D50",
+    "sha1": "379c97db1566fb3b3daf03a41ec2789ffb12d1aa",
+    "name": "JhiDxe"
+  },
+  "00cb00b931f52bb8d4b132840dfff2d1b12599539e5302df3ff32c6ac7f3cd8f": {
+    "guid": "244338F5-ABDA-4DBD-8782-1DE293B5BBB4",
+    "sha1": "871cadc116205989f610a94d678f5d58edcb7526",
+    "name": "PlatformStatusCodeHandlerPei"
+  },
+  "eaf32bc6d3a575f48135dea45d06cecbc9ef85529e4ab45887751f4195af89fc": {
+    "guid": "B9A3F174-1B36-4AEC-99E2-F2855EB4C3DE",
+    "sha1": "edbd0f458022062e0977b3ddd54cd1c11819c429",
+    "name": "BoardInfoDxe"
+  },
+  "a3ae483ba9a7b0e5d3eb9b3d563533670583cfce0472e447fd3fa8e3afe6bef1": {
+    "guid": "35269008-CF21-4A7C-A58C-5CBF2BDE4AA6",
+    "sha1": "ac438727ab2e658af826651ee66e4b0e6a70e594",
+    "name": "EmulatedEepromSmm"
+  },
+  "1002e6b6f0849c9734a5d8aa08e356e35a6cf73d3e52b8730c82c5a2e5e85259": {
+    "guid": "1C8B7F78-1699-40E6-AF33-9B995D16B043",
+    "sha1": "162805769425b07d0eef903609454f79403f579b",
+    "name": "PiSmmCommunicationPei"
+  },
+  "2a86cf90c0213888a8cb10a5bda50f05a870721b4442e4c46ac18106520037fd": {
+    "guid": "FC1B7640-3466-4C06-B1CC-1C935394B5C2",
+    "sha1": "63eaa8c760b7fac2ca9ee0c3fb96c726b9c1ece5",
+    "name": "PchSerialGpio"
+  },
+  "a6183d2e03c4e538dd019e2746b4ec205ca566591fc69c1dde900bca951fb421": {
+    "guid": "8029A5B5-4088-48D2-96E0-F7052BC0A842",
+    "sha1": "8a8517fc54ca82caf5e7e85da43c5d9b074bf035",
+    "name": "PttHciSmm"
+  },
+  "a4fa4b4ac39b58513145bfbdfa1c0e80fc79e213c2ddc6a5747edaf31e754f93": {
+    "guid": "5029FBE0-39E9-43F8-A9F0-E78E1789FC27",
+    "sha1": "4d59a280191ffedcdad9da45da5ea229269bc62e",
+    "name": "SystemSwSmiAllocatorDxe"
+  },
+  "cb72e57993a7a43b0884fbfc1f1e89eddc9eaa8fb69930776c4072698a187799": {
+    "guid": "42293093-76B9-4482-8C02-3BEFDEA9B35D",
+    "sha1": "f21d33f0f493e507004f9c321494b36f8da29f85",
+    "name": "TcgSmm"
+  },
+  "a82408122275bd32cf81ba99c3c63024b33f31d8de009183624a98901716184f": {
+    "guid": "60B751F7-43B9-4238-8819-6B862B68C889",
+    "sha1": "a9875af0a81a564ada5bdf02e78d187bb215dd68",
+    "name": "PhPlatformDxe"
+  },
+  "ed086d8b60a083be180d47f3193deddd563da426b4c0dd821ae37fa00c1d2c5f": {
+    "guid": "8FEEECF1-BCFD-4A78-9231-4801566B3567",
+    "sha1": "e65835d3b8d5a78932d968ed3ee61793059b511b",
+    "name": "AbsoluteComputraceInstaller"
+  },
+  "47ec257e34965c6b9ccbb9e4b546d14b143da8db3c189dae6121ea8fb7c9bb60": {
+    "guid": "794610DA-D0EE-466B-81B3-8197213A6978",
+    "sha1": "7ef9ff62c901ce6e86a965b8717241cef13a7d05",
+    "name": "SystemSwSmiAllocatorSmm"
+  },
+  "b83e105e85f86b629ef2e6344f7b7e67eb00ce9435dfea46306f4bce59e59ab3": {
+    "guid": "C642C14C-0E9C-4AEF-94A5-A213BAA35DE0",
+    "sha1": "b7919aa0b99e06b74801021e32c3332ad37fa4dc",
+    "name": "HstiResultDxe"
+  },
+  "ed3ee158946cee2edb504d740510935c90d7a5cc3e612237937ec11dc18062a0": {
+    "guid": "C37297CC-3FD9-4026-9890-7A1628184620",
+    "sha1": "04a8c77f44a4d39531c11387b539f6503d472ae6",
+    "name": "EcIoPeim"
+  },
+  "f4a001a23de662390b1b75755683436efb2fc7de15c4510a1573d8b3091ad4fd": {
+    "guid": "2554EF5E-C9CA-4A48-9D94-249EB1E87C2D",
+    "sha1": "0100a4a7b95e215d8dfa9a85e4b9d0f76956e71b",
+    "name": "LenovoCryptService"
+  },
+  "75eedba6dd0e781fe3774c96b6667ea2b73d7dd010f780b176f02d631c1c5fb5": {
+    "guid": "C61C6982-B904-4CEF-BF1B-C63BF7CA0352",
+    "sha1": "6196cc74833e98aea1f1704ae5fe78aab7b2fa5a",
+    "name": "SataPeim"
+  },
+  "9d2c51b6e6b53443007e2d0abda43da711775a8f23bafbf50891dcc9fd434c38": {
+    "guid": "EA9E92E1-22EF-4B5F-A5EE-1317B1E77B10",
+    "sha1": "a839fbe8b3c1178ad76a16457cf13d932856c982",
+    "name": "PhCiraHotkey"
+  },
+  "377c20723506309642a6376179f36de43a0dc79cb66894d3198e4031dce7760d": {
+    "guid": "82988420-7467-4490-9059-FEB448DD1963",
+    "sha1": "82fab30c9d7eb92fb0851932368eac1585fbda59",
+    "name": "MeConfig"
+  },
+  "07255aecb00ee90213f40030c364d68a6e27b2ac9a3901118df5c9a4a6ad7464": {
+    "guid": "CE366D33-B057-4C03-8561-CAF17738B66F",
+    "sha1": "9298cdf044f4952f8de5fb97384db94538067bb4",
+    "name": "WdtAppDxe"
+  },
+  "df633b04721165e466338112eb19d46853bd651236e70262a288ca93125e98ce": {
+    "guid": "32C1C9F8-D53F-41C8-94D0-F6739F231011",
+    "sha1": "7f2b8e0b2e4b410af1d9a58cdd6b219244103746",
+    "name": "BiosExtensionLoader"
+  },
+  "26f83672b6472089684f019f005e4c9d3a5643a70c35cfd4d95b4891d698533c": {
+    "guid": "0FE159B5-076F-4C36-BF26-D724F2831252",
+    "sha1": "31e70245fee40c17fc260715a990c1d22f0977e3",
+    "name": "BdsCtrl"
+  },
+  "690e8cf6c68d0c3619aaca3d1c5b6f0ee17cb9890ce5a64ed4da271ad7cc5a1e": {
+    "guid": "DF9A9FFC-A075-4867-A0B2-5E7540BB023E",
+    "sha1": "12be70804104394fa85c1f16eae91586d50bb990",
+    "name": "AcpiSmm"
+  },
+  "121257a4821f7a0f41006556122d8b12cf64619d7b30e158f47093c99b44bb2a": {
+    "guid": "D739F969-FB2D-4BC2-AFE7-081327D3FEDE",
+    "sha1": "4b0e44ce468f57ca5dd4faada9f1c8bad203d358",
+    "name": "ActiveManagement"
+  },
+  "b8aad36b89c0ce622716f2da567a16577a71e36f3fb072613660a98bbe0b2f30": {
+    "guid": "F10D6C2A-A2D6-4D96-A212-2B4F6005F389",
+    "sha1": "daed7198f0053e779c4ece2b9fdb1df0f93860ca",
+    "name": "LenovoSecureBootConfigDxe"
+  },
+  "a6a066bd40bd13a67efb2ec60677a77730c1639099c7f3c8be68fdcd210c4a22": {
+    "guid": "44A20657-10B8-4049-A148-ACD8812AF257",
+    "sha1": "16eea5c808d6d225172a1b320dc4a6196cbb2842",
+    "name": "Tcg2Smm"
+  },
+  "0adc563ac2cd11cebfbb13262e6e77a5d9e64d1738a8f13bbf132771c2c612a9": {
+    "guid": "C1C418F9-591D-461C-82A2-B9CD96DFEA86",
+    "sha1": "dba09d8569eaf5f8b503a6ebace75a510f0e9314",
+    "name": "LegacyInterrupt"
+  },
+  "7536c3bbea8cbffaf3babdc418d2ae0a6baffe9854ebe87f818ba47f0f573c7a": {
+    "guid": "C5046EFD-7BC3-4206-987C-32DA45026E6D",
+    "sha1": "d47ce2bbb99ac92a9b16b88e8030231f8f656bf0",
+    "name": "PlatformInitDxe"
+  },
+  "0470347539fc4be57c1c86ffb1de1ceeb5945a0e7666962f8b63e4b3b8802287": {
+    "guid": "3095CD79-5B45-49DF-B27F-EF43843B8480",
+    "sha1": "9a5adb169bb61173babad3558eea445c26fa4211",
+    "name": "IrqBoardInfoSct"
+  },
+  "e29bfe8ac5475436f6899ed5a2d436638fa5df661133ef8ff5e603e9bc99cd9a": {
+    "guid": "6AEA1B20-6384-4B5F-ABAC-776A11698DED",
+    "sha1": "9861e5c72e6592105dc9a1c0b350441210ee7229",
+    "name": "LegacyBiosReverseThunk"
+  },
+  "186ceb6f83d87f121fd9a1dbb954bb16fd89193542d318f16c02d50ca628b775": {
+    "guid": "826BCF56-BAC4-43F4-8EA1-8CDF0A121ABD",
+    "sha1": "5a5655a9bbbceb4c51fcff55709f961aa61ec5f0",
+    "name": "LenovoTranslateService"
+  },
+  "5d2b9cec3c06631ad00cd3f71943d81516a709736493b2e60677f0218429c815": {
+    "guid": "AD608272-D07F-4964-801E-7BD3B7888652",
+    "sha1": "11cc9de5a78287467182648189a21054f95ee12f",
+    "name": "MonotonicCounterRuntimeDxe"
+  },
+  "7a6de93a12cec7c7d1b157a558d8abbcac6d919161a2b5def6cc317e9d43a790": {
+    "guid": "025BBFC7-E6A9-4B8B-82AD-6815A1AEAF4A",
+    "sha1": "fc199e23aecd0b363dce00af4130e06cbbfabd6f",
+    "name": "MnpDxe"
+  },
+  "5477ff1b159e9c2a0f16b422c0a279fd9fdabd30475f98e6d9e1e6f9a4cd3fbf": {
+    "guid": "37A104B0-2FD1-4288-83BF-CEB17768F40A",
+    "sha1": "1f0d6270377bb6cbbd97feda0a1a8f27caba2e96",
+    "name": "LenovoSmmKbdConfig"
+  },
+  "825b5966badd4dcb885717440592421014868026bfb0b36e32f07041e05f0812": {
+    "guid": "621DE6C6-0F5E-4EE3-A102-0BDE769A0AD4",
+    "sha1": "cf76441fcb0465abb6bf5775a77fcf8f72ce2753",
+    "name": "LenovoRemoteConfigUpdateDxe"
+  },
+  "6fa17bea4c100092c34e10caf5f6f54654299ab4b47329bd1fcec6c79909b975": {
+    "guid": "B3D3502E-CB82-4017-AB34-2F17D2D7035F",
+    "sha1": "d54b0d5eb32ab6f6bf7db4d32d892a6852428c66",
+    "name": "PepBccdSmm"
+  },
+  "ca6689723f052e0ae22d1368a0be9abd14e0cd1e7f958ac574e7bf27ec0af954": {
+    "guid": "FB257425-8C55-4DE8-8238-F53906AA5B94",
+    "sha1": "460f56b6ae18ee902360fe41ce86d75e33eae415",
+    "name": "IrqBoardInfoRvpDt"
+  },
+  "a3bfd45bef22934c66110b9132c12153e68ef71235e766dd7e34fff12803777a": {
+    "guid": "DF13AA16-B7B9-42A0-A399-00EE6C81A85A",
+    "sha1": "0bd1cb729ac1f191e6e7619f4dce18602eba87ef",
+    "name": "DxeBoardInit"
+  },
+  "1dec310032efef4912605c385a9efc5594249cf97d17fb91c145a2f5bfdf0fe7": {
+    "guid": "D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C",
+    "sha1": "53935c9a1da411864a4f4d7a3fe622a16ae3962d",
+    "name": "ReportStatusCodeRouterRuntimeDxe"
+  },
+  "8d93dbd89b2904272cdcc74205c7371534146f3ed9db63fc9947a7f3822810a2": {
+    "guid": "DD5E92D1-DDAC-48CB-907A-882D8610E89E",
+    "sha1": "32e84c13f8340bde29900d823f8eec05668919e7",
+    "name": "SavePegConfig"
+  },
+  "6e6fae07782e8a5498e05d6ae8fdfc64f10ddf3c8d019c49723e3a7e4649509c": {
+    "guid": "59ADD62D-A1C0-44C5-A90F-A1168770468C",
+    "sha1": "56fd87e461ae499c26719127473eca23aea5a0a0",
+    "name": "PlatformInit"
+  },
+  "b41ef2a6400246d4ff3f778187693c56761da968e1ca18b9460d87bbcc179699": {
+    "guid": "CBF486B7-D196-4C03-AFE2-33F38E64DA16",
+    "sha1": "418607628a3d14c3328ceb7be92d594aabb7b242",
+    "name": "IntegratedTouch"
+  },
+  "c5b7531275114fb2ed46284b08f192c5c1674e3b735706a9453a4849bb5a07a6": {
+    "guid": "1F345462-CEA5-4ADD-9C43-5CA6720B9DA6",
+    "sha1": "c93d72befc9053ba0fc026c06c2d5ac1281ca746",
+    "name": "IrqBoardInfoRvp"
+  },
+  "80aa7e9a203cacd8736d4f2c671f776d2183845469ee5d67c911b0873ce467e4": {
+    "guid": "23A089B3-EED5-4AC5-B2AB-43E3298C2343",
+    "sha1": "ca759069f0ebe795002c6417116708e1e1ce194f",
+    "name": "VariableSmm"
+  },
+  "dae01c3346b8f107df837e130d199645f6701fecf12f8cbdaea63f11f5a2c1ca": {
+    "guid": "5820EEB4-C135-4854-9D2A-AA9EFC4475E9",
+    "sha1": "03d3982d5fd9dfce0926982c772519b57670974c",
+    "name": "MeFwDowngrade"
+  },
+  "e3f035945b9c0611d48e6a08d4d06eb77a703901fbde540ec245c50feae77a4f": {
+    "guid": "27F4917B-A707-4AAD-9676-26DF168CBF0D",
+    "sha1": "1aa1be24d15360a52b05309353daabd39f23a66e",
+    "name": "PchSpiSmm"
+  },
+  "a538dccfb076a65bc9559e5beb8c66746c0157ad15558af704feaf5fc6153f6b": {
+    "guid": "DCA41C06-FD2B-41E4-BBE7-946444DB0BD9",
+    "sha1": "6e9475dc3a90b2c462fb444509a8897d243a2c78",
+    "name": "SystemFindFvPei"
+  },
+  "538c5c56b2bda4afed7e4ce34552120b5360d2b6a4f30f8976dea2b167b61313": {
+    "guid": "EC6654E5-150C-4185-BEBB-E8E5CF0763B5",
+    "sha1": "eb3ebb29f12b659582dc5f95ae765eadefc9210f",
+    "name": "LenovoTpmConfigSmm"
+  },
+  "94fb85cecf857f7f0f4e1fceb2abdf343729105e5fe6640f9408548e114a5797": {
+    "guid": "A3FF0EF5-0C28-42F5-B544-8C7DE1E80014",
+    "sha1": "b877c5a9d2be012e8bf926323ee8e942bf743725",
+    "name": "PiSmmCpuDxeSmm"
+  },
+  "e9ff90cd763dade1e6407f5240ee24a95a53aa7287167f0e0cfbba3e6395bfc8": {
+    "guid": "202A2B0E-9A31-4812-B291-8747DF152439",
+    "sha1": "fc2e2e5ac45630553c11f342b8dd99b0f2d35137",
+    "name": "Ps2MouseDxe"
+  },
+  "7f89037e8a94745cffab7fa2a2045201671cda8d3cc0f87e102084706f5df53f": {
+    "guid": "018AA4F0-773E-46F3-B62D-2C70EA32E0D0",
+    "sha1": "e78db9666f68a31375da30a7c21f75d8695f4219",
+    "name": "EfiSystemPartCapsuleStorage"
+  },
+  "7c27b0570c25a20576d4364b4f0840c41f56df8baa01311d298904c4597da985": {
+    "guid": "7AA7B16D-0E14-4951-8B85-3F6572FCE258",
+    "sha1": "60ae08b479a01d01eeafbc961b987e80d10e60eb",
+    "name": "SystemErrorLogPei"
+  },
+  "9d4390032162347922b8ef8a02580590ddf966eb8f25fc89d4db007d0fa070b3": {
+    "guid": "32442D09-1D11-4E27-8AAB-90FE6ACB0489",
+    "sha1": "3197de654c12744ccdb2310c37aefbcdb59ea641",
+    "name": "SystemFormBrowserCoreDxe"
+  },
+  "a5af06f86d9defef5832b07f893158349ff0af92f85dfc84308fd3a7711ca309": {
+    "guid": "A4F2909C-5E2A-438A-91BA-272B0923049A",
+    "sha1": "70948a6424969f374a0adf15c2952ce17a998228",
+    "name": "PlatformSetup"
+  },
+  "23583d08096ddc402bb8e542209ac8c762cc59b27182ad9ca89b35c2412d3d43": {
+    "guid": "FF0C8745-3270-4439-B74F-3E45F8C77064",
+    "sha1": "494debeca46b9e8ad672dcf5210bb0aefaad0627",
+    "name": "IntelGopDriver"
+  },
+  "1c3a23130f7e52113007373e59c476a2ecce59890dae70dd0cfe5e5259fc9a91": {
+    "guid": "9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E",
+    "sha1": "f8f859c42ac997686e23a9f343716b19faf08fbc",
+    "name": "SystemUsbMassStorageDxe"
+  },
+  "4c12805f51271c99a3903126f30746e9b54fa6ce35ead3893563c083d859e99f": {
+    "guid": "B45EBA39-D53E-4A94-A839-D501633A5918",
+    "sha1": "cfac771e92d88fb9d1c0772336f9f6bc73368136",
+    "name": "SystemNvmeAspiLegacySmm"
+  },
+  "58c58f70b39dad5edacfb26d62c8d66e211d519bb859c7e42ebc1076225ac924": {
+    "guid": "8FAAD0A7-02B4-432F-8F5C-B880965D8B41",
+    "sha1": "db7ee24a4bb2f2b85ce9ebb719b2a0449f49ed86",
+    "name": "SmmCommunicationBufferDxe"
+  },
+  "40e72a91c3cdf08d8abfe8d2715d209563c48aea2a02321f44e407761eef7735": {
+    "guid": "721C8B66-426C-4E86-8E99-3457C46AB0B9",
+    "sha1": "add05c0796cce6dcd37f5ac217d07f557cd46a0e",
+    "name": "SystemSetup2Dxe"
+  },
+  "bf947928b90c49c8c7c409a1c0ebe9dd48e9d4aee6ac530afb402203aa49f5f5": {
+    "guid": "89E549B0-7CFE-449D-9BA3-10D8B2312D71",
+    "sha1": "6a14d4663f7b201224949c2597b9a215dbac86ca",
+    "name": "S3Resume2Pei"
+  },
+  "ccdba0b82a9218f2efe9b4e1589c71511728f8b1422b5aca2b3c64c40b4dd8f0": {
+    "guid": "06DE824A-A4E2-4295-A3F6-03B3FEF5B109",
+    "sha1": "09ed369298bac0ca4052af0abb45860a5ed88251",
+    "name": "LenovoSecurityVariableDxe"
+  },
+  "b861d8775925cbeb2091170020190c58bbac09f3f205f1ba319dd7de758eed98": {
+    "guid": "9B243EAD-77D0-4354-B78F-70B39AA48F0D",
+    "sha1": "6c9f212b7a3d20534e741884d4c75fa109c1ebc3",
+    "name": "SystemVspBcpSmm"
+  },
+  "0f0fe2726ab1e6202e3341450f1eecfa232b5e06dd3a84c19883ed8d0e2b2a8e": {
+    "guid": "A8499E65-A6F6-48B0-96DB-45C266030D83",
+    "sha1": "8bdb65ee4cfe3e5ea21f152cd12d6c7d3f03c11d",
+    "name": "SiInitPreMem"
+  },
+  "27b7fbfd92e79ba044e756c628784c9028cd5d19f68c0a54cacfa7578be7369c": {
+    "guid": "6A7B1C86-590E-47A7-971A-C49B408D5ED7",
+    "sha1": "6458d3021005262ecd928cfcc356d696532c11c1",
+    "name": "LenovoSetupSecurityDxe"
+  },
+  "09f7170572fda89661656792f7608fa283a07136f86303a24866f85f219ddca3": {
+    "guid": "FE6F3B89-6417-4F00-A206-EA52E7D44D3D",
+    "sha1": "56bedfd51c34536aa73523ec29c4203ffe584dca",
+    "name": "LenovoSmmAmtConfig"
+  },
+  "013576a2833ac8aef0509321ed0e46dd03bfb0484d7e63f91c5732661e39b8ee": {
+    "guid": "E72527CF-505B-4B50-99CD-A32467FA4AA4",
+    "sha1": "f27072f274769eeeb8689a9027a03ff550b08cc8",
+    "name": "AsfTable"
+  },
+  "af715a4b404a528afd5125435dfcdc50f6190a9636c515afa0fdf5bd541f900a": {
+    "guid": "E94F54CD-81EB-47ED-AEC3-856F5DC157A9",
+    "sha1": "a4351271d6b49f46a4d077c0b3e67d91679ceaaa",
+    "name": "PiSmmCore"
+  },
+  "c174a1eca86b55e90e7b412164f3b43fe3a6eb22debf3786b393215682cab24e": {
+    "guid": "5FC8EEE0-9BF2-498F-B4D3-C51ED4C87BB4",
+    "sha1": "70be4429afdb92d637f24c54db9ca032c6642618",
+    "name": "LenovoSetupConfigDxe"
+  },
+  "16dfeceab980fcde0b1d141af516296d164daf0f929a0bec90addff8e8bf79ed": {
+    "guid": "C4BBBAE3-F891-4D4A-90EE-0F05D932C151",
+    "sha1": "a9e0baa41d95fddf76a708126c348d2afd7bc5e5",
+    "name": "FpdtPei"
+  },
+  "7ef33be4535f369ebe70a44c72887995ef4737d4e166ac1517fa29ef412edd55": {
+    "guid": "7B6F1DA6-EA4F-4938-A79F-0C58E1442AA1",
+    "sha1": "bd295da6612de5d4c1d61329b7aa9ea21af7c5f7",
+    "name": "LenovoPopManagerDxe"
+  },
+  "e479df5480a08b3e976ed94e54df21635d9640866b99853ae3b31be31ec00e02": {
+    "guid": "11A03A8E-A9C5-4DB9-90CF-4434B01586C4",
+    "sha1": "69be719a3c0d68213de3d41d7be8f4c5a0d3ba1c",
+    "name": "BootPerformanceLog"
+  },
+  "dff340fe0d00ff4e29a3780fc3c6b1b1d591ed27adb4b5b8675d53107ce0cf5e": {
+    "guid": "6E6E4A75-EF14-47FB-B43A-67EC43B87D22",
+    "sha1": "975d01d09a67c7bfc7236d79d187046c5ca89e0d",
+    "name": "SpiFlashProSmm"
+  },
+  "d51c867ef2c496ec214945e19e0aa28f7ece7e2779850bd1436e98a77b95d716": {
+    "guid": "9C1080EE-D02E-487F-9432-F3BF086EC180",
+    "sha1": "f64bbc661315ee0ebb591d24e9b593a5d4e1649a",
+    "name": "GenericMemoryTestDxe"
+  },
+  "88f146d6144a3ab8510ae085b98193b3ddce486e751b1588eb91c77ccb0d4ba9": {
+    "guid": "378D7B65-8DA9-4773-B6E4-A47826A833E1",
+    "sha1": "9722aea7cbe0b57bf8ee3acad03b08605c2af0ee",
+    "name": "PcRtc"
+  },
+  "f74be13ddc1be81577040274c0832bb300fa833f3a71f45e7da2656c656560b3": {
+    "guid": "04DD0ECD-4844-426D-AE59-1EF632C5EA4C",
+    "sha1": "e28d806a8041dc56e7218e8937561e3294407ec0",
+    "name": "SystemDxeToSmmEventDxe"
+  },
+  "03ed2b64d12865fc3a9eacd043288e85180b9dadc13697ac0b9a7c2970549fa7": {
+    "guid": "490D0119-4448-440D-8F5C-F58FB53EE057",
+    "sha1": "e65263605098c887f4e80c9b569515bff7175266",
+    "name": "PolicyInitDxe"
+  },
+  "8a623c26143c1d04d859dd8c71e4f4d8671ca3acfea45238b7f166afc1d2506b": {
+    "guid": "706C1E0C-44FC-4012-9B71-3DBFEC762F35",
+    "sha1": "b0a341da515443e054fdfbd7a6367d3ae5bab397",
+    "name": "PlatformFlashSmm"
+  },
+  "5e04fea1d09228fda7417664c04fc8fa68f6c11f0a6e3606e8c7a0c1e00f8688": {
+    "guid": "BDCE85BB-FBAA-4F4E-9264-501A2C249581",
+    "sha1": "95c8bc4d429b490ad162e49b6b8db31c0524b0f0",
+    "name": "S3SaveStateDxe"
+  },
+  "69f5a4eed430ba5e0484cfdf130dfb58b59dc76a3014b5fa3b631e1b932aed7a": {
+    "guid": "B31FF060-8363-11DF-8395-0800200C9A66",
+    "sha1": "4f29753bbc754df360e40d79a924269226b7a075",
+    "name": "SystemAhciBusSmm"
+  },
+  "889a1f28051955fc33a9512901b2d0f5a5d500750e09fb7caf21defb1fd3b657": {
+    "guid": "C57AD6B7-0515-40A8-9D21-551652854E37",
+    "sha1": "6621d657f470c3902ab1bc2423e45e74d5c286cc",
+    "name": "EdkShell"
+  },
+  "e6f5366de32a62957c65092384b15a253cb76f2a7b911e4cbe4efe6c6ecc4537": {
+    "guid": "8217E118-1058-4C9B-936E-5B3027C2394B",
+    "sha1": "7478d0473d5785efae52d65305bfb290b9dc8b78",
+    "name": "PchLpcDxe"
+  },
+  "5411de2283842997eaddba0290f39a15ed3b4bb88d47313b9248e3bc453cc2a0": {
+    "guid": "A0C98B77-CBA5-4BB8-993B-4AF6CE33ECE4",
+    "sha1": "cbf897a3e12e6f003ba05c7f71cc17525e96e894",
+    "name": "Tcg2Pei"
+  },
+  "f1e40529993a6d59e2e6ab4cac524fe076f6de9fcc1754a7ea59c876bdc2a63c": {
+    "guid": "4C7D1568-CF73-4676-A079-16F7F9600CCC",
+    "sha1": "4aad1e8c96a37aa59ad9a1bc6713d3ee8baad5e3",
+    "name": "LenovoSecuritySmiDispatch"
+  },
+  "14783cebc906d21c3b0e884aeb1e6727da1ffcd2db4e154d59112bcf4a40f065": {
+    "guid": "CEB0203C-DE91-4ECE-A95F-0217E959E191",
+    "sha1": "38c036fe999157e39c3082b2b0e7b4c06ce05ed4",
+    "name": "SystemSecureFlashAuthenticationDxe"
+  },
+  "cf66af85d5430642650e83869e538551976e1742a858e2480e4541142c784647": {
+    "guid": "33FB3535-F15E-4C17-B303-5EB94595ECB6",
+    "sha1": "cce5ee4b8077b9b48739323b86a4a23c0cc2e9bf",
+    "name": "SmmLockBox"
+  },
+  "6986d98fe7a491d636346dd66100737b2a0bb95dbf57377a06e65098b13961a8": {
+    "guid": "C779F6D8-7113-4AA1-9648-EB1633C7D53B",
+    "sha1": "a1b0f28e5779fc8032e21b0597bf892ba218d70e",
+    "name": "CapsulePei"
+  },
+  "f6a55d7d34cd0b0753c9554cf62ecd0f149144bcbf86264cb525288fe2b9a316": {
+    "guid": "A3610442-E69F-4DF3-82CA-2360C4031A23",
+    "sha1": "3ca3ad296a0c93431f55fc1417840129e453256b",
+    "name": "ReportStatusCodeRouterPei"
+  },
+  "d7914ab22789fc3d9cb4d167301829c4774d05bd56fd520a7dbe61a2cf5cbb1d": {
+    "guid": "13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7",
+    "sha1": "98576595506154549c0de13f94d543a02e166f7c",
+    "name": "EbcDxe"
+  },
+  "9577c3761884a6e9554d2af0c9368a3fe6ce2b70bd0d45d97e0e8ff12a81bb4f": {
+    "guid": "94734718-0BBC-47FB-96A5-EE7A5AE6A2AD",
+    "sha1": "84ee701032bde6a9bca5c62acb790e1505aa45ec",
+    "name": "Dhcp4Dxe"
+  },
+  "180cbd2ccd39838d7e7ef2ad20beb541b982874f331708742a1df3cd212fd483": {
+    "guid": "EB5FC7A5-3747-4A25-90DB-631297A0A0AF",
+    "sha1": "a0e73966fcfbb9e8f5f4d808cc9df20e5f634ca9",
+    "name": "BoardInfoPeim"
+  },
+  "053c6cf39f411cccee8fbbc45b34cc391075e01d60355323654deae65c9cdbca": {
+    "guid": "AB3E46F0-844B-456E-8911-5D4546172410",
+    "sha1": "cf78d2a7da04b3b3895c56b3d0acd6d9e4262348",
+    "name": "EventCtrl"
+  },
+  "655da226784f43ea145b195c2e2e10488e3fff63b24794ceb5f2e35d83cfab8f": {
+    "guid": "76ED893A-B2F9-4C7D-A05F-1EA170ECF6CD",
+    "sha1": "a6332fb917edb478ab7b8ae4c1674b88dbff4363",
+    "name": "IntelGraphicsPeim"
+  },
+  "a6bfb5c7abdc080e9cfc8ed9e51ec57194cbf5eb47b4c5afd7c408957035ad50": {
+    "guid": "9EF82BFE-707F-468F-A944-A61626E47DC9",
+    "sha1": "ee276325cba7225430c5c87a6c48aee425fa569e",
+    "name": "AcpiGlobalVariable"
+  },
+  "a1e8969b4c75eedc92c72a6f00d2edfa12106f4273795afcc166aede12d96e20": {
+    "guid": "2A4224A1-2609-40A7-88E2-A68DC0F1D180",
+    "sha1": "d722f21eda6c180c62dae99fbcecad9747aed8bf",
+    "name": "SpiFlashProDxe"
+  },
+  "c0091d79b265467cb7c259048337fac0eb5a32e974bc51ccb5d2b3fb6679cb9d": {
+    "guid": "55F9900A-BFB0-4B30-83EE-7F437FAFAE33",
+    "sha1": "8d8601c6e559c26ff7caa98c7749208782f8f2df",
+    "name": "LenovoDriveEraseSmm"
+  },
+  "166e8bf4daa069604221f4beb7c8a043546aaa7094fe458cbd571bb81331202c": {
+    "guid": "BA23D959-EFCB-4340-B0A9-B33F9CF05CB8",
+    "sha1": "e4c5e3a998a8ce834704b021c8577ee9fd8f8a31",
+    "name": "PhPlatformPei"
+  },
+  "d2a65596f82802459b0d4b5fc0c45621393df22344b5b99fde19d0451bae0c5f": {
+    "guid": "D6A2CB7F-6A18-4E2F-B43B-9920A733700A",
+    "sha1": "d23fd16d24f109c2f649dd76397ad7c325d6f255",
+    "name": "DxeCore"
+  },
+  "ea144e2f7f03bffe133e9d2a1ee32521846425787938a552999100bc746a173b": {
+    "guid": "0D648466-36BD-42C6-B287-7C3BAA2575C0",
+    "sha1": "38abb9f1bf9d8a3de3de4a1bd8c685d3ed3b34c2",
+    "name": "LenovoSetupUnderOsDxe"
+  },
+  "9832dc0740ee0010ecb3892bbe936f0c32c2b23b7b52ff2a4f6d1b43342f7d39": {
+    "guid": "2C82AB3C-A734-4C7E-A790-F379BBF88F9B",
+    "sha1": "8f235e678dcda5dfc39d4311324c3aa3894f6d2f",
+    "name": "PlatformMilestoneHookSmm"
+  },
+  "c357c1a0ef4134b8ac66dea440211416ada732d41b3a3ac3627dcd05d0d4bba8": {
+    "guid": "66EECF40-6312-4A1A-A83A-B3B2F8D8A71A",
+    "sha1": "e963988ea2f8e28de12b98f362776a132179fb67",
+    "name": "LenovoVariableDxe"
+  },
+  "ce18e6cd225625c9510c60966351dc9a787719c8f09111590b6022428c5d1eec": {
+    "guid": "6A8A395F-4C07-49D1-B94C-22ED50D425F8",
+    "sha1": "c9226c13f1ea793f6eb04a26030d5a8a7e6537d0",
+    "name": "LenovoSecureKeyDxe"
+  },
+  "55ed194ec3d477d7c02906f8ac57cc9fe0a5d037087fc8ca8bb7ca9fc3f5034a": {
+    "guid": "E7D62FEC-4994-4030-8B3F-AB4606A33350",
+    "sha1": "c929d6d2bc4e240af237a4012a8b59c540d343da",
+    "name": "SystemAcpiOA30Smm"
+  },
+  "7343de1fa1dde75f2ed375b1799569f1e355c6e66cb2b53b73ab9504b1dffc21": {
+    "guid": "408EDCEC-CF6D-477C-A5A8-B4844E3DE281",
+    "sha1": "f87f6a8f99c70e373c2ca4f14ddf4d8b89b65e81",
+    "name": "ConSplitterDxe"
+  },
+  "f391da527a5fcac14e6de5f9a020758dec957b320ac246ead849ed0838c7f47d": {
+    "guid": "1E6EBC58-55E2-4FE4-A396-AA2C228EE7E2",
+    "sha1": "59ece8357cdb0d9c57c099ebdf63881a0fafb95e",
+    "name": "PhPlatformSiSmmCodeCheckSmm"
+  },
+  "1d84174eb81e67d4ae4a99b937f78c88c708e3589bfff5b974320ef52f652cb6": {
+    "guid": "377C79B2-1A40-441E-B6F5-A170E3753725",
+    "sha1": "27847549a8544316b21c201bf10b8ff6df8d6a7d",
+    "name": "LenovoTpmMeasureDxe"
+  },
+  "409f06d4eb77b048c529a5ebede9aa1e0f5a30c0da57e80448cba98c94fb450a": {
+    "guid": "1A7E4468-2F55-4A56-903C-01265EB7622B",
+    "sha1": "c328cc1c5753e359a805c6183d1ba9852305cf8d",
+    "name": "TcpDxe"
+  },
+  "1a208425ecfac8b38998e08b3d4cf7c3ffc7c1062985d9ef7d49da889d6f60d7": {
+    "guid": "EDFE3817-8661-42B2-A3F6-948FA7AEA20B",
+    "sha1": "5fc936128f50634882aa377e1d54f4c4bf1bb328",
+    "name": "DxeThunderbolt"
+  },
+  "a960a055dd95ee42c56179a55d1af7ac1427460486a33e57d0da21275d059a58": {
+    "guid": "2AA290DB-6B3D-40D0-9FED-89E004BB0CF2",
+    "sha1": "dc88abc26988af81e8498bb272392ddfb4818fc4",
+    "name": "LenovoSmmMeConfig"
+  },
+  "5a118a7491c4a3e378892d47480821db3125eeb73ae63b9bbd8915f265f09cf1": {
+    "guid": "A5683620-7998-4BB2-A377-1C1E31E1E215",
+    "sha1": "18b4c3c58e9578ce9d50bd4ec1ed551d23b78e0a",
+    "name": "TcgDxe"
+  },
+  "0f5e502c96e7bb7dd39cd40c6372f4f986b4a8d740d9e7f1b72ca83dcc97b1d9": {
+    "guid": "C6602CDF-E16A-4147-9B9A-0B399498722A",
+    "sha1": "260a2faa8ff13ffad5cff237e545caf49336d3e4",
+    "name": "SystemCrisisRecoveryPei"
+  },
+  "93a0ca7fee4b8ddc7fd7325b6b2b929147a4b00cfa474f0b307f2fef9e1bec51": {
+    "guid": "E010BCCA-3A3B-4B03-BCF4-AE1F64A85C89",
+    "sha1": "e3868a850ee31b9077f501474733ccb37b78e9c6",
+    "name": "LenovoUserManagerPei"
+  },
+  "8ee06969df26c3eea9138b1bef3229239d9f389174455687e79979e115b42610": {
+    "guid": "80CF7257-87AB-47F9-A3FE-D50B76D89541",
+    "sha1": "ce7a711552111e57fd421fb67cafc18ebdd43a43",
+    "name": "PcdDxe"
+  },
+  "df9067b7b23e66960be711cd2242b425ef2d29b678f87d25e709418b4f211917": {
+    "guid": "53BCC14F-C24F-434C-B294-8ED2D4CC1860",
+    "sha1": "e918b1f9edf0a02185476941da5e33fdbfc4bcd9",
+    "name": "DataHubDxe"
+  },
+  "0e22ce566bd6300015cb9a50cfd8d54e86c64f32982bcb45e1845d88d2a4d675": {
+    "guid": "891BF95C-A903-42E7-8D5F-B7F9B6C8831C",
+    "sha1": "4bdf478b0e145e05b41cbafe32bedd157f3cbf47",
+    "name": "PchLpcPei"
+  },
+  "82f4387aab9755b77881e321fdb91fae4924ec5447ef2ea3fe3276d8364466e4": {
+    "guid": "EAAF7109-EC2D-4A30-BF4F-621408630E4C",
+    "sha1": "abaa54398535a48a7b2e8280609490e25d69dcba",
+    "name": "FlashOemHooKSmm"
+  },
+  "e93c15477cc8afd49c587945a4ceb9b6569a7407ce09085e91b75d10b93954a9": {
+    "guid": "95BF86AD-A1E0-4143-B487-004B1C2E05FA",
+    "sha1": "59112d0d43f4dd9f1b0789d40ba17e6409de8e17",
+    "name": "DxeCmosInit"
+  },
+  "0bdb3fb53785e4f8d4776af20965a664cfd9c2fec279da4be7c24a16993f40f5": {
+    "guid": "F746D37F-F6C6-43C0-94DB-466F5F10E030",
+    "sha1": "318f182ee53dc4e5a22785c8229e74e549c522f3",
+    "name": "LenovoFingerprintSmm"
+  },
+  "fbb993df3290f300b5f8be322c25b3f34fa265909da5b28c25d0bbf408876fd4": {
+    "guid": "C19A6517-3FE4-49D8-94B6-C4D77350AA44",
+    "sha1": "60b2fa392031789f5796d245989b5b8b1dd61d9c",
+    "name": "FlashUtilityDxe"
+  },
+  "ad93750bf5cbb709953a4b3e8ee9137f56b278a29b5101293392638044a46c58": {
+    "guid": "9F3A00FF-AEFF-42FF-82FF-D22FD344C3FF",
+    "sha1": "6168ba8d73aea62d11eaa6ad138a454dd33bdc66",
+    "name": "IrqBoardInfo"
+  },
+  "1f6c1cb5cfb6617819b687dd54425670c5a318c6cb0580e966876e06a418540b": {
+    "guid": "2ACB1E45-DFA4-4FF3-8F81-91F7D787D22D",
+    "sha1": "415341817df79293e4c3e1dee15bebc1a6112c39",
+    "name": "SystemUsbMemoryManagerSmm"
+  },
+  "4d70d1c6a76e641e6f5d4ae72640a124fbffadcde99e6dbb8b167b1d3a800475": {
+    "guid": "F46EE6F4-4785-43A3-923D-7F786C3C8479",
+    "sha1": "52ca38faeaa43ba5a61e4a5d7259a1d081608a7f",
+    "name": "LenovoStartupMenuDxe"
+  },
+  "fba93fb86b5b9e71c6aba24a84fc7fb4b71f0024d66470d67978eccf9c782941": {
+    "guid": "FB142B99-DF57-46CB-BC69-0BF858A734F9",
+    "sha1": "e482821a2c7238510fd3378e0e988b9c99571cb4",
+    "name": "SerialOverLan"
+  },
+  "9f7adbd0135cbb5a31fa7282d61e743d60ade8031c52e85506ec76136d92851b": {
+    "guid": "FB62F7F0-5433-11E4-B810-402CF41D8A90",
+    "sha1": "0c758d569d49bb61a74f9b817105d6ad92f4bd22",
+    "name": "SecureEraseDxe"
+  },
+  "7795be989e10ab966e4c5465b0946e7a6827aacf327a09fe83a9931bd2d91999": {
+    "guid": "F46D8EA6-4A67-4872-B0D1-D4FDEA0B692F",
+    "sha1": "b383af8dcf5d16e4594ec34e4bd958f35bd90d21",
+    "name": "LenovoSvpManagerSmm"
+  },
+  "12b6097cd85a18d8a80eeda3c741874c8bdece3f35ccd5b97757dee543dd16c0": {
+    "guid": "BE216BA8-38C4-4535-A6CA-5DCA5B43ADDF",
+    "sha1": "eb747dc18d5ae9ad163cdcfba2025ce8451998d1",
+    "name": "VariableSmiSmm"
+  },
+  "86589d4b230979401210e6daba7957b6dfcf816021637ef9b8fdbdeb988de8de": {
+    "guid": "35D180FA-6ADD-482C-B6EC-B59C49B53208",
+    "sha1": "0d8312ac3a36f30d03eb4ae473f3044ddce8994b",
+    "name": "LpcSmsc100x"
+  },
+  "2dfe3d7c3ebd158cf100b8b6045da06e92d08b02a46a3106c8f245b60bc7adbf": {
+    "guid": "F8673422-16DE-449C-8728-AB0361DBF9F0",
+    "sha1": "896722a8a590d33e0ba8bcc582a5a0763d4462fc",
+    "name": "LegacyInterruptHookDxe"
+  },
+  "64c46a04db2527e177bc63e88ad0ba042e2a7bd65a394232747571322b624776": {
+    "guid": "CED4EAC6-49F3-4C12-A597-FC8C33447691",
+    "sha1": "7eff9cb3c1b2e60b19011789869c2d2b456c6c3e",
+    "name": "PeimBoardInit"
+  },
+  "6e3729592612e3582f1396a4851c678ab122eb04ad6f6ad5d35f63eea5f5deb8": {
+    "guid": "44BA7D87-FD96-45B8-93D3-A8A0A94D0985",
+    "sha1": "5ba1cf981584ac460851df4643af3f492b8d2ed7",
+    "name": "AmtConfig"
+  },
+  "8cb5ee05ca42af2df60bfcbe35e1d5d4a8a8d65d2de9224e1b999719f9924bd3": {
+    "guid": "799B0CB3-F2FD-4571-8522-29536EFE30BF",
+    "sha1": "489146acbae1a22ed205fdd3dad54b57e75e3ece",
+    "name": "SystemEventLogSmm"
+  },
+  "a67bd640053e6adea2e4a84ef6bb556402a65da5371a68bf946a15adb84c4036": {
+    "guid": "2893CAF8-B638-41D6-8864-D924D189C0E8",
+    "sha1": "d228a349d5849735f475f7423802988aa8f0578a",
+    "name": "SafeBatteryModeDxe"
+  },
+  "ffc905f80e756069b589a178b3e029bf37af3e12f7fa964e3ee2bbf85819ad01": {
+    "guid": "15B985C5-7103-4F35-B59D-2235FC5F3FFE",
+    "sha1": "1fd01d854f55c66745339b14ce47af79cac60ddb",
+    "name": "UsbTypeCDxe"
+  },
+  "b93b3200e4e55ed16c18e79863f01c3c0aa265c052724cf58096463f7d2cb48a": {
+    "guid": "A7732DA8-11AA-4366-9715-CD92CFB7D362",
+    "sha1": "9d635c48853fa32c89189d2158717b4a4e8e69a4",
+    "name": "SataController"
+  },
+  "316f36ddce1a960105ded27c147a886e1fd4828f12d7a2479c05b23a3451ba70": {
+    "guid": "A210F973-229D-4F4D-AA37-9895E6C9EABA",
+    "sha1": "827d4080c954d5118e63150a70562146f4ac7d66",
+    "name": "DpcDxe"
+  },
+  "151adc046035fd2752f581c094f33981adbb75affd52978c65995ce51a5c1eb3": {
+    "guid": "D687E479-DB37-4BCE-864A-02EEF6819DF1",
+    "sha1": "0c182e60283c96228ed5fdf20c96072528fc7267",
+    "name": "SystemFormBrowserSimpleTextViewDxe"
+  },
+  "1186d417a16cbecf148a0f610ba2698fd6c2afd0ad009ebbd8d0f2f584bc6bd1": {
+    "guid": "470CB248-E8AC-473C-BB4F-81069A1FE6FD",
+    "sha1": "72249e3efa4b3a8d33578d2c80b43f50c4b9c878",
+    "name": "SmmFaultTolerantWriteDxe"
+  },
+  "39b2e962834652040a5ac3d6bb500196aa9c552424fd340fbbad3d754808c6d7": {
+    "guid": "59EAD3A3-A920-4A80-9298-AA7B235647AF",
+    "sha1": "ec552da0d9c9a11f1c30856deb978742ab7b4b5f",
+    "name": "PeiMeConfig"
+  },
+  "ac5b6ab41b1fbea855e8a5563823512d0ef7fe54e224313f73a280a5f394705a": {
+    "guid": "9CFD802C-09A1-43D6-8217-AA49C1F90D2C",
+    "sha1": "13776d39b3e407e04540559314e30404ab179451",
+    "name": "Mebx"
+  },
+  "2e141a298a95e83e1b20c9607a7f687c49d7e405b885c7de75aea66d889bba45": {
+    "guid": "EA42B5E6-5E01-4C6E-8189-C1EFA6ACFD01",
+    "sha1": "ef3fcbb53d5d5754ccfd5a84510ff0a1a9f82fac",
+    "name": "LenovoProtectPBPei"
+  },
+  "9488b850ef12fa76c7204fe467db8fe200a12418779689e1a757b03eb3ebdaf1": {
+    "guid": "93B80004-9FB3-11D4-9A3A-0090273FC14D",
+    "sha1": "b1136d60dab0e13f9398d84bb742c330d2b5fb49",
+    "name": "PciBusDxe"
+  },
+  "57f6278506d2480f7f796be1a014489d1701e25a56fd82cdd59de7d474b01e1f": {
+    "guid": "B8E62775-BB0A-43F0-A843-5BE8B14F8CCD",
+    "sha1": "f74d2cf5a54fa3a2106a26b9a0a62f48f3395927",
+    "name": "BootGraphicsResourceTableDxe"
+  },
+  "4fb5b11bcb0768fe2df31d19b64433e93e4906e18cf26f4f6b1c36448576c2e3": {
+    "guid": "5BDDE605-B107-419E-9510-AA3C434EBBE4",
+    "sha1": "286a1749c5ef75323c921f19f8d44c5589d81e40",
+    "name": "LegacyBiosPlatform"
+  },
+  "7c15b2a9b0d8a124c3ae11f66e7b1676d5bfd1968e2a325384a3d66b0e4b17fd": {
+    "guid": "949822BC-26D3-4BC6-954B-F2C581342DE1",
+    "sha1": "7d2d4a1087c499fa887f231aeabea413577cf32e",
+    "name": "SystemXhciDxe"
+  },
+  "d49b658164594c698b1ffdd8d8c1095f8b032722eba4e73da7126004cc59eac9": {
+    "guid": "6DB9486F-6AF6-4090-984D-238482CE3EA4",
+    "sha1": "48cb9b29fd1a9ecc922242dcd0438c0a6c7bff39",
+    "name": "BdatAccessHandler"
+  },
+  "ee37f2f25cb8325ee96027c3551584ac7a94e6dbdb94b5a4940ad935e56f7a57": {
+    "guid": "65E5746E-9C14-467D-B5B3-932A66D59F79",
+    "sha1": "0c0e4ef28535c8a18982478b32ffaf48f93356f8",
+    "name": "XhciPei"
+  },
+  "65c03c0fbd814291f96830bcd5c9c1a89b021166837c494b03c0b9ce7b701fd5": {
+    "guid": "7BE725B2-F56C-41C7-9F03-1E7B56B65971",
+    "sha1": "11229fb45770199f7c35934d287afaf956759f9c",
+    "name": "SystemUsbMemoryManagerDxe"
+  },
+  "caace3e9d58afd16c6de7e8b6eef5590c33a98b99c22fabd36c619cb84200ddb": {
+    "guid": "E84AEF95-7CA6-4B2F-A398-B14D1C67A0B1",
+    "sha1": "ffab1da949c114d07b831df6e1df4e378c63e1e9",
+    "name": "PchFlashControllerSmm"
+  },
+  "62f523bb5518a53df398f89733e632da913dfa05d48c28f4869b364052a22877": {
+    "guid": "334D5254-6160-4E4A-A78C-E15D3B3B3334",
+    "sha1": "7594c49ee088345daa6c6c9395317ffcdadc86ec",
+    "name": "MmcHost"
+  },
+  "bb4bb20d65b8ff0ac4c17f15b190bc70ccc4274e92ef2ad5dc8ba2a6de49bba1": {
+    "guid": "ACD28235-075B-48B5-98A1-DA04FCAF84F3",
+    "sha1": "0a5515c74d87198a39d52a78d5c3488705cc853a",
+    "name": "SiInitDxe"
+  },
+  "0fed1e5d5d4b6b0d43c2e22686569abde2bbe0d6ccbae2960ef33700c0a04669": {
+    "guid": "FCE47C4E-5ECC-4A41-B90E-0BAB09968D02",
+    "sha1": "e54c69f74c8edd36d7048fde466d70df85092617",
+    "name": "SystemSecureFlashSleepTrapSmm"
+  },
+  "b780415f3bcd1c57a768b53b2949f83ab534188b3f936cc4ec2e8f39804ab6be": {
+    "guid": "6CE6B0DE-781C-4F6C-B42D-98346C614BEC",
+    "sha1": "687bfe01a30860d6137d6e17c917768b835fbace",
+    "name": "HpetTimerDxe"
+  },
+  "e21b487bb7a1648ecd21623830ed15c129326148ee3f0fdfd0c423295b8548b7": {
+    "guid": "9E37D110-80BA-4F24-B8FA-2A1D2539E513",
+    "sha1": "68ee27e24cd577038352c4a95216829ec193c790",
+    "name": "EmulatedEepromPei"
+  },
+  "3490556bdea7e82c9439a56d264e85085725fffea285839ce3d24aedde346621": {
+    "guid": "1A481E8E-342F-40AA-AF31-F4FB7C99D428",
+    "sha1": "0f632b4db3d6d290018e2789990342f4c889b75f",
+    "name": "AmtInt16"
+  },
+  "6f10394089dd161bf9d564738bd845aba2d01d9194a2cf5618d76e2f23cb290e": {
+    "guid": "6DC01095-9001-4E4D-B852-AF429EADFF57",
+    "sha1": "67d392e3fdc8c638a10bcd3997cc0a60bc78b6fa",
+    "name": "OemPowerMgmtDxe"
+  },
+  "b0569a08363cf3377dbebca413f96d5b577b4f086cf206e2c77d5c51879c6e32": {
+    "guid": "28F7B66E-DF6B-4D34-A420-91CA108E9D00",
+    "sha1": "9fb786d3e237ab7f7849a3b3899a7902370791c8",
+    "name": "SecureFlashAuthenticationPei"
+  },
+  "47fc24a503b56b8efc4643544fe5aaacafa5359439f1365c6f4d807541033f9c": {
+    "guid": "2BE1E4A6-6505-43B3-9FFC-A3C8330E0432",
+    "sha1": "7c3b6bb88b493d9cb03c7dbabdd1df71a81f1b2c",
+    "name": "TcgPei"
+  },
+  "2167a2e31a41442f742ac8f1670f31a704518d0a480beda3572cee2ac1d35b5f": {
+    "guid": "7E99BC9E-EDE9-48C1-85B9-689432817F8F",
+    "sha1": "4942acd8936b58646dc791ff2b76f9a6f2cf3567",
+    "name": "SystemEsrtDxe"
+  },
+  "3b38a43a1485a6401b8729cad4d5da4cc3fb19270d024c9b7bd17fe71e8ba172": {
+    "guid": "A6885402-D022-4B0E-A509-4711B90F2A39",
+    "sha1": "b8458509b3672bf54eeaac208847dc3db45a8831",
+    "name": "ReportStatusCodeRouterSmm"
+  },
+  "6a057de27cacc1f5943706552d2a93ccf27e8999412400bc161a2fd28cce8f4d": {
+    "guid": "A47EE2D8-F60E-42FD-8E58-7BD65EE4C29B",
+    "sha1": "f17cf0cfaa70ef24592c99743d31e82b9fa4d704",
+    "name": "CpuIo2Smm"
+  },
+  "6fd7531b77d221b4cbddf571042fba7f399c9ea87a30deb59712f31cf501731a": {
+    "guid": "01ED6C55-0D2E-4859-BB57-3044737A3679",
+    "sha1": "db8aa649e10986bd5abde4c718b270c8643b45b0",
+    "name": "PhConSplitterDxe"
+  },
+  "94b3e0137aefdaa020cd7ed959f85902092856c2d8f85e60f3efcdf9a21e550a": {
+    "guid": "C97809C0-5F90-4466-8B38-341D7A67CF54",
+    "sha1": "41188d9a26d457d3a63ee02cc5bc62730e609c0a",
+    "name": "LenovoSmapiSmm"
+  },
+  "e478be64dd514acd86dc10124d1b5367ba008b6a87cdd9a8417132c0a634566f": {
+    "guid": "ECA2AE9E-7594-4901-871C-449DA1A11660",
+    "sha1": "d54f4ebce7497d19e7255d250b8561a6603fb159",
+    "name": "I2cDxe"
+  },
+  "c1ffc4c68d98411b8f5fc8c257ee158450d5f3df1cf0ba7e97ca2ad570cc756d": {
+    "guid": "C80EA8F3-A3C9-4225-AA60-769DD4C74E43",
+    "sha1": "1b105f0ae17a8c252e5226cbe60a6a229f852314",
+    "name": "LenovoSvpManagerDxe"
+  },
+  "2cfe7a6236b0fdee46d5a021a8539254b980f616feade3827e0a9950d55420ec": {
+    "guid": "9F7DCADE-11EA-448A-A46F-76E003657DD1",
+    "sha1": "549a165339b216273d0b1011348523586bdf39a3",
+    "name": "VariableSmmRuntimeDxe"
+  },
+  "9e2c8c3db5ea9c5a20a4a3bd241419f91c8f6910648f6e93bfa95f891d1f0bdb": {
+    "guid": "CEE33516-58E3-47DB-BB3F-2758B5A76C28",
+    "sha1": "57fe01bddd7c071bc5f705d804a035bcbe230137",
+    "name": "FirmwareVersionInfoDxe"
+  },
+  "abcabe4eb558402acc08dedc59235787cdcf31614b659105bc1387057b1d0932": {
+    "guid": "5B60CCFD-1011-4BCF-B7D1-BB99CA96A603",
+    "sha1": "500159cf5baf3309da77829fc11cf114b2407a8b",
+    "name": "SystemFatPei"
+  },
+  "6ecae4c16f1ca833f6dd3d127dca4f1064d3ab7d7dd4e29cdbc94cc3952121a9": {
+    "guid": "411F7E6F-4666-58B2-D69E-D680C0F68BE2",
+    "sha1": "806f38ea35f3748d185a73418713e952a6e96ee9",
+    "name": "SystemAcpiAddedValueDxe"
+  },
+  "5470e0874172f5a6599a85037d80eb89c91c597c7246a7b91faef4a889e7842b": {
+    "guid": "37087B94-EF41-4977-93E2-3F6ADFDD06E1",
+    "sha1": "4e069b5e09259c3f3bb05d0655351ecbf5689204",
+    "name": "LenovoSplashDxe"
+  },
+  "db3e2f1a3ca83b6be7d90dfd982729959e1dc2509606fd9ff1cefd9a2bf77604": {
+    "guid": "2D2E62AA-9ECF-43B7-8219-94E7FC713DFE",
+    "sha1": "45194d306e2939d13313c403721b7c7871d57e19",
+    "name": "SystemUsbMouseDxe"
+  },
+  "35cd097fb6580489c975c7164865d5b815cf5c40227e41b4394b91154bd28a00": {
+    "guid": "61AD3083-DCAD-4850-A50C-73B23B3B14F9",
+    "sha1": "6639ee8a2c8a695eeee2c461492440bbcaaafc97",
+    "name": "IsaIoDxe"
+  },
+  "5c2c147b074e7bcaaed9fd173a98a87529092ff1378616fe581266eea31f3c13": {
+    "guid": "D7B10D4E-67E6-4C74-83E9-F9AF0ACC33CC",
+    "sha1": "b5172cf2fc7aedb22c69e459fe23a1672fcea7d6",
+    "name": "PchInitSmm"
+  },
+  "d0e08990e254a0ff8abfb4f46eff723f942fca2ef5372bb09eea98d964a3f844": {
+    "guid": "F6A11F0E-0CBE-440C-BD85-49FB595686EA",
+    "sha1": "ebb44b96848bcb0070621ca5c9a252bcbc57a397",
+    "name": "LegacyUcrDxe"
+  },
+  "814531099b2e5e803c0439abdc26c648387748d4c4a0b63237373d56ae04ed2d": {
+    "guid": "7AD9BAE7-864D-4F7E-9D11-1CAD8018FE7A",
+    "sha1": "7c39147f1a46321982850dec8220b31683d2b85d",
+    "name": "LenovoTpmFwUpdateSmm"
+  },
+  "20096bf0fb1783dd9d8904fd0656256d5cf65b13c9b4ba68a9cc3ee331c243b4": {
+    "guid": "E764500B-E398-4AB7-BBBC-99A8E683681F",
+    "sha1": "cc0b27f2dd7a084d78ebb3a78b485a67c4021063",
+    "name": "MeSmbiosDxe"
+  },
+  "ea4815add5f63feeb9203a49ce730ced7b77230f9db9855c13b145438f18ddb2": {
+    "guid": "C3EE3EF0-63E6-4F59-A437-AFA63C46C835",
+    "sha1": "e4d4def7525f3c6696e40f6a87b72a95e8b0ab87",
+    "name": "SmmAslSmi"
+  },
+  "798c1531aff0dc7b11d88fe4837c7c310407d879353a33f37328ebea6b6c7eed": {
+    "guid": "9B680FCE-AD6B-4F3A-B60B-F59899003443",
+    "sha1": "e04c6e1297fc37147a9bd12d5271e7768268d626",
+    "name": "DevicePathDxe"
+  },
+  "b551a00a02e9426d8c719598b002d2caaa54a9f837e13cdd9acfbd19fcfff92c": {
+    "guid": "E0ECBEC9-B193-4351-A488-36A655F22F9F",
+    "sha1": "a1a7a9984cd7cf4d4f54021bf8afc67ef9d6e6b0",
+    "name": "SaveMemoryConfig"
+  },
+  "e213033f293f4f1c83d78e2494189f28b4695d70e3b3a285545c6a74904f8b1c": {
+    "guid": "0B6A8DE0-6281-40A2-8E9A-09F1A18A6D40",
+    "sha1": "3a225c4fab1863ef8a627c6e9266bbe271183515",
+    "name": "SystemUsbSwitchSmm"
+  },
+  "dae7dd47d47f25d921d33c7ac83c28a86f8e291d532784bdf722966e2223aac8": {
+    "guid": "319CE8BB-DA2E-4FF2-B69B-0A854146B489",
+    "sha1": "c403b25b7eaebb0c20ead6f9852a5f80021b5ec2",
+    "name": "SystemUsbHidParserDxe"
+  },
+  "1afc39d70e8c7b835fef61bd286b5cb9bab50ed629c2c110dda1fefbee348157": {
+    "guid": "6D6963AB-906D-4A65-A7CA-BD40E5D6AF2B",
+    "sha1": "f786005267f625a42cc7c587688472dad96cce53",
+    "name": "Udp4Dxe"
+  },
+  "8a3d27ff7acf04786eb176af2aea7fbb44f98994ee651978f80440dbf4badf51": {
+    "guid": "63296C52-01CF-4EEA-A47C-782A14DA6894",
+    "sha1": "06ca5fec4b4c0b9ab73341dfcbbfbc893822e8b8",
+    "name": "SmramSaveInfoHandlerSmm"
+  },
+  "5e7dff6fd8499f6b42a326f877e7023b077dffdb19c10e42305393ee69d33b3a": {
+    "guid": "55E76644-78A5-4A82-A900-7126A5798892",
+    "sha1": "04c5fad97ad4667ef8274a9e56714ff541ca9efc",
+    "name": "HeciInit"
+  },
+  "35baf64b4bdeca777619e450571e263b5c2777b3997e7b473f8e9d0b606135d3": {
+    "guid": "863D214F-0920-437B-8CAD-88EA83A24E97",
+    "sha1": "cdd1f960c3bda95c628d3e2e6c24825398103355",
+    "name": "DatahubStatusCodeHandlerDxe"
+  },
+  "7f72dab16ad6d9ab77ddd726cd0fc61b153f222af67d1647aeb7ee2427386bce": {
+    "guid": "5C1D737E-36D6-45B1-862C-6B9C244F4C07",
+    "sha1": "82195865ce83c7831b222a5d44593240ed8181d9",
+    "name": "PlatformStatusCodeHandlerDxe"
+  },
+  "e801d3b7cfcd2853cc137edc3810cf591c08999c85fb5943fd5fb5df52f15a89": {
+    "guid": "69CA132E-062C-4D7F-BE7F-9B0B8446C888",
+    "sha1": "7eb75079a7bf9da11243090bde3168f9f174f4fd",
+    "name": "PhLegacyRegionSmm"
+  },
+  "e023c5a6a8d1e14e4d445020ce741ad7d9adfebb321fd8b10483850ea97bf1e9": {
+    "guid": "0559E886-AC78-4BCC-899A-E7830B5D6462",
+    "sha1": "12ec19109ee3f6445d75cfa97a18d72d85fd3a31",
+    "name": "SystemSmbiosBcpSmm"
+  },
+  "fc3cc71b8f7140d3fd1a9cdc52249c3da61ec69025a09c7b01d8be996fdaf087": {
+    "guid": "3C14C099-3143-46EF-AF18-DE4AD2C3A799",
+    "sha1": "fa739b316b320e47c98b6cfe86e3329b5b1d7c90",
+    "name": "SystemHiiImageDisplayDxe"
+  },
+  "984e82adee478bc2c543a31f3848f7e9b0a3a95fdadcfe571b2e29023212eeb3": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14C",
+    "sha1": "dc650842fa6f2042e2da4130f52b5e453827b9ab",
+    "name": "SystemUsbSupportPolicySmm"
+  },
+  "6ae7f45898762e6675bca42c872ab12145292d038a2bfa79206a8dee9a110895": {
+    "guid": "86E82AC3-D6AF-47A4-8C93-0C76C7B3CCD3",
+    "sha1": "cdce51fccd6dbb945f85cad4a69297a9f7cdc2cd",
+    "name": "LegacyBiosMiscSmm"
+  },
+  "fcc7db443f659b0d37e68513ec849b528a041efece7c16ea81a1aca6a82a2d2f": {
+    "guid": "26DDBA9F-5B0D-4E80-86B2-80DAE4D01B0E",
+    "sha1": "8c5318f7ae6f044d16d725de2050d5ac864b9ece",
+    "name": "FdiskOemDxe"
+  },
+  "a5496ea9a9c7e777057218133c42941d4146d4607be543169c71f10c6062e628": {
+    "guid": "3358F97F-63BE-47A8-89BB-ED63612E6C9F",
+    "sha1": "a1093ae5fc34d07cf207be83dda1d14776552fe2",
+    "name": "LinUptpPure"
+  },
+  "e0c40bf81ad92acf7c113d05f276e0f557288601e9d6cffab28530c3b9fc80f7": {
+    "guid": "E4F61863-FE2C-4B56-A8F4-08519BC439DF",
+    "sha1": "55d95a7d5ce2da1f248751dd19a9ffbbc2bf1c4b",
+    "name": "VlanConfigDxe"
+  },
+  "3fae844d876ddc2c1a708f82c2b94075ec9d4823dee288bfc8ffeb154664d64d": {
+    "guid": "9A9A912B-5F53-4586-8820-704485A29D21",
+    "sha1": "4962245ddc84c8bea90b5db48bafadfb1ec992ac",
+    "name": "MePlatformReset"
+  },
+  "d07b7b856346a8a4e73b40184ffa5cb9db0584ac1f53ccc5e4e3deacd6474a7a": {
+    "guid": "8F0B5301-C79B-44F1-8FD3-26D73E316700",
+    "sha1": "c39c9c5a31ec0f8ac53712f767ba08d0eeca5042",
+    "name": "PowerMgmtSmm"
+  },
+  "ef1e6796d3edb28ff801b5b9961c68242323a26fc9e8c79cc682a79b740e0ad1": {
+    "guid": "F9FA662B-8361-4DF0-A419-781EB024B2B7",
+    "sha1": "9e5751b3b8f946b9c5601b57a7ab1bc9621a42ab",
+    "name": "LenovoTpmProvisionDxe"
+  },
+  "4a23a41393ee77362e4ff819da01a3f34890505d69b9e40923aa021937dd242d": {
+    "guid": "89173692-9AC2-4C86-9ECC-F37782DDEBAA",
+    "sha1": "410cc86da5543a443c3589bc531c063ddca3c255",
+    "name": "LenovoHdpManagerSmm"
+  },
+  "5759f31ff09ab2dcf7eb8d29d0c628450f54bfb67034d4a3819f5f1433a7152a": {
+    "sha1": "072fd7897ba35da24221c6a8e8a6b992aef565c8",
+    "name": "SecCore"
+  },
+  "d00db3480b0d295375b126fd9912afddab6a3f7efdd3a5a3d9a0f094d3cc5e06": {
+    "guid": "CA9725C0-12E5-4FAC-AD58-D9AAB03B8F11",
+    "sha1": "c3c3c261bb3e57abf4a57cae3b6df18ae9ae2f45",
+    "name": "LenovoHdpManagerDxe"
+  },
+  "3c3a184de573bbccbbee95326159fa16ce0ad9c733e66732b26c51eede44c732": {
+    "guid": "BD6736AC-B126-4FEA-9D1D-174D4A899F22",
+    "sha1": "d86deac7357a97d245f0d5c8bbbbad50ef945091",
+    "name": "SystemErrorMenuDxe"
+  },
+  "83a2326803d9f8bc984bfb74c74c875249822f9bf642df5385a11c2234617440": {
+    "guid": "3EAF5E3A-E4B2-48E6-A9F1-B75CF204BCC8",
+    "sha1": "3816f02213fed00648617b82d247a6c6c5b51d52",
+    "name": "PeiBoardConfigInit"
+  },
+  "54e4302f5be501d405e973c1aa497acc0789ed7ab7cd7b56f4c4b0a6ff52f48c": {
+    "guid": "7F3E00EE-B826-4358-8FFA-C30C3AF526F2",
+    "sha1": "e68510dfd5a42e9e9f12d0b042ddb4b787c5b296",
+    "name": "LenovoTpm2ConfigSmm"
+  },
+  "41fdf6e506cb962338dc2511cc1ba0fa8165c5271ba57909815034d5d1890382": {
+    "guid": "EB6EEBF4-1EC3-4D69-9D82-65BF6C579B34",
+    "sha1": "d5c49e272392e0867aea7dd88d7671c4fc062601",
+    "name": "LenovoSecureKeySmm"
+  },
+  "b14912a7c7219aebe50cf51c6fdff477bf376d02e31f519d01f93a728cd5db54": {
+    "guid": "B9B13798-D409-4D58-86E5-B1836CBEF387",
+    "sha1": "b7f740ed03490da793dacc238d341382a003a483",
+    "name": "DxeOverClock"
+  },
+  "8f260eef7d245ae6f2d2aeeb26f47e25e43caf23b5421bfabc28399a90381239": {
+    "guid": "D912C7BC-F098-4367-92BA-E911083C7B0E",
+    "sha1": "3ce4fcfbbd4c4119a32ae1ed37ca1c9d16f7d5f8",
+    "name": "Udp6Dxe"
+  },
+  "578e125d9c2b30c6f693cceac48a1ef9975ac2599d81ae4dd278b7a547c8c739": {
+    "guid": "5BE3BDF4-53CF-46A3-A6A9-73C34A6E5EE3",
+    "sha1": "a30a40b635935e1897f44a8cb8ec772eb70f0e23",
+    "name": "NvmExpressDxe"
+  },
+  "8059d1b91d6a9179742a6ff9f24890939e259f2ddb4e233dae6c8edfbc8ceb3c": {
+    "guid": "B981A835-6EE8-4F4C-AE0B-210AA0BFBF01",
+    "sha1": "fd79739824879da77c2fcbc90819e51e720908fc",
+    "name": "RngDxe"
+  },
+  "af94654ffc9732df1c7d58473de49cfb18a2c47f3ae714f2339ab510da949a23": {
+    "guid": "9FB1A1F3-3B71-4324-B39A-745CBB015FFF",
+    "sha1": "e84fdfa93f3e484c13089db3fd29e6c2030a638e",
+    "name": "Ip4Dxe"
+  },
+  "86314b2eee7f5702c994aa497c27b3d8ae2ba843a50e12801b6ac28f116ee144": {
+    "guid": "EDADEB9D-DDBA-48BD-9D22-C1C169C8C5C6",
+    "sha1": "c945b1b1ef6b1d5d24e990fc556df61f2cd32ac2",
+    "name": "CpuMpPei"
+  },
+  "9ae4209aa35eb8f91a56f6d55382a2a2ab6d7bce6bc8610e8ff91d582c296bb9": {
+    "guid": "43BB9EAB-7D57-4DEF-B0A2-A3A9F9C6EAE3",
+    "sha1": "49fce363799838f89099021e68600fea19d507e8",
+    "name": "LenovoMailBoxDxe"
+  },
+  "8a62f876c568d53b5bc7357a350195018f2d308f39ba60f964df0907d4456876": {
+    "guid": "6B38F7B4-AD98-40E9-9093-ACA2B5A253C4",
+    "sha1": "bde5fda645a7ce866b3903456bc8036279f98638",
+    "name": "DiskIoDxe"
+  },
+  "245b765416c1c1ec473fb13be2241c15997a1b90a36ab1e94bf80d7986b404cb": {
+    "guid": "C599195F-9B5B-4910-9310-A6103F5ED3F6",
+    "sha1": "b05be1870c6aea214f8d4267b407094ea1400c18",
+    "name": "POSTWarningDxe"
+  },
+  "0ec51f8f3f17715cff8cdbdbcda996d54912d5f1a48a75c6f1996a5dc969299e": {
+    "guid": "5A3F3BD1-B7A6-404B-A0F7-285E1B898B00",
+    "sha1": "470cf8a08fead74778590256e19c25e85e8c42df",
+    "name": "DiskControllerSmbios"
+  },
+  "bf94dfdefb52c2e47ca8f5ece8bd8d152baeae9fa62626a72ba4a9cb3b60d198": {
+    "guid": "33C6406D-2F6B-41B5-8705-52BAFB633C09",
+    "sha1": "593252d0910c7ba3c50ecabaf12d7c48cbc9cfe2",
+    "name": "AlertStandardFormatDxe"
+  },
+  "6a82a756866bfb3307e6187604c3b4c8112bdecd2e0ff2f2af1004bd9faecfea": {
+    "guid": "E6A7A1CE-5881-4B49-80BE-69C91811685C",
+    "sha1": "168f6ec7c694d09149ad636c27d25a25ffba33f8",
+    "name": "Setup"
+  },
+  "3236115886aa28307a9d9c36a8e2eaf625cfa799a6683d7f4e8b7d8e4d72d94d": {
+    "guid": "299D6F8B-2EC9-4E40-9EC6-DDAA7EBF5FD9",
+    "sha1": "f48400fcd88144b3081b21461eda90bc896d1cc9",
+    "name": "SiInit"
+  },
+  "251e361d8a84db843ee4eb2bdbf3b8733faf72fed6140262c3dbba13e62d178b": {
+    "guid": "880D81BF-DA88-49E1-9543-A58247FEAD1A",
+    "sha1": "6fc7ce31314b8ae506da750618b17b8c984faea5",
+    "name": "LenovoSetupAutomationSmm"
+  },
+  "0166c081dc713515cae0ac307aa2d964027334c758b428e75ac31b9e0c49d0b2": {
+    "guid": "0C396FCA-6BDA-4A15-B6A3-A6FA4544BDB7",
+    "sha1": "17981636dff2abb2fda52cb0ef112ff5ef271639",
+    "name": "EcFwUpdateDxe"
+  },
+  "2b6ac5f3b13d3214a4a3ab85290c457c1bfa30ab00d9071bdbec7b9fb737aa36": {
+    "guid": "CC71B046-CF07-4DAE-AEAD-7046845BCD8A",
+    "sha1": "5f3a5739ebf611ed24b6706914d68e382af9a29c",
+    "name": "LenovoVideoInitDxe"
+  },
+  "ab8d6b235cc25bb4b78abd50a53d6d2507316ce3c21c32e97f99db8a1ff5226a": {
+    "guid": "510550E0-BBCE-4EBF-BBA0-946E3D18E705",
+    "sha1": "21d4878050e1054ae181bf9e50c794a5066f15ec",
+    "name": "PhEmulateKbcSmm"
+  },
+  "05877a1a519b002d9699cc215217a38623a670e64e17b88c7dbc98111041d3ca": {
+    "guid": "A4B9A806-B574-4354-BFC7-05217DC0FAF4",
+    "sha1": "b9731fd9a36ff759ec1cfdcbcf241bcee017a0d1",
+    "name": "FlashHookSmm"
+  },
+  "1f039c6d4643a475977781fb8a99b424c5a6d159a26ba1762ca8703345ea1b02": {
+    "guid": "D7A50E8B-FD3A-443A-81A9-C951DAC8B3FF",
+    "sha1": "72b89bb2004ffdd0a865844041a8233755539927",
+    "name": "LenovoLoggingDxe"
+  },
+  "d0aa5fe5cb8c65c9145e68efce4437130b3453260a64f248c44d08de22e3baed": {
+    "guid": "D2CB970C-8622-46E1-9083-DB2EA20CA6E3",
+    "sha1": "6f3e2c2f819b6fcec7b9beae1daf48ac5d062e35",
+    "name": "SystemSecureFlashBootModePei"
+  },
+  "40cffd08de1492433b7e42e563df1b639670aba4504817973e09c2f7ee0450ad": {
+    "guid": "EC98FF95-242C-4513-B1BC-69FA24111C58",
+    "sha1": "779344b6b8d714f3b8a499e2715a5e5adca76fcf",
+    "name": "AcpiDebugDxe"
+  },
+  "19de016d970e471276cb69d0256247fe11645b608bed63e14354da77cbad7a36": {
+    "guid": "9221BC02-8F2E-4CCA-BA89-EA6F91A4175E",
+    "sha1": "a863dc247cdcdc2ffe105c5411c6ced3a8ebdb86",
+    "name": "CsmLoader"
+  },
+  "89757fa4bb346953ce134683f331affa292d5ec8a0afba2a8dbb9f2bdbfa1c27": {
+    "guid": "8401A046-6F70-4505-8471-7015B40355E3",
+    "sha1": "0f1d80272db8719a9d59d2476d31b3b37ddc96bf",
+    "name": "UsbBotPei"
+  },
+  "f74fe6007b67c93319ac81b67a4e09611210a7e8fed31a1cfb32f05a7241898c": {
+    "guid": "0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B",
+    "sha1": "af4a0c0b2fdab2038332fbf949461592efeaa44c",
+    "name": "ScsiBus"
+  },
+  "87076c1ba50772cf96dbb84ddb2cf588a740cecc1415a82ed010d45986463d39": {
+    "guid": "240612B7-A063-11D4-9A3A-0090273FC14D",
+    "sha1": "2b7d958836fecf4ba0e633cc9efdaeffe39bff9f",
+    "name": "SystemUsbBusDxe"
+  },
+  "c95e9741821608702415a5a8d0a176168c83d4f9629aeb1ac4c43b1a2f55e16c": {
+    "guid": "7112633D-590A-434E-8F99-80EBAEE13170",
+    "sha1": "4ec095e8716aeba471363cd67185b7e43517faf5",
+    "name": "LenovoVariableChkDxe"
+  },
+  "c7bad52d6aff0d8bb878877980c4f5fa9ced0208d54b3934e166144fa63dbbde": {
+    "guid": "86CDDF93-4872-4597-8AF9-A35AE4D3725F",
+    "sha1": "c030cdbe32d3943d26d6df799b837832605ef062",
+    "name": "IScsiDxe"
+  },
+  "2c2aa74b4e52f96c5d1f52fbc17ad381ff27fe156d4ec8793985a6f4e2d13a4e": {
+    "guid": "CD31F8A8-28A6-4E49-8B3E-4142BD006C41",
+    "sha1": "dccd9188aac91438cec98c3e17fe0fe856998b6d",
+    "name": "MeUlvCheckDxe"
+  },
+  "2f9adc8e9be5976a3dfcab6b0e36f92e5aca75110e9d91c312c097ac9bf24430": {
+    "guid": "A6AEF1F6-F25A-4082-AF39-2229BCF5A6E1",
+    "sha1": "30a06f6e6301af4c3504c1bda8baa493b824d809",
+    "name": "AmtStatusCodePei"
+  },
+  "d7104d0a7debd436923b772b9225a47af66836d940f69cdbe55f473f3f4e9f59": {
+    "guid": "529D3F93-E8E9-4E73-B1E1-BDF6A9D50113",
+    "sha1": "ade4782ba25172c74c3e0dd9a2bd429cf9098ea5",
+    "name": "ArpDxe"
+  },
+  "e227afe7a0d11566b38aaa2a35e615cc09fbf2396602265d5211962006d12f77": {
+    "guid": "B9F2AC77-54C7-4075-B42E-C36325A9468D",
+    "sha1": "a31ebc08679194c95fa823137bcecda4160cabb3",
+    "name": "LenovoVerifiedBootPei"
+  },
+  "65d5014e07af133caae763a237c0e091030b47c89c279a43b34a2e86564900f9": {
+    "guid": "D5196882-A970-4510-8FB9-D7583B6906E7",
+    "sha1": "309aec992cfbac600b187a58c20af90c36eb2468",
+    "name": "LenovoVariableSmm"
+  },
+  "d2936b4e9784c8e7dbaff637a35bdaae9355683d01e10cb4b5fc7fc30ea8e0a6": {
+    "guid": "367712FD-6C5A-4600-BEA2-9A1F81AACC08",
+    "sha1": "efd1af84d19a60c522fb4f9f0bc85d00d80970cc",
+    "name": "MiscGaIoPeim"
+  },
+  "6f30fdb3f6334e37a3a7a53e30a0ca3509ad47e266bcbafcb5282362162c15df": {
+    "guid": "EC761DAF-6B86-41D0-8294-350B90FC9478",
+    "sha1": "9698432a6984a37de376a00ea6fe84091d9d79db",
+    "name": "SystemCapsulePolicyDxe"
+  },
+  "32319b4eb81c677540647a0bca23dd8b22dfc333646de8777ead53612140c7c9": {
+    "guid": "73303035-D6D0-46B5-8ECA-139EE287C000",
+    "sha1": "051842795500cfea5faa2778c30e9cfe8b9209dd",
+    "name": "RaidDriver"
+  },
+  "b9ca9c104c122f69d880d77996f57a5e0614ab8ff7905d9de100005d81c81052": {
+    "guid": "596AA5A8-1289-4E30-B311-F74E64F30991",
+    "sha1": "8898d1eccf0b044169bc58b089028997adbb44ba",
+    "name": "SmmSecureBios"
+  },
+  "e52f54c5eef58ab75b914dcad6f98067df3c8e7cada2c9ca373eb4cfc2ac3969": {
+    "guid": "C43E2CF0-BEDC-461F-AACD-A4FA466EA382",
+    "sha1": "83f8c607a5f93302694ffda54cc39b4089008068",
+    "name": "LenovoTpmConfigPei"
+  },
+  "f7caa049429c74a3c564749bfd9ff681d34fea5768e1b7169eae055c3dff939a": {
+    "guid": "4589CBF3-03F9-4998-9D6F-26343C69562A",
+    "sha1": "1b5cca6ae13cb92e7ca34d7b5d8b8ef1a76d75f5",
+    "name": "LenovoComputraceLoaderDxe"
+  },
+  "f45ddf1d2f0e1cd3fcd82b784e581fdf5a91f262c6bdcbc706a73bf0dd8ce64d": {
+    "guid": "3DC82376-637B-40A6-A8FC-A565417F2C38",
+    "sha1": "2da7b13fee964db754bbef9bc3720cae018f403e",
+    "name": "Ps2KeyboardDxe"
+  },
+  "e264863486bb3b841a793f57cc173125185cac3a24fa459be362363b10c5c5fe": {
+    "guid": "9E2E1579-77D3-4905-AD14-4479BEC03DA2",
+    "sha1": "39c013ff7fc7197b4df7a7388f540e2e72c073d4",
+    "name": "IrqBoardInfoRvpM"
+  },
+  "a706b89bc37e7c92e21e06b1c7b78dd32e1dc4f7fe4fd1dbb99d15f049e34c6a": {
+    "guid": "AAC33064-9ED0-4B89-A5AD-3EA767960B22",
+    "sha1": "0878b4a16fe825da9d85b96bd41e62923b3b4db4",
+    "name": "FaultTolerantWritePei"
+  },
+  "098a0c257798b9747e149f76679ceb9d886974d49e66a9f8ca0028d8ce3d9a65": {
+    "guid": "E4F272DA-237F-454C-8868-FCF096CF1C6C",
+    "sha1": "7ee4c8a133cb3b1007c31bc35a700cfe35d08ee9",
+    "name": "LenovoPasswordCp"
+  },
+  "2208629bde3c276f7c35f6c1143bff16e272936058cce2abacc86d77d06f875c": {
+    "guid": "C358B1F8-8A88-40B6-89BB-28ECD6EDDB24",
+    "sha1": "0999461780f462ace4d104962710b244c69bbc53",
+    "name": "PxeDriver"
+  },
+  "5c4a10a206aacb8021224de0461492a481f56194ce91cdd8d50cd2efe3f7082c": {
+    "guid": "572528F4-9BC6-41BD-9D14-5AAD93464A51",
+    "sha1": "b40feeb4cbfc7f13ee4212ebb2d6cef684fa1f10",
+    "name": "NationalPC8374L"
+  },
+  "538fa8780adb02f72168ecd71397798f2b66bc5856a43bf6012f3e11b51e963a": {
+    "guid": "1A926325-2764-47C8-9E1C-4F83B1723336",
+    "sha1": "d3650308d64a20f3ca5584ef47c8b43ed33d5d2d",
+    "name": "VirtualEcDxe"
+  },
+  "d54dc3971398c5dd921b03ce552b3522d323ee9580d0cbfa6c16c1943ecd0ffd": {
+    "guid": "DAFF1B62-A67A-4E11-8B57-496B572E0775",
+    "sha1": "7b7628b39eec6b3e32387be3bcfd3514e66d4722",
+    "name": "SystemLoadDefaultDxe"
+  },
+  "a9caafb184d28dfa476c961a7a51e483f62691e489f823384340fb42cfcebc34": {
+    "guid": "1314216C-CB8D-421C-B854-06231386E642",
+    "sha1": "cee460ad11b64223c08756c4d33013e4283b4b10",
+    "name": "PlatformInfoDxe"
+  },
+  "bcb83bb7e72609f270e2f41d79c901eba4deccd26e52aa376648e1e3d07031e9": {
+    "guid": "5D758BFB-B323-4F6C-9017-A3238CE65163",
+    "sha1": "8907d58fbfefafd650ad3a97445e40a9d608143f",
+    "name": "LenovoSetupRestartDxe"
+  },
+  "a5e7d1592ee7ed0812e98560c13cccf4b664714c39af67b0ae9f95f7146e0eb2": {
+    "guid": "CCCB0C28-4B24-11D5-9A5A-0090273FC14D",
+    "sha1": "5152ab4cfbf9338e418bcd1292edb33d47dfd254",
+    "name": "GraphicsConsoleDxe"
+  },
+  "67835f0973b198da9da19eb929ee9991768f5967cc8965c8b41eb1019bf5a555": {
+    "guid": "F94700A3-F49F-4CD2-BF25-19E280B72E3B",
+    "sha1": "6870878bb06eca40a94dcad5b1ee7430331fe4e6",
+    "name": "SystemUsbDatabaseDxe"
+  },
+  "ee417f7fbccc4c505c5144cb72a8c03a5173b9e1af3dfd2b0973102bfb847dc3": {
+    "guid": "5AAB83E5-F027-4CA7-BFD0-16358CC9E453",
+    "sha1": "b95e5ee7454992854d44467270c7b761fb6238ab",
+    "name": "WdtDxe"
+  },
+  "964063836a7db83a5e2d2ab71ccd767ee1c18bf1394125bda51cc04e94927c09": {
+    "guid": "AA382865-12B0-44E5-A731-6DEF4DF34CE7",
+    "sha1": "991f364d9b99836b5c6df73b2e5c583d1f53d527",
+    "name": "LenovoPromptService"
+  },
+  "1688d0f5ee74bb1b51e0c65dfca7b804dd671866abecb21a14b6ee22c994cf19": {
+    "guid": "FCCCE259-07E1-417A-A755-E0F2CF39295E",
+    "sha1": "17a33f500d24b215fc2144b23c41f30cf285035b",
+    "name": "CpuInitDxe"
+  },
+  "e1c565ae9bbbe9e7874bf4a4b869ce9bd0064ddc2f6e8f4da30a4a558bbd096e": {
+    "guid": "B9CABA9B-E5C5-41DC-86E2-E7CEF87B81CB",
+    "sha1": "afd3fe5efa26a9fd895f25e41ae5196b7703abfb",
+    "name": "SystemFlashCommunicationSmm"
+  },
+  "ee1575c35268bba50ef35c7908de9dc8ed72bed6162de32df3b7d1d40b3859e1": {
+    "guid": "EF33C296-F64C-4146-AD04-347899702C84",
+    "sha1": "d8c4f2faec5500868909fd059da178b4a17dd593",
+    "name": "SystemSmmUsbLegacySmm"
+  },
+  "cf1ee9c96cf6ecb55629168bced1d7a52351d04a6604b6bd8f2d6ede50b55b55": {
+    "guid": "34C8C28F-B61C-45A2-8F2E-89E46BECC63B",
+    "sha1": "7cfad70a91258a33409cedff649481bf99b8f945",
+    "name": "PeiVariable"
+  },
+  "b57516dcaa3ff06e03bd00fb0a338e48be7baaf2bdbd9e11afe0c5e81e8484cb": {
+    "guid": "57F48613-300A-4101-A76D-4F73C533B5B8",
+    "sha1": "1723d504be33900f5580b62c6471f267e0910ede",
+    "name": "PriorBootDxe"
+  },
+  "3a0a150b31dc861aca246cde564a88b94c7292e4ed86eb0b47889ceadfca01ee": {
+    "guid": "A17F8AAB-42F9-4D94-82CD-A099E1DD52DF",
+    "sha1": "34865da6d5cf4c3763f8269853449ba6cbf261e0",
+    "name": "BootTimeDxe"
+  },
+  "f7f7e888cb1e584132a307723a2ef4743dc49dd7355a6782375372c0ca3fa4c2": {
+    "guid": "79CA4208-BBA1-4A9A-8456-E1E66A81484E",
+    "sha1": "2eecd624477abe010e2aff727b307b7d0b2e1109",
+    "name": "Legacy8259"
+  },
+  "2a438e8ea11218e33deb21c8f7337d7d6cdf2f1fdee087b36aad4364a4a3254d": {
+    "guid": "7CBD5702-C8E3-4F7E-BA08-EC7EF1BB2D67",
+    "sha1": "315f39dede1225951a11e3e9637f9461a9e4be77",
+    "name": "IrqTableInfo"
+  },
+  "6a6c71bd63bc5d06d55a78d28aa58741365b874f55bc7aaa1d708809629cef9c": {
+    "guid": "F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8",
+    "sha1": "1827d9b10cea3d89e4ba634e6806405424d23a0e",
+    "name": "WatchdogTimer"
+  },
+  "4b4aa74198ba2c55b3187209102d7469d2504979d3d7e8591b15411737394ffe": {
+    "guid": "8218965D-20C0-4DD6-81A0-845C52270743",
+    "sha1": "00137a86c2f479ffc3feced91ee0193b9670092b",
+    "name": "LenovoSetupDateTimeDxe"
+  },
+  "ef4bef45a9c54d9398bbfa05c4c7e644bb2c5befdd0868e72cba8a6d1b4c66e9": {
+    "guid": "0013BE6B-2198-43F1-93BA-2A7ED7B1E1CC",
+    "sha1": "9a8e301fe98477bdb29aa4d86180c096b5c253a3",
+    "name": "SystemUsbSwitchDxe"
+  },
+  "70949b2776b44bc534e37dc7ddd09e208c137bb0ad76e2e7ba9a9e539606cee7": {
+    "guid": "0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8C",
+    "sha1": "9b3b2b553677b021b4fe607d8f62286421ac683b",
+    "name": "SystemAhciBusDxe"
+  },
+  "c9255bd22e7d3ca9bc16a3863bf8b63efe66dbe6f2b2a54156796884b118efc4": {
+    "guid": "087E9760-1FB5-49F7-879A-853D2B214CC7",
+    "sha1": "afee3b8203144d0b783b7c6c0c962ae78b103eed",
+    "name": "LenovoSlp2Dxe"
+  },
+  "91bd5b68a13045a22d7a44a2cd67775a9e631d61d46ce31467def63d2cb36f78": {
+    "guid": "0B74F980-2325-4AF3-9664-0C3ABE237D52",
+    "sha1": "2eab1a10d6670b4ef111c287d68c8d4d865b7b37",
+    "name": "BootPerformanceLogSmm"
+  }
+}

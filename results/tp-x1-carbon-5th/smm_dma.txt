@@ -1,0 +1,39 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module smm_dma --log smm_dma.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.smm_dma
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.smm_dma
+[x][ =======================================================================
+[x][ Module: SMM TSEG Range Configuration Check
+[x][ =======================================================================
+[*] TSEG      : 0x000000005C000000 - 0x000000005CFFFFFF (size = 0x01000000)
+[*] SMRR range: 0x000000005C000000 - 0x000000005CFFFFFF (size = 0x01000000)
+
+[*] checking TSEG range configuration..
+[+] TSEG range covers entire SMRAM
+[+] TSEG range is locked
+[+] PASSED: TSEG is properly configured. SMRAM is protected from DMA attacks
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.smm_dma
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

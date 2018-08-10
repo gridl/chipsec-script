@@ -1,0 +1,168 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.uefi.access_uefispec --log common.uefi.access_uefispec.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.common.uefi.access_uefispec
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.uefi.access_uefispec
+[x][ =======================================================================
+[x][ Module: Access Control of EFI Variables
+[x][ =======================================================================
+[*] Testing UEFI variables ..
+[*] Variable LenovoBDG (NV+BS+RT)
+[*] Variable Boot0022 (NV+BS+RT)
+[*] Variable Boot0020 (NV+BS+RT)
+[*] Variable Boot0021 (NV+BS+RT)
+[*] Variable PlatformLangCodes (BS+RT)
+[*] Variable BootOrder (NV+BS+RT)
+[*] Variable SetupCpuFeatures (NV+BS+RT)
+[*] Variable InitSetupVariable (NV+BS+RT)
+[*] Variable dbx (NV+BS+RT+TBAWS)
+[*] Variable LenovoTpmFwUpdate (NV+BS+RT)
+[*] Variable ConOut (NV+BS+RT)
+[*] Variable lBoot0016 (BS+RT)
+[*] Variable lBoot0017 (BS+RT)
+[*] Variable lBoot0014 (BS+RT)
+[*] Variable VarErrorFlag (NV+BS+RT)
+[*] Variable LBC (NV+BS+RT)
+[*] Variable CpuSetupVolatileData (BS+RT)
+[*] Variable LBL (NV+BS+RT+AWS)
+[*] Variable Boot001F (NV+BS+RT)
+[*] Variable lBoot0010 (BS+RT)
+[*] Variable Tcg2PhysicalPresenceFlags (NV+BS+RT)
+[*] Variable Setup (NV+BS+RT)
+[*] Variable lBoot0011 (BS+RT)
+[*] Variable db (NV+BS+RT+TBAWS)
+[*] Variable KEK (NV+BS+RT+TBAWS)
+[*] Variable SMBIOSMEMSIZE (NV+BS+RT)
+[*] Variable LenovoSecurityConfig (NV+BS+RT+AWS)
+[*] Variable ConOutDev (BS+RT)
+[*] Variable Boot0013 (NV+BS+RT)
+[*] Variable MailBoxQ (NV+BS+RT)
+[*] Variable Boot0011 (NV+BS+RT)
+[*] Variable LastBootCurrent (NV+BS+RT)
+[*] Variable Boot0010 (NV+BS+RT)
+[*] Variable Tcg2PhysicalPresence (NV+BS+RT)
+[*] Variable AuthVarKeyDatabase (NV+BS+RT+AWS)
+[*] Variable Boot0017 (NV+BS+RT)
+[*] Variable Boot0016 (NV+BS+RT)
+[*] Variable LenovoHiddenSetting (NV+BS+RT)
+[*] Variable CpuSetup (NV+BS+RT)
+[*] Variable EventLog (BS+RT)
+[*] Variable DIAGSPLSHSCRN (BS+RT)
+[*] Variable Boot0014 (NV+BS+RT)
+[*] Variable PK (NV+BS+RT+TBAWS)
+[*] Variable OpromDevicePath (NV+BS+RT)
+[*] Variable SMBIOSELOG000 (NV+BS+RT)
+[*] Variable SetupHotKey (NV+BS+RT)
+[*] Variable LnvSysCfgReq (NV+BS+RT)
+[*] Variable PbaStatusVar (NV+BS+RT)
+[*] Variable PhysicalPresence (NV+BS+RT)
+[*] Variable Key0005 (NV+BS+RT)
+[*] Variable LenovoConfig (NV+BS+RT)
+[*] Variable CapsuleLongModeBuffer (NV+BS+RT)
+[*] Variable BootOptionSupport (BS+RT)
+[*] Variable ConInDev (BS+RT)
+[*] Variable ErrOutDev (BS+RT)
+[*] Variable Key0002 (NV+BS+RT)
+[*] Variable Key0003 (NV+BS+RT)
+[*] Variable Key0000 (NV+BS+RT)
+[*] Variable Key0001 (NV+BS+RT)
+[*] Variable Key0006 (NV+BS+RT)
+[*] Variable Key0007 (NV+BS+RT)
+[*] Variable Key0004 (NV+BS+RT)
+[*] Variable AppPlatform (NV+BS+RT)
+[*] Variable LenovoThermalShutdown (NV+BS+RT)
+[*] Variable MeSetupStorage (NV+BS+RT)
+[*] Variable ProtectedBootOptions (NV+BS+RT+AWS)
+[*] Variable LenovoSystemConfig (NV+BS+RT)
+[*] Variable SOFTWAREGUARDSTATUS (BS+RT)
+[*] Variable OsProfile (NV+BS+RT)
+[*] Variable OsIndicationsSupported (BS+RT)
+[*] Variable System (NV+BS+RT)
+[*] Variable SaSetup (NV+BS+RT)
+[*] Variable LenovoWolInfo (NV+BS+RT)
+[*] Variable BootCurrent (BS+RT)
+[*] Variable Timeout (NV+BS+RT)
+[*] Variable BootOrderDefault (NV+BS+RT+AWS)
+[*] Variable SignatureSupport (BS+RT)
+[*] Variable VendorKeys (BS+RT)
+[*] Variable PchSetup (NV+BS+RT)
+[*] Variable LenovoFprData (NV+BS+RT)
+[*] Variable lBoot0001 (BS+RT)
+[*] Variable lBoot0000 (BS+RT)
+[*] Variable SetupMode (BS+RT)
+[*] Variable Boot0000 (NV+BS+RT)
+[*] Variable Boot0001 (NV+BS+RT)
+[*] Variable MemoryOverwriteRequestControl (NV+BS+RT)
+[*] Variable LenovoLogging (NV+BS+RT)
+[*] Variable MemoryOverwriteRequestControlLock (NV+BS+RT)
+[*] Variable SecureBoot (BS+RT)
+[*] Variable SMBIOSELOGNUMBER (NV+BS+RT)
+[*] Variable LWO (NV+BS+RT)
+[*] Variable UCR (NV+BS+RT)
+[*] Variable BootState (NV+BS+RT)
+[*] Variable AppName (NV+BS+RT)
+[*] Variable MokListRT (BS+RT)
+[*] Variable Boot001C (NV+BS+RT)
+[*] Variable Boot001B (NV+BS+RT)
+[*] Variable Boot001A (NV+BS+RT)
+[*] Variable lBoot0015 (BS+RT)
+[*] Variable lBoot0012 (BS+RT)
+[*] Variable lBoot0013 (BS+RT)
+[*] Variable Boot001E (NV+BS+RT)
+[*] Variable Boot001D (NV+BS+RT)
+[*] Variable LenovoFunctionConfig (NV+BS+RT)
+[*] Variable ConIn (NV+BS+RT)
+[*] Variable lBoot0018 (BS+RT)
+[*] Variable lBoot0019 (BS+RT)
+[*] Variable lBoot001F (BS+RT)
+[*] Variable Boot0012 (NV+BS+RT)
+[*] Variable lBoot001D (BS+RT)
+[*] Variable lBoot001E (BS+RT)
+[*] Variable lBoot001B (BS+RT)
+[*] Variable lBoot001C (BS+RT)
+[*] Variable Boot0015 (NV+BS+RT)
+[*] Variable lBoot001A (BS+RT)
+[*] Variable PhysicalPresenceFlags (NV+BS+RT)
+[*] Variable RstOptaneConfig (NV+BS+RT)
+[*] Variable Boot0019 (NV+BS+RT)
+[*] Variable Boot0018 (NV+BS+RT)
+[*] Variable ESRTPLATFORMENTRY (NV+BS+RT)
+[*] Variable LastBootOrder (NV+BS+RT)
+[*] Variable LenovoScratchData (NV+BS+RT)
+[*] Variable MTC (NV+BS+RT)
+[*] Variable MeSetup (NV+BS+RT)
+[*] Variable lBoot0022 (BS+RT)
+[*] Variable lBoot0021 (BS+RT)
+[*] Variable lBoot0020 (BS+RT)
+[*] Variable EPCBIOS (NV+BS+RT)
+[*] Variable certdb (NV+BS+RT+TBAWS)
+[*] Variable PlatformLang (NV+BS+RT)
+[*] Variable LnvSBMFlags (NV+BS+RT)
+
+[-] Variables with attributes that differ from UEFI spec:
+
+[+] PASSED: All checked EFI variables are protected according to spec.
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.048
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.uefi.access_uefispec
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

@@ -1,0 +1,39 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module common.bios_kbrd_buffer --log common.bios_kbrd_buffer.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.common.bios_kbrd_buffer
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_kbrd_buffer
+[x][ =======================================================================
+[x][ Module: Pre-boot Passwords in the BIOS Keyboard Buffer
+[x][ =======================================================================
+[*] Keyboard buffer head pointer = 0x1E (at 0x41A), tail pointer = 0x1E (at 0x41C)
+[*] Keyboard buffer contents (at 0x41E):
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+[*] Checking contents of the keyboard buffer..
+
+[+] PASSED: Keyboard buffer looks empty. Pre-boot passwords don't seem to be exposed
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.001
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.common.bios_kbrd_buffer
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************

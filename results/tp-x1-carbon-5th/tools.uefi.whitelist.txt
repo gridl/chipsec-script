@@ -1,0 +1,37 @@
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.3.0
+[CHIPSEC] Arguments: --module tools.uefi.whitelist --log tools.uefi.whitelist.txt 
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+[CHIPSEC] API mode: using CHIPSEC kernel module API
+[CHIPSEC] OS      : Linux 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64
+[CHIPSEC] Platform: Mobile 6th Generation Core Processor (Skylake U)
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 1904
+ 
+[+] loaded chipsec.modules.tools.uefi.whitelist
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.tools.uefi.whitelist
+[x][ =======================================================================
+[x][ Module: simple white-list generation/checking for (U)EFI firmware
+[x][ =======================================================================
+[*] dumping firmware image from ROM to 'fw.bin': 0x00900000 bytes at [0x00700000:0x00FFFFFF]
+[spi] reading 0x900000 bytes from SPI at FLA = 0x700000 (in 147456 0x40-byte chunks + 0x0-byte remainder)
+[*] generating a list of EFI executables from firmware image...
+[*] found 509 EFI executables in UEFI firmware image 'fw.bin'
+[*] creating JSON file '/home/yegor/Work/chipsec-script/results/tp-x1-carbon-5th/efilist.json'...
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          47.969
+[CHIPSEC] Modules total         1
+[CHIPSEC] Modules failed to run 0:
+[CHIPSEC] Modules passed        1:
+[+] PASSED: chipsec.modules.tools.uefi.whitelist
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 0:
+[CHIPSEC] *****************************************************************
